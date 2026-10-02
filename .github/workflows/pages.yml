@@ -1,4 +1,4 @@
-name: Verify and publish Scientific Demos
+name: Verify and publish Capacitance Demos
 
 on:
   push:

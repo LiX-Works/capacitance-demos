@@ -1,10 +1,12 @@
 {
-  "name": "scientific-demos",
+  "name": "capacitance-demos",
   "version": "1.0.0",
   "private": true,
   "type": "module",
   "license": "MIT",
-  "engines": { "node": ">=22" },
+  "engines": {
+    "node": ">=22"
+  },
   "scripts": {
     "build": "node scripts/collection.mjs build",
     "build:offline": "node scripts/collection.mjs build",

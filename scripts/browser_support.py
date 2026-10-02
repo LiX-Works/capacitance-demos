@@ -19,7 +19,7 @@ def launch(playwright):
     if os.environ.get('CHROMIUM_PATH'): options['executable_path']=os.environ['CHROMIUM_PATH']
     return playwright.chromium.launch(**options)
 @contextmanager
-def server(prefix='/scientific-demos/'):
+def server(prefix='/capacitance-demos/'):
     site=(ROOT/'site').resolve()
     class Handler(SimpleHTTPRequestHandler):
         def log_message(self,*args): pass

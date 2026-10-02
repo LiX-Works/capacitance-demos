@@ -1,6 +1,6 @@
 # ProxiTouch
 
-电容传感基础、离子界面与共享中央电极的连续感知概念设计。共 23 个场景，是 [Scientific Demos 合集](../../README.md) 的一个独立演示。
+电容传感基础、离子界面与共享中央电极的连续感知概念设计。共 23 个场景，是 [电容 Demo 合集](../../README.md) 的一个独立演示。
 
 ![当前实际浏览器预览](previews/overview.png)
 

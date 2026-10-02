@@ -13,7 +13,7 @@
 1. 在目标仓库的 Settings → Pages 中，将 Source 设为 **GitHub Actions**。
 2. 使用 `main` 或 `master` 分支；推送后根 `pages.yml` 会构建、检查、运行浏览器 QA，再发布整个合集。
 3. Pull request 只验证，不发布。也可以在 Actions 页面手动运行工作流。
-4. 发布后检查入口、两个演示和预览图库。所有链接均使用相对路径；本地 QA 覆盖 `/scientific-demos/` 子路径。
+4. 发布后检查入口、两个演示和预览图库。所有链接均使用相对路径；本地 QA 覆盖 `/capacitance-demos/` 子路径。
 
 仓库名称可以自行选择；无需改页面中的地址。自定义域名不是本项目的运行依赖。
 
@@ -26,10 +26,10 @@ npm test
 npm run preview
 ```
 
-如需模拟仓库子路径，在运行预览前设置 `PREVIEW_BASE=scientific-demos`。PowerShell 示例：
+如需模拟仓库子路径，在运行预览前设置 `PREVIEW_BASE=capacitance-demos`。PowerShell 示例：
 
 ```powershell
-$env:PREVIEW_BASE = 'scientific-demos'
+$env:PREVIEW_BASE = 'capacitance-demos'
 npm run preview
 ```
 
