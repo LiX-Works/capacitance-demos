@@ -33,8 +33,14 @@
 
 本地使用 Windows、Node.js 24.18.0、Python 3.12.14；科学环境 NumPy 2.3.5、SciPy 1.17.0、Shapely 2.1.2、Numba 0.65.1。预览来自实际 Chromium 浏览器渲染，软件渲染结果不构成实体 GPU 帧率认证。
 
-GitHub 工作流按官方 Actions 参数配置，目标 Node 22／Python 3.12；实际 GitHub 执行和线上 Pages 仍待首次发布后验证。Firefox、Safari、移动端三维演示和完整物理重算不在本次通过范围内。
+GitHub 的 Ubuntu 线上工作流已在 Node 22／Python 3.12 环境通过完整构建、类型和数据检查、7 项失败保护及 309 项浏览器检查，并成功部署 Pages。Firefox、Safari、移动端三维演示和完整物理重算仍不在本次通过范围内。
 
 ## 2×2 预览布局更新
 
 概览选择与布局已更新。拼图使用已验证运行时的原始截图，未重新生成应用画面或改变科学内容。两个概览均为 2416×1366 PNG，包含四幅 1200×675 原比例画面及 16 px 间隔；文件尺寸、图片哈希和部署目录同步检查通过。应用运行时哈希保持不变，前述 309 项浏览器结果仍对应当前应用。完整 12 图图库和原九宫格均保留。
+
+## 已发布的线上版本
+
+仓库为 [LiX-Works/capacitance-demos](https://github.com/LiX-Works/capacitance-demos)，合集入口为 [电容 Demo](https://lix-works.github.io/capacitance-demos/)。[完整发布工作流](https://github.com/LiX-Works/capacitance-demos/actions/runs/37042722296)已成功。
+
+发布应用提交为 `5768eff46cc33e3fee4b4cc1d6d50f3ca9762304`。实际浏览器确认了首页、两个演示入口、翻页与场显示；7 个公开地址返回 HTTP 200，两套运行时 HTML 与两个 2×2 总览 PNG 的字节哈希匹配本地构建。首页等文本允许 Git 标准换行归一化，详见 [publication.json](qa/publication.json)。后续仅更新验证文档和源码清单，不改变部署应用。

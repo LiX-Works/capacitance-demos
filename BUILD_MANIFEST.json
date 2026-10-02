@@ -1,5 +1,8 @@
 {
-  "scope": "GitHub source repository; generated site/dist/standalone project entries and runtime caches are rebuilt locally or by CI.",
+  "scope": "GitHub source repository snapshot; hashes are computed from the Git index after canonical text normalization. Generated site/dist/standalone demo entries and runtime caches are rebuilt by CI.",
+  "repository": "LiX-Works/capacitance-demos",
+  "deployedApplicationCommit": "5768eff46cc33e3fee4b4cc1d6d50f3ca9762304",
+  "fileCount": 369,
   "files": [
     {
       "path": ".gitattributes",
@@ -8,8 +11,8 @@
     },
     {
       "path": ".github/workflows/pages.yml",
-      "bytes": 1839,
-      "sha256": "07d795ee87c1c8e72c9d50b73e5c50ba32fc6e54769ebf31956028d107cded4a"
+      "bytes": 1840,
+      "sha256": "153f1ca837eb95d9f2de7092c8d8a3a241b860f3a4a5d5fd63ce8c162db73fd8"
     },
     {
       "path": ".gitignore",
@@ -23,8 +26,8 @@
     },
     {
       "path": "AGENTS.md",
-      "bytes": 1601,
-      "sha256": "15883baf5235c14e79cf63aaa27c354898edd800c242415233a09cac782786d9"
+      "bytes": 1602,
+      "sha256": "4bd56506ea87596eca2e49773015cab118dbeb2fe5ec962ad490338e55d84ef8"
     },
     {
       "path": "CHANGELOG.md",
@@ -33,8 +36,8 @@
     },
     {
       "path": "DEPLOY.md",
-      "bytes": 1924,
-      "sha256": "cb400ad60334efcfb945d6b15e06c665d04fdc6b32d0b11cdeb9d33e9db293a7"
+      "bytes": 1927,
+      "sha256": "51129391d42c1259403e890daa06e67cece059cea6680b15afdd4db6a302081a"
     },
     {
       "path": "LICENSE",
@@ -43,13 +46,13 @@
     },
     {
       "path": "QA_REPORT.md",
-      "bytes": 3824,
-      "sha256": "6071a3a5df52e7e67cb03a9e53419d16e2f78e09419809026ae0436bdd838645"
+      "bytes": 4563,
+      "sha256": "249ad7207f0b363114e4aa45da9d4c761725732257588fac04476e303d6647f4"
     },
     {
       "path": "README.md",
-      "bytes": 3479,
-      "sha256": "a783d2d1720273f171a979116595d204c37b262b94c96b8228c8157828182de9"
+      "bytes": 3477,
+      "sha256": "d11fd1fc82626bc577c84865ca819e8487fbb1347aaf06ccab00d0a6ff7209dc"
     },
     {
       "path": "THIRD_PARTY_NOTICES.md",
@@ -58,8 +61,8 @@
     },
     {
       "path": "index.html",
-      "bytes": 5687,
-      "sha256": "e3a51bd440a3616a1c6f4585dd0339bca72f92d80af26fbde19f4f59012c9e6e"
+      "bytes": 5672,
+      "sha256": "2edebdcbb5c58c52da4901857b4aaee6ecb794df4cb12bc8d245b5bcba0245a8"
     },
     {
       "path": "licenses/KaTeX-MIT.txt",
@@ -73,18 +76,18 @@
     },
     {
       "path": "licenses/TypeScript-APACHE-2.0.txt",
-      "bytes": 9197,
-      "sha256": "a7d00bfd54525bc694b6e32f64c7ebcf5e6b7ae3657be5cc12767bce74654a47"
+      "bytes": 9142,
+      "sha256": "a5e9f9b1575301c7a7a03508fdaa2e05a918cc17fd21c6e898096a96d6a34f61"
     },
     {
       "path": "package-lock.json",
-      "bytes": 270,
-      "sha256": "c048d699e08d13e8e85558c7170ef08cd7f72621aab2034a9ac2e9412dc8e325"
+      "bytes": 272,
+      "sha256": "7640be074bcad9f4dfd3eca562ae569c7ceebebd86dfbee2083756a724e01d6b"
     },
     {
       "path": "package.json",
-      "bytes": 705,
-      "sha256": "9d7de726cca211e3695f6cc88bc1cbfec6c01c3bb7c9b5eb6457ea8ae223f41e"
+      "bytes": 712,
+      "sha256": "718b2c249ad76eb4e6b56626863b514bc8bb41e4ef89e82f1908f53995452e14"
     },
     {
       "path": "projects/mutual-capacitance/.gitattributes",
@@ -108,18 +111,18 @@
     },
     {
       "path": "projects/mutual-capacitance/AGENTS.md",
-      "bytes": 338,
-      "sha256": "a0e0f9fb478aeb41a8928022d5e840ab1724483770e6faf6406c6837fe37ae30"
+      "bytes": 335,
+      "sha256": "2bf9ad42ae053d4c5503d5b06347eec9709ab8934dad9ce50eecbed3cfb5caee"
     },
     {
       "path": "projects/mutual-capacitance/BUILD_MANIFEST.json",
-      "bytes": 832,
-      "sha256": "1864a6a80a22ff8c86397f65d678be0def65b7e09fd17baeb80a4a254b2fc7b9"
+      "bytes": 808,
+      "sha256": "ad1c321cf39d1be77c9508d2cf8bb61852f8d7805072af6b1e5c10fb19c5f3f8"
     },
     {
       "path": "projects/mutual-capacitance/CODEX_DEPLOY.md",
-      "bytes": 266,
-      "sha256": "a6c774bafc0c9e55ea1114e59e7c6b0aef3d7731dd0ccd1031d1f8e6777d1156"
+      "bytes": 263,
+      "sha256": "d09889c91307561d29feca3bf7844782aa3c6f636fcb5dec79daae8319029092"
     },
     {
       "path": "projects/mutual-capacitance/CONTROLS.md",
@@ -133,13 +136,13 @@
     },
     {
       "path": "projects/mutual-capacitance/QA_REPORT.md",
-      "bytes": 218,
-      "sha256": "6ee06013386ea8512f1a08fcbdf80733ed506c19bc7a1600f22fea47ca4fc7f7"
+      "bytes": 215,
+      "sha256": "82af2fcb5861386b9bb5ae6ed5b59073cf12d5867470df1c8428370214dad485"
     },
     {
       "path": "projects/mutual-capacitance/README.md",
-      "bytes": 2344,
-      "sha256": "c9f7aad480ba955f8c0f40fd3b12d21ecdddaa8e7bc30c7c1a616cee292aed4f"
+      "bytes": 2304,
+      "sha256": "9b46896ab97edd4e5c079b3772dec07f5cd8275204ee0a68d63dd143b8681718"
     },
     {
       "path": "projects/mutual-capacitance/archive/README.md",
@@ -413,13 +416,13 @@
     },
     {
       "path": "projects/mutual-capacitance/docs/MODEL_DERIVATION.md",
-      "bytes": 9331,
-      "sha256": "576c2ef5666a00c4aa467dc2e3e4caf1cfe2b911ba3828d27e3a6afffd6771f1"
+      "bytes": 9226,
+      "sha256": "fbefea0b38dd4e753e3ae6f7a66bc52d9b8e23f13164222a4f949d541fb67f00"
     },
     {
       "path": "projects/mutual-capacitance/docs/NUMERICAL_REPORT.md",
-      "bytes": 12649,
-      "sha256": "c7c9269dae2ea6de433a520fc472a8039e767c49380164bf6d09e7a228ee02d0"
+      "bytes": 12510,
+      "sha256": "4490e02fee4c244746e6ab27df23c56d810ff899c44156d9f8961586671ae824"
     },
     {
       "path": "projects/mutual-capacitance/docs/PACKAGE_NOTES.md",
@@ -438,8 +441,8 @@
     },
     {
       "path": "projects/mutual-capacitance/docs/REPRODUCE.md",
-      "bytes": 4826,
-      "sha256": "546a753a6fe419d610278f58cf7ca0fedb167bdcf0ec4166ec0f5eed32eef11f"
+      "bytes": 4773,
+      "sha256": "84cc99e68c5e131ee128a649603c3216a19aa1f45fd8cc9926bc531e5669dde6"
     },
     {
       "path": "projects/mutual-capacitance/docs/SCENE_COPY.md",
@@ -453,13 +456,13 @@
     },
     {
       "path": "projects/mutual-capacitance/docs/SOURCES_AND_PROVENANCE.md",
-      "bytes": 5045,
-      "sha256": "f04bdb648b5063bdef05e776a9316fe2009fcb1765612816a83f7dcdc57a1b17"
+      "bytes": 5005,
+      "sha256": "c4a614524c868607d1a40ac93e40f1ecfec288b7dc10e683aea1dc6f147fb64b"
     },
     {
       "path": "projects/mutual-capacitance/docs/SOURCE_SYNC.md",
-      "bytes": 1455,
-      "sha256": "37275a7a41a6371ce6e39734b0af89bc275ea9ddafe3cb7cc95aef6668384766"
+      "bytes": 1444,
+      "sha256": "5010fe96ce04928cfd8592c484045b51b3f9129a26d3907cd6e642543cf39f75"
     },
     {
       "path": "projects/mutual-capacitance/docs/UPLOAD_PROVENANCE.json",
@@ -508,13 +511,13 @@
     },
     {
       "path": "projects/mutual-capacitance/licenses/TypeScript-APACHE-2.0.txt",
-      "bytes": 9197,
-      "sha256": "a7d00bfd54525bc694b6e32f64c7ebcf5e6b7ae3657be5cc12767bce74654a47"
+      "bytes": 9142,
+      "sha256": "a5e9f9b1575301c7a7a03508fdaa2e05a918cc17fd21c6e898096a96d6a34f61"
     },
     {
       "path": "projects/mutual-capacitance/package.json",
-      "bytes": 619,
-      "sha256": "f213256680c421db6f8cd5eda242780e65d48e3ee36e96ffeeb2181eea932a91"
+      "bytes": 599,
+      "sha256": "c02ff28ae49563f417ac1c277283980c876489afd0053baad249d7b47fb52c6b"
     },
     {
       "path": "projects/mutual-capacitance/parameters.json",
@@ -533,13 +536,13 @@
     },
     {
       "path": "projects/mutual-capacitance/physics/check_interpolation.py",
-      "bytes": 1121,
-      "sha256": "324fc71be7125db3afbfbc825a78af3b5a7ae4509e882f72a8c06e5f1357bfd2"
+      "bytes": 1105,
+      "sha256": "e3b7dc176a737a0685e2c553c2b8d540b09cdebafdfebe8b07c3c0ccf2996e69"
     },
     {
       "path": "projects/mutual-capacitance/physics/enrich.py",
-      "bytes": 1499,
-      "sha256": "46e0718b758f835d92df01d5024e5e650f99179ca6bfe24d8c9e2decb29c0119"
+      "bytes": 1470,
+      "sha256": "f5b5f98f4c87aba5ab0c92a2fa83b262e7fb73b46fcf93966a2c2129cc3da3b6"
     },
     {
       "path": "projects/mutual-capacitance/physics/fvm_check.py",
@@ -548,18 +551,18 @@
     },
     {
       "path": "projects/mutual-capacitance/physics/generate.py",
-      "bytes": 9800,
-      "sha256": "d2ba95c383efef922347bb4b71e699c7a0ff1942d1ebfff99609ca99328a51b6"
+      "bytes": 9686,
+      "sha256": "5725a0d5842631b67df86653b17713125d39995753ce997efbf68a1164f0137f"
     },
     {
       "path": "projects/mutual-capacitance/physics/local_maps.py",
-      "bytes": 1638,
-      "sha256": "9cb88951b8ed4430018e38112d5f8ae30ea056f5f2a7f3d0a34881d0e447da54"
+      "bytes": 1618,
+      "sha256": "563108572703eb5c57fc78ade2a6fc8b91fbd249db63981d316b09a6569f0a1b"
     },
     {
       "path": "projects/mutual-capacitance/physics/model.py",
-      "bytes": 2670,
-      "sha256": "5af1d35371d4d0ce80e464c0862bc2ae159f0c5d0edd4e19212c83fd729e3217"
+      "bytes": 2630,
+      "sha256": "4ca8942cb23ef671fb0b027c3cca5ce52c54b50dc436a19c90ffe579ed5fe611"
     },
     {
       "path": "projects/mutual-capacitance/physics/provenance.py",
@@ -578,8 +581,8 @@
     },
     {
       "path": "projects/mutual-capacitance/physics/trial_and_validate.py",
-      "bytes": 901,
-      "sha256": "9c6be95bed32a008ff514f3cbef7f03a6ff5cad6fc70c9544a6b81eb1098a662"
+      "bytes": 882,
+      "sha256": "d8027359041985bc41df0a832cb1a99b1aecc9270a3aed4b53d07f58dc20c2a7"
     },
     {
       "path": "projects/mutual-capacitance/previews/01-opening.png",
@@ -638,8 +641,8 @@
     },
     {
       "path": "projects/mutual-capacitance/previews/README.md",
-      "bytes": 600,
-      "sha256": "95976e79ad415ff57d081aeb814886d68be6dd7b35fb741c200dbcec805115a9"
+      "bytes": 593,
+      "sha256": "26db0c7c1dd941cd1210e4b0168f53811845a22513e104b408e61d218d60f3c0"
     },
     {
       "path": "projects/mutual-capacitance/previews/hero-2560.png",
@@ -653,8 +656,8 @@
     },
     {
       "path": "projects/mutual-capacitance/previews/manifest.json",
-      "bytes": 5550,
-      "sha256": "db2570100ac34d12b19009a4a0f3e6c49cb57135086087831cfde76046590448"
+      "bytes": 5384,
+      "sha256": "3e2a4169e51fe5f636f87a3a6c4a748d03d3ff57eb1df716a36b233805ffcec7"
     },
     {
       "path": "projects/mutual-capacitance/previews/overview.png",
@@ -668,8 +671,8 @@
     },
     {
       "path": "projects/mutual-capacitance/qa/curated-preview-refresh.json",
-      "bytes": 225,
-      "sha256": "a229d95eb8b7b98433e628ecb103d8ced229756dd33fd9c370c7148716581533"
+      "bytes": 219,
+      "sha256": "a6acd5659d0efeafe0f2a915e59034b8b9fbedb753d771c1d12fa489249a84ab"
     },
     {
       "path": "projects/mutual-capacitance/qa/source-sync.json",
@@ -738,13 +741,13 @@
     },
     {
       "path": "projects/mutual-capacitance/source/package-lock.json",
-      "bytes": 643,
-      "sha256": "1f06d4643faf3e4320e80946ebb16e4059fbba40af7242e35d2021d040ab3c59"
+      "bytes": 612,
+      "sha256": "6e413bc558f1db00407da97fbf2d3079ffd418a6a2dc597f79b41fb2e720924a"
     },
     {
       "path": "projects/mutual-capacitance/source/package.json",
-      "bytes": 640,
-      "sha256": "e06c746d42b996ce6cbe26690fd025670bb67f98caddf6600d2fce9943325d0f"
+      "bytes": 618,
+      "sha256": "4aab1b5dbd322c4e796c69371f05441064e233e92534e291ec3304007bb7c5d1"
     },
     {
       "path": "projects/mutual-capacitance/source/public/style.css",
@@ -758,13 +761,13 @@
     },
     {
       "path": "projects/mutual-capacitance/source/requirements-qa.txt",
-      "bytes": 86,
-      "sha256": "c82643154e7b67d0a08fb5dc8a623eb2d854c40cfae5e2d15341752d1255ad1b"
+      "bytes": 83,
+      "sha256": "6d05a65c270370601e31d2685ba3e3092b16a0e540be2daef3a75c81d7810146"
     },
     {
       "path": "projects/mutual-capacitance/source/scripts/build.mjs",
-      "bytes": 4424,
-      "sha256": "d7bf4e54b9704cf6ba4167f8ebb9a2632a32483cbdad4955255b8899d69ec336"
+      "bytes": 4384,
+      "sha256": "ff5c5fbb1d291f2b20d97842f7291b0948f9b11b90115b8e60639194668e1ea8"
     },
     {
       "path": "projects/mutual-capacitance/source/scripts/serve.mjs",
@@ -803,13 +806,13 @@
     },
     {
       "path": "projects/mutual-capacitance/source/src/main.ts",
-      "bytes": 14088,
-      "sha256": "205654c6a794ee28ad082f217ef640b3327408bc0fa62bcdf92136c9cbad1937"
+      "bytes": 14019,
+      "sha256": "e463e7addfcd3e8dec9529b08985247285a24e63ee4d693657bad8b8c30bf9b6"
     },
     {
       "path": "projects/mutual-capacitance/source/src/models/Experiment.ts",
-      "bytes": 10023,
-      "sha256": "bfea78f1bb147d8fab6072f26c9716fa4006d5bd7dbbf3c6cd1894ac3ef22768"
+      "bytes": 9965,
+      "sha256": "209061b632bce2cd515eeeddd554133c51232297bd81b5efa71c94ef0d81ea51"
     },
     {
       "path": "projects/mutual-capacitance/source/src/models/Wedge.ts",
@@ -848,28 +851,28 @@
     },
     {
       "path": "projects/mutual-capacitance/source/tests/README.md",
-      "bytes": 1446,
-      "sha256": "1d95e3ed52bf6394ffefa625df0d57014930fca21cca82d6f31b43b86d50d58b"
+      "bytes": 1435,
+      "sha256": "26ac5ff923f9bce8a8ed7d8847681c9bef2b20eaf1088585a8cffbc6a5995f69"
     },
     {
       "path": "projects/mutual-capacitance/source/tests/browser_qa.py",
-      "bytes": 249,
-      "sha256": "cf85121d8403a068f8eb2ddaaa6525e547e1eaa63a10c8acd801d8b64923a11f"
+      "bytes": 244,
+      "sha256": "52c588fc93f632b606a797b72b7aff04ea8671a80072a5de160cafcd82f078d8"
     },
     {
       "path": "projects/mutual-capacitance/source/tests/capture_previews.py",
-      "bytes": 5173,
-      "sha256": "0ee3165f8b56c9691077f1892a1195f11425f7033f179689cb3a0ee49cf4cae3"
+      "bytes": 5106,
+      "sha256": "5e6b585e058515204ed82e49361a64b50e6b4703aacc10f05a91811ef340f1e5"
     },
     {
       "path": "projects/mutual-capacitance/source/tests/model-regressions.mjs",
-      "bytes": 8440,
-      "sha256": "b618a55ed27ad992a17bfdee34883d54463a2e4d56575c427bee767c9e045a2f"
+      "bytes": 8370,
+      "sha256": "cb43cee453fad55270f7067745453a053575e97fcbd58747bf4ffae461862e49"
     },
     {
       "path": "projects/mutual-capacitance/source/tests/source-sync.mjs",
-      "bytes": 4443,
-      "sha256": "e6dffa571376af890106689bc7397ed4bed8e5008043b3ee5906e56b5ebab0bb"
+      "bytes": 4405,
+      "sha256": "252463a2824b267901d9ed7072f08ae9c5e8376cee290fdce2afbcea37c89575"
     },
     {
       "path": "projects/mutual-capacitance/source/tsconfig.json",
@@ -878,8 +881,8 @@
     },
     {
       "path": "projects/mutual-capacitance/tools/README.md",
-      "bytes": 285,
-      "sha256": "919680af6fdf795496c3a00534fbcf3896dbbbea91a553455bc5bbfdc95f746a"
+      "bytes": 282,
+      "sha256": "57178cb643a0a7782263c4d2b9b6927e92765ce1068e1508232987fc1575fad0"
     },
     {
       "path": "projects/mutual-capacitance/tools/serve.mjs",
@@ -913,18 +916,18 @@
     },
     {
       "path": "projects/proxitouch/AGENTS.md",
-      "bytes": 338,
-      "sha256": "a0e0f9fb478aeb41a8928022d5e840ab1724483770e6faf6406c6837fe37ae30"
+      "bytes": 335,
+      "sha256": "2bf9ad42ae053d4c5503d5b06347eec9709ab8934dad9ce50eecbed3cfb5caee"
     },
     {
       "path": "projects/proxitouch/BUILD_MANIFEST.json",
-      "bytes": 826,
-      "sha256": "d35e8a8dff9c5ea5b00e589358a648abeb5df56b9ec16228d995a3264c98a87a"
+      "bytes": 802,
+      "sha256": "7cb8b3ade3d1e8713b2a1b916ef06b80576a8b531943781912242303081b59dc"
     },
     {
       "path": "projects/proxitouch/CODEX_DEPLOY.md",
-      "bytes": 258,
-      "sha256": "4c3ae4b7e7281cae61872cbf6d94019b0d453ff6f18d6b94ab0921d273ac4ba5"
+      "bytes": 255,
+      "sha256": "93b0fe04d630bfd64017a52032c380e648fe2a816dab575298076d5b91480ac7"
     },
     {
       "path": "projects/proxitouch/CONTROLS.md",
@@ -938,13 +941,13 @@
     },
     {
       "path": "projects/proxitouch/QA_REPORT.md",
-      "bytes": 218,
-      "sha256": "6ee06013386ea8512f1a08fcbdf80733ed506c19bc7a1600f22fea47ca4fc7f7"
+      "bytes": 215,
+      "sha256": "82af2fcb5861386b9bb5ae6ed5b59073cf12d5867470df1c8428370214dad485"
     },
     {
       "path": "projects/proxitouch/README.md",
-      "bytes": 2152,
-      "sha256": "4311677027478c67467ea79371d8d6d655631c4b56a8c2b2ba3ac72f001cda0c"
+      "bytes": 2112,
+      "sha256": "c87e445aa9ae8e2b66eec90070f9aebb571d19bc0e8ab55242ae063caddc593f"
     },
     {
       "path": "projects/proxitouch/archive/README.md",
@@ -1128,8 +1131,8 @@
     },
     {
       "path": "projects/proxitouch/docs/PHYSICS_README.md",
-      "bytes": 3295,
-      "sha256": "aaa17c28a2f1e51950e3a5345be5c6ec63da454e66c7ff463853f1258c1c8d67"
+      "bytes": 3264,
+      "sha256": "748bfad44df9837fc07e45d6184fa6715cf8155a7ef33ec7e26badea75fd736a"
     },
     {
       "path": "projects/proxitouch/docs/RELEASE_CONTRACT.json",
@@ -1148,8 +1151,8 @@
     },
     {
       "path": "projects/proxitouch/docs/SOURCE_SYNC.md",
-      "bytes": 1455,
-      "sha256": "37275a7a41a6371ce6e39734b0af89bc275ea9ddafe3cb7cc95aef6668384766"
+      "bytes": 1444,
+      "sha256": "5010fe96ce04928cfd8592c484045b51b3f9129a26d3907cd6e642543cf39f75"
     },
     {
       "path": "projects/proxitouch/docs/UPLOAD_PROVENANCE.json",
@@ -1193,13 +1196,13 @@
     },
     {
       "path": "projects/proxitouch/licenses/TypeScript-APACHE-2.0.txt",
-      "bytes": 9197,
-      "sha256": "a7d00bfd54525bc694b6e32f64c7ebcf5e6b7ae3657be5cc12767bce74654a47"
+      "bytes": 9142,
+      "sha256": "a5e9f9b1575301c7a7a03508fdaa2e05a918cc17fd21c6e898096a96d6a34f61"
     },
     {
       "path": "projects/proxitouch/package.json",
-      "bytes": 611,
-      "sha256": "ca33987183a9be6bc7695e64104e36c786b6fa422908867a3f68dd7f1962a1d6"
+      "bytes": 591,
+      "sha256": "a37b46fa9993749b8bcbc07ca862530f7eea25e657245274c482db908587a245"
     },
     {
       "path": "projects/proxitouch/previews/01-cover.png",
@@ -1258,8 +1261,8 @@
     },
     {
       "path": "projects/proxitouch/previews/README.md",
-      "bytes": 565,
-      "sha256": "3de26f45725367f1b614f422a1cba4ff5b6a05619c93e7e8068853cab6599c3a"
+      "bytes": 558,
+      "sha256": "6779f79e3c13f0d0a3d80a0b104860ad8b896d6a07e67035fe8d8664ac6817c8"
     },
     {
       "path": "projects/proxitouch/previews/hero-2560.png",
@@ -1273,8 +1276,8 @@
     },
     {
       "path": "projects/proxitouch/previews/manifest.json",
-      "bytes": 5447,
-      "sha256": "2512bf2d619823a804f1b8fc5643e31d001529463ab80855426ec6f91e5e850a"
+      "bytes": 5281,
+      "sha256": "6060dd22e2d51cb68fe26a55bee67543de643f7bc5262a1d6ae86ede76faa8d0"
     },
     {
       "path": "projects/proxitouch/previews/overview.png",
@@ -1288,8 +1291,8 @@
     },
     {
       "path": "projects/proxitouch/qa/curated-preview-refresh.json",
-      "bytes": 225,
-      "sha256": "eb18410e60aa53302a684cc099a2303efd0bf6dcc03a4b557381985ff2de5001"
+      "bytes": 219,
+      "sha256": "60dd5a4c21b9e3d94b5c86f36cd668efa6b645ff7a53a98801966712265c8bc5"
     },
     {
       "path": "projects/proxitouch/qa/source-sync.json",
@@ -1523,13 +1526,13 @@
     },
     {
       "path": "projects/proxitouch/source/package-lock.json",
-      "bytes": 869,
-      "sha256": "a2fbdd21640ae2c95e0fafc520e84e7c8a42b5557c01552bd1123619aeb79ed9"
+      "bytes": 836,
+      "sha256": "0ae8ca3f72a2e5b092de5cd3767158ac39a6d4dd7dc4504113a5e761f0f388c7"
     },
     {
       "path": "projects/proxitouch/source/package.json",
-      "bytes": 652,
-      "sha256": "4ab7b7604393310c98fefeaa20935fbf12312a267a07d47fd2fcb90a82ef05c3"
+      "bytes": 630,
+      "sha256": "78680608f3c6955c8bf0929d7b7162feac28c46d11273ead82754b68b8040e57"
     },
     {
       "path": "projects/proxitouch/source/public/style.css",
@@ -1543,18 +1546,18 @@
     },
     {
       "path": "projects/proxitouch/source/requirements-physics.txt",
-      "bytes": 75,
-      "sha256": "a95b596fb8c1758ece0d410d0d3d178febdb656b6e6573affe4b55cc522c1d93"
+      "bytes": 72,
+      "sha256": "2ec9a66b12098411aa543afad168fe711d880d9e866841a33bf0384fae7ff068"
     },
     {
       "path": "projects/proxitouch/source/requirements-qa.txt",
-      "bytes": 86,
-      "sha256": "c82643154e7b67d0a08fb5dc8a623eb2d854c40cfae5e2d15341752d1255ad1b"
+      "bytes": 83,
+      "sha256": "6d05a65c270370601e31d2685ba3e3092b16a0e540be2daef3a75c81d7810146"
     },
     {
       "path": "projects/proxitouch/source/scripts/build.mjs",
-      "bytes": 4424,
-      "sha256": "d7bf4e54b9704cf6ba4167f8ebb9a2632a32483cbdad4955255b8899d69ec336"
+      "bytes": 4384,
+      "sha256": "ff5c5fbb1d291f2b20d97842f7291b0948f9b11b90115b8e60639194668e1ea8"
     },
     {
       "path": "projects/proxitouch/source/scripts/physics/solve_field.py",
@@ -1568,8 +1571,8 @@
     },
     {
       "path": "projects/proxitouch/source/scripts/physics/solve_revision_fields.py",
-      "bytes": 5462,
-      "sha256": "9c71396623114d1b68b9346a4380186241e81de2f0233f8bc694ff5294206842"
+      "bytes": 5375,
+      "sha256": "8dba72b6d7573dffe4188240295c6946b4f5e4f5868095624c0baec10c098e98"
     },
     {
       "path": "projects/proxitouch/source/scripts/serve.mjs",
@@ -1618,8 +1621,8 @@
     },
     {
       "path": "projects/proxitouch/source/src/main.ts",
-      "bytes": 15199,
-      "sha256": "194ef31b7531d9355354aa9060c139bc0b0f291f57add5dfe1c3823af4808d4d"
+      "bytes": 15019,
+      "sha256": "e588c841fe6b7eb648a762287298b7f077dba1712c8f1477c6969dcc4b1744ab"
     },
     {
       "path": "projects/proxitouch/source/src/models/ApplicationHero.ts",
@@ -1703,8 +1706,8 @@
     },
     {
       "path": "projects/proxitouch/source/src/ui/HUD.ts",
-      "bytes": 15828,
-      "sha256": "068e7bc98972c89e6e273509e9d22111f4c54d34ad4128b1a5bf878b8328d223"
+      "bytes": 15767,
+      "sha256": "3242dd9bffc3dfc8a5856d78d99813a5ee4beb8cec4df90e479d66fb7cc4fe69"
     },
     {
       "path": "projects/proxitouch/source/src/ui/Labels.ts",
@@ -1723,28 +1726,28 @@
     },
     {
       "path": "projects/proxitouch/source/tests/README.md",
-      "bytes": 1446,
-      "sha256": "b1c9036274212105d7aa72a3f38d0e872312d910631e7b6637ae8f98352fbac6"
+      "bytes": 1435,
+      "sha256": "1ed59f02ba0f1bf6bd60ca4ca9a45650247b71bac2d005bd7ae9d9aa8640456c"
     },
     {
       "path": "projects/proxitouch/source/tests/browser_qa.py",
-      "bytes": 249,
-      "sha256": "cf85121d8403a068f8eb2ddaaa6525e547e1eaa63a10c8acd801d8b64923a11f"
+      "bytes": 244,
+      "sha256": "52c588fc93f632b606a797b72b7aff04ea8671a80072a5de160cafcd82f078d8"
     },
     {
       "path": "projects/proxitouch/source/tests/capture_previews.py",
-      "bytes": 5173,
-      "sha256": "0ee3165f8b56c9691077f1892a1195f11425f7033f179689cb3a0ee49cf4cae3"
+      "bytes": 5106,
+      "sha256": "5e6b585e058515204ed82e49361a64b50e6b4703aacc10f05a91811ef340f1e5"
     },
     {
       "path": "projects/proxitouch/source/tests/proxi-regressions.mjs",
-      "bytes": 6982,
-      "sha256": "3c94416e55500e460cbd6d1d28051a5ebfe2ed06264e3368155ce9c3c11e7839"
+      "bytes": 6981,
+      "sha256": "5d969da309e384b853a235621387984ca70bffff8df8e755887b5537f6815ea3"
     },
     {
       "path": "projects/proxitouch/source/tests/source-sync.mjs",
-      "bytes": 4443,
-      "sha256": "e6dffa571376af890106689bc7397ed4bed8e5008043b3ee5906e56b5ebab0bb"
+      "bytes": 4405,
+      "sha256": "252463a2824b267901d9ed7072f08ae9c5e8376cee290fdce2afbcea37c89575"
     },
     {
       "path": "projects/proxitouch/source/tsconfig.json",
@@ -1753,8 +1756,8 @@
     },
     {
       "path": "projects/proxitouch/tools/README.md",
-      "bytes": 285,
-      "sha256": "919680af6fdf795496c3a00534fbcf3896dbbbea91a553455bc5bbfdc95f746a"
+      "bytes": 282,
+      "sha256": "57178cb643a0a7782263c4d2b9b6927e92765ce1068e1508232987fc1575fad0"
     },
     {
       "path": "projects/proxitouch/tools/serve.mjs",
@@ -1768,28 +1771,33 @@
     },
     {
       "path": "qa/browser-qa.json",
-      "bytes": 50876,
-      "sha256": "1dfbb1e2332ef39477e4456dba90db92e19e4659e295334fcce99b380d5a184e"
+      "bytes": 48890,
+      "sha256": "0e0c70bf99914e02938d64771c3bc17ded470a94ef6d8760f1142082f63e162a"
     },
     {
       "path": "qa/clean-build.json",
-      "bytes": 1036,
-      "sha256": "ac2304070144bbdaea80aad68a0ac95001f10acc514e738fe04dcf249304c3dc"
+      "bytes": 1013,
+      "sha256": "73ff0aca5a5243426851f66feb3f64e2e2eb0acb63e13cbd115230a979153a98"
     },
     {
       "path": "qa/preview-layout.json",
-      "bytes": 1430,
-      "sha256": "f032f982e02cf6248aa5ef04946fbc1fed6b9ce94163d442535add1f0ef2a6a3"
+      "bytes": 1375,
+      "sha256": "507992742bdd6bf66363526c418065c14f47716f3e2d5d96bb6e92acdb01ff30"
     },
     {
       "path": "qa/privacy-audit.json",
-      "bytes": 714,
-      "sha256": "d26cf8ac7de08774d797e9c47209b1a8aa3cb186363822f9c4f1e80f03d8142c"
+      "bytes": 697,
+      "sha256": "53fc1f62563d99312b2e714ac2e72b137315215e07e56642cde878c9d87e093d"
+    },
+    {
+      "path": "qa/publication.json",
+      "bytes": 2669,
+      "sha256": "cf3b2e064c746ad0eeb7baf7514af5d9a38c73b67515e0518a84b29808f721d4"
     },
     {
       "path": "qa/scientific-smoke.json",
-      "bytes": 66603,
-      "sha256": "00baf40c16dd427af25bfcfc07ddaa36a44cbd6d21b387b781503142def07b08"
+      "bytes": 64513,
+      "sha256": "12b7c4ad3e1cc7a69f781c1aeee4353bc8134b8585ce76c33fe4266ac4f52b60"
     },
     {
       "path": "requirements-qa.txt",
@@ -1803,8 +1811,8 @@
     },
     {
       "path": "scripts/browser_support.py",
-      "bytes": 1801,
-      "sha256": "d77aebc4bc7a63833a5e21cb1e7b7320c7b145590875af99b8ec0211221dcfdc"
+      "bytes": 1802,
+      "sha256": "f7ad127397f765292db93a1c5357470c32fd5f81da35eb8c0501bbca0485825f"
     },
     {
       "path": "scripts/capture_previews.py",
@@ -1818,8 +1826,8 @@
     },
     {
       "path": "scripts/scientific_smoke.py",
-      "bytes": 7906,
-      "sha256": "70459222900b09dddcdfc942709e5fedd0d0974f6c75e782c686390ad1823e85"
+      "bytes": 7846,
+      "sha256": "ca40b59910f7bc41026af3956428b7330b42846516e602f467b3d0379846ef47"
     },
     {
       "path": "scripts/serve.mjs",
@@ -1833,14 +1841,13 @@
     },
     {
       "path": "web/index.html",
-      "bytes": 3027,
-      "sha256": "724051899c9022cee557d1ee157248f7ee684d2b2670057ad35d4dce3c679d80"
+      "bytes": 3012,
+      "sha256": "a070eadc3c14539f166a0c40204a82779b6221c5a9d3db8e239d75399f9dd7d4"
     },
     {
       "path": "web/style.css",
       "bytes": 2539,
       "sha256": "59031a415052b73b6f1d8d41b632c2f2de0b302495403c39bcd06f0c954beb5b"
     }
-  ],
-  "fileCount": 368
+  ]
 }

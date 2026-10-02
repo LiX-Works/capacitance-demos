@@ -1,0 +1,66 @@
+{
+  "repository": "https://github.com/LiX-Works/capacitance-demos",
+  "site": "https://lix-works.github.io/capacitance-demos/",
+  "deployedCommit": "5768eff46cc33e3fee4b4cc1d6d50f3ca9762304",
+  "workflowRun": "https://github.com/LiX-Works/capacitance-demos/actions/runs/37042722296",
+  "workflowConclusion": "success",
+  "checks": [
+    {
+      "url": "https://lix-works.github.io/capacitance-demos/index.html",
+      "httpStatus": 200,
+      "bytes": 5604,
+      "sha256": "eaa2972d231cc4a9732a9ac980e7fa136b58781b9cfabdb57e0c0d8c6b1bc34d",
+      "matchesLocalBuiltArtifact": false,
+      "matchesAfterGitLineEndingNormalization": true
+    },
+    {
+      "url": "https://lix-works.github.io/capacitance-demos/proxitouch/index.html",
+      "httpStatus": 200,
+      "bytes": 1586180,
+      "sha256": "777d29996d08f9a9fc108cf2d27aae04da5b9d73da1ade069461d80e53b3b68c",
+      "matchesLocalBuiltArtifact": true,
+      "matchesAfterGitLineEndingNormalization": true
+    },
+    {
+      "url": "https://lix-works.github.io/capacitance-demos/mutual-capacitance/index.html",
+      "httpStatus": 200,
+      "bytes": 15274189,
+      "sha256": "c9e67fa0080b752f0613c608b2d00e2048db8dd798ba00d11b8e981166b8cd28",
+      "matchesLocalBuiltArtifact": true,
+      "matchesAfterGitLineEndingNormalization": true
+    },
+    {
+      "url": "https://lix-works.github.io/capacitance-demos/proxitouch/previews/index.html",
+      "httpStatus": 200,
+      "bytes": 4262,
+      "sha256": "5c5f470badb3bbcccf7f805cebda44a959636b2010c63bda6cd284df4992d7fc",
+      "matchesLocalBuiltArtifact": true,
+      "matchesAfterGitLineEndingNormalization": true
+    },
+    {
+      "url": "https://lix-works.github.io/capacitance-demos/mutual-capacitance/previews/index.html",
+      "httpStatus": 200,
+      "bytes": 4360,
+      "sha256": "94c94a1a7a31820620067692874123a61efad4c727372c633e3865d896a52299",
+      "matchesLocalBuiltArtifact": true,
+      "matchesAfterGitLineEndingNormalization": true
+    },
+    {
+      "url": "https://lix-works.github.io/capacitance-demos/proxitouch/previews/overview.png",
+      "httpStatus": 200,
+      "bytes": 1001504,
+      "sha256": "1c94804a78a548cb79c1c22e42234334ff76e4a9a6133e01854e52ca3df5cf2f",
+      "matchesLocalBuiltArtifact": true,
+      "matchesAfterGitLineEndingNormalization": true
+    },
+    {
+      "url": "https://lix-works.github.io/capacitance-demos/mutual-capacitance/previews/overview.png",
+      "httpStatus": 200,
+      "bytes": 865480,
+      "sha256": "735e0ec67dd613ed834e73118b37a93ce0bda67bcfcd3a0c665d82fc05553ca7",
+      "matchesLocalBuiltArtifact": true,
+      "matchesAfterGitLineEndingNormalization": true
+    }
+  ],
+  "passed": true
+}
