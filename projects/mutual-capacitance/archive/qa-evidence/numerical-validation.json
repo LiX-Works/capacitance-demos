@@ -1,0 +1,613 @@
+{
+  "parameterSha256": "0b23ce74c9b690fd5c79d335ed52ef88341d4925891863338356a1401cbbac52",
+  "convergence": [
+    {
+      "n": 32,
+      "theta_deg": 0,
+      "er": 1,
+      "panels": 152,
+      "Cprime_F_per_m": 1.9473676379478953e-10,
+      "C_F": 2.3368411655374743e-11,
+      "Qpositive_C_per_m": 1.9473676379478953e-10,
+      "Qnegative_C_per_m": -1.9473676379478948e-10,
+      "boundNet_C_per_m": 0.0,
+      "residual": 1.4432899320127035e-15,
+      "farPotential_V": 1.0932933261254882e-16
+    },
+    {
+      "n": 64,
+      "theta_deg": 0,
+      "er": 1,
+      "panels": 280,
+      "Cprime_F_per_m": 1.9474682712752836e-10,
+      "C_F": 2.33696192553034e-11,
+      "Qpositive_C_per_m": 1.9474682712752836e-10,
+      "Qnegative_C_per_m": -1.9474682712752838e-10,
+      "boundNet_C_per_m": 0.0,
+      "residual": 1.887379141862766e-15,
+      "farPotential_V": -1.143521697176625e-16
+    },
+    {
+      "n": 128,
+      "theta_deg": 0,
+      "er": 1,
+      "panels": 536,
+      "Cprime_F_per_m": 1.947504174150772e-10,
+      "C_F": 2.3370050089809263e-11,
+      "Qpositive_C_per_m": 1.947504174150772e-10,
+      "Qnegative_C_per_m": -1.9475041741507722e-10,
+      "boundNet_C_per_m": 0.0,
+      "residual": 2.831068712794149e-15,
+      "farPotential_V": 8.091626949937298e-17
+    },
+    {
+      "n": 192,
+      "theta_deg": 0,
+      "er": 1,
+      "panels": 792,
+      "Cprime_F_per_m": 1.9475130353899819e-10,
+      "C_F": 2.3370156424679782e-11,
+      "Qpositive_C_per_m": 1.9475130353899819e-10,
+      "Qnegative_C_per_m": -1.9475130353899819e-10,
+      "boundNet_C_per_m": 0.0,
+      "residual": 2.9976021664879227e-15,
+      "farPotential_V": 9.575276583946083e-18
+    },
+    {
+      "n": 32,
+      "theta_deg": 0,
+      "er": 4,
+      "panels": 208,
+      "Cprime_F_per_m": 2.48405108253042e-10,
+      "C_F": 2.980861299036504e-11,
+      "Qpositive_C_per_m": 2.48405108253042e-10,
+      "Qnegative_C_per_m": -2.48405108253042e-10,
+      "boundNet_C_per_m": 8.108840728269847e-14,
+      "residual": 4.6629367034256575e-14,
+      "farPotential_V": -0.0018916476539022273
+    },
+    {
+      "n": 64,
+      "theta_deg": 0,
+      "er": 4,
+      "panels": 382,
+      "Cprime_F_per_m": 2.4838857524444104e-10,
+      "C_F": 2.980662902933292e-11,
+      "Qpositive_C_per_m": 2.4838857524444104e-10,
+      "Qnegative_C_per_m": -2.483885752444411e-10,
+      "boundNet_C_per_m": 3.5321228527402e-14,
+      "residual": 1.0903062307165978e-13,
+      "farPotential_V": -0.0008138255319108059
+    },
+    {
+      "n": 128,
+      "theta_deg": 0,
+      "er": 4,
+      "panels": 728,
+      "Cprime_F_per_m": 2.4839266703842143e-10,
+      "C_F": 2.980712004461057e-11,
+      "Qpositive_C_per_m": 2.4839266703842143e-10,
+      "Qnegative_C_per_m": -2.4839266703842133e-10,
+      "boundNet_C_per_m": 2.617998973181555e-14,
+      "residual": 2.3447910280083306e-13,
+      "farPotential_V": -0.000601634246748349
+    },
+    {
+      "n": 192,
+      "theta_deg": 0,
+      "er": 4,
+      "panels": 1072,
+      "Cprime_F_per_m": 2.483951191787233e-10,
+      "C_F": 2.980741430144679e-11,
+      "Qpositive_C_per_m": 2.483951191787233e-10,
+      "Qnegative_C_per_m": -2.483951191677696e-10,
+      "boundNet_C_per_m": 2.333945934501971e-14,
+      "residual": 8.212235436122484e-08,
+      "farPotential_V": -0.0005364128396706887
+    },
+    {
+      "n": 32,
+      "theta_deg": 30,
+      "er": 1,
+      "panels": 152,
+      "Cprime_F_per_m": 4.9195023518641435e-11,
+      "C_F": 5.903402822236972e-12,
+      "Qpositive_C_per_m": 4.9195023518641435e-11,
+      "Qnegative_C_per_m": -4.919502351864145e-11,
+      "boundNet_C_per_m": 0.0,
+      "residual": 1.7486012637846216e-15,
+      "farPotential_V": 3.215634568999852e-16
+    },
+    {
+      "n": 64,
+      "theta_deg": 30,
+      "er": 1,
+      "panels": 280,
+      "Cprime_F_per_m": 4.920088036627331e-11,
+      "C_F": 5.904105643952797e-12,
+      "Qpositive_C_per_m": 4.920088036627331e-11,
+      "Qnegative_C_per_m": -4.920088036627331e-11,
+      "boundNet_C_per_m": 0.0,
+      "residual": 5.551115123125783e-16,
+      "farPotential_V": 4.1979121147152855e-17
+    },
+    {
+      "n": 128,
+      "theta_deg": 30,
+      "er": 1,
+      "panels": 536,
+      "Cprime_F_per_m": 4.920253841492326e-11,
+      "C_F": 5.904304609790791e-12,
+      "Qpositive_C_per_m": 4.920253841492326e-11,
+      "Qnegative_C_per_m": -4.920253841492326e-11,
+      "boundNet_C_per_m": 0.0,
+      "residual": 1.1553258350005535e-15,
+      "farPotential_V": -3.1981783593896245e-17
+    },
+    {
+      "n": 192,
+      "theta_deg": 30,
+      "er": 1,
+      "panels": 792,
+      "Cprime_F_per_m": 4.920291521698343e-11,
+      "C_F": 5.904349826038011e-12,
+      "Qpositive_C_per_m": 4.920291521698343e-11,
+      "Qnegative_C_per_m": -4.9202915216983425e-11,
+      "boundNet_C_per_m": 0.0,
+      "residual": 1.1657341758564144e-15,
+      "farPotential_V": -1.0999714933997654e-16
+    },
+    {
+      "n": 32,
+      "theta_deg": 30,
+      "er": 4,
+      "panels": 208,
+      "Cprime_F_per_m": 5.054231833563383e-11,
+      "C_F": 6.065078200276059e-12,
+      "Qpositive_C_per_m": 5.054231833563383e-11,
+      "Qnegative_C_per_m": -5.054231833563383e-11,
+      "boundNet_C_per_m": 7.648327359519818e-14,
+      "residual": 1.0436096431476471e-14,
+      "farPotential_V": -0.0023911846442236117
+    },
+    {
+      "n": 64,
+      "theta_deg": 30,
+      "er": 4,
+      "panels": 382,
+      "Cprime_F_per_m": 5.0516837392136867e-11,
+      "C_F": 6.0620204870564235e-12,
+      "Qpositive_C_per_m": 5.0516837392136867e-11,
+      "Qnegative_C_per_m": -5.051683739214234e-11,
+      "boundNet_C_per_m": 5.738427928079605e-15,
+      "residual": 8.745393298426052e-12,
+      "farPotential_V": -0.0010974288702414678
+    },
+    {
+      "n": 128,
+      "theta_deg": 30,
+      "er": 4,
+      "panels": 728,
+      "Cprime_F_per_m": 5.0520980651182926e-11,
+      "C_F": 6.062517678141951e-12,
+      "Qpositive_C_per_m": 5.0520980651182926e-11,
+      "Qnegative_C_per_m": -5.052098065118292e-11,
+      "boundNet_C_per_m": 9.953205924469599e-15,
+      "residual": 2.0872192862952943e-14,
+      "farPotential_V": -0.001174203854251945
+    },
+    {
+      "n": 192,
+      "theta_deg": 30,
+      "er": 4,
+      "panels": 1072,
+      "Cprime_F_per_m": 5.052079445153632e-11,
+      "C_F": 6.062495334184358e-12,
+      "Qpositive_C_per_m": 5.052079445153632e-11,
+      "Qnegative_C_per_m": -5.0520794451536315e-11,
+      "boundNet_C_per_m": 8.3449325896961e-15,
+      "residual": 2.020605904817785e-14,
+      "farPotential_V": -0.0011449756129797179
+    },
+    {
+      "n": 32,
+      "theta_deg": 90,
+      "er": 1,
+      "panels": 152,
+      "Cprime_F_per_m": 2.8872260537110275e-11,
+      "C_F": 3.4646712644532327e-12,
+      "Qpositive_C_per_m": 2.8872260537110275e-11,
+      "Qnegative_C_per_m": -2.8872260537110284e-11,
+      "boundNet_C_per_m": 0.0,
+      "residual": 4.996003610813204e-16,
+      "farPotential_V": -3.739214453062737e-17
+    },
+    {
+      "n": 64,
+      "theta_deg": 90,
+      "er": 1,
+      "panels": 280,
+      "Cprime_F_per_m": 2.887647437045758e-11,
+      "C_F": 3.4651769244549092e-12,
+      "Qpositive_C_per_m": 2.887647437045758e-11,
+      "Qnegative_C_per_m": -2.8876474370457582e-11,
+      "boundNet_C_per_m": 0.0,
+      "residual": 6.106226635438361e-16,
+      "farPotential_V": 4.465768288509148e-17
+    },
+    {
+      "n": 128,
+      "theta_deg": 90,
+      "er": 1,
+      "panels": 536,
+      "Cprime_F_per_m": 2.8877686025472636e-11,
+      "C_F": 3.4653223230567162e-12,
+      "Qpositive_C_per_m": 2.8877686025472636e-11,
+      "Qnegative_C_per_m": -2.8877686025472617e-11,
+      "boundNet_C_per_m": 0.0,
+      "residual": 2.1094237467877974e-15,
+      "farPotential_V": -1.304660796101123e-16
+    },
+    {
+      "n": 192,
+      "theta_deg": 90,
+      "er": 1,
+      "panels": 792,
+      "Cprime_F_per_m": 2.8877963091885822e-11,
+      "C_F": 3.4653555710262986e-12,
+      "Qpositive_C_per_m": 2.8877963091885822e-11,
+      "Qnegative_C_per_m": -2.8877963091885822e-11,
+      "boundNet_C_per_m": 0.0,
+      "residual": 1.0651202142497596e-15,
+      "farPotential_V": 1.1818630999917863e-16
+    },
+    {
+      "n": 32,
+      "theta_deg": 90,
+      "er": 4,
+      "panels": 208,
+      "Cprime_F_per_m": 2.9104472528820034e-11,
+      "C_F": 3.492536703458404e-12,
+      "Qpositive_C_per_m": 2.9104472528820034e-11,
+      "Qnegative_C_per_m": -2.910447252882003e-11,
+      "boundNet_C_per_m": 4.002860014383811e-14,
+      "residual": 3.9968028886505635e-15,
+      "farPotential_V": -0.0020833510066250154
+    },
+    {
+      "n": 64,
+      "theta_deg": 90,
+      "er": 4,
+      "panels": 382,
+      "Cprime_F_per_m": 2.909072300911153e-11,
+      "C_F": 3.4908867610933834e-12,
+      "Qpositive_C_per_m": 2.909072300911153e-11,
+      "Qnegative_C_per_m": -2.9090723009111527e-11,
+      "boundNet_C_per_m": 2.389541402514449e-15,
+      "residual": 3.219646771412954e-15,
+      "farPotential_V": -0.0015776801120758743
+    },
+    {
+      "n": 128,
+      "theta_deg": 90,
+      "er": 4,
+      "panels": 728,
+      "Cprime_F_per_m": 2.9093205014675446e-11,
+      "C_F": 3.4911846017610533e-12,
+      "Qpositive_C_per_m": 2.9093205014675446e-11,
+      "Qnegative_C_per_m": -2.9093205014675452e-11,
+      "boundNet_C_per_m": 4.772855001238831e-15,
+      "residual": 8.881784197001252e-15,
+      "farPotential_V": -0.001609797169704048
+    },
+    {
+      "n": 192,
+      "theta_deg": 90,
+      "er": 4,
+      "panels": 1072,
+      "Cprime_F_per_m": 2.9093133536491508e-11,
+      "C_F": 3.491176024378981e-12,
+      "Qpositive_C_per_m": 2.9093133536491508e-11,
+      "Qnegative_C_per_m": -2.9093133536491502e-11,
+      "boundNet_C_per_m": 3.979657527838669e-15,
+      "residual": 7.327471962526033e-15,
+      "farPotential_V": -0.001599274518771935
+    },
+    {
+      "n": 32,
+      "theta_deg": 180,
+      "er": 1,
+      "panels": 152,
+      "Cprime_F_per_m": 2.560662344515893e-11,
+      "C_F": 3.0727948134190714e-12,
+      "Qpositive_C_per_m": 2.560662344515893e-11,
+      "Qnegative_C_per_m": -2.5606623445158926e-11,
+      "boundNet_C_per_m": 0.0,
+      "residual": 6.106226635438361e-16,
+      "farPotential_V": -5.29772414463121e-17
+    },
+    {
+      "n": 64,
+      "theta_deg": 180,
+      "er": 1,
+      "panels": 280,
+      "Cprime_F_per_m": 2.5611350096523476e-11,
+      "C_F": 3.073362011582817e-12,
+      "Qpositive_C_per_m": 2.5611350096523476e-11,
+      "Qnegative_C_per_m": -2.561135009652347e-11,
+      "boundNet_C_per_m": 0.0,
+      "residual": 4.440892098500626e-16,
+      "farPotential_V": 2.8105570392771785e-17
+    },
+    {
+      "n": 128,
+      "theta_deg": 180,
+      "er": 1,
+      "panels": 536,
+      "Cprime_F_per_m": 2.5612721657833528e-11,
+      "C_F": 3.073526598940023e-12,
+      "Qpositive_C_per_m": 2.5612721657833528e-11,
+      "Qnegative_C_per_m": -2.5612721657833525e-11,
+      "boundNet_C_per_m": 0.0,
+      "residual": 9.992007221626409e-16,
+      "farPotential_V": 5.93800666360405e-17
+    },
+    {
+      "n": 192,
+      "theta_deg": 180,
+      "er": 1,
+      "panels": 792,
+      "Cprime_F_per_m": 2.5613036223855053e-11,
+      "C_F": 3.0735643468626063e-12,
+      "Qpositive_C_per_m": 2.5613036223855053e-11,
+      "Qnegative_C_per_m": -2.561303622385505e-11,
+      "boundNet_C_per_m": 0.0,
+      "residual": 1.2073675392798577e-15,
+      "farPotential_V": -1.015617416551298e-16
+    },
+    {
+      "n": 32,
+      "theta_deg": 180,
+      "er": 4,
+      "panels": 208,
+      "Cprime_F_per_m": 2.5694081124506248e-11,
+      "C_F": 3.0832897349407498e-12,
+      "Qpositive_C_per_m": 2.5694081124506248e-11,
+      "Qnegative_C_per_m": -2.5694081124506235e-11,
+      "boundNet_C_per_m": 2.7588249912453878e-14,
+      "residual": 2.0539125955565396e-15,
+      "farPotential_V": -0.0019837372444620137
+    },
+    {
+      "n": 64,
+      "theta_deg": 180,
+      "er": 4,
+      "panels": 382,
+      "Cprime_F_per_m": 2.5686030219575717e-11,
+      "C_F": 3.0823236263490857e-12,
+      "Qpositive_C_per_m": 2.5686030219575717e-11,
+      "Qnegative_C_per_m": -2.568603021957572e-11,
+      "boundNet_C_per_m": 1.3795968338624402e-15,
+      "residual": 1.904726376622534e-15,
+      "farPotential_V": -0.0016885312671799976
+    },
+    {
+      "n": 128,
+      "theta_deg": 180,
+      "er": 4,
+      "panels": 728,
+      "Cprime_F_per_m": 2.56882513075985e-11,
+      "C_F": 3.08259015691182e-12,
+      "Qpositive_C_per_m": 2.56882513075985e-11,
+      "Qnegative_C_per_m": -2.5688251307598493e-11,
+      "boundNet_C_per_m": 3.029383357123336e-15,
+      "residual": 3.4416913763379853e-15,
+      "farPotential_V": -0.0017075817661814912
+    },
+    {
+      "n": 192,
+      "theta_deg": 180,
+      "er": 4,
+      "panels": 1072,
+      "Cprime_F_per_m": 2.568833084322102e-11,
+      "C_F": 3.0825997011865224e-12,
+      "Qpositive_C_per_m": 2.568833084322102e-11,
+      "Qnegative_C_per_m": -2.568833084322101e-11,
+      "boundNet_C_per_m": 2.524326142681766e-15,
+      "residual": 4.3298697960381105e-15,
+      "farPotential_V": -0.001702054006373857
+    }
+  ],
+  "checks": [
+    {
+      "name": "Rigid rotation is collision-free for conductors and dielectric",
+      "passed": true,
+      "detail": "721 angles, exact rectangular outlines, no hand-tuned translation"
+    },
+    {
+      "name": "Final gap is exactly 2 delta; the two finite-thickness plates are coplanar",
+      "passed": true,
+      "detail": {
+        "gap_m": 0.002
+      }
+    },
+    {
+      "name": "128 to 192 long-face panels changes C less than 0.02%",
+      "passed": true,
+      "detail": {
+        "max_relative": 1.2281631984523145e-05
+      }
+    },
+    {
+      "name": "epsilon_r=1 and dielectric thickness=0 return the exact air model",
+      "passed": true,
+      "detail": {
+        "air_F": 5.444046212176847e-12,
+        "er1_F": 5.444046212176847e-12,
+        "t0_F": 5.444046212176847e-12
+      }
+    },
+    {
+      "name": "Dielectric size shrinking continuously approaches air",
+      "passed": true,
+      "detail": {
+        "thickness_factors": [
+          1,
+          0.5,
+          0.1,
+          0.02,
+          0.002,
+          0
+        ],
+        "C_F": [
+          2.980712004461057e-11,
+          2.601787720246985e-11,
+          2.3831556653553147e-11,
+          2.3459921908011085e-11,
+          2.337898184538841e-11,
+          2.3370050089809263e-11
+        ]
+      }
+    },
+    {
+      "name": "2-D Cprime is multiplied by physical width exactly once",
+      "passed": true,
+      "detail": "Doubling b doubles F, not F/m"
+    },
+    {
+      "name": "Linear dielectric C is invariant to voltage, charge scales with V",
+      "passed": true,
+      "detail": "1 V vs 3 V"
+    },
+    {
+      "name": "Unbounded neutral solution does not depend on logarithmic reference length",
+      "passed": true,
+      "detail": {
+        "relative": 6.661338147750939e-16
+      }
+    },
+    {
+      "name": "Coplanar thin limit agrees with elliptic-integral solution within 0.2%",
+      "passed": true,
+      "detail": {
+        "exact_C_F": 2.996665534362624e-12,
+        "finiteThicknessSequence": [
+          {
+            "thickness_m": 0.0001,
+            "C_F": 3.073550675895207e-12,
+            "relativeToThinFormula": 0.025656897858951755
+          },
+          {
+            "thickness_m": 2e-05,
+            "C_F": 3.015271841443532e-12,
+            "relativeToThinFormula": 0.006209003596681084
+          },
+          {
+            "thickness_m": 2e-06,
+            "C_F": 2.999001448569144e-12,
+            "relativeToThinFormula": 0.0007795044791398809
+          }
+        ]
+      }
+    },
+    {
+      "name": "Geometric strip formula has correct parallel-plate limit",
+      "passed": true,
+      "detail": {
+        "strip_F": 2.1250050356221115e-11,
+        "air_strip_F": 2.1250050356221115e-11,
+        "wedge_F": 2.1250050356221115e-11,
+        "dual_wedge_F": 2.1250050362123908e-11,
+        "overlap_m": 0.019999999999127337,
+        "h0_m": 0.0010000000017453294,
+        "h1_m": 0.0010000000366519144,
+        "log_gap_m": 0.0010000000191986219
+      }
+    }
+  ],
+  "selected_parameters": {
+    "name": "Offset-hinge finite-electrode capacitor",
+    "length_m": 0.02,
+    "width_m": 0.12,
+    "initial_clear_gap_m": 0.001,
+    "hinge_offset_m": 0.001,
+    "electrode_thickness_m": 0.0001,
+    "epsilon0_F_per_m": 8.8541878188e-12,
+    "air_relative_permittivity": 1.0,
+    "voltage_difference_V": 1.0,
+    "dielectric": {
+      "relative_permittivity": 4.0,
+      "x_start_m": 0.003,
+      "x_end_m": 0.017,
+      "y_bottom_m": 0.000125,
+      "thickness_m": 0.0004,
+      "lossless_linear_isotropic": true,
+      "material_name": "Parameterized linear dielectric, not a certified material sample"
+    },
+    "wedge": {
+      "angle_deg": 60,
+      "inner_radius_m": 0.005,
+      "outer_radius_m": 0.03
+    },
+    "model_dimension": "2-D central section; C_2D = Cprime * width; finite-width end effects are separately qualified",
+    "angle_scan_deg": [
+      0,
+      2,
+      5,
+      10,
+      15,
+      20,
+      25,
+      30,
+      35,
+      40,
+      45,
+      50,
+      55,
+      60,
+      65,
+      70,
+      75,
+      80,
+      85,
+      90,
+      95,
+      100,
+      105,
+      110,
+      115,
+      120,
+      125,
+      130,
+      135,
+      140,
+      145,
+      150,
+      155,
+      160,
+      165,
+      170,
+      175,
+      180
+    ]
+  },
+  "cps_thin_F": 2.996665534362624e-12,
+  "cps_thickness_sequence": [
+    {
+      "thickness_m": 0.0001,
+      "C_F": 3.073550675895207e-12,
+      "relativeToThinFormula": 0.025656897858951755
+    },
+    {
+      "thickness_m": 2e-05,
+      "C_F": 3.015271841443532e-12,
+      "relativeToThinFormula": 0.006209003596681084
+    },
+    {
+      "thickness_m": 2e-06,
+      "C_F": 2.999001448569144e-12,
+      "relativeToThinFormula": 0.0007795044791398809
+    }
+  ],
+  "note": "Discretization consistency is not experimental validation. Dielectric bound-net-charge residual is reported, not silently set to zero."
+}

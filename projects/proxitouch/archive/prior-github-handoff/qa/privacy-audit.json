@@ -1,0 +1,8 @@
+{
+  "runtimeSha256": "f65a3d7a00830af2e80c5d6b97e1d37cd2b2f5854b77ad99bc03a7533834dd01",
+  "filesScanned": 209,
+  "knownPersonalIdentifierMatches": 0,
+  "originalPersonalFilenamesIncluded": false,
+  "fontFilesIncluded": 0,
+  "notes": "Names, phone, student identifier and their Unicode-escaped forms were checked. Third-party author/license notices remain. Preview images are generated from the sanitized runtime, not copied from personal screenshots."
+}

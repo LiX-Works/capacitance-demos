@@ -1,0 +1,3 @@
+# Browser QA and real preview regeneration only.
+playwright==1.57.0
+Pillow==12.3.0

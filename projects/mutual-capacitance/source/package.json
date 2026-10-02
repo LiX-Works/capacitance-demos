@@ -1,0 +1,22 @@
+{
+  "name": "tilted-capacitor-lab",
+  "version": "1.2.1-synced",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "setup:offline": "node scripts/setup-offline.mjs",
+    "build": "node scripts/build.mjs",
+    "check": "node node_modules/typescript/lib/tsc.js --noEmit",
+    "preview": "node scripts/serve.mjs",
+    "dev": "node scripts/build.mjs && node scripts/serve.mjs",
+    "test": "node tests/source-sync.mjs && node tests/model-regressions.mjs",
+    "qa": "python tests/browser_qa.py"
+  },
+  "devDependencies": {
+    "typescript": "5.8.3"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">=22"
+  }
+}

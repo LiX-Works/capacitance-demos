@@ -1,0 +1,25 @@
+{
+  "project": "proxitouch",
+  "release": "Combined collection with selected 2x2 previews",
+  "runtimeSha256": "777d29996d08f9a9fc108cf2d27aae04da5b9d73da1ade069461d80e53b3b68c",
+  "referenceSha256": "7130d27380409fc5012a6614d201397b61b964d1b6c4699b8724f903f164bc33",
+  "overview": {
+    "columns": 2,
+    "rows": 2,
+    "cellWidth": 1200,
+    "cellHeight": 675,
+    "gutter": 16,
+    "images": [
+      "04-ionic-interface.png",
+      "06-contact-area.png",
+      "08-dual-signals.png",
+      "10-egg-grasp.png"
+    ],
+    "file": "overview.png",
+    "width": 2416,
+    "height": 1366,
+    "sha256": "1c94804a78a548cb79c1c22e42234334ff76e4a9a6133e01854e52ca3df5cf2f"
+  },
+  "fullPackageManifest": "../../BUILD_MANIFEST.json",
+  "historicalManifest": "archive/prior-github-handoff/BUILD_MANIFEST.json"
+}

@@ -1,0 +1,17 @@
+{
+  "scope": "Pattern scan of UTF-8 text files in this deliverable; case-sensitive known token/private-key prefixes only. This is not a guarantee against every possible secret or identity. Browser checks also verified no original homepage author block.",
+  "textFilesScanned": 441,
+  "recognizedCredentialPatternFiles": [],
+  "originalArchives": [
+    {
+      "archive": "ProxiTouch_GitHub_Full.zip",
+      "sha256": "cf098fbec8ad99f6ac16024bf8f6525cf489417b95ebd63ca206735b38f9d88a",
+      "unchanged": true
+    },
+    {
+      "archive": "Mutual_Capacitance_GitHub_Full.zip",
+      "sha256": "05980636f00089fa157dd4a9cfdfb04985e3d4350d0ae35f4f48b80243b603cf",
+      "unchanged": true
+    }
+  ]
+}

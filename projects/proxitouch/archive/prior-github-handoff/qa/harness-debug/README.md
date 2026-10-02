@@ -1,0 +1,1 @@
+Initial harness assertions, superseded by browser-sync.json. ProxiTouch: Playwright treated an evaluated function-assignment result as callable, so the test was changed to an IIFE. Lab: the active button under the pointer uses the uploaded lighter hover color; the assertion now accepts both active colors. No application code was changed for these two harness fixes.

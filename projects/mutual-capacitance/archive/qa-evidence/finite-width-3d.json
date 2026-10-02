@@ -1,0 +1,105 @@
+{
+  "method": "Independent finite-width air-only 3-D constant rectangular-panel BEM.\nAll six faces of each finite-thickness rectangular electrode are represented.\nAnalytic rectangular 1/r panel integrals; a neutral two-terminal excitation with\nunknown common potential. This is a checkpoint/convergence calculation, not an\nexperimental validation or a dielectric 3-D solution.\n",
+  "rows": [
+    {
+      "theta_deg": 0,
+      "nl": 6,
+      "nw": 18,
+      "panels": 528,
+      "C3D_F": 2.3569948501549233e-11,
+      "C2D_extruded_F": 2.337011759318945e-11,
+      "relativeDifference": 0.008550701876571587,
+      "residual": 6.106226635438361e-15,
+      "netChargeRelative": 0.0
+    },
+    {
+      "theta_deg": 0,
+      "nl": 10,
+      "nw": 30,
+      "panels": 1360,
+      "C3D_F": 2.3634365876900435e-11,
+      "C2D_extruded_F": 2.337011759318945e-11,
+      "relativeDifference": 0.011307101158446686,
+      "residual": 1.1879386363489175e-14,
+      "netChargeRelative": 2.1295359032595245e-16
+    },
+    {
+      "theta_deg": 0,
+      "nl": 14,
+      "nw": 42,
+      "panels": 2576,
+      "C3D_F": 2.3649740604921197e-11,
+      "C2D_extruded_F": 2.337011759318945e-11,
+      "relativeDifference": 0.011964980947003712,
+      "residual": 3.019806626980426e-14,
+      "netChargeRelative": 0.0
+    },
+    {
+      "theta_deg": 90,
+      "nl": 6,
+      "nw": 18,
+      "panels": 528,
+      "C3D_F": 3.657868659156385e-12,
+      "C2D_extruded_F": 3.4653435332526193e-12,
+      "relativeDifference": 0.05555729873714976,
+      "residual": 3.54230533794464e-15,
+      "netChargeRelative": 0.0
+    },
+    {
+      "theta_deg": 90,
+      "nl": 10,
+      "nw": 30,
+      "panels": 1360,
+      "C3D_F": 3.688805747380173e-12,
+      "C2D_extruded_F": 3.4653435332526193e-12,
+      "relativeDifference": 0.06448486621406024,
+      "residual": 2.4980018054066022e-15,
+      "netChargeRelative": 0.0
+    },
+    {
+      "theta_deg": 90,
+      "nl": 14,
+      "nw": 42,
+      "panels": 2576,
+      "C3D_F": 3.696443313971e-12,
+      "C2D_extruded_F": 3.4653435332526193e-12,
+      "relativeDifference": 0.06668885162489713,
+      "residual": 3.552713678800501e-15,
+      "netChargeRelative": 0.0
+    },
+    {
+      "theta_deg": 180,
+      "nl": 6,
+      "nw": 18,
+      "panels": 528,
+      "C3D_F": 3.2646972472958808e-12,
+      "C2D_extruded_F": 3.073550675895207e-12,
+      "relativeDifference": 0.062190798707101314,
+      "residual": 2.8033131371785203e-15,
+      "netChargeRelative": 1.9270634791372816e-16
+    },
+    {
+      "theta_deg": 180,
+      "nl": 10,
+      "nw": 30,
+      "panels": 1360,
+      "C3D_F": 3.2974692297945606e-12,
+      "C2D_extruded_F": 3.073550675895207e-12,
+      "relativeDifference": 0.07285337953119475,
+      "residual": 2.0539125955565396e-15,
+      "netChargeRelative": 1.9079113093333904e-16
+    },
+    {
+      "theta_deg": 180,
+      "nl": 14,
+      "nw": 42,
+      "panels": 2576,
+      "C3D_F": 3.3057104792935613e-12,
+      "C2D_extruded_F": 3.073550675895207e-12,
+      "relativeDifference": 0.07553472445374121,
+      "residual": 3.497202527569243e-15,
+      "netChargeRelative": 0.0
+    }
+  ],
+  "elapsed_s": 4.095329761505127
+}

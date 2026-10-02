@@ -1,0 +1,123 @@
+{
+  "sourceSha256": "9e0b2a5316c58042cf33929f2097d45282385742bd4788745767fa21cfaee6bd",
+  "checks": [
+    {
+      "name": "One parameter object matches the actual input file SHA-256",
+      "passed": true,
+      "detail": "0b23ce74c9b690fd5c79d335ed52ef88341d4925891863338356a1401cbbac52"
+    },
+    {
+      "name": "12 scenes, balanced 6 + 6 parts, no omitted mathematical layer",
+      "passed": true
+    },
+    {
+      "name": "Real gap is 2 delta, finite-thickness upper plate is exactly coplanar at 180",
+      "passed": true,
+      "detail": {
+        "g_m": 0.002
+      }
+    },
+    {
+      "name": "Rendered upper plate uses one fixed pivot and pure rotation at 721 poses",
+      "passed": true,
+      "detail": {
+        "poses": 721,
+        "maxFloat32Tolerance_renderUnits": 0.000003
+      }
+    },
+    {
+      "name": "Analytical h(x), overlap and top surface share the real offset geometry",
+      "passed": true
+    },
+    {
+      "name": "Strip limit, series electrical thickness and scope exclusions are correct",
+      "passed": true
+    },
+    {
+      "name": "Frontend approximations match the independently generated Python formula data",
+      "passed": true,
+      "detail": {
+        "maxRelative": 3.3306690738754696e-16
+      }
+    },
+    {
+      "name": "All 88 solved curve nodes preserve F/m -> F and normalized values",
+      "passed": true,
+      "detail": {
+        "nodes": 88
+      }
+    },
+    {
+      "name": "Non-node frames are explicit linear interpolation, not another PDE solve",
+      "passed": true
+    },
+    {
+      "name": "All field data decode with their matching physical display grids",
+      "passed": true,
+      "detail": {
+        "arrays": 352
+      }
+    },
+    {
+      "name": "Visual clipping changes displayed width, not b or capacitance",
+      "passed": true
+    },
+    {
+      "name": "Mesh and normal data remain finite for line/field/material modes",
+      "passed": true,
+      "detail": "No NaN vertices or transforms"
+    },
+    {
+      "name": "Epsilon scan is monotone, finite and returns the exact air baseline",
+      "passed": true
+    },
+    {
+      "name": "3-D checkpoints are separately identified and actually exceed 2-D extrapolation",
+      "passed": true,
+      "detail": [
+        {
+          "theta_deg": 0,
+          "nl": 14,
+          "nw": 42,
+          "panels": 2576,
+          "C3D_F": 2.3649740604921197e-11,
+          "C2D_extruded_F": 2.337011759318945e-11,
+          "relativeDifference": 0.011964980947003712,
+          "residual": 3.019806626980426e-14,
+          "netChargeRelative": 0
+        },
+        {
+          "theta_deg": 90,
+          "nl": 14,
+          "nw": 42,
+          "panels": 2576,
+          "C3D_F": 3.696443313971e-12,
+          "C2D_extruded_F": 3.4653435332526193e-12,
+          "relativeDifference": 0.06668885162489713,
+          "residual": 3.552713678800501e-15,
+          "netChargeRelative": 0
+        },
+        {
+          "theta_deg": 180,
+          "nl": 14,
+          "nw": 42,
+          "panels": 2576,
+          "C3D_F": 3.3057104792935613e-12,
+          "C2D_extruded_F": 3.073550675895207e-12,
+          "relativeDifference": 0.07553472445374121,
+          "residual": 3.497202527569243e-15,
+          "netChargeRelative": 0
+        }
+      ]
+    },
+    {
+      "name": "Previously computed numerical convergence and limit checks all pass",
+      "passed": true,
+      "detail": {
+        "numericalChecks": 10
+      }
+    }
+  ],
+  "passed": 15,
+  "total": 15
+}

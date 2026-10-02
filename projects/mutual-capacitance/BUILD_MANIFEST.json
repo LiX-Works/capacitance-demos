@@ -1,0 +1,25 @@
+{
+  "project": "mutual-capacitance",
+  "release": "Combined collection with selected 2x2 previews",
+  "runtimeSha256": "c9e67fa0080b752f0613c608b2d00e2048db8dd798ba00d11b8e981166b8cd28",
+  "referenceSha256": "57bcbde1c450ec948f227ed2e8ae8b6d115282d0c441142cb7bb4e9e809d9b9e",
+  "overview": {
+    "columns": 2,
+    "rows": 2,
+    "cellWidth": 1200,
+    "cellHeight": 675,
+    "gutter": 16,
+    "images": [
+      "01-opening.png",
+      "03-ideal-sector.png",
+      "06-dielectric-edge.png",
+      "05-angle-models.png"
+    ],
+    "file": "overview.png",
+    "width": 2416,
+    "height": 1366,
+    "sha256": "735e0ec67dd613ed834e73118b37a93ce0bda67bcfcd3a0c665d82fc05553ca7"
+  },
+  "fullPackageManifest": "../../BUILD_MANIFEST.json",
+  "historicalManifest": "archive/prior-github-handoff/BUILD_MANIFEST.json"
+}

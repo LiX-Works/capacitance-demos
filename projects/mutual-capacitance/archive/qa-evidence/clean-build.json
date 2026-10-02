@@ -1,0 +1,39 @@
+{
+  "sourceSha256": "9e0b2a5316c58042cf33929f2097d45282385742bd4788745767fa21cfaee6bd",
+  "rebuiltSha256": "9e0b2a5316c58042cf33929f2097d45282385742bd4788745767fa21cfaee6bd",
+  "commands": [
+    {
+      "command": [
+        "node",
+        "scripts/setup-offline.mjs"
+      ],
+      "returncode": 0
+    },
+    {
+      "command": [
+        "npm",
+        "run",
+        "check"
+      ],
+      "returncode": 0
+    },
+    {
+      "command": [
+        "npm",
+        "run",
+        "build"
+      ],
+      "returncode": 0
+    },
+    {
+      "command": [
+        "npm",
+        "test"
+      ],
+      "returncode": 0
+    }
+  ],
+  "initialNodeModulesAbsent": true,
+  "noRegistryAccessRequired": true,
+  "identical": true
+}

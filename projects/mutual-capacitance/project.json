@@ -1,0 +1,8 @@
+{
+  "id": "lab",
+  "title": "\u4e92\u7535\u5bb9\u5efa\u6a21\u5b9e\u9a8c\u5ba4",
+  "bundleName": "Capacitance Lab",
+  "offlineFile": "Capacitance-Lab-offline.html",
+  "baseline": "reference/final-upload.html",
+  "sceneCount": 12
+}

@@ -1,0 +1,82 @@
+{
+  "currentFilesRead": 5,
+  "packReadmeRead": true,
+  "packContentReadFull": true,
+  "files": [
+    {
+      "name": "01_MASTER_BRIEF.md",
+      "lines": 45,
+      "bytes": 2439,
+      "sha256": "3ee6d03b60ce80a60983c9f39704f552cf386cdaefb0ebc27159d1eec00fbdfc",
+      "read": "FULL"
+    },
+    {
+      "name": "02_GEOMETRY_AND_MODELING.md",
+      "lines": 73,
+      "bytes": 3565,
+      "sha256": "5493c888562e831056415a24aa1a9bd44c201d9d034f6335214300f16a387707",
+      "read": "FULL"
+    },
+    {
+      "name": "03_REAL_PARAMETERS_AND_SIMULATION.md",
+      "lines": 70,
+      "bytes": 2863,
+      "sha256": "c007ea7311fe9db5477e99588141c693eded930b8f38400b49fb2ac57ba9bfde",
+      "read": "FULL"
+    },
+    {
+      "name": "04_HTML_SCENE_AND_ANIMATION_PLAN.md",
+      "lines": 106,
+      "bytes": 3577,
+      "sha256": "3c60d35bd3cdcdecd9d4ec1caa0503838e7630f864219a5cd40dad084f00e841",
+      "read": "FULL"
+    },
+    {
+      "name": "05_IMPLEMENTATION_AND_QA.md",
+      "lines": 82,
+      "bytes": 3021,
+      "sha256": "e3377628160dac6bf5fd8ddcef281e36e1ccb8e17f2aa1bf2b06aed74f8e855c",
+      "read": "FULL"
+    },
+    {
+      "name": "README.md",
+      "lines": 14,
+      "bytes": 522,
+      "sha256": "5330edefeb868e75596db6909c52c82ef90ba81ac009ff1bcd0f003b1e82e1b6",
+      "read": "FULL"
+    }
+  ],
+  "precedence": "Current tilted-capacitor MD only; earlier ProxiTouch design instructions do not define the new physics or narrative.",
+  "currentUploadVerification": [
+    {
+      "uploadedName": "01_MASTER_BRIEF(1).md",
+      "bytes": 2439,
+      "sha256": "3ee6d03b60ce80a60983c9f39704f552cf386cdaefb0ebc27159d1eec00fbdfc",
+      "matchesPackFile": true
+    },
+    {
+      "uploadedName": "02_GEOMETRY_AND_MODELING(1).md",
+      "bytes": 3565,
+      "sha256": "5493c888562e831056415a24aa1a9bd44c201d9d034f6335214300f16a387707",
+      "matchesPackFile": true
+    },
+    {
+      "uploadedName": "03_REAL_PARAMETERS_AND_SIMULATION(1).md",
+      "bytes": 2863,
+      "sha256": "c007ea7311fe9db5477e99588141c693eded930b8f38400b49fb2ac57ba9bfde",
+      "matchesPackFile": true
+    },
+    {
+      "uploadedName": "04_HTML_SCENE_AND_ANIMATION_PLAN.md",
+      "bytes": 3577,
+      "sha256": "3c60d35bd3cdcdecd9d4ec1caa0503838e7630f864219a5cd40dad084f00e841",
+      "matchesPackFile": true
+    },
+    {
+      "uploadedName": "05_IMPLEMENTATION_AND_QA(1).md",
+      "bytes": 3021,
+      "sha256": "e3377628160dac6bf5fd8ddcef281e36e1ccb8e17f2aa1bf2b06aed74f8e855c",
+      "matchesPackFile": true
+    }
+  ]
+}

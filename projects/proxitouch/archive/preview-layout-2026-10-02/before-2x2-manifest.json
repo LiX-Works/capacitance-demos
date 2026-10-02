@@ -1,0 +1,151 @@
+{
+  "runtimeSha256": "777d29996d08f9a9fc108cf2d27aae04da5b9d73da1ade069461d80e53b3b68c",
+  "count": 12,
+  "images": [
+    {
+      "file": "01-cover.png",
+      "title": "ProxiTouch 封面",
+      "scene": "S00",
+      "phase": 1,
+      "field": null,
+      "ambientSeconds": 0,
+      "width": 1920,
+      "height": 1080,
+      "sha256": "f5ee12f8be1c34048e82aa8dbd598730c31bba1812655bc37839980bdc9db3da",
+      "source": "Actual Chromium WebGL2 render of rebuilt, privacy-cleaned final upload"
+    },
+    {
+      "file": "02-materials.png",
+      "title": "多材料串并联",
+      "scene": "S05",
+      "phase": 1,
+      "field": null,
+      "ambientSeconds": 6.8,
+      "width": 1920,
+      "height": 1080,
+      "sha256": "975cb0b0c314ed55720a4e3cb09faf83fe4e063386008d4403c2f20686f508da",
+      "source": "Actual Chromium WebGL2 render of rebuilt, privacy-cleaned final upload"
+    },
+    {
+      "file": "03-fringing-field.png",
+      "title": "接近目标与边缘场",
+      "scene": "S08",
+      "phase": 0.65,
+      "field": null,
+      "ambientSeconds": 0,
+      "width": 1920,
+      "height": 1080,
+      "sha256": "424c30cfca891de4a12c57b428cddf8d0729380c8be4448243559cd5fe1530c9",
+      "source": "Actual Chromium WebGL2 render of rebuilt, privacy-cleaned final upload"
+    },
+    {
+      "file": "04-ionic-interface.png",
+      "title": "电双层界面",
+      "scene": "S09",
+      "phase": 1,
+      "field": null,
+      "ambientSeconds": 0,
+      "width": 1920,
+      "height": 1080,
+      "sha256": "a3b3313804e1a110a9b2cdbe6bb6979e5136a5833d3e78fce8cd8b2282b3ebf4",
+      "source": "Actual Chromium WebGL2 render of rebuilt, privacy-cleaned final upload"
+    },
+    {
+      "file": "05-two-interfaces.png",
+      "title": "两个 EDL 与体相屏蔽",
+      "scene": "S10",
+      "phase": 1,
+      "field": null,
+      "ambientSeconds": 0,
+      "width": 1920,
+      "height": 1080,
+      "sha256": "ae93e364459d0f0c33239ac8a986b4385f12847d3d46ba5bafdf7783f73f25f3",
+      "source": "Actual Chromium WebGL2 render of rebuilt, privacy-cleaned final upload"
+    },
+    {
+      "file": "06-contact-area.png",
+      "title": "有效接触面积",
+      "scene": "S11",
+      "phase": 1,
+      "field": null,
+      "ambientSeconds": 0,
+      "width": 1920,
+      "height": 1080,
+      "sha256": "9243318f491c1150c8fdafdefd6b98156cf2eac10ee777c95ce47af9f82a3e21",
+      "source": "Actual Chromium WebGL2 render of rebuilt, privacy-cleaned final upload"
+    },
+    {
+      "file": "07-shared-electrodes.png",
+      "title": "共享电极分层结构",
+      "scene": "S14",
+      "phase": 1,
+      "field": null,
+      "ambientSeconds": 0,
+      "width": 1920,
+      "height": 1080,
+      "sha256": "218fd290f4cb9f8873511aaa470d85d194a00d6fcf27728533af8e3e33dfa914",
+      "source": "Actual Chromium WebGL2 render of rebuilt, privacy-cleaned final upload"
+    },
+    {
+      "file": "08-dual-signals.png",
+      "title": "双通道与连续交互",
+      "scene": "S19",
+      "phase": 0.83,
+      "field": null,
+      "ambientSeconds": 0,
+      "width": 1920,
+      "height": 1080,
+      "sha256": "a915a8f1ce0bf2a4aae85001b7b4fdeab1fd5baba0cce2e900a6ed09f7e2a0b2",
+      "source": "Actual Chromium WebGL2 render of rebuilt, privacy-cleaned final upload"
+    },
+    {
+      "file": "09-addressable-array.png",
+      "title": "可寻址共享边界阵列",
+      "scene": "S20",
+      "phase": 1,
+      "field": null,
+      "ambientSeconds": 0,
+      "width": 1920,
+      "height": 1080,
+      "sha256": "e66c9a73813b69e987f1185cd05f4ee8955c76f2f86814ee45e51d55bf097c24",
+      "source": "Actual Chromium WebGL2 render of rebuilt, privacy-cleaned final upload"
+    },
+    {
+      "file": "10-egg-grasp.png",
+      "title": "夹鸡蛋应用概念",
+      "scene": "S22",
+      "phase": 1,
+      "field": null,
+      "ambientSeconds": 0,
+      "width": 1920,
+      "height": 1080,
+      "sha256": "1c91c31dcb17245b58ae343cdf191ac65eb377a02ef414a10d1cd5fc99557c13",
+      "source": "Actual Chromium WebGL2 render of rebuilt, privacy-cleaned final upload"
+    },
+    {
+      "file": "11-shared-pixel-hero.png",
+      "title": "共享中央电极 Hero",
+      "scene": "S13",
+      "phase": 1,
+      "field": null,
+      "ambientSeconds": null,
+      "width": 1920,
+      "height": 1080,
+      "sha256": "f83d6123150a089349631268ad7290d5cbc6eb31ae71f63e1f8bd3bfafa4ffd1",
+      "source": "Actual Chromium WebGL2 render of rebuilt, privacy-cleaned final upload"
+    },
+    {
+      "file": "hero-2560.png",
+      "title": "夹持应用 / 2560×1440",
+      "scene": "S22",
+      "phase": 1,
+      "field": null,
+      "ambientSeconds": null,
+      "width": 2560,
+      "height": 1440,
+      "sha256": "d576d52fb1d56f68acbd6699333a8249bb56d75decc671a2917df0dbeae1a65a",
+      "source": "Actual Chromium WebGL2 render of rebuilt, privacy-cleaned final upload"
+    }
+  ],
+  "overview": "overview.png"
+}

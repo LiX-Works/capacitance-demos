@@ -1,0 +1,11 @@
+node_modules/
+**/node_modules/
+__pycache__/
+*.pyc
+.venv/
+.env
+.env.*
+.DS_Store
+*.log
+# Build outputs remain in the supplied archive but need not be committed.
+site/

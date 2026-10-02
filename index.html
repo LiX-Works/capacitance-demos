@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="电容、触觉感知与电场模型的交互式科学演示合集。">
+  <title>Scientific Demos · 交互式科学演示</title>
+  <style>:root{color-scheme:light;--ink:#183747;--muted:#586e7b;--line:#d7e1e6;--accent:#2d617f;--bg:#f3f7f9}*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--ink);font-family:Arial,"Microsoft YaHei","PingFang SC",sans-serif;line-height:1.7}a{color:var(--accent);text-decoration:none}a:hover{text-decoration:underline}a:focus-visible{outline:3px solid #77a4c0;outline-offset:5px;border-radius:4px}header,main,footer{max-width:1180px;margin:auto;padding-left:32px;padding-right:32px}header{height:90px;display:flex;align-items:center;justify-content:space-between;border-bottom:1px solid var(--line)}.brand{font-size:20px;font-weight:700;color:var(--ink);letter-spacing:-.5px}header>span{font-size:13px;color:var(--muted)}.intro{padding:65px 0 36px}.eyebrow,.tag{font-size:12px;letter-spacing:1px;color:var(--accent)}h1{font-size:clamp(34px,5vw,54px);line-height:1.25;margin:13px 0 23px;letter-spacing:-1.5px}.lead{font-size:19px;margin:0;color:var(--muted)}.instruction{font-size:13px;color:var(--muted);margin:22px 0 0}.projects{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:26px}.card{background:#fff;border:1px solid var(--line);border-radius:14px;overflow:hidden}.preview{display:block;overflow:hidden;background:#eaf0f4;aspect-ratio:16/9}.preview img{display:block;width:100%;height:100%;object-fit:cover}.card-body{padding:22px 26px 26px}.tag{margin:0 0 10px}h2{font-size:25px;line-height:1.35;margin:0 0 13px;letter-spacing:-.6px}.card-body>p:not(.tag){font-size:15px;color:var(--muted);margin:0;min-height:77px}.links{display:flex;gap:22px;align-items:center;margin-top:24px;font-size:14px}.primary{display:inline-flex;gap:28px;align-items:center;background:var(--accent);color:#fff;border-radius:6px;padding:10px 17px}.primary:hover{background:#214c66;text-decoration:none}.scope{border-top:1px solid var(--line);margin-top:50px;padding-top:26px;max-width:850px}.scope h2{font-size:17px}.scope p{font-size:14px;color:var(--muted)}footer{margin-top:48px;min-height:87px;border-top:1px solid var(--line);display:flex;gap:16px;align-items:center;justify-content:space-between;font-size:12px;color:var(--muted)}footer div{display:flex;gap:20px}@media(max-width:700px){header,main,footer{padding-left:20px;padding-right:20px}header{height:74px}header>span{display:none}.intro{padding:42px 0 29px}.lead{font-size:17px}.projects{grid-template-columns:1fr;gap:22px}.card-body{padding:21px}.card-body>p:not(.tag){min-height:0}.scope{margin-top:34px}footer{flex-wrap:wrap;padding-top:15px;padding-bottom:15px}}
+</style>
+</head>
+<body>
+  <header><a class="brand" href="./index.html">Scientific Demos</a><span>电容 · 电场 · 触觉感知</span></header>
+  <main>
+    <section class="intro">
+      <p class="eyebrow">交互式科学演示</p>
+      <h1>让原理看得见</h1>
+      <p class="lead">从电极之间的场耦合，到接近、触碰与压力的感知。<br>两个独立演示，放在同一个入口。</p>
+      <p class="instruction">在电脑浏览器中打开，使用目录或方向键浏览，也可以进入探索模式。</p>
+    </section>
+    <section class="projects" aria-label="演示项目">
+      <article class="card">
+        <a class="preview" href="./projects/proxitouch/index.html" aria-label="打开 ProxiTouch 演示"><img src="./projects/proxitouch/previews/11-shared-pixel-hero.png" alt="ProxiTouch 共享电极与离子凝胶微穹顶结构" width="1920" height="1080"></a>
+        <div class="card-body"><p class="tag">23 个场景 · 概念设计</p><h2>ProxiTouch</h2><p>电容传感、离子界面与共享电极。沿着接近、触碰和施压的过程，理解连续感知的设计思路。</p><div class="links"><a class="primary" href="./projects/proxitouch/index.html">进入演示 <span aria-hidden="true">↗</span></a><a href="./projects/proxitouch/previews/index.html">场景预览</a></div></div>
+      </article>
+      <article class="card">
+        <a class="preview" href="./projects/mutual-capacitance/index.html" aria-label="打开互电容建模实验室"><img src="./projects/mutual-capacitance/previews/10-rotated-field.png" alt="有限电极转动时的电势分布与定量电容曲线" width="1920" height="1080"></a>
+        <div class="card-body"><p class="tag">12 个场景 · 定量建模</p><h2>互电容建模实验室</h2><p>从平行板展开到共面电极，比较解析近似、预计算电场与电容结果，观察有限介质怎样改变场分布。</p><div class="links"><a class="primary" href="./projects/mutual-capacitance/index.html">进入演示 <span aria-hidden="true">↗</span></a><a href="./projects/mutual-capacitance/previews/index.html">场景预览</a></div></div>
+      </article>
+    </section>
+    <aside class="scope"><h2>关于这些演示</h2><p>ProxiTouch 展示概念设计，尚未制造或实测。互电容展示具有明确参数与适用范围的数值计算；浏览器读取预计算数据，在计算节点之间插值。两者都保留模型边界，不将动画或计算结果当作实验性能。</p><p>三维演示需要支持 WebGL2 的浏览器。完整源码、数据与复现说明随仓库提供，两个演示也可以离线打开。</p></aside>
+  </main>
+  <footer><span>Scientific Demos</span><div><a href="./LICENSE">MIT 许可</a><a href="./THIRD_PARTY_NOTICES.md">第三方许可</a></div></footer>
+</body>
+</html>

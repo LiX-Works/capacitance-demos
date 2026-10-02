@@ -1,0 +1,185 @@
+{
+  "basis": "Original full project archive -> current uploaded final HTML",
+  "files": [
+    {
+      "path": "source/src/app/ambient.ts",
+      "status": "unchanged",
+      "sourceSha256": "6f248fa7f56a88ba778dec73fc0fd52dccf26393e28a2f84254f0446cba9d485",
+      "oldSha256": "6f248fa7f56a88ba778dec73fc0fd52dccf26393e28a2f84254f0446cba9d485"
+    },
+    {
+      "path": "source/src/app/state.ts",
+      "status": "unchanged",
+      "sourceSha256": "f8edb8141d93c63cd651edd59240459856ac43768e5e4d9251389c9f0c5fc8c2",
+      "oldSha256": "f8edb8141d93c63cd651edd59240459856ac43768e5e4d9251389c9f0c5fc8c2"
+    },
+    {
+      "path": "source/src/engine/camera.ts",
+      "status": "unchanged",
+      "sourceSha256": "133f88b720ea922a42ffcbd3d42a90c26f0c7bfd1252e62fc7604a90c46de650",
+      "oldSha256": "133f88b720ea922a42ffcbd3d42a90c26f0c7bfd1252e62fc7604a90c46de650"
+    },
+    {
+      "path": "source/src/engine/geometry.ts",
+      "status": "unchanged",
+      "sourceSha256": "4163358db30b13af83cbba99c108f812e6c15e8c6893db9d0206e099e7619749",
+      "oldSha256": "4163358db30b13af83cbba99c108f812e6c15e8c6893db9d0206e099e7619749"
+    },
+    {
+      "path": "source/src/engine/math.ts",
+      "status": "unchanged",
+      "sourceSha256": "486cfdbeaee8d16ec54cac281b3c33513d3f0175bd5b9f076f584e548925b6e3",
+      "oldSha256": "486cfdbeaee8d16ec54cac281b3c33513d3f0175bd5b9f076f584e548925b6e3"
+    },
+    {
+      "path": "source/src/engine/renderer.ts",
+      "status": "unchanged",
+      "sourceSha256": "e3ce8f1e7f9e86fa792ad88d1e7e7f1ee5de4758726eacda1b878c934c9e1093",
+      "oldSha256": "e3ce8f1e7f9e86fa792ad88d1e7e7f1ee5de4758726eacda1b878c934c9e1093"
+    },
+    {
+      "path": "source/src/engine/scene.ts",
+      "status": "unchanged",
+      "sourceSha256": "01840447a414641bca6186d691c9c42fac53771ba1cde432ec485966d2a6b3d0",
+      "oldSha256": "01840447a414641bca6186d691c9c42fac53771ba1cde432ec485966d2a6b3d0"
+    },
+    {
+      "path": "source/src/main.ts",
+      "status": "updated",
+      "sourceSha256": "730941bffa5b5713f1a195f13b1c307bbee6d95e61baa214b13de1ba087e5c92",
+      "oldSha256": "7c70b2791461131b03ed24b923c06494d102c63e4285ab466eb99b898f431a59"
+    },
+    {
+      "path": "source/src/models/ApplicationHero.ts",
+      "status": "unchanged",
+      "sourceSha256": "c8287a0deff184fb6c23d3b3a1a1919e9337f615438da9de96a9960b50612ce5",
+      "oldSha256": "c8287a0deff184fb6c23d3b3a1a1919e9337f615438da9de96a9960b50612ce5"
+    },
+    {
+      "path": "source/src/models/Capacitor.ts",
+      "status": "unchanged",
+      "sourceSha256": "c12fb2bb0252d2c67d389f04f212b93213b86885102578d1e6fe98f0bb92b8d4",
+      "oldSha256": "c12fb2bb0252d2c67d389f04f212b93213b86885102578d1e6fe98f0bb92b8d4"
+    },
+    {
+      "path": "source/src/models/CompositeCapacitor.ts",
+      "status": "unchanged",
+      "sourceSha256": "a913dd62c8f147d3ccddeebe521302ebdcb63094efa314e07ab08fbfc4303067",
+      "oldSha256": "a913dd62c8f147d3ccddeebe521302ebdcb63094efa314e07ab08fbfc4303067"
+    },
+    {
+      "path": "source/src/models/Device.ts",
+      "status": "unchanged",
+      "sourceSha256": "e20c6fc6e43a06e501f54992dd664775f0ebe248e8743e4f30183ba513950251",
+      "oldSha256": "e20c6fc6e43a06e501f54992dd664775f0ebe248e8743e4f30183ba513950251"
+    },
+    {
+      "path": "source/src/models/Dome.ts",
+      "status": "unchanged",
+      "sourceSha256": "e5fd96da5b5a574833350aadfa773f02d525534c864bcb5d28ed2696c80c06b5",
+      "oldSha256": "e5fd96da5b5a574833350aadfa773f02d525534c864bcb5d28ed2696c80c06b5"
+    },
+    {
+      "path": "source/src/models/FringeField.ts",
+      "status": "unchanged",
+      "sourceSha256": "29fc9d1f6d877b7ff7286073d945e37ab7c515fc8bbd3f3f22806df2593660d6",
+      "oldSha256": "29fc9d1f6d877b7ff7286073d945e37ab7c515fc8bbd3f3f22806df2593660d6"
+    },
+    {
+      "path": "source/src/models/IonicVolume.ts",
+      "status": "unchanged",
+      "sourceSha256": "cb54da8191c85f9c01cbe15aa18b5ed5a1a8987905430134b9acd4a4e56b4c7f",
+      "oldSha256": "cb54da8191c85f9c01cbe15aa18b5ed5a1a8987905430134b9acd4a4e56b4c7f"
+    },
+    {
+      "path": "source/src/models/LegacyDevice.ts",
+      "status": "unchanged",
+      "sourceSha256": "10979315498e646c3a54dfe9e6ac09de623c70ca50ba350fcd1c83136900ddf4",
+      "oldSha256": "10979315498e646c3a54dfe9e6ac09de623c70ca50ba350fcd1c83136900ddf4"
+    },
+    {
+      "path": "source/src/models/SharedArray.ts",
+      "status": "unchanged",
+      "sourceSha256": "f122f2710373195c6c8f8a79b030e7f3664d875c5465c1344bbf7dc287f00e95",
+      "oldSha256": "f122f2710373195c6c8f8a79b030e7f3664d875c5465c1344bbf7dc287f00e95"
+    },
+    {
+      "path": "source/src/physics/fieldData.ts",
+      "status": "unchanged",
+      "sourceSha256": "5957eb60e1fd62ed1cfd8fe798ff208db14827d72741021a68348bc4828afada",
+      "oldSha256": "5957eb60e1fd62ed1cfd8fe798ff208db14827d72741021a68348bc4828afada"
+    },
+    {
+      "path": "source/src/physics/haloField.ts",
+      "status": "unchanged",
+      "sourceSha256": "95487edd1822d0268e73102eecf396ba99e083b46d8960fb8e2224a0d0a38f0a",
+      "oldSha256": "95487edd1822d0268e73102eecf396ba99e083b46d8960fb8e2224a0d0a38f0a"
+    },
+    {
+      "path": "source/src/physics/haloFieldData.ts",
+      "status": "unchanged",
+      "sourceSha256": "6292b17e80ace6ab3d47c9f5dbd4ddc40833e16167a3e677c77638e01a585cb2",
+      "oldSha256": "6292b17e80ace6ab3d47c9f5dbd4ddc40833e16167a3e677c77638e01a585cb2"
+    },
+    {
+      "path": "source/src/physics/interaction.ts",
+      "status": "unchanged",
+      "sourceSha256": "38e010d70c17ef1d44c90d1c00018db1250be1bdd76a53005aa995545d94d18d",
+      "oldSha256": "38e010d70c17ef1d44c90d1c00018db1250be1bdd76a53005aa995545d94d18d"
+    },
+    {
+      "path": "source/src/physics/revisionFieldData.ts",
+      "status": "unchanged",
+      "sourceSha256": "40d4ba693253b0d936797bb8bc7411abbbc211741afeb4d2a02f6d53847daf64",
+      "oldSha256": "40d4ba693253b0d936797bb8bc7411abbbc211741afeb4d2a02f6d53847daf64"
+    },
+    {
+      "path": "source/src/scenes/copy.ts",
+      "status": "updated",
+      "sourceSha256": "b9eca337c1413d9365de9000526071a14c9f27c0f95703f0c181e53fadb7d387",
+      "oldSha256": "e7d1b546ea355c89cf77c0d86b3464f65aafd788c72b9005896e6e13dbd1c62a"
+    },
+    {
+      "path": "source/src/scenes/definitions.ts",
+      "status": "unchanged",
+      "sourceSha256": "589fd66d6229a01bbe9484622026595848a56b1f52f3355014d1e7d875364814",
+      "oldSha256": "589fd66d6229a01bbe9484622026595848a56b1f52f3355014d1e7d875364814"
+    },
+    {
+      "path": "source/src/ui/HUD.ts",
+      "status": "unchanged",
+      "sourceSha256": "5b1e37eb74f304afdc2985aa184caee6fd6495ff7d4dd0b22ec71e7df744ac87",
+      "oldSha256": "5b1e37eb74f304afdc2985aa184caee6fd6495ff7d4dd0b22ec71e7df744ac87"
+    },
+    {
+      "path": "source/src/ui/Labels.ts",
+      "status": "unchanged",
+      "sourceSha256": "ca21c6493cf7d20c9cc510f2902728fd385c67bae81c9c7a07a97fd02f1575a5",
+      "oldSha256": "ca21c6493cf7d20c9cc510f2902728fd385c67bae81c9c7a07a97fd02f1575a5"
+    },
+    {
+      "path": "source/src/ui/Plots.ts",
+      "status": "unchanged",
+      "sourceSha256": "5d877658650f7b74fe32fdc7572ae0783599032ef4bb039f0f38f339e89aa4f0",
+      "oldSha256": "5d877658650f7b74fe32fdc7572ae0783599032ef4bb039f0f38f339e89aa4f0"
+    },
+    {
+      "path": "source/src/worlds/WorldManager.ts",
+      "status": "updated",
+      "sourceSha256": "ca0dd4b76ac0f464e01271a487b6f9705e47e108484fcfda2db443bfe215618b",
+      "oldSha256": "39fda85ef7d10b7ed61ded23a00fc79b4991abd925a7bd5835ae629fdf21ac4d"
+    },
+    {
+      "path": "source/public/style.css",
+      "status": "unchanged",
+      "sourceSha256": "3409b4110a314d3a3aa6b4980dbc831244c305bbf1d3daf8d0836a481019de49",
+      "oldSha256": "3409b4110a314d3a3aa6b4980dbc831244c305bbf1d3daf8d0836a481019de49"
+    },
+    {
+      "path": "source/public/vendor/katex.js",
+      "status": "unchanged",
+      "sourceSha256": "35826b0d4b7ae160c1b76c6ba508ec698f255e314ea0e35e711c0cd291522c0d",
+      "oldSha256": "35826b0d4b7ae160c1b76c6ba508ec698f255e314ea0e35e711c0cd291522c0d"
+    }
+  ]
+}

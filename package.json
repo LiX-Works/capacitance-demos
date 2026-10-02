@@ -1,0 +1,20 @@
+{
+  "name": "scientific-demos",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "license": "MIT",
+  "engines": { "node": ">=22" },
+  "scripts": {
+    "build": "node scripts/collection.mjs build",
+    "build:offline": "node scripts/collection.mjs build",
+    "check": "node scripts/collection.mjs check",
+    "test": "node scripts/collection.mjs test",
+    "preview": "node scripts/serve.mjs",
+    "qa": "python scripts/browser_qa.py",
+    "previews": "python scripts/capture_previews.py",
+    "test:science": "python scripts/scientific_smoke.py",
+    "test:safety": "python projects/mutual-capacitance/physics/tests/test_safety.py",
+    "verify": "node scripts/collection.mjs verify"
+  }
+}

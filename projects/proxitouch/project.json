@@ -1,0 +1,8 @@
+{
+  "id": "proxi",
+  "title": "ProxiTouch",
+  "bundleName": "ProxiTouch",
+  "offlineFile": "ProxiTouch-offline.html",
+  "baseline": "reference/final-upload.html",
+  "sceneCount": 23
+}

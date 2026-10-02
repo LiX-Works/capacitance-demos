@@ -1,0 +1,2091 @@
+{
+  "scope": "Limited offline scientific smoke audit. Exactly eight n128 BEM solves. No field tracing, full regeneration, browser UI, or experimental validation. These samples do not establish whole-model correctness, continuum convergence, or 3D dielectric accuracy.",
+  "environment": {
+    "python": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+    "executable": "C:\\Users\\Administrator\\Documents\\Codex\\2026-10-02\\github\\work\\qa-venv\\Scripts\\python.exe",
+    "platform": "Windows-11-10.0.26200-SP0",
+    "libraries": {
+      "numpy": "2.3.5",
+      "scipy": "1.17.0",
+      "shapely": "2.1.2",
+      "numba": "0.65.1"
+    },
+    "node": "v24.18.0"
+  },
+  "checks": [
+    {
+      "name": "mutual parameter SHA and embedded parameters agree",
+      "passed": true,
+      "details": {
+        "sha256": "0b23ce74c9b690fd5c79d335ed52ef88341d4925891863338356a1401cbbac52"
+      }
+    },
+    {
+      "name": "mutual generated TypeScript and results JSON are semantically identical",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "eight n128 BEM checkpoint capacitances agree with frozen data",
+      "passed": true,
+      "details": {
+        "relativeTolerance": 1e-09,
+        "rows": [
+          {
+            "theta_deg": 0,
+            "er": 1,
+            "longPanels": 128,
+            "frozen_C_F": 2.3370050089809263e-11,
+            "fresh_C_F": 2.337005008980927e-11,
+            "relativeDifference": 2.220446049250313e-16,
+            "linearResidual": 5.974387651264124e-15
+          },
+          {
+            "theta_deg": 0,
+            "er": 4,
+            "longPanels": 128,
+            "frozen_C_F": 2.980712004461057e-11,
+            "fresh_C_F": 2.9807120044610726e-11,
+            "relativeDifference": 5.10702591327572e-15,
+            "linearResidual": 3.810285420513537e-13
+          },
+          {
+            "theta_deg": 30,
+            "er": 1,
+            "longPanels": 128,
+            "frozen_C_F": 5.904304609790791e-12,
+            "fresh_C_F": 5.90430460979079e-12,
+            "relativeDifference": -2.220446049250313e-16,
+            "linearResidual": 8.881784197001252e-16
+          },
+          {
+            "theta_deg": 30,
+            "er": 4,
+            "longPanels": 128,
+            "frozen_C_F": 6.062517678141951e-12,
+            "fresh_C_F": 6.06251767814195e-12,
+            "relativeDifference": -1.1102230246251565e-16,
+            "linearResidual": 1.5987211554602254e-14
+          },
+          {
+            "theta_deg": 90,
+            "er": 1,
+            "longPanels": 128,
+            "frozen_C_F": 3.4653223230567162e-12,
+            "fresh_C_F": 3.4653223230567146e-12,
+            "relativeDifference": -4.440892098500626e-16,
+            "linearResidual": 1.6445178552260131e-15
+          },
+          {
+            "theta_deg": 90,
+            "er": 4,
+            "longPanels": 128,
+            "frozen_C_F": 3.4911846017610533e-12,
+            "fresh_C_F": 3.4911846017610533e-12,
+            "relativeDifference": 0.0,
+            "linearResidual": 1.021405182655144e-14
+          },
+          {
+            "theta_deg": 180,
+            "er": 1,
+            "longPanels": 128,
+            "frozen_C_F": 3.073526598940023e-12,
+            "fresh_C_F": 3.073526598940022e-12,
+            "relativeDifference": -4.440892098500626e-16,
+            "linearResidual": 1.1518563880486e-15
+          },
+          {
+            "theta_deg": 180,
+            "er": 4,
+            "longPanels": 128,
+            "frozen_C_F": 3.08259015691182e-12,
+            "fresh_C_F": 3.08259015691182e-12,
+            "relativeDifference": 0.0,
+            "linearResidual": 3.552713678800501e-15
+          }
+        ]
+      }
+    },
+    {
+      "name": "mutual C equals Cprime times width across stored curve and er nodes",
+      "passed": true,
+      "details": {
+        "nodes": 95,
+        "maxRelativeDifference": 0.0,
+        "C_units": "F",
+        "Cprime_units": "F/m",
+        "width_units": "m"
+      }
+    },
+    {
+      "name": "er scan has seven expected independently stored nodes at zero degrees",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "all U16LE field maps have expected lengths and conductor masks",
+      "passed": true,
+      "details": {
+        "maps": 183,
+        "rows": [
+          {
+            "family": "global",
+            "er": "1",
+            "theta_deg": 0,
+            "samples": 11817,
+            "lengthPassed": true,
+            "potentialAndStrengthMasksAgree": true,
+            "maskMatchesConductorPolygons": true,
+            "missingSamples": 41
+          },
+          {
+            "family": "global",
+            "er": "1",
+            "theta_deg": 0.25,
+            "samples": 11817,
+            "lengthPassed": true,
+            "potentialAndStrengthMasksAgree": true,
+            "maskMatchesConductorPolygons": true,
+            "missingSamples": 41
+          },
+          {
+            "family": "global",
+            "er": "1",
+            "theta_deg": 0.5,
+            "samples": 11817,
+            "lengthPassed": true,
+            "potentialAndStrengthMasksAgree": true,
+            "maskMatchesConductorPolygons": true,
+            "missingSamples": 60
+          },
+          {
+            "family": "global",
+            "er": "1",
+            "theta_deg": 1,
+            "samples": 11817,
+            "lengthPassed": true,
+            "potentialAndStrengthMasksAgree": true,
+            "maskMatchesConductorPolygons": true,
+            "missingSamples": 52
+          },
+          {
+            "family": "global",
+            "er": "1",
+            "theta_deg": 2,
+            "samples": 11817,
+            "lengthPassed": true,
+            "potentialAndStrengthMasksAgree": true,
+            "maskMatchesConductorPolygons": true,
+            "missingSamples": 53
+          },
+          {
+            "family": "global",
+            "er": "1",
+            "theta_deg": 3,
+            "samples": 11817,
+            "lengthPassed": true,
+            "potentialAndStrengthMasksAgree": true,
+            "maskMatchesConductorPolygons": true,
+            "missingSamples": 52
+          },
+          {
+            "family": "global",
+            "er": "1",
+            "theta_deg": 4,
+            "samples": 11817,
+            "lengthPassed": true,
+            "potentialAndStrengthMasksAgree": true,
+            "maskMatchesConductorPolygons": true,
+            "missingSamples": 53
+          },
+          {
+            "family": "global",
+            "er": "1",
+            "theta_deg": 5,
+            "samples": 11817,
+            "lengthPassed": true,
+            "potentialAndStrengthMasksAgree": true,
+            "maskMatchesConductorPolygons": true,
+            "missingSamples": 52
+          },
+          {
+            "family": "global",
+            "er": "1",
+            "theta_deg": 7.5,
+            "samples": 11817,
+            "lengthPassed": true,
+            "potentialAndStrengthMasksAgree": true,
+            "maskMatchesConductorPolygons": true,
+            "missingSamples": 54
+          },
+          {
+            "family": "global",
+            "er": "1",
+            "theta_deg": 10,
+            "samples": 11817,
+            "lengthPassed": true,
+            "potentialAndStrengthMasksAgree": true,
+            "maskMatchesConductorPolygons": true,
+            "missingSamples": 50
+          },
+          {
+            "family": "global",
+            "er": "1",
+            "theta_deg": 15,
+            "samples": 11817,
+            "lengthPassed": true,
+            "potentialAndStrengthMasksAgree": true,
+            "maskMatchesConductorPolygons": true,
+            "missingSamples": 54
+          },
+          {
+            "family": "global",
+            "er": "1",
+            "theta_deg": 20,
+            "samples": 11817,
+            "lengthPassed": true,
+            "potentialAndStrengthMasksAgree": true,
+            "maskMatchesConductorPolygons": true,
+            "missingSamples": 52
+          },
+          {
+            "family": "global",
+            "er": "1",
+            "theta_deg": 25,
+            "samples": 11817,
+            "lengthPassed": true,
+            "potentialAndStrengthMasksAgree": true,
+            "maskMatchesConductorPolygons": true,
+            "missingSamples": 50
+          },
+          {
+            "family": "global",
+            "er": "1",
+            "theta_deg": 30,
+            "samples": 11817,
+            "lengthPassed": true,
+            "potentialAndStrengthMasksAgree": true,
+            "maskMatchesConductorPolygons": true,
+            "missingSamples": 51
+          },
+          {
+            "family": "global",
+            "er": "1",
+            "theta_deg": 35,
+            "samples": 11817,
+            "lengthPassed": true,
+            "potentialAndStrengthMasksAgree": true,
+            "maskMatchesConductorPolygons": true,
+            "missingSamples": 49
+          },
+          {
+            "family": "global",
+            "er": "1",
+            "theta_deg": 40,
+            "samples": 11817,
+            "lengthPassed": true,
+            "potentialAndStrengthMasksAgree": true,
+            "maskMatchesConductorPolygons": true,
+            "missingSamples": 49
+          },
+          {
+            "family": "global",
+            "er": "1",
+            "theta_deg": 45,
+            "samples": 11817,
+            "lengthPassed": true,
+            "potentialAndStrengthMasksAgree": true,
+            "maskMatchesConductorPolygons": true,
+            "missingSamples": 48
+          },
+          {
+            "family": "global",
+            "er": "1",
+            "theta_deg": 50,
+            "samples": 11817,
+            "lengthPassed": true,
+            "potentialAndStrengthMasksAgree": true,
+            "maskMatchesConductorPolygons": true,
+            "missingSamples": 49
+          },
+          {
+            "family": "global",
+            "er": "1",
+            "theta_deg": 55,
+            "samples": 11817,
+            "lengthPassed": true,
+            "potentialAndStrengthMasksAgree": true,
+            "maskMatchesConductorPolygons": true,
+            "missingSamples": 52
+          },
+          {
+            "family": "global",
+            "er": "1",
+            "theta_deg": 60,
+            "samples": 11817,
+            "lengthPassed": true,
+            "potentialAndStrengthMasksAgree": true,
+            "maskMatchesConductorPolygons": true,
+            "missingSamples": 51
+          },
+          {
+            "family": "global",
+            "er": "1",
+            "theta_deg": 65,
+            "samples": 11817,
+            "lengthPassed": true,
+            "potentialAndStrengthMasksAgree": true,
+            "maskMatchesConductorPolygons": true,
+            "missingSamples": 50
+          },
+          {
+            "family": "global",
+            "er": "1",
+            "theta_deg": 70,
+            "samples": 11817,
+            "lengthPassed": true,
+            "potentialAndStrengthMasksAgree": true,
+            "maskMatchesConductorPolygons": true,
+            "missingSamples": 51
+          },
+          {
+            "family": "global",
+            "er": "1",
+            "theta_deg": 75,
+            "samples": 11817,
+            "lengthPassed": true,
+            "potentialAndStrengthMasksAgree": true,
+            "maskMatchesConductorPolygons": true,
+            "missingSamples": 51
+          },
+          {
+            "family": "global",
+            "er": "1",
+            "theta_deg": 80,
+            "samples": 11817,
+            "lengthPassed": true,
+            "potentialAndStrengthMasksAgree": true,
+            "maskMatchesConductorPolygons": true,
+            "missingSamples": 53
+          },
+          {
+            "family": "global",
+            "er": "1",
+            "theta_deg": 85,
+            "samples": 11817,
+            "lengthPassed": true,
+            "potentialAndStrengthMasksAgree": true,
+            "maskMatchesConductorPolygons": true,
+            "missingSamples": 51
+          },
+          {
+            "family": "global",
+            "er": "1",
+            "theta_deg": 90,
+            "samples": 11817,
+            "lengthPassed": true,
+            "potentialAndStrengthMasksAgree": true,
+            "maskMatchesConductorPolygons": true,
+            "missingSamples": 91
+          },
+          {
+            "family": "global",
+            "er": "1",
+            "theta_deg": 95,
+            "samples": 11817,
+            "lengthPassed": true,
+            "potentialAndStrengthMasksAgree": true,
+            "maskMatchesConductorPolygons": true,
+            "missingSamples": 50
+          },
+          {
+            "family": "global",
+            "er": "1",
+            "theta_deg": 100,
+            "samples": 11817,
+            "lengthPassed": true,
+            "potentialAndStrengthMasksAgree": true,
+            "maskMatchesConductorPolygons": true,
+            "missingSamples": 51
+          },
+          {
+            "family": "global",
+            "er": "1",
+            "theta_deg": 105,
+            "samples": 11817,
+            "lengthPassed": true,
+            "potentialAndStrengthMasksAgree": true,
+            "maskMatchesConductorPolygons": true,
+            "missingSamples": 51
+          },
+          {
+            "family": "global",
+            "er": "1",
+            "theta_deg": 110,
+            "samples": 11817,
+            "lengthPassed": true,
+            "potentialAndStrengthMasksAgree": true,
+            "maskMatchesConductorPolygons": true,
+            "missingSamples": 51
+          },
+          {
+            "family": "global",
+            "er": "1",
+            "theta_deg": 115,
+            "samples": 11817,
+            "lengthPassed": true,
+            "potentialAndStrengthMasksAgree": true,
+            "maskMatchesConductorPolygons": true,
+            "missingSamples": 52
+          },
+          {
+            "family": "global",
+            "er": "1",
+            "theta_deg": 120,
+            "samples": 11817,
+            "lengthPassed": true,
+            "potentialAndStrengthMasksAgree": true,
+            "maskMatchesConductorPolygons": true,
+            "missingSamples": 52
+          },
+          {
+            "family": "global",
+            "er": "1",
+            "theta_deg": 125,
+            "samples": 11817,
+            "lengthPassed": true,
+            "potentialAndStrengthMasksAgree": true,
+            "maskMatchesConductorPolygons": true,
+            "missingSamples": 51
+          },
+          {
+            "family": "global",
+            "er": "1",
+            "theta_deg": 130,
+            "samples": 11817,
+            "lengthPassed": true,
+            "potentialAndStrengthMasksAgree": true,
+            "maskMatchesConductorPolygons": true,
+            "missingSamples": 53
+          },
+          {
+            "family": "global",
+            "er": "1",
+            "theta_deg": 135,
+            "samples": 11817,
+            "lengthPassed": true,
+            "potentialAndStrengthMasksAgree": true,
+            "maskMatchesConductorPolygons": true,
+            "missingSamples": 48
+          },
+          {
+            "family": "global",
+            "er": "1",
+            "theta_deg": 140,
+            "samples": 11817,
+            "lengthPassed": true,
+            "potentialAndStrengthMasksAgree": true,
+            "maskMatchesConductorPolygons": true,
+            "missingSamples": 52
+          },
+          {
+            "family": "global",
+            "er": "1",
+            "theta_deg": 145,
+            "samples": 11817,
+            "lengthPassed": true,
+            "potentialAndStrengthMasksAgree": true,
+            "maskMatchesConductorPolygons": true,
+            "missingSamples": 49
+          },
+          {
+            "family": "global",
+            "er": "1",
+            "theta_deg": 150,
+            "samples": 11817,
+            "lengthPassed": true,
+            "potentialAndStrengthMasksAgree": true,
+            "maskMatchesConductorPolygons": true,
+            "missingSamples": 50
+          },
+          {
+            "family": "global",
+            "er": "1",
+            "theta_deg": 155,
+            "samples": 11817,
+            "lengthPassed": true,
+            "potentialAndStrengthMasksAgree": true,
+            "maskMatchesConductorPolygons": true,
+            "missingSamples": 51
+          },
+          {
+            "family": "global",
+            "er": "1",
+            "theta_deg": 160,
+            "samples": 11817,
+            "lengthPassed": true,
+            "potentialAndStrengthMasksAgree": true,
+            "maskMatchesConductorPolygons": true,
+            "missingSamples": 51
+          },
+          {
+            "family": "global",
+            "er": "1",
+            "theta_deg": 165,
+            "samples": 11817,
+            "lengthPassed": true,
+            "potentialAndStrengthMasksAgree": true,
+            "maskMatchesConductorPolygons": true,
+            "missingSamples": 45
+          },
+          {
+            "family": "global",
+            "er": "1",
+            "theta_deg": 170,
+            "samples": 11817,
+            "lengthPassed": true,
+            "potentialAndStrengthMasksAgree": true,
+            "maskMatchesConductorPolygons": true,
+            "missingSamples": 50
+          },
+          {
+            "family": "global",
+            "er": "1",
+            "theta_deg": 175,
+            "samples": 11817,
+            "lengthPassed": true,
+            "potentialAndStrengthMasksAgree": true,
+            "maskMatchesConductorPolygons": true,
+            "missingSamples": 49
+          },
+          {
+            "family": "global",
+            "er": "1",
+            "theta_deg": 180,
+            "samples": 11817,
+            "lengthPassed": true,
+            "potentialAndStrengthMasksAgree": true,
+            "maskMatchesConductorPolygons": true,
+            "missingSamples": 82
+          },
+          {
+            "family": "global",
+            "er": "4",
+            "theta_deg": 0,
+            "samples": 11817,
+            "lengthPassed": true,
+            "potentialAndStrengthMasksAgree": true,
+            "maskMatchesConductorPolygons": true,
+            "missingSamples": 41
+          },
+          {
+            "family": "global",
+            "er": "4",
+            "theta_deg": 0.25,
+            "samples": 11817,
+            "lengthPassed": true,
+            "potentialAndStrengthMasksAgree": true,
+            "maskMatchesConductorPolygons": true,
+            "missingSamples": 41
+          },
+          {
+            "family": "global",
+            "er": "4",
+            "theta_deg": 0.5,
+            "samples": 11817,
+            "lengthPassed": true,
+            "potentialAndStrengthMasksAgree": true,
+            "maskMatchesConductorPolygons": true,
+            "missingSamples": 60
+          },
+          {
+            "family": "global",
+            "er": "4",
+            "theta_deg": 1,
+            "samples": 11817,
+            "lengthPassed": true,
+            "potentialAndStrengthMasksAgree": true,
+            "maskMatchesConductorPolygons": true,
+            "missingSamples": 52
+          },
+          {
+            "family": "global",
+            "er": "4",
+            "theta_deg": 2,
+            "samples": 11817,
+            "lengthPassed": true,
+            "potentialAndStrengthMasksAgree": true,
+            "maskMatchesConductorPolygons": true,
+            "missingSamples": 53
+          },
+          {
+            "family": "global",
+            "er": "4",
+            "theta_deg": 3,
+            "samples": 11817,
+            "lengthPassed": true,
+            "potentialAndStrengthMasksAgree": true,
+            "maskMatchesConductorPolygons": true,
+            "missingSamples": 52
+          },
+          {
+            "family": "global",
+            "er": "4",
+            "theta_deg": 4,
+            "samples": 11817,
+            "lengthPassed": true,
+            "potentialAndStrengthMasksAgree": true,
+            "maskMatchesConductorPolygons": true,
+            "missingSamples": 53
+          },
+          {
+            "family": "global",
+            "er": "4",
+            "theta_deg": 5,
+            "samples": 11817,
+            "lengthPassed": true,
+            "potentialAndStrengthMasksAgree": true,
+            "maskMatchesConductorPolygons": true,
+            "missingSamples": 52
+          },
+          {
+            "family": "global",
+            "er": "4",
+            "theta_deg": 7.5,
+            "samples": 11817,
+            "lengthPassed": true,
+            "potentialAndStrengthMasksAgree": true,
+            "maskMatchesConductorPolygons": true,
+            "missingSamples": 54
+          },
+          {
+            "family": "global",
+            "er": "4",
+            "theta_deg": 10,
+            "samples": 11817,
+            "lengthPassed": true,
+            "potentialAndStrengthMasksAgree": true,
+            "maskMatchesConductorPolygons": true,
+            "missingSamples": 50
+          },
+          {
+            "family": "global",
+            "er": "4",
+            "theta_deg": 15,
+            "samples": 11817,
+            "lengthPassed": true,
+            "potentialAndStrengthMasksAgree": true,
+            "maskMatchesConductorPolygons": true,
+            "missingSamples": 54
+          },
+          {
+            "family": "global",
+            "er": "4",
+            "theta_deg": 20,
+            "samples": 11817,
+            "lengthPassed": true,
+            "potentialAndStrengthMasksAgree": true,
+            "maskMatchesConductorPolygons": true,
+            "missingSamples": 52
+          },
+          {
+            "family": "global",
+            "er": "4",
+            "theta_deg": 25,
+            "samples": 11817,
+            "lengthPassed": true,
+            "potentialAndStrengthMasksAgree": true,
+            "maskMatchesConductorPolygons": true,
+            "missingSamples": 50
+          },
+          {
+            "family": "global",
+            "er": "4",
+            "theta_deg": 30,
+            "samples": 11817,
+            "lengthPassed": true,
+            "potentialAndStrengthMasksAgree": true,
+            "maskMatchesConductorPolygons": true,
+            "missingSamples": 51
+          },
+          {
+            "family": "global",
+            "er": "4",
+            "theta_deg": 35,
+            "samples": 11817,
+            "lengthPassed": true,
+            "potentialAndStrengthMasksAgree": true,
+            "maskMatchesConductorPolygons": true,
+            "missingSamples": 49
+          },
+          {
+            "family": "global",
+            "er": "4",
+            "theta_deg": 40,
+            "samples": 11817,
+            "lengthPassed": true,
+            "potentialAndStrengthMasksAgree": true,
+            "maskMatchesConductorPolygons": true,
+            "missingSamples": 49
+          },
+          {
+            "family": "global",
+            "er": "4",
+            "theta_deg": 45,
+            "samples": 11817,
+            "lengthPassed": true,
+            "potentialAndStrengthMasksAgree": true,
+            "maskMatchesConductorPolygons": true,
+            "missingSamples": 48
+          },
+          {
+            "family": "global",
+            "er": "4",
+            "theta_deg": 50,
+            "samples": 11817,
+            "lengthPassed": true,
+            "potentialAndStrengthMasksAgree": true,
+            "maskMatchesConductorPolygons": true,
+            "missingSamples": 49
+          },
+          {
+            "family": "global",
+            "er": "4",
+            "theta_deg": 55,
+            "samples": 11817,
+            "lengthPassed": true,
+            "potentialAndStrengthMasksAgree": true,
+            "maskMatchesConductorPolygons": true,
+            "missingSamples": 52
+          },
+          {
+            "family": "global",
+            "er": "4",
+            "theta_deg": 60,
+            "samples": 11817,
+            "lengthPassed": true,
+            "potentialAndStrengthMasksAgree": true,
+            "maskMatchesConductorPolygons": true,
+            "missingSamples": 51
+          },
+          {
+            "family": "global",
+            "er": "4",
+            "theta_deg": 65,
+            "samples": 11817,
+            "lengthPassed": true,
+            "potentialAndStrengthMasksAgree": true,
+            "maskMatchesConductorPolygons": true,
+            "missingSamples": 50
+          },
+          {
+            "family": "global",
+            "er": "4",
+            "theta_deg": 70,
+            "samples": 11817,
+            "lengthPassed": true,
+            "potentialAndStrengthMasksAgree": true,
+            "maskMatchesConductorPolygons": true,
+            "missingSamples": 51
+          },
+          {
+            "family": "global",
+            "er": "4",
+            "theta_deg": 75,
+            "samples": 11817,
+            "lengthPassed": true,
+            "potentialAndStrengthMasksAgree": true,
+            "maskMatchesConductorPolygons": true,
+            "missingSamples": 51
+          },
+          {
+            "family": "global",
+            "er": "4",
+            "theta_deg": 80,
+            "samples": 11817,
+            "lengthPassed": true,
+            "potentialAndStrengthMasksAgree": true,
+            "maskMatchesConductorPolygons": true,
+            "missingSamples": 53
+          },
+          {
+            "family": "global",
+            "er": "4",
+            "theta_deg": 85,
+            "samples": 11817,
+            "lengthPassed": true,
+            "potentialAndStrengthMasksAgree": true,
+            "maskMatchesConductorPolygons": true,
+            "missingSamples": 51
+          },
+          {
+            "family": "global",
+            "er": "4",
+            "theta_deg": 90,
+            "samples": 11817,
+            "lengthPassed": true,
+            "potentialAndStrengthMasksAgree": true,
+            "maskMatchesConductorPolygons": true,
+            "missingSamples": 91
+          },
+          {
+            "family": "global",
+            "er": "4",
+            "theta_deg": 95,
+            "samples": 11817,
+            "lengthPassed": true,
+            "potentialAndStrengthMasksAgree": true,
+            "maskMatchesConductorPolygons": true,
+            "missingSamples": 50
+          },
+          {
+            "family": "global",
+            "er": "4",
+            "theta_deg": 100,
+            "samples": 11817,
+            "lengthPassed": true,
+            "potentialAndStrengthMasksAgree": true,
+            "maskMatchesConductorPolygons": true,
+            "missingSamples": 51
+          },
+          {
+            "family": "global",
+            "er": "4",
+            "theta_deg": 105,
+            "samples": 11817,
+            "lengthPassed": true,
+            "potentialAndStrengthMasksAgree": true,
+            "maskMatchesConductorPolygons": true,
+            "missingSamples": 51
+          },
+          {
+            "family": "global",
+            "er": "4",
+            "theta_deg": 110,
+            "samples": 11817,
+            "lengthPassed": true,
+            "potentialAndStrengthMasksAgree": true,
+            "maskMatchesConductorPolygons": true,
+            "missingSamples": 51
+          },
+          {
+            "family": "global",
+            "er": "4",
+            "theta_deg": 115,
+            "samples": 11817,
+            "lengthPassed": true,
+            "potentialAndStrengthMasksAgree": true,
+            "maskMatchesConductorPolygons": true,
+            "missingSamples": 52
+          },
+          {
+            "family": "global",
+            "er": "4",
+            "theta_deg": 120,
+            "samples": 11817,
+            "lengthPassed": true,
+            "potentialAndStrengthMasksAgree": true,
+            "maskMatchesConductorPolygons": true,
+            "missingSamples": 52
+          },
+          {
+            "family": "global",
+            "er": "4",
+            "theta_deg": 125,
+            "samples": 11817,
+            "lengthPassed": true,
+            "potentialAndStrengthMasksAgree": true,
+            "maskMatchesConductorPolygons": true,
+            "missingSamples": 51
+          },
+          {
+            "family": "global",
+            "er": "4",
+            "theta_deg": 130,
+            "samples": 11817,
+            "lengthPassed": true,
+            "potentialAndStrengthMasksAgree": true,
+            "maskMatchesConductorPolygons": true,
+            "missingSamples": 53
+          },
+          {
+            "family": "global",
+            "er": "4",
+            "theta_deg": 135,
+            "samples": 11817,
+            "lengthPassed": true,
+            "potentialAndStrengthMasksAgree": true,
+            "maskMatchesConductorPolygons": true,
+            "missingSamples": 48
+          },
+          {
+            "family": "global",
+            "er": "4",
+            "theta_deg": 140,
+            "samples": 11817,
+            "lengthPassed": true,
+            "potentialAndStrengthMasksAgree": true,
+            "maskMatchesConductorPolygons": true,
+            "missingSamples": 52
+          },
+          {
+            "family": "global",
+            "er": "4",
+            "theta_deg": 145,
+            "samples": 11817,
+            "lengthPassed": true,
+            "potentialAndStrengthMasksAgree": true,
+            "maskMatchesConductorPolygons": true,
+            "missingSamples": 49
+          },
+          {
+            "family": "global",
+            "er": "4",
+            "theta_deg": 150,
+            "samples": 11817,
+            "lengthPassed": true,
+            "potentialAndStrengthMasksAgree": true,
+            "maskMatchesConductorPolygons": true,
+            "missingSamples": 50
+          },
+          {
+            "family": "global",
+            "er": "4",
+            "theta_deg": 155,
+            "samples": 11817,
+            "lengthPassed": true,
+            "potentialAndStrengthMasksAgree": true,
+            "maskMatchesConductorPolygons": true,
+            "missingSamples": 51
+          },
+          {
+            "family": "global",
+            "er": "4",
+            "theta_deg": 160,
+            "samples": 11817,
+            "lengthPassed": true,
+            "potentialAndStrengthMasksAgree": true,
+            "maskMatchesConductorPolygons": true,
+            "missingSamples": 51
+          },
+          {
+            "family": "global",
+            "er": "4",
+            "theta_deg": 165,
+            "samples": 11817,
+            "lengthPassed": true,
+            "potentialAndStrengthMasksAgree": true,
+            "maskMatchesConductorPolygons": true,
+            "missingSamples": 45
+          },
+          {
+            "family": "global",
+            "er": "4",
+            "theta_deg": 170,
+            "samples": 11817,
+            "lengthPassed": true,
+            "potentialAndStrengthMasksAgree": true,
+            "maskMatchesConductorPolygons": true,
+            "missingSamples": 50
+          },
+          {
+            "family": "global",
+            "er": "4",
+            "theta_deg": 175,
+            "samples": 11817,
+            "lengthPassed": true,
+            "potentialAndStrengthMasksAgree": true,
+            "maskMatchesConductorPolygons": true,
+            "missingSamples": 49
+          },
+          {
+            "family": "global",
+            "er": "4",
+            "theta_deg": 180,
+            "samples": 11817,
+            "lengthPassed": true,
+            "potentialAndStrengthMasksAgree": true,
+            "maskMatchesConductorPolygons": true,
+            "missingSamples": 82
+          },
+          {
+            "family": "local",
+            "er": "1",
+            "theta_deg": 0,
+            "samples": 13536,
+            "lengthPassed": true,
+            "potentialAndStrengthMasksAgree": true,
+            "maskMatchesConductorPolygons": true,
+            "missingSamples": 642
+          },
+          {
+            "family": "local",
+            "er": "1",
+            "theta_deg": 0.25,
+            "samples": 13536,
+            "lengthPassed": true,
+            "potentialAndStrengthMasksAgree": true,
+            "maskMatchesConductorPolygons": true,
+            "missingSamples": 535
+          },
+          {
+            "family": "local",
+            "er": "1",
+            "theta_deg": 0.5,
+            "samples": 13536,
+            "lengthPassed": true,
+            "potentialAndStrengthMasksAgree": true,
+            "maskMatchesConductorPolygons": true,
+            "missingSamples": 535
+          },
+          {
+            "family": "local",
+            "er": "1",
+            "theta_deg": 1,
+            "samples": 13536,
+            "lengthPassed": true,
+            "potentialAndStrengthMasksAgree": true,
+            "maskMatchesConductorPolygons": true,
+            "missingSamples": 535
+          },
+          {
+            "family": "local",
+            "er": "1",
+            "theta_deg": 2,
+            "samples": 13536,
+            "lengthPassed": true,
+            "potentialAndStrengthMasksAgree": true,
+            "maskMatchesConductorPolygons": true,
+            "missingSamples": 535
+          },
+          {
+            "family": "local",
+            "er": "1",
+            "theta_deg": 3,
+            "samples": 13536,
+            "lengthPassed": true,
+            "potentialAndStrengthMasksAgree": true,
+            "maskMatchesConductorPolygons": true,
+            "missingSamples": 537
+          },
+          {
+            "family": "local",
+            "er": "1",
+            "theta_deg": 4,
+            "samples": 13536,
+            "lengthPassed": true,
+            "potentialAndStrengthMasksAgree": true,
+            "maskMatchesConductorPolygons": true,
+            "missingSamples": 537
+          },
+          {
+            "family": "local",
+            "er": "1",
+            "theta_deg": 5,
+            "samples": 13536,
+            "lengthPassed": true,
+            "potentialAndStrengthMasksAgree": true,
+            "maskMatchesConductorPolygons": true,
+            "missingSamples": 537
+          },
+          {
+            "family": "local",
+            "er": "1",
+            "theta_deg": 7.5,
+            "samples": 13536,
+            "lengthPassed": true,
+            "potentialAndStrengthMasksAgree": true,
+            "maskMatchesConductorPolygons": true,
+            "missingSamples": 537
+          },
+          {
+            "family": "local",
+            "er": "1",
+            "theta_deg": 10,
+            "samples": 13536,
+            "lengthPassed": true,
+            "potentialAndStrengthMasksAgree": true,
+            "maskMatchesConductorPolygons": true,
+            "missingSamples": 508
+          },
+          {
+            "family": "local",
+            "er": "1",
+            "theta_deg": 15,
+            "samples": 13536,
+            "lengthPassed": true,
+            "potentialAndStrengthMasksAgree": true,
+            "maskMatchesConductorPolygons": true,
+            "missingSamples": 438
+          },
+          {
+            "family": "local",
+            "er": "1",
+            "theta_deg": 20,
+            "samples": 13536,
+            "lengthPassed": true,
+            "potentialAndStrengthMasksAgree": true,
+            "maskMatchesConductorPolygons": true,
+            "missingSamples": 411
+          },
+          {
+            "family": "local",
+            "er": "1",
+            "theta_deg": 25,
+            "samples": 13536,
+            "lengthPassed": true,
+            "potentialAndStrengthMasksAgree": true,
+            "maskMatchesConductorPolygons": true,
+            "missingSamples": 392
+          },
+          {
+            "family": "local",
+            "er": "1",
+            "theta_deg": 30,
+            "samples": 13536,
+            "lengthPassed": true,
+            "potentialAndStrengthMasksAgree": true,
+            "maskMatchesConductorPolygons": true,
+            "missingSamples": 380
+          },
+          {
+            "family": "local",
+            "er": "1",
+            "theta_deg": 35,
+            "samples": 13536,
+            "lengthPassed": true,
+            "potentialAndStrengthMasksAgree": true,
+            "maskMatchesConductorPolygons": true,
+            "missingSamples": 371
+          },
+          {
+            "family": "local",
+            "er": "1",
+            "theta_deg": 40,
+            "samples": 13536,
+            "lengthPassed": true,
+            "potentialAndStrengthMasksAgree": true,
+            "maskMatchesConductorPolygons": true,
+            "missingSamples": 366
+          },
+          {
+            "family": "local",
+            "er": "1",
+            "theta_deg": 45,
+            "samples": 13536,
+            "lengthPassed": true,
+            "potentialAndStrengthMasksAgree": true,
+            "maskMatchesConductorPolygons": true,
+            "missingSamples": 361
+          },
+          {
+            "family": "local",
+            "er": "1",
+            "theta_deg": 50,
+            "samples": 13536,
+            "lengthPassed": true,
+            "potentialAndStrengthMasksAgree": true,
+            "maskMatchesConductorPolygons": true,
+            "missingSamples": 357
+          },
+          {
+            "family": "local",
+            "er": "1",
+            "theta_deg": 55,
+            "samples": 13536,
+            "lengthPassed": true,
+            "potentialAndStrengthMasksAgree": true,
+            "maskMatchesConductorPolygons": true,
+            "missingSamples": 355
+          },
+          {
+            "family": "local",
+            "er": "1",
+            "theta_deg": 60,
+            "samples": 13536,
+            "lengthPassed": true,
+            "potentialAndStrengthMasksAgree": true,
+            "maskMatchesConductorPolygons": true,
+            "missingSamples": 354
+          },
+          {
+            "family": "local",
+            "er": "1",
+            "theta_deg": 65,
+            "samples": 13536,
+            "lengthPassed": true,
+            "potentialAndStrengthMasksAgree": true,
+            "maskMatchesConductorPolygons": true,
+            "missingSamples": 352
+          },
+          {
+            "family": "local",
+            "er": "1",
+            "theta_deg": 70,
+            "samples": 13536,
+            "lengthPassed": true,
+            "potentialAndStrengthMasksAgree": true,
+            "maskMatchesConductorPolygons": true,
+            "missingSamples": 351
+          },
+          {
+            "family": "local",
+            "er": "1",
+            "theta_deg": 75,
+            "samples": 13536,
+            "lengthPassed": true,
+            "potentialAndStrengthMasksAgree": true,
+            "maskMatchesConductorPolygons": true,
+            "missingSamples": 350
+          },
+          {
+            "family": "local",
+            "er": "1",
+            "theta_deg": 80,
+            "samples": 13536,
+            "lengthPassed": true,
+            "potentialAndStrengthMasksAgree": true,
+            "maskMatchesConductorPolygons": true,
+            "missingSamples": 353
+          },
+          {
+            "family": "local",
+            "er": "1",
+            "theta_deg": 85,
+            "samples": 13536,
+            "lengthPassed": true,
+            "potentialAndStrengthMasksAgree": true,
+            "maskMatchesConductorPolygons": true,
+            "missingSamples": 344
+          },
+          {
+            "family": "local",
+            "er": "1",
+            "theta_deg": 90,
+            "samples": 13536,
+            "lengthPassed": true,
+            "potentialAndStrengthMasksAgree": true,
+            "maskMatchesConductorPolygons": true,
+            "missingSamples": 376
+          },
+          {
+            "family": "local",
+            "er": "1",
+            "theta_deg": 95,
+            "samples": 13536,
+            "lengthPassed": true,
+            "potentialAndStrengthMasksAgree": true,
+            "maskMatchesConductorPolygons": true,
+            "missingSamples": 354
+          },
+          {
+            "family": "local",
+            "er": "1",
+            "theta_deg": 100,
+            "samples": 13536,
+            "lengthPassed": true,
+            "potentialAndStrengthMasksAgree": true,
+            "maskMatchesConductorPolygons": true,
+            "missingSamples": 348
+          },
+          {
+            "family": "local",
+            "er": "1",
+            "theta_deg": 105,
+            "samples": 13536,
+            "lengthPassed": true,
+            "potentialAndStrengthMasksAgree": true,
+            "maskMatchesConductorPolygons": true,
+            "missingSamples": 353
+          },
+          {
+            "family": "local",
+            "er": "1",
+            "theta_deg": 110,
+            "samples": 13536,
+            "lengthPassed": true,
+            "potentialAndStrengthMasksAgree": true,
+            "maskMatchesConductorPolygons": true,
+            "missingSamples": 356
+          },
+          {
+            "family": "local",
+            "er": "1",
+            "theta_deg": 115,
+            "samples": 13536,
+            "lengthPassed": true,
+            "potentialAndStrengthMasksAgree": true,
+            "maskMatchesConductorPolygons": true,
+            "missingSamples": 352
+          },
+          {
+            "family": "local",
+            "er": "1",
+            "theta_deg": 120,
+            "samples": 13536,
+            "lengthPassed": true,
+            "potentialAndStrengthMasksAgree": true,
+            "maskMatchesConductorPolygons": true,
+            "missingSamples": 345
+          },
+          {
+            "family": "local",
+            "er": "1",
+            "theta_deg": 125,
+            "samples": 13536,
+            "lengthPassed": true,
+            "potentialAndStrengthMasksAgree": true,
+            "maskMatchesConductorPolygons": true,
+            "missingSamples": 343
+          },
+          {
+            "family": "local",
+            "er": "1",
+            "theta_deg": 130,
+            "samples": 13536,
+            "lengthPassed": true,
+            "potentialAndStrengthMasksAgree": true,
+            "maskMatchesConductorPolygons": true,
+            "missingSamples": 337
+          },
+          {
+            "family": "local",
+            "er": "1",
+            "theta_deg": 135,
+            "samples": 13536,
+            "lengthPassed": true,
+            "potentialAndStrengthMasksAgree": true,
+            "maskMatchesConductorPolygons": true,
+            "missingSamples": 336
+          },
+          {
+            "family": "local",
+            "er": "1",
+            "theta_deg": 140,
+            "samples": 13536,
+            "lengthPassed": true,
+            "potentialAndStrengthMasksAgree": true,
+            "maskMatchesConductorPolygons": true,
+            "missingSamples": 336
+          },
+          {
+            "family": "local",
+            "er": "1",
+            "theta_deg": 145,
+            "samples": 13536,
+            "lengthPassed": true,
+            "potentialAndStrengthMasksAgree": true,
+            "maskMatchesConductorPolygons": true,
+            "missingSamples": 333
+          },
+          {
+            "family": "local",
+            "er": "1",
+            "theta_deg": 150,
+            "samples": 13536,
+            "lengthPassed": true,
+            "potentialAndStrengthMasksAgree": true,
+            "maskMatchesConductorPolygons": true,
+            "missingSamples": 333
+          },
+          {
+            "family": "local",
+            "er": "1",
+            "theta_deg": 155,
+            "samples": 13536,
+            "lengthPassed": true,
+            "potentialAndStrengthMasksAgree": true,
+            "maskMatchesConductorPolygons": true,
+            "missingSamples": 332
+          },
+          {
+            "family": "local",
+            "er": "1",
+            "theta_deg": 160,
+            "samples": 13536,
+            "lengthPassed": true,
+            "potentialAndStrengthMasksAgree": true,
+            "maskMatchesConductorPolygons": true,
+            "missingSamples": 331
+          },
+          {
+            "family": "local",
+            "er": "1",
+            "theta_deg": 165,
+            "samples": 13536,
+            "lengthPassed": true,
+            "potentialAndStrengthMasksAgree": true,
+            "maskMatchesConductorPolygons": true,
+            "missingSamples": 331
+          },
+          {
+            "family": "local",
+            "er": "1",
+            "theta_deg": 170,
+            "samples": 13536,
+            "lengthPassed": true,
+            "potentialAndStrengthMasksAgree": true,
+            "maskMatchesConductorPolygons": true,
+            "missingSamples": 331
+          },
+          {
+            "family": "local",
+            "er": "1",
+            "theta_deg": 175,
+            "samples": 13536,
+            "lengthPassed": true,
+            "potentialAndStrengthMasksAgree": true,
+            "maskMatchesConductorPolygons": true,
+            "missingSamples": 333
+          },
+          {
+            "family": "local",
+            "er": "1",
+            "theta_deg": 180,
+            "samples": 13536,
+            "lengthPassed": true,
+            "potentialAndStrengthMasksAgree": true,
+            "maskMatchesConductorPolygons": true,
+            "missingSamples": 339
+          },
+          {
+            "family": "local",
+            "er": "4",
+            "theta_deg": 0,
+            "samples": 13536,
+            "lengthPassed": true,
+            "potentialAndStrengthMasksAgree": true,
+            "maskMatchesConductorPolygons": true,
+            "missingSamples": 642
+          },
+          {
+            "family": "local",
+            "er": "4",
+            "theta_deg": 0.25,
+            "samples": 13536,
+            "lengthPassed": true,
+            "potentialAndStrengthMasksAgree": true,
+            "maskMatchesConductorPolygons": true,
+            "missingSamples": 535
+          },
+          {
+            "family": "local",
+            "er": "4",
+            "theta_deg": 0.5,
+            "samples": 13536,
+            "lengthPassed": true,
+            "potentialAndStrengthMasksAgree": true,
+            "maskMatchesConductorPolygons": true,
+            "missingSamples": 535
+          },
+          {
+            "family": "local",
+            "er": "4",
+            "theta_deg": 1,
+            "samples": 13536,
+            "lengthPassed": true,
+            "potentialAndStrengthMasksAgree": true,
+            "maskMatchesConductorPolygons": true,
+            "missingSamples": 535
+          },
+          {
+            "family": "local",
+            "er": "4",
+            "theta_deg": 2,
+            "samples": 13536,
+            "lengthPassed": true,
+            "potentialAndStrengthMasksAgree": true,
+            "maskMatchesConductorPolygons": true,
+            "missingSamples": 535
+          },
+          {
+            "family": "local",
+            "er": "4",
+            "theta_deg": 3,
+            "samples": 13536,
+            "lengthPassed": true,
+            "potentialAndStrengthMasksAgree": true,
+            "maskMatchesConductorPolygons": true,
+            "missingSamples": 537
+          },
+          {
+            "family": "local",
+            "er": "4",
+            "theta_deg": 4,
+            "samples": 13536,
+            "lengthPassed": true,
+            "potentialAndStrengthMasksAgree": true,
+            "maskMatchesConductorPolygons": true,
+            "missingSamples": 537
+          },
+          {
+            "family": "local",
+            "er": "4",
+            "theta_deg": 5,
+            "samples": 13536,
+            "lengthPassed": true,
+            "potentialAndStrengthMasksAgree": true,
+            "maskMatchesConductorPolygons": true,
+            "missingSamples": 537
+          },
+          {
+            "family": "local",
+            "er": "4",
+            "theta_deg": 7.5,
+            "samples": 13536,
+            "lengthPassed": true,
+            "potentialAndStrengthMasksAgree": true,
+            "maskMatchesConductorPolygons": true,
+            "missingSamples": 537
+          },
+          {
+            "family": "local",
+            "er": "4",
+            "theta_deg": 10,
+            "samples": 13536,
+            "lengthPassed": true,
+            "potentialAndStrengthMasksAgree": true,
+            "maskMatchesConductorPolygons": true,
+            "missingSamples": 508
+          },
+          {
+            "family": "local",
+            "er": "4",
+            "theta_deg": 15,
+            "samples": 13536,
+            "lengthPassed": true,
+            "potentialAndStrengthMasksAgree": true,
+            "maskMatchesConductorPolygons": true,
+            "missingSamples": 438
+          },
+          {
+            "family": "local",
+            "er": "4",
+            "theta_deg": 20,
+            "samples": 13536,
+            "lengthPassed": true,
+            "potentialAndStrengthMasksAgree": true,
+            "maskMatchesConductorPolygons": true,
+            "missingSamples": 411
+          },
+          {
+            "family": "local",
+            "er": "4",
+            "theta_deg": 25,
+            "samples": 13536,
+            "lengthPassed": true,
+            "potentialAndStrengthMasksAgree": true,
+            "maskMatchesConductorPolygons": true,
+            "missingSamples": 392
+          },
+          {
+            "family": "local",
+            "er": "4",
+            "theta_deg": 30,
+            "samples": 13536,
+            "lengthPassed": true,
+            "potentialAndStrengthMasksAgree": true,
+            "maskMatchesConductorPolygons": true,
+            "missingSamples": 380
+          },
+          {
+            "family": "local",
+            "er": "4",
+            "theta_deg": 35,
+            "samples": 13536,
+            "lengthPassed": true,
+            "potentialAndStrengthMasksAgree": true,
+            "maskMatchesConductorPolygons": true,
+            "missingSamples": 371
+          },
+          {
+            "family": "local",
+            "er": "4",
+            "theta_deg": 40,
+            "samples": 13536,
+            "lengthPassed": true,
+            "potentialAndStrengthMasksAgree": true,
+            "maskMatchesConductorPolygons": true,
+            "missingSamples": 366
+          },
+          {
+            "family": "local",
+            "er": "4",
+            "theta_deg": 45,
+            "samples": 13536,
+            "lengthPassed": true,
+            "potentialAndStrengthMasksAgree": true,
+            "maskMatchesConductorPolygons": true,
+            "missingSamples": 361
+          },
+          {
+            "family": "local",
+            "er": "4",
+            "theta_deg": 50,
+            "samples": 13536,
+            "lengthPassed": true,
+            "potentialAndStrengthMasksAgree": true,
+            "maskMatchesConductorPolygons": true,
+            "missingSamples": 357
+          },
+          {
+            "family": "local",
+            "er": "4",
+            "theta_deg": 55,
+            "samples": 13536,
+            "lengthPassed": true,
+            "potentialAndStrengthMasksAgree": true,
+            "maskMatchesConductorPolygons": true,
+            "missingSamples": 355
+          },
+          {
+            "family": "local",
+            "er": "4",
+            "theta_deg": 60,
+            "samples": 13536,
+            "lengthPassed": true,
+            "potentialAndStrengthMasksAgree": true,
+            "maskMatchesConductorPolygons": true,
+            "missingSamples": 354
+          },
+          {
+            "family": "local",
+            "er": "4",
+            "theta_deg": 65,
+            "samples": 13536,
+            "lengthPassed": true,
+            "potentialAndStrengthMasksAgree": true,
+            "maskMatchesConductorPolygons": true,
+            "missingSamples": 352
+          },
+          {
+            "family": "local",
+            "er": "4",
+            "theta_deg": 70,
+            "samples": 13536,
+            "lengthPassed": true,
+            "potentialAndStrengthMasksAgree": true,
+            "maskMatchesConductorPolygons": true,
+            "missingSamples": 351
+          },
+          {
+            "family": "local",
+            "er": "4",
+            "theta_deg": 75,
+            "samples": 13536,
+            "lengthPassed": true,
+            "potentialAndStrengthMasksAgree": true,
+            "maskMatchesConductorPolygons": true,
+            "missingSamples": 350
+          },
+          {
+            "family": "local",
+            "er": "4",
+            "theta_deg": 80,
+            "samples": 13536,
+            "lengthPassed": true,
+            "potentialAndStrengthMasksAgree": true,
+            "maskMatchesConductorPolygons": true,
+            "missingSamples": 353
+          },
+          {
+            "family": "local",
+            "er": "4",
+            "theta_deg": 85,
+            "samples": 13536,
+            "lengthPassed": true,
+            "potentialAndStrengthMasksAgree": true,
+            "maskMatchesConductorPolygons": true,
+            "missingSamples": 344
+          },
+          {
+            "family": "local",
+            "er": "4",
+            "theta_deg": 90,
+            "samples": 13536,
+            "lengthPassed": true,
+            "potentialAndStrengthMasksAgree": true,
+            "maskMatchesConductorPolygons": true,
+            "missingSamples": 376
+          },
+          {
+            "family": "local",
+            "er": "4",
+            "theta_deg": 95,
+            "samples": 13536,
+            "lengthPassed": true,
+            "potentialAndStrengthMasksAgree": true,
+            "maskMatchesConductorPolygons": true,
+            "missingSamples": 354
+          },
+          {
+            "family": "local",
+            "er": "4",
+            "theta_deg": 100,
+            "samples": 13536,
+            "lengthPassed": true,
+            "potentialAndStrengthMasksAgree": true,
+            "maskMatchesConductorPolygons": true,
+            "missingSamples": 348
+          },
+          {
+            "family": "local",
+            "er": "4",
+            "theta_deg": 105,
+            "samples": 13536,
+            "lengthPassed": true,
+            "potentialAndStrengthMasksAgree": true,
+            "maskMatchesConductorPolygons": true,
+            "missingSamples": 353
+          },
+          {
+            "family": "local",
+            "er": "4",
+            "theta_deg": 110,
+            "samples": 13536,
+            "lengthPassed": true,
+            "potentialAndStrengthMasksAgree": true,
+            "maskMatchesConductorPolygons": true,
+            "missingSamples": 356
+          },
+          {
+            "family": "local",
+            "er": "4",
+            "theta_deg": 115,
+            "samples": 13536,
+            "lengthPassed": true,
+            "potentialAndStrengthMasksAgree": true,
+            "maskMatchesConductorPolygons": true,
+            "missingSamples": 352
+          },
+          {
+            "family": "local",
+            "er": "4",
+            "theta_deg": 120,
+            "samples": 13536,
+            "lengthPassed": true,
+            "potentialAndStrengthMasksAgree": true,
+            "maskMatchesConductorPolygons": true,
+            "missingSamples": 345
+          },
+          {
+            "family": "local",
+            "er": "4",
+            "theta_deg": 125,
+            "samples": 13536,
+            "lengthPassed": true,
+            "potentialAndStrengthMasksAgree": true,
+            "maskMatchesConductorPolygons": true,
+            "missingSamples": 343
+          },
+          {
+            "family": "local",
+            "er": "4",
+            "theta_deg": 130,
+            "samples": 13536,
+            "lengthPassed": true,
+            "potentialAndStrengthMasksAgree": true,
+            "maskMatchesConductorPolygons": true,
+            "missingSamples": 337
+          },
+          {
+            "family": "local",
+            "er": "4",
+            "theta_deg": 135,
+            "samples": 13536,
+            "lengthPassed": true,
+            "potentialAndStrengthMasksAgree": true,
+            "maskMatchesConductorPolygons": true,
+            "missingSamples": 336
+          },
+          {
+            "family": "local",
+            "er": "4",
+            "theta_deg": 140,
+            "samples": 13536,
+            "lengthPassed": true,
+            "potentialAndStrengthMasksAgree": true,
+            "maskMatchesConductorPolygons": true,
+            "missingSamples": 336
+          },
+          {
+            "family": "local",
+            "er": "4",
+            "theta_deg": 145,
+            "samples": 13536,
+            "lengthPassed": true,
+            "potentialAndStrengthMasksAgree": true,
+            "maskMatchesConductorPolygons": true,
+            "missingSamples": 333
+          },
+          {
+            "family": "local",
+            "er": "4",
+            "theta_deg": 150,
+            "samples": 13536,
+            "lengthPassed": true,
+            "potentialAndStrengthMasksAgree": true,
+            "maskMatchesConductorPolygons": true,
+            "missingSamples": 333
+          },
+          {
+            "family": "local",
+            "er": "4",
+            "theta_deg": 155,
+            "samples": 13536,
+            "lengthPassed": true,
+            "potentialAndStrengthMasksAgree": true,
+            "maskMatchesConductorPolygons": true,
+            "missingSamples": 332
+          },
+          {
+            "family": "local",
+            "er": "4",
+            "theta_deg": 160,
+            "samples": 13536,
+            "lengthPassed": true,
+            "potentialAndStrengthMasksAgree": true,
+            "maskMatchesConductorPolygons": true,
+            "missingSamples": 331
+          },
+          {
+            "family": "local",
+            "er": "4",
+            "theta_deg": 165,
+            "samples": 13536,
+            "lengthPassed": true,
+            "potentialAndStrengthMasksAgree": true,
+            "maskMatchesConductorPolygons": true,
+            "missingSamples": 331
+          },
+          {
+            "family": "local",
+            "er": "4",
+            "theta_deg": 170,
+            "samples": 13536,
+            "lengthPassed": true,
+            "potentialAndStrengthMasksAgree": true,
+            "maskMatchesConductorPolygons": true,
+            "missingSamples": 331
+          },
+          {
+            "family": "local",
+            "er": "4",
+            "theta_deg": 175,
+            "samples": 13536,
+            "lengthPassed": true,
+            "potentialAndStrengthMasksAgree": true,
+            "maskMatchesConductorPolygons": true,
+            "missingSamples": 333
+          },
+          {
+            "family": "local",
+            "er": "4",
+            "theta_deg": 180,
+            "samples": 13536,
+            "lengthPassed": true,
+            "potentialAndStrengthMasksAgree": true,
+            "maskMatchesConductorPolygons": true,
+            "missingSamples": 339
+          },
+          {
+            "family": "erFields",
+            "er": "1",
+            "theta_deg": 0,
+            "samples": 11817,
+            "lengthPassed": true,
+            "potentialAndStrengthMasksAgree": true,
+            "maskMatchesConductorPolygons": true,
+            "missingSamples": 41
+          },
+          {
+            "family": "erFields",
+            "er": "1.5",
+            "theta_deg": 0,
+            "samples": 11817,
+            "lengthPassed": true,
+            "potentialAndStrengthMasksAgree": true,
+            "maskMatchesConductorPolygons": true,
+            "missingSamples": 41
+          },
+          {
+            "family": "erFields",
+            "er": "2",
+            "theta_deg": 0,
+            "samples": 11817,
+            "lengthPassed": true,
+            "potentialAndStrengthMasksAgree": true,
+            "maskMatchesConductorPolygons": true,
+            "missingSamples": 41
+          },
+          {
+            "family": "erFields",
+            "er": "3",
+            "theta_deg": 0,
+            "samples": 11817,
+            "lengthPassed": true,
+            "potentialAndStrengthMasksAgree": true,
+            "maskMatchesConductorPolygons": true,
+            "missingSamples": 41
+          },
+          {
+            "family": "erFields",
+            "er": "4",
+            "theta_deg": 0,
+            "samples": 11817,
+            "lengthPassed": true,
+            "potentialAndStrengthMasksAgree": true,
+            "maskMatchesConductorPolygons": true,
+            "missingSamples": 41
+          },
+          {
+            "family": "erFields",
+            "er": "6",
+            "theta_deg": 0,
+            "samples": 11817,
+            "lengthPassed": true,
+            "potentialAndStrengthMasksAgree": true,
+            "maskMatchesConductorPolygons": true,
+            "missingSamples": 41
+          },
+          {
+            "family": "erFields",
+            "er": "8",
+            "theta_deg": 0,
+            "samples": 11817,
+            "lengthPassed": true,
+            "potentialAndStrengthMasksAgree": true,
+            "maskMatchesConductorPolygons": true,
+            "missingSamples": 41
+          }
+        ],
+        "codec": "base64 little-endian unsigned 16-bit; 65535 missing; potential min/max from fieldGrid; E log10 range -2..5"
+      }
+    },
+    {
+      "name": "mutual angular fieldline schema and coordinates are finite",
+      "passed": true,
+      "details": {
+        "failures": [],
+        "pathsPerPose": 11,
+        "pointsPerPath": 88,
+        "coordinate_units": "m"
+      }
+    },
+    {
+      "name": "proxi revisionFieldData finite precomputed paths and scalar schema",
+      "passed": true,
+      "details": {
+        "poses": 35,
+        "failures": [],
+        "coordinate_units": "arbitrary teaching units; not SI sensor dimensions"
+      }
+    },
+    {
+      "name": "proxi haloFieldData finite precomputed paths and scalar schema",
+      "passed": true,
+      "details": {
+        "poses": 17,
+        "failures": [],
+        "coordinate_units": "arbitrary teaching units; not SI sensor dimensions"
+      }
+    },
+    {
+      "name": "proxi stored runtime contact area agrees with geometry at seven depths",
+      "passed": true,
+      "details": {
+        "rows": [
+          {
+            "depth": -1,
+            "signalArea": 0,
+            "geometryArea": 0,
+            "areaDifference": 0,
+            "planeY": 1.52,
+            "contact": false,
+            "finite": true,
+            "normalized": true
+          },
+          {
+            "depth": -0.08,
+            "signalArea": 0,
+            "geometryArea": 0,
+            "areaDifference": 0,
+            "planeY": 1.52,
+            "contact": false,
+            "finite": true,
+            "normalized": true
+          },
+          {
+            "depth": -0.04,
+            "signalArea": 0,
+            "geometryArea": 0,
+            "areaDifference": 0,
+            "planeY": 1.43,
+            "contact": false,
+            "finite": true,
+            "normalized": true
+          },
+          {
+            "depth": 0,
+            "signalArea": 0.02815441942342656,
+            "geometryArea": 0.02815441942342656,
+            "areaDifference": 0,
+            "planeY": 1.3311805526507359,
+            "contact": true,
+            "finite": true,
+            "normalized": true
+          },
+          {
+            "depth": 0.1,
+            "signalArea": 0.9629464119156119,
+            "geometryArea": 0.9629464119156121,
+            "areaDifference": 2.220446049250313e-16,
+            "planeY": 1.2627957488895416,
+            "contact": true,
+            "finite": true,
+            "normalized": true
+          },
+          {
+            "depth": 0.5,
+            "signalArea": 4.822413773705129,
+            "geometryArea": 4.822413773705129,
+            "areaDifference": 0,
+            "planeY": 1.1189262443919938,
+            "contact": true,
+            "finite": true,
+            "normalized": true
+          },
+          {
+            "depth": 1,
+            "signalArea": 7.699227580715627,
+            "geometryArea": 7.699227580715627,
+            "areaDifference": 0,
+            "planeY": 0.99,
+            "contact": true,
+            "finite": true,
+            "normalized": true
+          }
+        ],
+        "pivot": [
+          0,
+          1,
+          0
+        ],
+        "finalLowerCentre": [
+          -1.850000023841858,
+          0.15000000596046448,
+          0
+        ],
+        "finalUpperCentre": [
+          1.850000023841858,
+          0.1499999761581421,
+          0
+        ],
+        "halfTurn": -3.141592653589793,
+        "geometryPass": true
+      }
+    }
+  ],
+  "passed": true,
+  "executionNote": "The same eight BEM checkpoints were run twice while refining the geometry smoke check (16 total Solution calls, eight unique angle/material combinations). No tracing or full regeneration was performed."
+}

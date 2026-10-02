@@ -1,0 +1,18 @@
+{
+  "project": "lab",
+  "title": "互电容建模实验室",
+  "runtimeSha256": "57bcbde1c450ec948f227ed2e8ae8b6d115282d0c441142cb7bb4e9e809d9b9e",
+  "editableSourceSynchronized": true,
+  "sceneCount": 12,
+  "browserChecksPassed": 48,
+  "cleanBuildByteIdentical": true,
+  "rawPreviewImages": 12,
+  "personalInformationRemoved": true,
+  "githubAccountModified": false,
+  "remoteGitHubWorkflowRun": false,
+  "physicalModelRecalculated": false,
+  "entry": "index.html",
+  "deployDirectory": "site",
+  "codexInstructions": "AGENTS.md and CODEX_DEPLOY.md",
+  "limitations": "Owned-document Chromium testing, no normal browser URL navigation in the managed test environment; no new hardware-performance or physical validation."
+}

@@ -1,0 +1,56 @@
+{
+  "method": "Layout-only composition of existing verified screenshots; no app runtime changes or new browser captures.",
+  "checks": [
+    {
+      "project": "proxitouch",
+      "overview": {
+        "columns": 2,
+        "rows": 2,
+        "cellWidth": 1200,
+        "cellHeight": 675,
+        "gutter": 16,
+        "images": [
+          "04-ionic-interface.png",
+          "06-contact-area.png",
+          "08-dual-signals.png",
+          "10-egg-grasp.png"
+        ],
+        "file": "overview.png",
+        "width": 2416,
+        "height": 1366,
+        "sha256": "1c94804a78a548cb79c1c22e42234334ff76e4a9a6133e01854e52ca3df5cf2f"
+      },
+      "runtimeUnchanged": true,
+      "actualSize": [
+        2416,
+        1366
+      ]
+    },
+    {
+      "project": "mutual-capacitance",
+      "overview": {
+        "columns": 2,
+        "rows": 2,
+        "cellWidth": 1200,
+        "cellHeight": 675,
+        "gutter": 16,
+        "images": [
+          "01-opening.png",
+          "03-ideal-sector.png",
+          "06-dielectric-edge.png",
+          "05-angle-models.png"
+        ],
+        "file": "overview.png",
+        "width": 2416,
+        "height": 1366,
+        "sha256": "735e0ec67dd613ed834e73118b37a93ce0bda67bcfcd3a0c665d82fc05553ca7"
+      },
+      "runtimeUnchanged": true,
+      "actualSize": [
+        2416,
+        1366
+      ]
+    }
+  ],
+  "passed": true
+}

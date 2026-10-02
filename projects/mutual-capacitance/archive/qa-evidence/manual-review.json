@@ -1,0 +1,44 @@
+{
+  "runtimeSha256": "9e0b2a5316c58042cf33929f2097d45282385742bd4788745767fa21cfaee6bd",
+  "reviewer": "Assistant visual inspection via actual captured PNGs; not an independent human panel.",
+  "scope": "All twelve final scenes reviewed on four-up sheets at both required resolutions. All twelve five-phase scene groups inspected at 1920. Selected original PNGs individually opened. No claim that every raw image was inspected at native pixel zoom.",
+  "finalSheets": [
+    "final/1920/review-1.png",
+    "final/1920/review-2.png",
+    "final/1920/review-3.png",
+    "final/2560/review-1.png",
+    "final/2560/review-2.png",
+    "final/2560/review-3.png"
+  ],
+  "transitionSheets": [
+    "transitions/1920/01-review.png",
+    "transitions/1920/02-review.png",
+    "transitions/1920/03-review.png",
+    "transitions/1920/04-review.png",
+    "transitions/1920/05-review.png",
+    "transitions/1920/06-review.png",
+    "transitions/1920/07-review.png",
+    "transitions/1920/08-review.png",
+    "transitions/1920/09-review.png",
+    "transitions/1920/10-review.png",
+    "transitions/1920/11-review.png",
+    "transitions/1920/12-review.png"
+  ],
+  "individualNativeFiles": [
+    "transitions/1920/02-000.png",
+    "final/1920/03-100.png",
+    "final/1920/04-100.png",
+    "final/1920/09-100.png",
+    "playback/completed.png"
+  ],
+  "additionalReviewSheets": [
+    "review/explore-resize-1.png",
+    "review/explore-resize-2.png"
+  ],
+  "knownBoundaries": [
+    "Software-rendered fluidity is below classroom expectations on the available system.",
+    "No physical GPU/projector/other browser engine tested.",
+    "File and HTTP URL navigation blocked by browser administrator; no policy bypass.",
+    "Main C2D is width extrapolation, not the complete finite-width 3D capacitance."
+  ]
+}

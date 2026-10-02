@@ -1,0 +1,123 @@
+{
+  "method": "Independent non-uniform Cartesian finite-volume check at aligned 0/180 deg.\nAll lengths in metres. Face permittivity uses a distance-weighted harmonic mean.\nThe finite-box outer Dirichlet condition is deliberately varied; unlike BEM this\nchecker has an artificial far boundary. Cell-wise conductors match face bounds.\n",
+  "rows": [
+    {
+      "theta_deg": 0,
+      "er": 1,
+      "h_m": 0.0001,
+      "R_m": 0.08,
+      "cells": 38354,
+      "Cprime_F_per_m": 1.9446135063546732e-10,
+      "C_F": 2.333536207625608e-11,
+      "energy_Cprime_F_per_m": 1.9445779244974488e-10,
+      "charge_balance_relative": 3.659529991216692e-05,
+      "bem_F": 2.337011759318945e-11,
+      "relative_to_bem": -0.0014871776658710312
+    },
+    {
+      "theta_deg": 0,
+      "er": 1,
+      "h_m": 5e-05,
+      "R_m": 0.08,
+      "cells": 108744,
+      "Cprime_F_per_m": 1.9468880334439087e-10,
+      "C_F": 2.3362656401326904e-11,
+      "energy_Cprime_F_per_m": 1.9468580346154726e-10,
+      "charge_balance_relative": 3.08172097686761e-05,
+      "bem_F": 2.337011759318945e-11,
+      "relative_to_bem": -0.0003192620590287687
+    },
+    {
+      "theta_deg": 0,
+      "er": 1,
+      "h_m": 2.5e-05,
+      "R_m": 0.08,
+      "cells": 336960,
+      "Cprime_F_per_m": 1.9477988370326104e-10,
+      "C_F": 2.3373586044391324e-11,
+      "energy_Cprime_F_per_m": 1.947771321813427e-10,
+      "charge_balance_relative": 2.8252629362371978e-05,
+      "bem_F": 2.337011759318945e-11,
+      "relative_to_bem": 0.0001484139387850636
+    },
+    {
+      "theta_deg": 180,
+      "er": 1,
+      "h_m": 0.0001,
+      "R_m": 0.08,
+      "cells": 66167,
+      "Cprime_F_per_m": 2.5823797724063346e-11,
+      "C_F": 3.0988557268876015e-12,
+      "energy_Cprime_F_per_m": 2.5810679816842396e-11,
+      "charge_balance_relative": 0.001015954923619477,
+      "bem_F": 3.073550675895207e-12,
+      "relative_to_bem": 0.008233165371520634
+    },
+    {
+      "theta_deg": 180,
+      "er": 1,
+      "h_m": 5e-05,
+      "R_m": 0.08,
+      "cells": 195227,
+      "Cprime_F_per_m": 2.590659968390177e-11,
+      "C_F": 3.108791962068212e-12,
+      "energy_Cprime_F_per_m": 2.5893525125781436e-11,
+      "charge_balance_relative": 0.0010093611885833489,
+      "bem_F": 3.073550675895207e-12,
+      "relative_to_bem": 0.011465985073677354
+    },
+    {
+      "theta_deg": 180,
+      "er": 1,
+      "h_m": 2.5e-05,
+      "R_m": 0.08,
+      "cells": 621756,
+      "Cprime_F_per_m": 2.5939881173421972e-11,
+      "C_F": 3.1127857408106366e-12,
+      "energy_Cprime_F_per_m": 2.5926756247436232e-11,
+      "charge_balance_relative": 0.0010119495854131945,
+      "bem_F": 3.073550675895207e-12,
+      "relative_to_bem": 0.012765387349275459
+    },
+    {
+      "theta_deg": 180,
+      "er": 1,
+      "h_m": 5e-05,
+      "R_m": 0.16,
+      "cells": 205410,
+      "Cprime_F_per_m": 2.5629652534010997e-11,
+      "C_F": 3.0755583040813197e-12,
+      "energy_Cprime_F_per_m": 2.5627346244148415e-11,
+      "charge_balance_relative": 0.00017997043554044743,
+      "bem_F": 3.073550675895207e-12,
+      "relative_to_bem": 0.0006531950821107024
+    },
+    {
+      "theta_deg": 180,
+      "er": 1,
+      "h_m": 5e-05,
+      "R_m": 0.32,
+      "cells": 217795,
+      "Cprime_F_per_m": 2.5563556039836822e-11,
+      "C_F": 3.0676267247804187e-12,
+      "energy_Cprime_F_per_m": 2.5563099842039706e-11,
+      "charge_balance_relative": 3.569126303548553e-05,
+      "bem_F": 3.073550675895207e-12,
+      "relative_to_bem": -0.0019273965974426766
+    },
+    {
+      "theta_deg": 0,
+      "er": 4,
+      "h_m": 5e-05,
+      "R_m": 0.12,
+      "cells": 112716,
+      "Cprime_F_per_m": 2.4830224972974624e-10,
+      "C_F": 2.9796269967569546e-11,
+      "energy_Cprime_F_per_m": 2.482947570321472e-10,
+      "charge_balance_relative": 6.043301099066433e-05,
+      "bem_F": 2.980730470843194e-11,
+      "relative_to_bem": -0.0003702025718304025
+    }
+  ],
+  "elapsed_s": 11.460630655288696
+}

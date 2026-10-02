@@ -1,0 +1,324 @@
+{
+  "runtimeSha256": "f65a3d7a00830af2e80c5d6b97e1d37cd2b2f5854b77ad99bc03a7533834dd01",
+  "relativeLinks": [
+    {
+      "from": "dist/index.html",
+      "to": "./style.css",
+      "exists": true
+    },
+    {
+      "from": "dist/index.html",
+      "to": "./app.js",
+      "exists": true
+    },
+    {
+      "from": "previews/index.html",
+      "to": "../index.html",
+      "exists": true
+    },
+    {
+      "from": "previews/index.html",
+      "to": "manifest.json",
+      "exists": true
+    },
+    {
+      "from": "previews/index.html",
+      "to": "overview.png",
+      "exists": true
+    },
+    {
+      "from": "previews/index.html",
+      "to": "overview.png",
+      "exists": true
+    },
+    {
+      "from": "previews/index.html",
+      "to": "01-cover.png",
+      "exists": true
+    },
+    {
+      "from": "previews/index.html",
+      "to": "01-cover.png",
+      "exists": true
+    },
+    {
+      "from": "previews/index.html",
+      "to": "02-materials.png",
+      "exists": true
+    },
+    {
+      "from": "previews/index.html",
+      "to": "02-materials.png",
+      "exists": true
+    },
+    {
+      "from": "previews/index.html",
+      "to": "03-fringing-field.png",
+      "exists": true
+    },
+    {
+      "from": "previews/index.html",
+      "to": "03-fringing-field.png",
+      "exists": true
+    },
+    {
+      "from": "previews/index.html",
+      "to": "04-ionic-interface.png",
+      "exists": true
+    },
+    {
+      "from": "previews/index.html",
+      "to": "04-ionic-interface.png",
+      "exists": true
+    },
+    {
+      "from": "previews/index.html",
+      "to": "05-two-interfaces.png",
+      "exists": true
+    },
+    {
+      "from": "previews/index.html",
+      "to": "05-two-interfaces.png",
+      "exists": true
+    },
+    {
+      "from": "previews/index.html",
+      "to": "06-contact-area.png",
+      "exists": true
+    },
+    {
+      "from": "previews/index.html",
+      "to": "06-contact-area.png",
+      "exists": true
+    },
+    {
+      "from": "previews/index.html",
+      "to": "07-shared-electrodes.png",
+      "exists": true
+    },
+    {
+      "from": "previews/index.html",
+      "to": "07-shared-electrodes.png",
+      "exists": true
+    },
+    {
+      "from": "previews/index.html",
+      "to": "08-dual-signals.png",
+      "exists": true
+    },
+    {
+      "from": "previews/index.html",
+      "to": "08-dual-signals.png",
+      "exists": true
+    },
+    {
+      "from": "previews/index.html",
+      "to": "09-addressable-array.png",
+      "exists": true
+    },
+    {
+      "from": "previews/index.html",
+      "to": "09-addressable-array.png",
+      "exists": true
+    },
+    {
+      "from": "previews/index.html",
+      "to": "10-egg-grasp.png",
+      "exists": true
+    },
+    {
+      "from": "previews/index.html",
+      "to": "10-egg-grasp.png",
+      "exists": true
+    },
+    {
+      "from": "previews/index.html",
+      "to": "11-shared-pixel-hero.png",
+      "exists": true
+    },
+    {
+      "from": "previews/index.html",
+      "to": "11-shared-pixel-hero.png",
+      "exists": true
+    },
+    {
+      "from": "previews/index.html",
+      "to": "hero-2560.png",
+      "exists": true
+    },
+    {
+      "from": "previews/index.html",
+      "to": "hero-2560.png",
+      "exists": true
+    },
+    {
+      "from": "site/previews/index.html",
+      "to": "../index.html",
+      "exists": true
+    },
+    {
+      "from": "site/previews/index.html",
+      "to": "manifest.json",
+      "exists": true
+    },
+    {
+      "from": "site/previews/index.html",
+      "to": "overview.png",
+      "exists": true
+    },
+    {
+      "from": "site/previews/index.html",
+      "to": "overview.png",
+      "exists": true
+    },
+    {
+      "from": "site/previews/index.html",
+      "to": "01-cover.png",
+      "exists": true
+    },
+    {
+      "from": "site/previews/index.html",
+      "to": "01-cover.png",
+      "exists": true
+    },
+    {
+      "from": "site/previews/index.html",
+      "to": "02-materials.png",
+      "exists": true
+    },
+    {
+      "from": "site/previews/index.html",
+      "to": "02-materials.png",
+      "exists": true
+    },
+    {
+      "from": "site/previews/index.html",
+      "to": "03-fringing-field.png",
+      "exists": true
+    },
+    {
+      "from": "site/previews/index.html",
+      "to": "03-fringing-field.png",
+      "exists": true
+    },
+    {
+      "from": "site/previews/index.html",
+      "to": "04-ionic-interface.png",
+      "exists": true
+    },
+    {
+      "from": "site/previews/index.html",
+      "to": "04-ionic-interface.png",
+      "exists": true
+    },
+    {
+      "from": "site/previews/index.html",
+      "to": "05-two-interfaces.png",
+      "exists": true
+    },
+    {
+      "from": "site/previews/index.html",
+      "to": "05-two-interfaces.png",
+      "exists": true
+    },
+    {
+      "from": "site/previews/index.html",
+      "to": "06-contact-area.png",
+      "exists": true
+    },
+    {
+      "from": "site/previews/index.html",
+      "to": "06-contact-area.png",
+      "exists": true
+    },
+    {
+      "from": "site/previews/index.html",
+      "to": "07-shared-electrodes.png",
+      "exists": true
+    },
+    {
+      "from": "site/previews/index.html",
+      "to": "07-shared-electrodes.png",
+      "exists": true
+    },
+    {
+      "from": "site/previews/index.html",
+      "to": "08-dual-signals.png",
+      "exists": true
+    },
+    {
+      "from": "site/previews/index.html",
+      "to": "08-dual-signals.png",
+      "exists": true
+    },
+    {
+      "from": "site/previews/index.html",
+      "to": "09-addressable-array.png",
+      "exists": true
+    },
+    {
+      "from": "site/previews/index.html",
+      "to": "09-addressable-array.png",
+      "exists": true
+    },
+    {
+      "from": "site/previews/index.html",
+      "to": "10-egg-grasp.png",
+      "exists": true
+    },
+    {
+      "from": "site/previews/index.html",
+      "to": "10-egg-grasp.png",
+      "exists": true
+    },
+    {
+      "from": "site/previews/index.html",
+      "to": "11-shared-pixel-hero.png",
+      "exists": true
+    },
+    {
+      "from": "site/previews/index.html",
+      "to": "11-shared-pixel-hero.png",
+      "exists": true
+    },
+    {
+      "from": "site/previews/index.html",
+      "to": "hero-2560.png",
+      "exists": true
+    },
+    {
+      "from": "site/previews/index.html",
+      "to": "hero-2560.png",
+      "exists": true
+    }
+  ],
+  "workflowStructureValid": true,
+  "http": [
+    {
+      "path": "/",
+      "status": 200,
+      "bytes": 1582960,
+      "mime": "text/html; charset=utf-8"
+    },
+    {
+      "path": "/previews/",
+      "status": 200,
+      "bytes": 4262,
+      "mime": "text/html; charset=utf-8"
+    },
+    {
+      "path": "/previews/overview.png",
+      "status": 200,
+      "bytes": 1264762,
+      "mime": "image/png"
+    },
+    {
+      "path": "/previews/manifest.json",
+      "status": 200,
+      "bytes": 4907,
+      "mime": "application/json"
+    }
+  ],
+  "githubDeployed": false,
+  "browserURLNavigationClaimed": false
+}

@@ -1,0 +1,151 @@
+{
+  "runtimeSha256": "c9e67fa0080b752f0613c608b2d00e2048db8dd798ba00d11b8e981166b8cd28",
+  "count": 12,
+  "images": [
+    {
+      "file": "01-opening.png",
+      "title": "电极展开与耦合场",
+      "scene": "01",
+      "phase": 0.33,
+      "field": "lines",
+      "ambientSeconds": 0,
+      "width": 1920,
+      "height": 1080,
+      "sha256": "f5a7f54fd0645bfc4c1d7372cd4ba0f4f3cd72edc4b23c7599466b9648d3fee2",
+      "source": "Actual Chromium WebGL2 render of rebuilt, privacy-cleaned final upload"
+    },
+    {
+      "file": "02-tilted-plates.png",
+      "title": "固定轴与电势分布",
+      "scene": "02",
+      "phase": 0.48,
+      "field": "potential",
+      "ambientSeconds": 0,
+      "width": 1920,
+      "height": 1080,
+      "sha256": "30cf7e1df8c3996bb0f137559d8c0034746a1b6a00f130762a67d1b721efb8f4",
+      "source": "Actual Chromium WebGL2 render of rebuilt, privacy-cleaned final upload"
+    },
+    {
+      "file": "03-ideal-sector.png",
+      "title": "理想扇区解析模型",
+      "scene": "04",
+      "phase": 1,
+      "field": "lines",
+      "ambientSeconds": 0,
+      "width": 1920,
+      "height": 1080,
+      "sha256": "c3fd7aeecb6966c41793c389dfe43bbc38579b26db51056950302236d5dace24",
+      "source": "Actual Chromium WebGL2 render of rebuilt, privacy-cleaned final upload"
+    },
+    {
+      "file": "04-numerical-field.png",
+      "title": "开放空间的数值电场",
+      "scene": "05",
+      "phase": 0.7,
+      "field": "lines",
+      "ambientSeconds": 0,
+      "width": 1920,
+      "height": 1080,
+      "sha256": "9ef9845cc4be4cb38fca68086efe87a297d06a6829233f712b660728c02ee2e4",
+      "source": "Actual Chromium WebGL2 render of rebuilt, privacy-cleaned final upload"
+    },
+    {
+      "file": "05-angle-models.png",
+      "title": "角度扫描与模型偏离",
+      "scene": "06",
+      "phase": 0.78,
+      "field": "potential",
+      "ambientSeconds": 0,
+      "width": 1920,
+      "height": 1080,
+      "sha256": "94258a6cab0ca728e881b69a231b7f91e8a5a5fb8ff67355d4f002551b22b26a",
+      "source": "Actual Chromium WebGL2 render of rebuilt, privacy-cleaned final upload"
+    },
+    {
+      "file": "06-dielectric-edge.png",
+      "title": "介质边缘的场强分布",
+      "scene": "09",
+      "phase": 0.6,
+      "field": "strength",
+      "ambientSeconds": 0,
+      "width": 1920,
+      "height": 1080,
+      "sha256": "1dd648f867429fc09e2dc5df883ec3a1513900746769a478a192cc0e3d0622c9",
+      "source": "Actual Chromium WebGL2 render of rebuilt, privacy-cleaned final upload"
+    },
+    {
+      "file": "07-permittivity.png",
+      "title": "介电常数扫描",
+      "scene": "10",
+      "phase": 0.67,
+      "field": "potential",
+      "ambientSeconds": 0,
+      "width": 1920,
+      "height": 1080,
+      "sha256": "627bf459c8b028674bd2c0feaf8d1ec5c8daec9b38eaf9c7e092490542ef703c",
+      "source": "Actual Chromium WebGL2 render of rebuilt, privacy-cleaned final upload"
+    },
+    {
+      "file": "08-coplanar-result.png",
+      "title": "共面耦合与结果",
+      "scene": "12",
+      "phase": 1,
+      "field": "lines",
+      "ambientSeconds": 0,
+      "width": 1920,
+      "height": 1080,
+      "sha256": "3b7ab50661b0aefb6bffc26c4c05ad676e9a5aa7303c6aba467e7a362d9caa9f",
+      "source": "Actual Chromium WebGL2 render of rebuilt, privacy-cleaned final upload"
+    },
+    {
+      "file": "09-dielectric-geometry.png",
+      "title": "有限介质与真实几何",
+      "scene": "07",
+      "phase": 1,
+      "field": "lines",
+      "ambientSeconds": null,
+      "width": 1920,
+      "height": 1080,
+      "sha256": "bb8072a657ca4e77901a75992b6d6f1adcf4d4621e8aa8d3105e6d1f0f48c10d",
+      "source": "Actual Chromium WebGL2 render of rebuilt, privacy-cleaned final upload"
+    },
+    {
+      "file": "10-rotated-field.png",
+      "title": "旋转电极与场线",
+      "scene": "02",
+      "phase": 0.48,
+      "field": "lines",
+      "ambientSeconds": null,
+      "width": 1920,
+      "height": 1080,
+      "sha256": "aac56a90b4021bc808adf234f4ba1f71aec1c200f3d481f6e667599fa977606d",
+      "source": "Actual Chromium WebGL2 render of rebuilt, privacy-cleaned final upload"
+    },
+    {
+      "file": "11-coplanar-comparison.png",
+      "title": "有限电极模型比较",
+      "scene": "06",
+      "phase": 0.78,
+      "field": "lines",
+      "ambientSeconds": null,
+      "width": 1920,
+      "height": 1080,
+      "sha256": "f30cf14af5022380ea6a0b32acfd3061f6f4dea88654f52a6b36c97b74f4b280",
+      "source": "Actual Chromium WebGL2 render of rebuilt, privacy-cleaned final upload"
+    },
+    {
+      "file": "hero-2560.png",
+      "title": "介质边缘场 / 2560×1440",
+      "scene": "09",
+      "phase": 0.6,
+      "field": "strength",
+      "ambientSeconds": null,
+      "width": 2560,
+      "height": 1440,
+      "sha256": "b9ef88d7b768c720b2167325f4bd1a7ed5e51eab10e5a6a62487271f4e1eb5e7",
+      "source": "Actual Chromium WebGL2 render of rebuilt, privacy-cleaned final upload"
+    }
+  ],
+  "overview": "overview.png"
+}

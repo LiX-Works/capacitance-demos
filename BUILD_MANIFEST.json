@@ -1,0 +1,1846 @@
+{
+  "scope": "GitHub source repository; generated site/dist/standalone project entries and runtime caches are rebuilt locally or by CI.",
+  "files": [
+    {
+      "path": ".gitattributes",
+      "bytes": 341,
+      "sha256": "04b50b1dc00bd1233cc5613714e6c15da8ccf1b1874cbc4b88a43a11049f78b7"
+    },
+    {
+      "path": ".github/workflows/pages.yml",
+      "bytes": 1839,
+      "sha256": "07d795ee87c1c8e72c9d50b73e5c50ba32fc6e54769ebf31956028d107cded4a"
+    },
+    {
+      "path": ".gitignore",
+      "bytes": 158,
+      "sha256": "67afcbf791815dd5b454ab1fddb5cfb1678173158dda12eaeeacbecdaee613cd"
+    },
+    {
+      "path": ".nvmrc",
+      "bytes": 3,
+      "sha256": "f14b4987904bcb5814e4459a057ed4d20f58a633152288a761214dcd28780b56"
+    },
+    {
+      "path": "AGENTS.md",
+      "bytes": 1601,
+      "sha256": "15883baf5235c14e79cf63aaa27c354898edd800c242415233a09cac782786d9"
+    },
+    {
+      "path": "CHANGELOG.md",
+      "bytes": 3319,
+      "sha256": "fc7c755fa09e6943b45117a51aef351abb9a65310790831c6b3fc0de20b5868d"
+    },
+    {
+      "path": "DEPLOY.md",
+      "bytes": 1924,
+      "sha256": "cb400ad60334efcfb945d6b15e06c665d04fdc6b32d0b11cdeb9d33e9db293a7"
+    },
+    {
+      "path": "LICENSE",
+      "bytes": 1086,
+      "sha256": "d2588ae985fe034e606258ddf5f656a834f61691fcf56086b2261395fa888608"
+    },
+    {
+      "path": "QA_REPORT.md",
+      "bytes": 3824,
+      "sha256": "6071a3a5df52e7e67cb03a9e53419d16e2f78e09419809026ae0436bdd838645"
+    },
+    {
+      "path": "README.md",
+      "bytes": 3479,
+      "sha256": "a783d2d1720273f171a979116595d204c37b262b94c96b8228c8157828182de9"
+    },
+    {
+      "path": "THIRD_PARTY_NOTICES.md",
+      "bytes": 1179,
+      "sha256": "60af025e59defedf4723033451b914863b286850a218d6653b6f94af4ca06e2f"
+    },
+    {
+      "path": "index.html",
+      "bytes": 5687,
+      "sha256": "e3a51bd440a3616a1c6f4585dd0339bca72f92d80af26fbde19f4f59012c9e6e"
+    },
+    {
+      "path": "licenses/KaTeX-MIT.txt",
+      "bytes": 1107,
+      "sha256": "766ccc1f306c885aa45542a9846bbd0a505b27a0374f146778171c2254ce18e3"
+    },
+    {
+      "path": "licenses/PROJECT-MIT.txt",
+      "bytes": 1086,
+      "sha256": "d2588ae985fe034e606258ddf5f656a834f61691fcf56086b2261395fa888608"
+    },
+    {
+      "path": "licenses/TypeScript-APACHE-2.0.txt",
+      "bytes": 9197,
+      "sha256": "a7d00bfd54525bc694b6e32f64c7ebcf5e6b7ae3657be5cc12767bce74654a47"
+    },
+    {
+      "path": "package-lock.json",
+      "bytes": 270,
+      "sha256": "c048d699e08d13e8e85558c7170ef08cd7f72621aab2034a9ac2e9412dc8e325"
+    },
+    {
+      "path": "package.json",
+      "bytes": 705,
+      "sha256": "9d7de726cca211e3695f6cc88bc1cbfec6c01c3bb7c9b5eb6457ea8ae223f41e"
+    },
+    {
+      "path": "projects/mutual-capacitance/.gitattributes",
+      "bytes": 272,
+      "sha256": "3f574c431af4ebbdaa1679049eb22501614926fd44cdda84854d89831843a306"
+    },
+    {
+      "path": "projects/mutual-capacitance/.gitignore",
+      "bytes": 165,
+      "sha256": "c89fbfeb9967b6d521c6a393c25f8eb74b813a4568ec2daa281436f7bfdd3f09"
+    },
+    {
+      "path": "projects/mutual-capacitance/.nojekyll",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "projects/mutual-capacitance/.nvmrc",
+      "bytes": 3,
+      "sha256": "f14b4987904bcb5814e4459a057ed4d20f58a633152288a761214dcd28780b56"
+    },
+    {
+      "path": "projects/mutual-capacitance/AGENTS.md",
+      "bytes": 338,
+      "sha256": "a0e0f9fb478aeb41a8928022d5e840ab1724483770e6faf6406c6837fe37ae30"
+    },
+    {
+      "path": "projects/mutual-capacitance/BUILD_MANIFEST.json",
+      "bytes": 832,
+      "sha256": "1864a6a80a22ff8c86397f65d678be0def65b7e09fd17baeb80a4a254b2fc7b9"
+    },
+    {
+      "path": "projects/mutual-capacitance/CODEX_DEPLOY.md",
+      "bytes": 266,
+      "sha256": "a6c774bafc0c9e55ea1114e59e7c6b0aef3d7731dd0ccd1031d1f8e6777d1156"
+    },
+    {
+      "path": "projects/mutual-capacitance/CONTROLS.md",
+      "bytes": 1007,
+      "sha256": "2943294129d79fc5bd536dd60866aed35376dd0d1e5d731d32484776eb9df5f3"
+    },
+    {
+      "path": "projects/mutual-capacitance/LICENSE",
+      "bytes": 1086,
+      "sha256": "d2588ae985fe034e606258ddf5f656a834f61691fcf56086b2261395fa888608"
+    },
+    {
+      "path": "projects/mutual-capacitance/QA_REPORT.md",
+      "bytes": 218,
+      "sha256": "6ee06013386ea8512f1a08fcbdf80733ed506c19bc7a1600f22fea47ca4fc7f7"
+    },
+    {
+      "path": "projects/mutual-capacitance/README.md",
+      "bytes": 2344,
+      "sha256": "c9f7aad480ba955f8c0f40fd3b12d21ecdddaa8e7bc30c7c1a616cee292aed4f"
+    },
+    {
+      "path": "projects/mutual-capacitance/archive/README.md",
+      "bytes": 321,
+      "sha256": "adbc77a7af5ee5b90a4518a824232efde0ab7a076b1d3572e9d6e86377cac527"
+    },
+    {
+      "path": "projects/mutual-capacitance/archive/editorial-scripts/export-docs.mjs",
+      "bytes": 599,
+      "sha256": "3bc3c56441413fdf7938a6f4a3bcea1e63fcbe0e577590a66ebdb85c634126e6"
+    },
+    {
+      "path": "projects/mutual-capacitance/archive/preview-layout-2026-10-02/before-2x2-README.md",
+      "bytes": 253,
+      "sha256": "d7b36d212f725f6f1308811894b5af0ec18a51e2adde93a3f76d4f3953cbaad7"
+    },
+    {
+      "path": "projects/mutual-capacitance/archive/preview-layout-2026-10-02/before-2x2-manifest.json",
+      "bytes": 5162,
+      "sha256": "2894f15014e8f0df04cf4c03ad81f4d6488db93e094a68508a79cb03219d1d37"
+    },
+    {
+      "path": "projects/mutual-capacitance/archive/preview-layout-2026-10-02/before-2x2-overview.png",
+      "bytes": 955830,
+      "sha256": "c5a3aa088c415cb78446601f521071f51a73a52d0a89b4f39aa7fe55080a51a1"
+    },
+    {
+      "path": "projects/mutual-capacitance/archive/prior-github-handoff/.github/workflows/pages.yml",
+      "bytes": 1104,
+      "sha256": "d290832985e4718cf219f543189a8acaa82cf63fda7ad395730503dcf210a11f"
+    },
+    {
+      "path": "projects/mutual-capacitance/archive/prior-github-handoff/AGENTS.md",
+      "bytes": 2691,
+      "sha256": "997be04685a795a7d5aafa93b1cad3cadc471bbd8d39bdbbc1b762d5dcacfbd3"
+    },
+    {
+      "path": "projects/mutual-capacitance/archive/prior-github-handoff/BUILD_MANIFEST.json",
+      "bytes": 33554,
+      "sha256": "78451bb047408e985d905b3472dc30f936afe66c8e820c4b7566f92ad01b706f"
+    },
+    {
+      "path": "projects/mutual-capacitance/archive/prior-github-handoff/CODEX_DEPLOY.md",
+      "bytes": 2032,
+      "sha256": "6bd31365e4dbd420c01bd2dbb41f5e6a9e5529b7417d7df9157196957b9ab31c"
+    },
+    {
+      "path": "projects/mutual-capacitance/archive/prior-github-handoff/QA_REPORT.md",
+      "bytes": 5678,
+      "sha256": "5aba23ecaa5ea1f7ff6b909e6ffec2883b6948286e5087262b86a2cbb4ce4e62"
+    },
+    {
+      "path": "projects/mutual-capacitance/archive/prior-github-handoff/README.md",
+      "bytes": 3151,
+      "sha256": "543072db18ada989a3d7ab2cd37aeb29941afe018e850f37960a09ac789bd278"
+    },
+    {
+      "path": "projects/mutual-capacitance/archive/prior-github-handoff/docs/SOURCE_SYNC.md",
+      "bytes": 3632,
+      "sha256": "3637cd788cac62cd852d122a39115d930287c014cb922350baf5e86b71228944"
+    },
+    {
+      "path": "projects/mutual-capacitance/archive/prior-github-handoff/docs/SOURCE_UPDATE_MANIFEST.json",
+      "bytes": 7098,
+      "sha256": "71357abf5259c5f7f45eaeefb26a3e81331952e6fd85177733967c050dea753f"
+    },
+    {
+      "path": "projects/mutual-capacitance/archive/prior-github-handoff/qa/DELIVERY_STATUS.json",
+      "bytes": 723,
+      "sha256": "4a9b1da986a00a690463f70844463bdf848acefbcb0b785e28e9df1e0e3a1e84"
+    },
+    {
+      "path": "projects/mutual-capacitance/archive/prior-github-handoff/qa/browser-sync.json",
+      "bytes": 41654,
+      "sha256": "c46f5714f3e63c69a779eb2dd55e33145eb9597528dd119b044e41052c7c3598"
+    },
+    {
+      "path": "projects/mutual-capacitance/archive/prior-github-handoff/qa/clean-build.json",
+      "bytes": 509,
+      "sha256": "4fec0d936b13cd857dc01e07447a38838ccd54dd8f5fe6c30c72ec46fb8facdb"
+    },
+    {
+      "path": "projects/mutual-capacitance/archive/prior-github-handoff/qa/deployment-local-check.json",
+      "bytes": 6991,
+      "sha256": "1255abaad350a2c2637dbedd3a544ed172ba4b3023b95be503eb073732bb0a9d"
+    },
+    {
+      "path": "projects/mutual-capacitance/archive/prior-github-handoff/qa/harness-debug/README.md",
+      "bytes": 368,
+      "sha256": "66a14e262151a997b6eef8e96d6cd2061b1b61b53e0878fd1a55e50ad8bc4ec2"
+    },
+    {
+      "path": "projects/mutual-capacitance/archive/prior-github-handoff/qa/harness-debug/initial-report.json",
+      "bytes": 41655,
+      "sha256": "4d0620d40bcea273494e66eb1397c4535f413b1c7525e28edf541c6c3bbd6a00"
+    },
+    {
+      "path": "projects/mutual-capacitance/archive/prior-github-handoff/qa/manual-review.json",
+      "bytes": 3790,
+      "sha256": "9c33853415b2e4cf491592b48cf02eda7a0317679595c76b4d4ed8313b416eee"
+    },
+    {
+      "path": "projects/mutual-capacitance/archive/prior-github-handoff/qa/preview-extras.json",
+      "bytes": 12751,
+      "sha256": "39e04753ff194e872c02f550997ebb64b665a116077b95cfa08345384a4898da"
+    },
+    {
+      "path": "projects/mutual-capacitance/archive/prior-github-handoff/qa/privacy-audit.json",
+      "bytes": 454,
+      "sha256": "ba8eb39c700207c37770a64cf9855a26a153d95299ee17e6f07b421772728238"
+    },
+    {
+      "path": "projects/mutual-capacitance/archive/prior-github-handoff/qa/source-sync.json",
+      "bytes": 5936,
+      "sha256": "cf59ef67c75044138d42bc9eb7037b72f2aed393166d1189ec1c6497168395d8"
+    },
+    {
+      "path": "projects/mutual-capacitance/archive/prior-github-handoff/source/tests/README.md",
+      "bytes": 1705,
+      "sha256": "a09c91e5be4873cca98cf40bf2ea01d68507ad85b11ed0de9246daad7896e4c9"
+    },
+    {
+      "path": "projects/mutual-capacitance/archive/prior-github-handoff/source/tests/browser_qa.py",
+      "bytes": 11683,
+      "sha256": "0457b038642f4fa48752c0b3ce3d45c3cd272346908eabb779c17e6dd52df9bd"
+    },
+    {
+      "path": "projects/mutual-capacitance/archive/qa-evidence/PROVENANCE.json",
+      "bytes": 867,
+      "sha256": "589625309fda11c7327bfab5698d6691e2b21785853741396d2eb3eff52f8410"
+    },
+    {
+      "path": "projects/mutual-capacitance/archive/qa-evidence/VALIDATION_STATUS.json",
+      "bytes": 1859,
+      "sha256": "28baddbdba5fc523529ed64ae5c7a1fb0fed0fa6e5b48bccdc5df4ff40103ea9"
+    },
+    {
+      "path": "projects/mutual-capacitance/archive/qa-evidence/browser-model-consistency.json",
+      "bytes": 3494,
+      "sha256": "af253b96eec0a7950f281f3f1398e5de4369c22ef2a390abf80f96c3ac9e05fa"
+    },
+    {
+      "path": "projects/mutual-capacitance/archive/qa-evidence/clean-build.json",
+      "bytes": 714,
+      "sha256": "88119bcdb42c626a6b4263fe22fa71091771de103ce1660ab8cee41ddb752483"
+    },
+    {
+      "path": "projects/mutual-capacitance/archive/qa-evidence/compute-summary.json",
+      "bytes": 212,
+      "sha256": "c5fbf77a159fd51b442fd7d57c96274cb2f53830a67bbc7870397623cdf1b9bd"
+    },
+    {
+      "path": "projects/mutual-capacitance/archive/qa-evidence/final-pipeline.json",
+      "bytes": 549,
+      "sha256": "f10e0e33cfed8c05d522821d01e932faa85528d6b6cb8c2967d4eb542b5670db"
+    },
+    {
+      "path": "projects/mutual-capacitance/archive/qa-evidence/final/1920/report.json",
+      "bytes": 45724,
+      "sha256": "26e23d1123cf3c226bf9da8038f93e482aa9c0956888e78bacabad6178f4165f"
+    },
+    {
+      "path": "projects/mutual-capacitance/archive/qa-evidence/final/2560/report.json",
+      "bytes": 45944,
+      "sha256": "93cd5457d468c3a343ffe57607216cfd139c5cb6c97bfb933c7fa91abef58909"
+    },
+    {
+      "path": "projects/mutual-capacitance/archive/qa-evidence/finite-width-3d.json",
+      "bytes": 3163,
+      "sha256": "3e943ddb19f201584e19b062c670341b7e5be53ab27bee21011121811f564ebb"
+    },
+    {
+      "path": "projects/mutual-capacitance/archive/qa-evidence/independent-fvm.json",
+      "bytes": 3938,
+      "sha256": "ca6e3d2f91fce5f8ad412e30131a4f21d058f83344fdda52baf3c9e555c03e94"
+    },
+    {
+      "path": "projects/mutual-capacitance/archive/qa-evidence/interactions/report.json",
+      "bytes": 27713,
+      "sha256": "160c0a289257eeed6e9f962329e6a77d63a1e80f8d44620e4f06a434bfb0683b"
+    },
+    {
+      "path": "projects/mutual-capacitance/archive/qa-evidence/interpolation-check.json",
+      "bytes": 21234,
+      "sha256": "8fc6d9b77dfeab2413ab295ae010528a88800f0976be211120a8eb2a72c369d5"
+    },
+    {
+      "path": "projects/mutual-capacitance/archive/qa-evidence/manual-review.json",
+      "bytes": 1787,
+      "sha256": "2637282e56c230f4a586c93a517db13426dedb974387c5ecb5a25ba1a5b748fa"
+    },
+    {
+      "path": "projects/mutual-capacitance/archive/qa-evidence/numerical-validation.json",
+      "bytes": 17894,
+      "sha256": "79e928c51223383015288b605926d7297951182642584a530be824f50e9782cd"
+    },
+    {
+      "path": "projects/mutual-capacitance/archive/qa-evidence/offline/report.json",
+      "bytes": 6400,
+      "sha256": "f5dbaf5c3cc6cc3388ddaef8174cb7e2a09a757681fae2785556dab03f045828"
+    },
+    {
+      "path": "projects/mutual-capacitance/archive/qa-evidence/parameter-trials.json",
+      "bytes": 2816,
+      "sha256": "d59cd481c8ccac0166bc7c52886a91834aef1899b1640fed0391b0e97ae62c7f"
+    },
+    {
+      "path": "projects/mutual-capacitance/archive/qa-evidence/performance/report.json",
+      "bytes": 44235,
+      "sha256": "920c2cd3cf2aaba55a547588c53751c8f74ef4150fe8475da918c39c4f3fc758"
+    },
+    {
+      "path": "projects/mutual-capacitance/archive/qa-evidence/playback/report.json",
+      "bytes": 7653,
+      "sha256": "01b19c943facc4c6c04212659069b0bf3efbe22ce5c6e6c85e57b204bb6ad2ba"
+    },
+    {
+      "path": "projects/mutual-capacitance/archive/qa-evidence/transitions/1920/report.json",
+      "bytes": 227796,
+      "sha256": "a04cfcd2bd6d1a4b731c3528729a5240052c25e8d9c7c2b4ec309e1bcbcb4f6c"
+    },
+    {
+      "path": "projects/mutual-capacitance/archive/qa-evidence/transitions/2560/report.json",
+      "bytes": 228896,
+      "sha256": "d895b11ed8cf1a67e284fff9ffc8213e2331e68ca0afc91cb75086ce3540f306"
+    },
+    {
+      "path": "projects/mutual-capacitance/archive/spec-pack/README-HISTORICAL.md",
+      "bytes": 265,
+      "sha256": "f239d9ff782e456b1b32bafc9ec82ed52ba0918463498e5d17cbab622fedc7a3"
+    },
+    {
+      "path": "projects/mutual-capacitance/archive/spec-pack/tilted_capacitor_html_prompt_pack_v2/01_MASTER_BRIEF.md",
+      "bytes": 2439,
+      "sha256": "3ee6d03b60ce80a60983c9f39704f552cf386cdaefb0ebc27159d1eec00fbdfc"
+    },
+    {
+      "path": "projects/mutual-capacitance/archive/spec-pack/tilted_capacitor_html_prompt_pack_v2/02_GEOMETRY_AND_MODELING.md",
+      "bytes": 3565,
+      "sha256": "5493c888562e831056415a24aa1a9bd44c201d9d034f6335214300f16a387707"
+    },
+    {
+      "path": "projects/mutual-capacitance/archive/spec-pack/tilted_capacitor_html_prompt_pack_v2/03_REAL_PARAMETERS_AND_SIMULATION.md",
+      "bytes": 2863,
+      "sha256": "c007ea7311fe9db5477e99588141c693eded930b8f38400b49fb2ac57ba9bfde"
+    },
+    {
+      "path": "projects/mutual-capacitance/archive/spec-pack/tilted_capacitor_html_prompt_pack_v2/04_HTML_SCENE_AND_ANIMATION_PLAN.md",
+      "bytes": 3577,
+      "sha256": "3c60d35bd3cdcdecd9d4ec1caa0503838e7630f864219a5cd40dad084f00e841"
+    },
+    {
+      "path": "projects/mutual-capacitance/archive/spec-pack/tilted_capacitor_html_prompt_pack_v2/05_IMPLEMENTATION_AND_QA.md",
+      "bytes": 3021,
+      "sha256": "e3377628160dac6bf5fd8ddcef281e36e1ccb8e17f2aa1bf2b06aed74f8e855c"
+    },
+    {
+      "path": "projects/mutual-capacitance/archive/spec-pack/tilted_capacitor_html_prompt_pack_v2/README.md",
+      "bytes": 522,
+      "sha256": "5330edefeb868e75596db6909c52c82ef90ba81ac009ff1bcd0f003b1e82e1b6"
+    },
+    {
+      "path": "projects/mutual-capacitance/data/results.json",
+      "bytes": 14628215,
+      "sha256": "ea514393999bf076ee4edc844ec70ef1bae7f4e8b52b60f64cc35a2e9baab2cc"
+    },
+    {
+      "path": "projects/mutual-capacitance/deployment/OFFICIAL_REFERENCES.md",
+      "bytes": 1414,
+      "sha256": "c4a841bab130f08e9384790192fc92dfad34da720f4afe3531081ffb048645a4"
+    },
+    {
+      "path": "projects/mutual-capacitance/docs/MODEL_DERIVATION.md",
+      "bytes": 9331,
+      "sha256": "576c2ef5666a00c4aa467dc2e3e4caf1cfe2b911ba3828d27e3a6afffd6771f1"
+    },
+    {
+      "path": "projects/mutual-capacitance/docs/NUMERICAL_REPORT.md",
+      "bytes": 12649,
+      "sha256": "c7c9269dae2ea6de433a520fc472a8039e767c49380164bf6d09e7a228ee02d0"
+    },
+    {
+      "path": "projects/mutual-capacitance/docs/PACKAGE_NOTES.md",
+      "bytes": 1413,
+      "sha256": "ea21900d5bf80bf750df4a5138f84c58195672d394f7a901c4bfb2d49e435480"
+    },
+    {
+      "path": "projects/mutual-capacitance/docs/READ_LOG.json",
+      "bytes": 2507,
+      "sha256": "514e06a6d4d36a3127e5722afcb4d2741f4f4a1f50bed6724c966651ccd43189"
+    },
+    {
+      "path": "projects/mutual-capacitance/docs/RELEASE_CONTRACT.json",
+      "bytes": 5083,
+      "sha256": "e2f1538159eb45acbf3aecdcd3a123f3df53cc0f5060e6b185a8e470f29011d4"
+    },
+    {
+      "path": "projects/mutual-capacitance/docs/REPRODUCE.md",
+      "bytes": 4826,
+      "sha256": "546a753a6fe419d610278f58cf7ca0fedb167bdcf0ec4166ec0f5eed32eef11f"
+    },
+    {
+      "path": "projects/mutual-capacitance/docs/SCENE_COPY.md",
+      "bytes": 7468,
+      "sha256": "aa4c2fcb96a78e5ed20d7870e82999312063664359cecdc143d0d94664ace286"
+    },
+    {
+      "path": "projects/mutual-capacitance/docs/SCENE_MANIFEST.json",
+      "bytes": 10357,
+      "sha256": "b9f6152716b75a76c160320826c5bca62db03d6f07e3c63edb1eb8d293df0ce2"
+    },
+    {
+      "path": "projects/mutual-capacitance/docs/SOURCES_AND_PROVENANCE.md",
+      "bytes": 5045,
+      "sha256": "f04bdb648b5063bdef05e776a9316fe2009fcb1765612816a83f7dcdc57a1b17"
+    },
+    {
+      "path": "projects/mutual-capacitance/docs/SOURCE_SYNC.md",
+      "bytes": 1455,
+      "sha256": "37275a7a41a6371ce6e39734b0af89bc275ea9ddafe3cb7cc95aef6668384766"
+    },
+    {
+      "path": "projects/mutual-capacitance/docs/UPLOAD_PROVENANCE.json",
+      "bytes": 543,
+      "sha256": "c6d5a03a18052e7164795c4a04e1edb1917ca0ae237d0d49bec6c3723c8ab700"
+    },
+    {
+      "path": "projects/mutual-capacitance/docs/historical/CONTROLS.md",
+      "bytes": 1997,
+      "sha256": "0a8d64c59d804ff4681cedf1f140b9f752c73d9087e4202f22b7c59ef9f24794"
+    },
+    {
+      "path": "projects/mutual-capacitance/docs/historical/PACKAGE_NOTES.md",
+      "bytes": 1194,
+      "sha256": "c28e776332dfe83cc9c575a43db18458ff5892721b74b537f98954342fbe894e"
+    },
+    {
+      "path": "projects/mutual-capacitance/docs/historical/PRESENTATION_GUIDE.md",
+      "bytes": 2254,
+      "sha256": "e80ad3507ca0a5868f27e6b736c638370b772992641d31d3d02d810028c1267a"
+    },
+    {
+      "path": "projects/mutual-capacitance/docs/historical/QA_REPORT.md",
+      "bytes": 7535,
+      "sha256": "fdf5b1b5fe6883b205b8df84a80b33c4c0813a604b5be8075a1e8dbe53b99f0d"
+    },
+    {
+      "path": "projects/mutual-capacitance/docs/historical/README.md",
+      "bytes": 4543,
+      "sha256": "95be213a861ee6ed0ef15032cdb6fa50cdb5afb87679b504abafc990ec640b24"
+    },
+    {
+      "path": "projects/mutual-capacitance/docs/historical/REPRODUCE.md",
+      "bytes": 3285,
+      "sha256": "9403c2fff2cf7cb77a204d34e67d54c2ee8d8f44b983532bc2bfeb8de6f6005b"
+    },
+    {
+      "path": "projects/mutual-capacitance/licenses/KaTeX-MIT.txt",
+      "bytes": 1107,
+      "sha256": "766ccc1f306c885aa45542a9846bbd0a505b27a0374f146778171c2254ce18e3"
+    },
+    {
+      "path": "projects/mutual-capacitance/licenses/PROJECT-MIT.txt",
+      "bytes": 1086,
+      "sha256": "d2588ae985fe034e606258ddf5f656a834f61691fcf56086b2261395fa888608"
+    },
+    {
+      "path": "projects/mutual-capacitance/licenses/TypeScript-APACHE-2.0.txt",
+      "bytes": 9197,
+      "sha256": "a7d00bfd54525bc694b6e32f64c7ebcf5e6b7ae3657be5cc12767bce74654a47"
+    },
+    {
+      "path": "projects/mutual-capacitance/package.json",
+      "bytes": 619,
+      "sha256": "f213256680c421db6f8cd5eda242780e65d48e3ee36e96ffeeb2181eea932a91"
+    },
+    {
+      "path": "projects/mutual-capacitance/parameters.json",
+      "bytes": 1138,
+      "sha256": "0b23ce74c9b690fd5c79d335ed52ef88341d4925891863338356a1401cbbac52"
+    },
+    {
+      "path": "projects/mutual-capacitance/physics/bem.py",
+      "bytes": 5322,
+      "sha256": "9aa9237afce7a0d86a60ce02556293d13e0d99cdcfcb84745ba354d176aa3ad9"
+    },
+    {
+      "path": "projects/mutual-capacitance/physics/bem3d_check.py",
+      "bytes": 3262,
+      "sha256": "67520ece9f68013437a955f3d5175a58866188f8e9a1496029bc15531000ef94"
+    },
+    {
+      "path": "projects/mutual-capacitance/physics/check_interpolation.py",
+      "bytes": 1121,
+      "sha256": "324fc71be7125db3afbfbc825a78af3b5a7ae4509e882f72a8c06e5f1357bfd2"
+    },
+    {
+      "path": "projects/mutual-capacitance/physics/enrich.py",
+      "bytes": 1499,
+      "sha256": "46e0718b758f835d92df01d5024e5e650f99179ca6bfe24d8c9e2decb29c0119"
+    },
+    {
+      "path": "projects/mutual-capacitance/physics/fvm_check.py",
+      "bytes": 4340,
+      "sha256": "efdb668f59076f8072aec24e564e128f28b866819840dd54c24766db3e751bf7"
+    },
+    {
+      "path": "projects/mutual-capacitance/physics/generate.py",
+      "bytes": 9800,
+      "sha256": "d2ba95c383efef922347bb4b71e699c7a0ff1942d1ebfff99609ca99328a51b6"
+    },
+    {
+      "path": "projects/mutual-capacitance/physics/local_maps.py",
+      "bytes": 1638,
+      "sha256": "9cb88951b8ed4430018e38112d5f8ae30ea056f5f2a7f3d0a34881d0e447da54"
+    },
+    {
+      "path": "projects/mutual-capacitance/physics/model.py",
+      "bytes": 2670,
+      "sha256": "5af1d35371d4d0ce80e464c0862bc2ae159f0c5d0edd4e19212c83fd729e3217"
+    },
+    {
+      "path": "projects/mutual-capacitance/physics/provenance.py",
+      "bytes": 1355,
+      "sha256": "57f1669890a0939897e8f8ae85a1211b4af73267a04b2f3629e08be31afbed95"
+    },
+    {
+      "path": "projects/mutual-capacitance/physics/reproduce.py",
+      "bytes": 3159,
+      "sha256": "832158d8add4be4833dcfb5d37fc488120aa29e229cdf41a61cfd9f69cd0c2e5"
+    },
+    {
+      "path": "projects/mutual-capacitance/physics/tests/test_safety.py",
+      "bytes": 7586,
+      "sha256": "227b832e042dd6dfc4471aadf09545a65e58579d678a3e758fa2691e6d581e3d"
+    },
+    {
+      "path": "projects/mutual-capacitance/physics/trial_and_validate.py",
+      "bytes": 901,
+      "sha256": "9c6be95bed32a008ff514f3cbef7f03a6ff5cad6fc70c9544a6b81eb1098a662"
+    },
+    {
+      "path": "projects/mutual-capacitance/previews/01-opening.png",
+      "bytes": 212307,
+      "sha256": "f5a7f54fd0645bfc4c1d7372cd4ba0f4f3cd72edc4b23c7599466b9648d3fee2"
+    },
+    {
+      "path": "projects/mutual-capacitance/previews/02-tilted-plates.png",
+      "bytes": 221045,
+      "sha256": "30cf7e1df8c3996bb0f137559d8c0034746a1b6a00f130762a67d1b721efb8f4"
+    },
+    {
+      "path": "projects/mutual-capacitance/previews/03-ideal-sector.png",
+      "bytes": 276614,
+      "sha256": "c3fd7aeecb6966c41793c389dfe43bbc38579b26db51056950302236d5dace24"
+    },
+    {
+      "path": "projects/mutual-capacitance/previews/04-numerical-field.png",
+      "bytes": 230983,
+      "sha256": "9ef9845cc4be4cb38fca68086efe87a297d06a6829233f712b660728c02ee2e4"
+    },
+    {
+      "path": "projects/mutual-capacitance/previews/05-angle-models.png",
+      "bytes": 231873,
+      "sha256": "94258a6cab0ca728e881b69a231b7f91e8a5a5fb8ff67355d4f002551b22b26a"
+    },
+    {
+      "path": "projects/mutual-capacitance/previews/06-dielectric-edge.png",
+      "bytes": 253698,
+      "sha256": "1dd648f867429fc09e2dc5df883ec3a1513900746769a478a192cc0e3d0622c9"
+    },
+    {
+      "path": "projects/mutual-capacitance/previews/07-permittivity.png",
+      "bytes": 217376,
+      "sha256": "627bf459c8b028674bd2c0feaf8d1ec5c8daec9b38eaf9c7e092490542ef703c"
+    },
+    {
+      "path": "projects/mutual-capacitance/previews/08-coplanar-result.png",
+      "bytes": 261011,
+      "sha256": "3b7ab50661b0aefb6bffc26c4c05ad676e9a5aa7303c6aba467e7a362d9caa9f"
+    },
+    {
+      "path": "projects/mutual-capacitance/previews/09-dielectric-geometry.png",
+      "bytes": 228822,
+      "sha256": "bb8072a657ca4e77901a75992b6d6f1adcf4d4621e8aa8d3105e6d1f0f48c10d"
+    },
+    {
+      "path": "projects/mutual-capacitance/previews/10-rotated-field.png",
+      "bytes": 215932,
+      "sha256": "aac56a90b4021bc808adf234f4ba1f71aec1c200f3d481f6e667599fa977606d"
+    },
+    {
+      "path": "projects/mutual-capacitance/previews/11-coplanar-comparison.png",
+      "bytes": 260000,
+      "sha256": "f30cf14af5022380ea6a0b32acfd3061f6f4dea88654f52a6b36c97b74f4b280"
+    },
+    {
+      "path": "projects/mutual-capacitance/previews/README.md",
+      "bytes": 600,
+      "sha256": "95976e79ad415ff57d081aeb814886d68be6dd7b35fb741c200dbcec805115a9"
+    },
+    {
+      "path": "projects/mutual-capacitance/previews/hero-2560.png",
+      "bytes": 367237,
+      "sha256": "b9ef88d7b768c720b2167325f4bd1a7ed5e51eab10e5a6a62487271f4e1eb5e7"
+    },
+    {
+      "path": "projects/mutual-capacitance/previews/index.html",
+      "bytes": 4360,
+      "sha256": "94c94a1a7a31820620067692874123a61efad4c727372c633e3865d896a52299"
+    },
+    {
+      "path": "projects/mutual-capacitance/previews/manifest.json",
+      "bytes": 5550,
+      "sha256": "db2570100ac34d12b19009a4a0f3e6c49cb57135086087831cfde76046590448"
+    },
+    {
+      "path": "projects/mutual-capacitance/previews/overview.png",
+      "bytes": 865480,
+      "sha256": "735e0ec67dd613ed834e73118b37a93ce0bda67bcfcd3a0c665d82fc05553ca7"
+    },
+    {
+      "path": "projects/mutual-capacitance/project.json",
+      "bytes": 230,
+      "sha256": "97119d3a41d590a76d1c63b57c7617bc84c4d1deb4713aeecbb3e861659d2d3c"
+    },
+    {
+      "path": "projects/mutual-capacitance/qa/curated-preview-refresh.json",
+      "bytes": 225,
+      "sha256": "a229d95eb8b7b98433e628ecb103d8ced229756dd33fd9c370c7148716581533"
+    },
+    {
+      "path": "projects/mutual-capacitance/qa/source-sync.json",
+      "bytes": 4387,
+      "sha256": "cb06ff0e398f69f220492edb8ec1b4b4f637554907459e774cc5ca2e77e4cdf7"
+    },
+    {
+      "path": "projects/mutual-capacitance/reference/final-upload.html",
+      "bytes": 15269754,
+      "sha256": "57bcbde1c450ec948f227ed2e8ae8b6d115282d0c441142cb7bb4e9e809d9b9e"
+    },
+    {
+      "path": "projects/mutual-capacitance/requirements-reproduce.txt",
+      "bytes": 178,
+      "sha256": "c74b388baa4eee8661f04e63671e3b905f8f27942e47ccfbb6c18e04898b9594"
+    },
+    {
+      "path": "projects/mutual-capacitance/source/index.html",
+      "bytes": 645,
+      "sha256": "9af4877464e8edd4816f8368eb231551df6a1f91f548e61bd087ad9e86842f6c"
+    },
+    {
+      "path": "projects/mutual-capacitance/source/legacy-tests/README.md",
+      "bytes": 356,
+      "sha256": "738e97a29621cef57b722e9cf1ebf31e4d7a1e352f60a1fd0a25fa505802c39f"
+    },
+    {
+      "path": "projects/mutual-capacitance/source/legacy-tests/capture_matrix.py",
+      "bytes": 2112,
+      "sha256": "1cb4218f2d2992b8b1e0f96cc1fc2f49ab9bdf3c8f2216a9644878466292d9b1"
+    },
+    {
+      "path": "projects/mutual-capacitance/source/legacy-tests/final_queue.py",
+      "bytes": 1019,
+      "sha256": "84b7ac94b6866dc88db8abb7dc8a7eeb432e0f3054f8ac1df811a1cc56f94cd6"
+    },
+    {
+      "path": "projects/mutual-capacitance/source/legacy-tests/harness.py",
+      "bytes": 2811,
+      "sha256": "ad0c98ee13bc5fffacf1a2f7fa331d9f18540e9358917b04745d7de5b323aefe"
+    },
+    {
+      "path": "projects/mutual-capacitance/source/legacy-tests/interactions.py",
+      "bytes": 6267,
+      "sha256": "ad9c9b253eff28c3e57e880c0bd48da388cb65de2f4dc4a0587a9839c0664821"
+    },
+    {
+      "path": "projects/mutual-capacitance/source/legacy-tests/models.mjs",
+      "bytes": 6832,
+      "sha256": "9eba4d598ed284c3ad87fcda810809ef48dde546b7d9c4cfe3c41911b0e1e9ee"
+    },
+    {
+      "path": "projects/mutual-capacitance/source/legacy-tests/offline.py",
+      "bytes": 2910,
+      "sha256": "56da8b8de338c743619dffb3dd7185bb386c3a21390c01106e9e4e5b3f8fe7d8"
+    },
+    {
+      "path": "projects/mutual-capacitance/source/legacy-tests/performance.py",
+      "bytes": 1783,
+      "sha256": "7bf103c6308ce906d7114a04dd3384187fe7a07ee88d2134e4c3fe3fa3a10c59"
+    },
+    {
+      "path": "projects/mutual-capacitance/source/legacy-tests/playback.py",
+      "bytes": 2114,
+      "sha256": "8823cf088e9be419df42abad01d4153ef0d3b20a28644cc8e521399ccdc583e2"
+    },
+    {
+      "path": "projects/mutual-capacitance/source/package-lock.json",
+      "bytes": 643,
+      "sha256": "1f06d4643faf3e4320e80946ebb16e4059fbba40af7242e35d2021d040ab3c59"
+    },
+    {
+      "path": "projects/mutual-capacitance/source/package.json",
+      "bytes": 640,
+      "sha256": "e06c746d42b996ce6cbe26690fd025670bb67f98caddf6600d2fce9943325d0f"
+    },
+    {
+      "path": "projects/mutual-capacitance/source/public/style.css",
+      "bytes": 12373,
+      "sha256": "3af997399a2ac81562b9333bf68b69ee0dd3549858f3158cf87318e125b2e7e2"
+    },
+    {
+      "path": "projects/mutual-capacitance/source/public/vendor/katex.js",
+      "bytes": 265417,
+      "sha256": "35826b0d4b7ae160c1b76c6ba508ec698f255e314ea0e35e711c0cd291522c0d"
+    },
+    {
+      "path": "projects/mutual-capacitance/source/requirements-qa.txt",
+      "bytes": 86,
+      "sha256": "c82643154e7b67d0a08fb5dc8a623eb2d854c40cfae5e2d15341752d1255ad1b"
+    },
+    {
+      "path": "projects/mutual-capacitance/source/scripts/build.mjs",
+      "bytes": 4424,
+      "sha256": "d7bf4e54b9704cf6ba4167f8ebb9a2632a32483cbdad4955255b8899d69ec336"
+    },
+    {
+      "path": "projects/mutual-capacitance/source/scripts/serve.mjs",
+      "bytes": 936,
+      "sha256": "86c9f282afc75bb273da846b189a4535b9efff8b13ffca0124fa079f33af8335"
+    },
+    {
+      "path": "projects/mutual-capacitance/source/scripts/setup-offline.mjs",
+      "bytes": 1637,
+      "sha256": "93d8630cef133258b9d6419cd87cb0202322bc06bf4b11f9b63ab40521db6b9b"
+    },
+    {
+      "path": "projects/mutual-capacitance/source/src/engine/camera.ts",
+      "bytes": 1864,
+      "sha256": "133f88b720ea922a42ffcbd3d42a90c26f0c7bfd1252e62fc7604a90c46de650"
+    },
+    {
+      "path": "projects/mutual-capacitance/source/src/engine/geometry.ts",
+      "bytes": 9872,
+      "sha256": "4163358db30b13af83cbba99c108f812e6c15e8c6893db9d0206e099e7619749"
+    },
+    {
+      "path": "projects/mutual-capacitance/source/src/engine/math.ts",
+      "bytes": 3688,
+      "sha256": "486cfdbeaee8d16ec54cac281b3c33513d3f0175bd5b9f076f584e548925b6e3"
+    },
+    {
+      "path": "projects/mutual-capacitance/source/src/engine/renderer.ts",
+      "bytes": 20500,
+      "sha256": "27b81043e24815d89ec5856436b23c2bda092ec75ef90e1016d7863ff3eca68d"
+    },
+    {
+      "path": "projects/mutual-capacitance/source/src/engine/scene.ts",
+      "bytes": 3225,
+      "sha256": "01840447a414641bca6186d691c9c42fac53771ba1cde432ec485966d2a6b3d0"
+    },
+    {
+      "path": "projects/mutual-capacitance/source/src/main.ts",
+      "bytes": 14088,
+      "sha256": "205654c6a794ee28ad082f217ef640b3327408bc0fa62bcdf92136c9cbad1937"
+    },
+    {
+      "path": "projects/mutual-capacitance/source/src/models/Experiment.ts",
+      "bytes": 10023,
+      "sha256": "bfea78f1bb147d8fab6072f26c9716fa4006d5bd7dbbf3c6cd1894ac3ef22768"
+    },
+    {
+      "path": "projects/mutual-capacitance/source/src/models/Wedge.ts",
+      "bytes": 2703,
+      "sha256": "17a7948620d3e05676fe7c7f36ed848dd3419ae94e338330c85ba5bd93b10d4b"
+    },
+    {
+      "path": "projects/mutual-capacitance/source/src/physics/data.ts",
+      "bytes": 14628309,
+      "sha256": "beb618e710913018da798847ce924b6cad0bd93367fd2b24ed8cda8879ce08f9"
+    },
+    {
+      "path": "projects/mutual-capacitance/source/src/physics/model.ts",
+      "bytes": 3807,
+      "sha256": "4fca4bc7db074e2c622ffd207ce6a38046c8ada340c1f5ff81c2019dcc2baadc"
+    },
+    {
+      "path": "projects/mutual-capacitance/source/src/scenes/definitions.ts",
+      "bytes": 9240,
+      "sha256": "bf5e79771c2820a64b2dce5f3da470509012719747fcdb645b99fb43b79e76b8"
+    },
+    {
+      "path": "projects/mutual-capacitance/source/src/ui/Chart.ts",
+      "bytes": 4765,
+      "sha256": "fe1c8f1a439744b15956c28b0d232affb749ac1caad9f178d77197c69415d7f5"
+    },
+    {
+      "path": "projects/mutual-capacitance/source/src/ui/HUD.ts",
+      "bytes": 13143,
+      "sha256": "a6599e78371e5518a1488ffe1974fecd45bd9aec2ee222b4fe9b149bb161c906"
+    },
+    {
+      "path": "projects/mutual-capacitance/source/src/ui/Labels.ts",
+      "bytes": 2225,
+      "sha256": "1ad9ac21917bb6d5126847f861c9b5eb6c1121d71bf3f423635904ad024917a3"
+    },
+    {
+      "path": "projects/mutual-capacitance/source/tests/README.md",
+      "bytes": 1446,
+      "sha256": "1d95e3ed52bf6394ffefa625df0d57014930fca21cca82d6f31b43b86d50d58b"
+    },
+    {
+      "path": "projects/mutual-capacitance/source/tests/browser_qa.py",
+      "bytes": 249,
+      "sha256": "cf85121d8403a068f8eb2ddaaa6525e547e1eaa63a10c8acd801d8b64923a11f"
+    },
+    {
+      "path": "projects/mutual-capacitance/source/tests/capture_previews.py",
+      "bytes": 5173,
+      "sha256": "0ee3165f8b56c9691077f1892a1195f11425f7033f179689cb3a0ee49cf4cae3"
+    },
+    {
+      "path": "projects/mutual-capacitance/source/tests/model-regressions.mjs",
+      "bytes": 8440,
+      "sha256": "b618a55ed27ad992a17bfdee34883d54463a2e4d56575c427bee767c9e045a2f"
+    },
+    {
+      "path": "projects/mutual-capacitance/source/tests/source-sync.mjs",
+      "bytes": 4443,
+      "sha256": "e6dffa571376af890106689bc7397ed4bed8e5008043b3ee5906e56b5ebab0bb"
+    },
+    {
+      "path": "projects/mutual-capacitance/source/tsconfig.json",
+      "bytes": 202,
+      "sha256": "4bdf7299a9c71d34963b70325524d7bc5d077e6bbdf02775de94bdf3353ed8d2"
+    },
+    {
+      "path": "projects/mutual-capacitance/tools/README.md",
+      "bytes": 285,
+      "sha256": "919680af6fdf795496c3a00534fbcf3896dbbbea91a553455bc5bbfdc95f746a"
+    },
+    {
+      "path": "projects/mutual-capacitance/tools/serve.mjs",
+      "bytes": 1138,
+      "sha256": "682f3fdc300d5ca718cc15bb1d53e3ac015db36e1458067bee9f5b41b34185c6"
+    },
+    {
+      "path": "projects/mutual-capacitance/tools/typescript-5.8.3.tgz",
+      "bytes": 4252180,
+      "sha256": "5f7547459f45a2ec42ad39027a322a28785ea1c44be4ff332d6a14523a8a570b"
+    },
+    {
+      "path": "projects/proxitouch/.gitattributes",
+      "bytes": 272,
+      "sha256": "3f574c431af4ebbdaa1679049eb22501614926fd44cdda84854d89831843a306"
+    },
+    {
+      "path": "projects/proxitouch/.gitignore",
+      "bytes": 165,
+      "sha256": "c89fbfeb9967b6d521c6a393c25f8eb74b813a4568ec2daa281436f7bfdd3f09"
+    },
+    {
+      "path": "projects/proxitouch/.nojekyll",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "projects/proxitouch/.nvmrc",
+      "bytes": 3,
+      "sha256": "f14b4987904bcb5814e4459a057ed4d20f58a633152288a761214dcd28780b56"
+    },
+    {
+      "path": "projects/proxitouch/AGENTS.md",
+      "bytes": 338,
+      "sha256": "a0e0f9fb478aeb41a8928022d5e840ab1724483770e6faf6406c6837fe37ae30"
+    },
+    {
+      "path": "projects/proxitouch/BUILD_MANIFEST.json",
+      "bytes": 826,
+      "sha256": "d35e8a8dff9c5ea5b00e589358a648abeb5df56b9ec16228d995a3264c98a87a"
+    },
+    {
+      "path": "projects/proxitouch/CODEX_DEPLOY.md",
+      "bytes": 258,
+      "sha256": "4c3ae4b7e7281cae61872cbf6d94019b0d453ff6f18d6b94ab0921d273ac4ba5"
+    },
+    {
+      "path": "projects/proxitouch/CONTROLS.md",
+      "bytes": 1185,
+      "sha256": "f734cf95b91230b472982b81080e8387952e8666a51a894db6b1429af28a0380"
+    },
+    {
+      "path": "projects/proxitouch/LICENSE",
+      "bytes": 1086,
+      "sha256": "d2588ae985fe034e606258ddf5f656a834f61691fcf56086b2261395fa888608"
+    },
+    {
+      "path": "projects/proxitouch/QA_REPORT.md",
+      "bytes": 218,
+      "sha256": "6ee06013386ea8512f1a08fcbdf80733ed506c19bc7a1600f22fea47ca4fc7f7"
+    },
+    {
+      "path": "projects/proxitouch/README.md",
+      "bytes": 2152,
+      "sha256": "4311677027478c67467ea79371d8d6d655631c4b56a8c2b2ba3ac72f001cda0c"
+    },
+    {
+      "path": "projects/proxitouch/archive/README.md",
+      "bytes": 321,
+      "sha256": "adbc77a7af5ee5b90a4518a824232efde0ab7a076b1d3572e9d6e86377cac527"
+    },
+    {
+      "path": "projects/proxitouch/archive/editorial-scripts/export_scene_docs.mjs",
+      "bytes": 1240,
+      "sha256": "dba2cba14770b12d677f54934a91fb378824469f7114791dd4d00302afeef39a"
+    },
+    {
+      "path": "projects/proxitouch/archive/editorial-scripts/finish_delivery.py",
+      "bytes": 8232,
+      "sha256": "09ce49c9ef58cee0bfa33be9f0f642e1f0e55b48d9684ed8ee1148197c80f204"
+    },
+    {
+      "path": "projects/proxitouch/archive/editorial-scripts/import_revision_copy.py",
+      "bytes": 1577,
+      "sha256": "c5c19af0294b00ab5cb667d9ae5324a9e17f001887991e45fc4685cb8d34b9af"
+    },
+    {
+      "path": "projects/proxitouch/archive/editorial-scripts/package_r3_release.py",
+      "bytes": 2755,
+      "sha256": "1f8b9395f17b11c6703c696d329460fc48e99055dcbd6a3d328fdf4ec14f5fce"
+    },
+    {
+      "path": "projects/proxitouch/archive/editorial-scripts/r3_clean_build.py",
+      "bytes": 2149,
+      "sha256": "708ebf02d5e0d9167d64529cb74243ec1610c3fff3a98efea902dd266ec42414"
+    },
+    {
+      "path": "projects/proxitouch/archive/editorial-scripts/r3_docs.py",
+      "bytes": 9015,
+      "sha256": "6cc0c1ce91dec2fd24aef2d3bc1b86e89a88a83e3895932e15e294262b8d35a1"
+    },
+    {
+      "path": "projects/proxitouch/archive/editorial-scripts/r3_finalize_evidence.py",
+      "bytes": 25145,
+      "sha256": "fbc6e7248b42da61e6178a3b329c4963d018ebdd743c95a16e73c98cea188fb0"
+    },
+    {
+      "path": "projects/proxitouch/archive/editorial-scripts/r3_scope_docs.py",
+      "bytes": 15888,
+      "sha256": "040640441111d5a8fc6718d8023a6c68441c54efc249dfaabba2d41ca198ba22"
+    },
+    {
+      "path": "projects/proxitouch/archive/editorial-scripts/write_delivery_docs.py",
+      "bytes": 26783,
+      "sha256": "2f10d00750abb225a16d9b128fd688191aadcc4d5c02e860d9bc791541de5306"
+    },
+    {
+      "path": "projects/proxitouch/archive/editorial-scripts/write_final_report.py",
+      "bytes": 20123,
+      "sha256": "c787a9358619407e5d9ee6cfed633997fe09d670976ce93cdcc47cd3ff28cc78"
+    },
+    {
+      "path": "projects/proxitouch/archive/preview-layout-2026-10-02/before-2x2-README.md",
+      "bytes": 253,
+      "sha256": "d7b36d212f725f6f1308811894b5af0ec18a51e2adde93a3f76d4f3953cbaad7"
+    },
+    {
+      "path": "projects/proxitouch/archive/preview-layout-2026-10-02/before-2x2-manifest.json",
+      "bytes": 5057,
+      "sha256": "e77e7c8f598a5ae259517bb3547dd45fa7183d698ba02f06bebc04314fc0a4dd"
+    },
+    {
+      "path": "projects/proxitouch/archive/preview-layout-2026-10-02/before-2x2-overview.png",
+      "bytes": 1254114,
+      "sha256": "a286f47b65f2d954bf647056f561f4fe02b81e3524048ee8a92016b04e40de43"
+    },
+    {
+      "path": "projects/proxitouch/archive/prior-github-handoff/.github/workflows/pages.yml",
+      "bytes": 1104,
+      "sha256": "d290832985e4718cf219f543189a8acaa82cf63fda7ad395730503dcf210a11f"
+    },
+    {
+      "path": "projects/proxitouch/archive/prior-github-handoff/AGENTS.md",
+      "bytes": 2691,
+      "sha256": "997be04685a795a7d5aafa93b1cad3cadc471bbd8d39bdbbc1b762d5dcacfbd3"
+    },
+    {
+      "path": "projects/proxitouch/archive/prior-github-handoff/BUILD_MANIFEST.json",
+      "bytes": 40272,
+      "sha256": "687b0a41e3334535a7f55afe755778930186d0b62e1f167c7630671cb35737f3"
+    },
+    {
+      "path": "projects/proxitouch/archive/prior-github-handoff/CODEX_DEPLOY.md",
+      "bytes": 2020,
+      "sha256": "7b0dcc0c58758657cbd2a8a38849d95f33d2bf838597002618b773d949b7661f"
+    },
+    {
+      "path": "projects/proxitouch/archive/prior-github-handoff/QA_REPORT.md",
+      "bytes": 5732,
+      "sha256": "1de9acf5aaeb40b071bf95df887515bcadf4d41392ec3f301e9307c2102b15ea"
+    },
+    {
+      "path": "projects/proxitouch/archive/prior-github-handoff/README.md",
+      "bytes": 2927,
+      "sha256": "de6e091f387d774957574fbad727327fd5fe9d1ff5e004474eff70b2cab591ca"
+    },
+    {
+      "path": "projects/proxitouch/archive/prior-github-handoff/docs/SOURCE_SYNC.md",
+      "bytes": 3832,
+      "sha256": "257e79f7ac26f05b2d4aedbc9c6468d5984da029a1ef3fc9a4f13cf7ece993f6"
+    },
+    {
+      "path": "projects/proxitouch/archive/prior-github-handoff/docs/SOURCE_UPDATE_MANIFEST.json",
+      "bytes": 8032,
+      "sha256": "33120e2daf88240d4ff06a743ebb3b8f303d025c5d79b9413bbba3b2f665a101"
+    },
+    {
+      "path": "projects/proxitouch/archive/prior-github-handoff/qa/DELIVERY_STATUS.json",
+      "bytes": 711,
+      "sha256": "349e410bfcfd4c4de0fd5cd58cd1449fe2fec32cb5e748b679b45999ae51e6e6"
+    },
+    {
+      "path": "projects/proxitouch/archive/prior-github-handoff/qa/browser-sync.json",
+      "bytes": 69676,
+      "sha256": "6ac6c51b7addebd0524af1ed2cc7ae46fddda561a8a2daffedc4a78a7c270c93"
+    },
+    {
+      "path": "projects/proxitouch/archive/prior-github-handoff/qa/clean-build.json",
+      "bytes": 509,
+      "sha256": "26a99df466c6b8da40a93bab76d5a38b28e34d269a02eb5f196d3f038d44fa27"
+    },
+    {
+      "path": "projects/proxitouch/archive/prior-github-handoff/qa/deployment-local-check.json",
+      "bytes": 6947,
+      "sha256": "698e6a24d461fe5b908fc38d2682aaa5bc82a485284d9ec91e264804c870f37c"
+    },
+    {
+      "path": "projects/proxitouch/archive/prior-github-handoff/qa/harness-debug/README.md",
+      "bytes": 368,
+      "sha256": "66a14e262151a997b6eef8e96d6cd2061b1b61b53e0878fd1a55e50ad8bc4ec2"
+    },
+    {
+      "path": "projects/proxitouch/archive/prior-github-handoff/qa/harness-debug/initial-report.json",
+      "bytes": 68497,
+      "sha256": "a366bd8110949e33349a33ebbc31e44c6eee1b60b1e2f1a09d2f74f6550b47a9"
+    },
+    {
+      "path": "projects/proxitouch/archive/prior-github-handoff/qa/manual-review.json",
+      "bytes": 3779,
+      "sha256": "9adb54fad3043cbceae1c5e3349ba28b2c09fdfecb083c3f8a1d72e6795dc164"
+    },
+    {
+      "path": "projects/proxitouch/archive/prior-github-handoff/qa/preview-extras.json",
+      "bytes": 5725,
+      "sha256": "38b5c3da87ac6d53ac334df9ec5d6b4c501ca88f3a7261cd03a88648c8f2045e"
+    },
+    {
+      "path": "projects/proxitouch/archive/prior-github-handoff/qa/privacy-audit.json",
+      "bytes": 454,
+      "sha256": "f22fbe1058819c98ff10e34436fed9e075a75926d2161865fb626daaaaa9521a"
+    },
+    {
+      "path": "projects/proxitouch/archive/prior-github-handoff/qa/source-sync.json",
+      "bytes": 10408,
+      "sha256": "f7022779a6c351a5c3241018b241b64a52f279302aaba7ec8d53f3af5ceab039"
+    },
+    {
+      "path": "projects/proxitouch/archive/prior-github-handoff/source/tests/README.md",
+      "bytes": 1705,
+      "sha256": "a09c91e5be4873cca98cf40bf2ea01d68507ad85b11ed0de9246daad7896e4c9"
+    },
+    {
+      "path": "projects/proxitouch/archive/prior-github-handoff/source/tests/browser_qa.py",
+      "bytes": 11683,
+      "sha256": "0457b038642f4fa48752c0b3ce3d45c3cd272346908eabb779c17e6dd52df9bd"
+    },
+    {
+      "path": "projects/proxitouch/archive/qa-evidence/final-patch/tail-report.json",
+      "bytes": 14250,
+      "sha256": "b836b45186ceb9ac12420e4ad4755048b7070cb6659b11ec3d164a51b9220bf4"
+    },
+    {
+      "path": "projects/proxitouch/deployment/OFFICIAL_REFERENCES.md",
+      "bytes": 1414,
+      "sha256": "c4a841bab130f08e9384790192fc92dfad34da720f4afe3531081ffb048645a4"
+    },
+    {
+      "path": "projects/proxitouch/docs/PHYSICS_README.md",
+      "bytes": 3295,
+      "sha256": "aaa17c28a2f1e51950e3a5345be5c6ec63da454e66c7ff463853f1258c1c8d67"
+    },
+    {
+      "path": "projects/proxitouch/docs/RELEASE_CONTRACT.json",
+      "bytes": 9330,
+      "sha256": "91dd2daa984b648f71f609a00fbc848a75d42a197bb55fd006571325ed84a8b6"
+    },
+    {
+      "path": "projects/proxitouch/docs/SCENE_COPY.md",
+      "bytes": 8666,
+      "sha256": "38e8a002ae329f266e7b8b79bf53ee12e0b6581c6ae783db5ba6497bc82d6df3"
+    },
+    {
+      "path": "projects/proxitouch/docs/SCENE_MANIFEST.json",
+      "bytes": 35201,
+      "sha256": "0890e8044943a4675b00d2fe68e0a645bf9452ed1741192b1214231d83f482f8"
+    },
+    {
+      "path": "projects/proxitouch/docs/SOURCE_SYNC.md",
+      "bytes": 1455,
+      "sha256": "37275a7a41a6371ce6e39734b0af89bc275ea9ddafe3cb7cc95aef6668384766"
+    },
+    {
+      "path": "projects/proxitouch/docs/UPLOAD_PROVENANCE.json",
+      "bytes": 543,
+      "sha256": "307d84fad8a9bc8251558a54c02b9a2303fd4a615078ba03d35b17408a2d13a4"
+    },
+    {
+      "path": "projects/proxitouch/docs/historical/CONTROLS.md",
+      "bytes": 2886,
+      "sha256": "c57051dae6a8e122ad76c07659ee1bfc69504ab44a8fb0d0b860979f1628ae32"
+    },
+    {
+      "path": "projects/proxitouch/docs/historical/FINAL_PATCH_CHANGELOG.md",
+      "bytes": 2135,
+      "sha256": "05888a4064a1ce1642032bdd28456ac2c0143a70ff6eeada6bf2fcb97b0f25f8"
+    },
+    {
+      "path": "projects/proxitouch/docs/historical/FINAL_PATCH_QA.md",
+      "bytes": 1598,
+      "sha256": "bfdb85482bd613b5ba22b6beaf81e6789c58a203c7083dbfe2f88f84e248c524"
+    },
+    {
+      "path": "projects/proxitouch/docs/historical/PRESENTATION_GUIDE.md",
+      "bytes": 3296,
+      "sha256": "d91144285dcbecbf5f74c799e6b1f28f7c40aac4540900374605808e8ccb2a2a"
+    },
+    {
+      "path": "projects/proxitouch/docs/historical/README.md",
+      "bytes": 3632,
+      "sha256": "fdec151df1d5f723b9224032e85f893356a152c4d100aff43371d0bf9fbaea7e"
+    },
+    {
+      "path": "projects/proxitouch/licenses/KaTeX-MIT.txt",
+      "bytes": 1107,
+      "sha256": "766ccc1f306c885aa45542a9846bbd0a505b27a0374f146778171c2254ce18e3"
+    },
+    {
+      "path": "projects/proxitouch/licenses/PROJECT-MIT.txt",
+      "bytes": 1086,
+      "sha256": "d2588ae985fe034e606258ddf5f656a834f61691fcf56086b2261395fa888608"
+    },
+    {
+      "path": "projects/proxitouch/licenses/TypeScript-APACHE-2.0.txt",
+      "bytes": 9197,
+      "sha256": "a7d00bfd54525bc694b6e32f64c7ebcf5e6b7ae3657be5cc12767bce74654a47"
+    },
+    {
+      "path": "projects/proxitouch/package.json",
+      "bytes": 611,
+      "sha256": "ca33987183a9be6bc7695e64104e36c786b6fa422908867a3f68dd7f1962a1d6"
+    },
+    {
+      "path": "projects/proxitouch/previews/01-cover.png",
+      "bytes": 385542,
+      "sha256": "f5ee12f8be1c34048e82aa8dbd598730c31bba1812655bc37839980bdc9db3da"
+    },
+    {
+      "path": "projects/proxitouch/previews/02-materials.png",
+      "bytes": 309248,
+      "sha256": "975cb0b0c314ed55720a4e3cb09faf83fe4e063386008d4403c2f20686f508da"
+    },
+    {
+      "path": "projects/proxitouch/previews/03-fringing-field.png",
+      "bytes": 312340,
+      "sha256": "424c30cfca891de4a12c57b428cddf8d0729380c8be4448243559cd5fe1530c9"
+    },
+    {
+      "path": "projects/proxitouch/previews/04-ionic-interface.png",
+      "bytes": 437725,
+      "sha256": "a3b3313804e1a110a9b2cdbe6bb6979e5136a5833d3e78fce8cd8b2282b3ebf4"
+    },
+    {
+      "path": "projects/proxitouch/previews/05-two-interfaces.png",
+      "bytes": 394659,
+      "sha256": "ae93e364459d0f0c33239ac8a986b4385f12847d3d46ba5bafdf7783f73f25f3"
+    },
+    {
+      "path": "projects/proxitouch/previews/06-contact-area.png",
+      "bytes": 330005,
+      "sha256": "9243318f491c1150c8fdafdefd6b98156cf2eac10ee777c95ce47af9f82a3e21"
+    },
+    {
+      "path": "projects/proxitouch/previews/07-shared-electrodes.png",
+      "bytes": 341689,
+      "sha256": "218fd290f4cb9f8873511aaa470d85d194a00d6fcf27728533af8e3e33dfa914"
+    },
+    {
+      "path": "projects/proxitouch/previews/08-dual-signals.png",
+      "bytes": 306346,
+      "sha256": "a915a8f1ce0bf2a4aae85001b7b4fdeab1fd5baba0cce2e900a6ed09f7e2a0b2"
+    },
+    {
+      "path": "projects/proxitouch/previews/09-addressable-array.png",
+      "bytes": 403742,
+      "sha256": "e66c9a73813b69e987f1185cd05f4ee8955c76f2f86814ee45e51d55bf097c24"
+    },
+    {
+      "path": "projects/proxitouch/previews/10-egg-grasp.png",
+      "bytes": 377436,
+      "sha256": "1c91c31dcb17245b58ae343cdf191ac65eb377a02ef414a10d1cd5fc99557c13"
+    },
+    {
+      "path": "projects/proxitouch/previews/11-shared-pixel-hero.png",
+      "bytes": 427758,
+      "sha256": "f83d6123150a089349631268ad7290d5cbc6eb31ae71f63e1f8bd3bfafa4ffd1"
+    },
+    {
+      "path": "projects/proxitouch/previews/README.md",
+      "bytes": 565,
+      "sha256": "3de26f45725367f1b614f422a1cba4ff5b6a05619c93e7e8068853cab6599c3a"
+    },
+    {
+      "path": "projects/proxitouch/previews/hero-2560.png",
+      "bytes": 558379,
+      "sha256": "d576d52fb1d56f68acbd6699333a8249bb56d75decc671a2917df0dbeae1a65a"
+    },
+    {
+      "path": "projects/proxitouch/previews/index.html",
+      "bytes": 4262,
+      "sha256": "5c5f470badb3bbcccf7f805cebda44a959636b2010c63bda6cd284df4992d7fc"
+    },
+    {
+      "path": "projects/proxitouch/previews/manifest.json",
+      "bytes": 5447,
+      "sha256": "2512bf2d619823a804f1b8fc5643e31d001529463ab80855426ec6f91e5e850a"
+    },
+    {
+      "path": "projects/proxitouch/previews/overview.png",
+      "bytes": 1001504,
+      "sha256": "1c94804a78a548cb79c1c22e42234334ff76e4a9a6133e01854e52ca3df5cf2f"
+    },
+    {
+      "path": "projects/proxitouch/project.json",
+      "bytes": 184,
+      "sha256": "1ba24421aafc557d536ae6136f34b5e0e6841ae3d5e43812b287a0b959765549"
+    },
+    {
+      "path": "projects/proxitouch/qa/curated-preview-refresh.json",
+      "bytes": 225,
+      "sha256": "eb18410e60aa53302a684cc099a2303efd0bf6dcc03a4b557381985ff2de5001"
+    },
+    {
+      "path": "projects/proxitouch/qa/source-sync.json",
+      "bytes": 6632,
+      "sha256": "b2bc234e5843a10b2556f1df2cbbf6cd030de26edafea5992ac7bf1ad51294ec"
+    },
+    {
+      "path": "projects/proxitouch/reference/final-upload.html",
+      "bytes": 1584074,
+      "sha256": "7130d27380409fc5012a6614d201397b61b964d1b6c4699b8724f903f164bc33"
+    },
+    {
+      "path": "projects/proxitouch/source/archive/r1/Application.ts",
+      "bytes": 10715,
+      "sha256": "d8d0a7e3caa462e65dccc528bc43d1353da50d504fdc395ed1747c0cc9589be2"
+    },
+    {
+      "path": "projects/proxitouch/source/archive/r1/make-qa-wall.py",
+      "bytes": 1813,
+      "sha256": "582d4d92cc2b08f504160b09fa4fbf3f32b1084e70a6524f749f8985c019225d"
+    },
+    {
+      "path": "projects/proxitouch/source/archive/r1/narration.ts",
+      "bytes": 19461,
+      "sha256": "5f99d99cf6d057fc8fbf2c01a44e197092e7f7f27b5202451568b39515b34a85"
+    },
+    {
+      "path": "projects/proxitouch/source/archive/r1/tests/README.md",
+      "bytes": 2936,
+      "sha256": "07bd27c5a97df03760c2e4c4095d271166d8d9636bc5c69f0c7f33ee99c64d6a"
+    },
+    {
+      "path": "projects/proxitouch/source/archive/r1/tests/capture_scenes.py",
+      "bytes": 1424,
+      "sha256": "defd175b7519873120e61a6f1429b21eefa21b28c2e43893b4bb908cb8fe0e3b"
+    },
+    {
+      "path": "projects/proxitouch/source/archive/r1/tests/capture_transitions.py",
+      "bytes": 2094,
+      "sha256": "926c7699d77fc5c00d761d615599870c3233ec1481b83f015e6c43b39126075f"
+    },
+    {
+      "path": "projects/proxitouch/source/archive/r1/tests/explore_interaction.py",
+      "bytes": 7219,
+      "sha256": "6f1cf0ff9ca1bde8e486c5bc748841c6c609db5708320cb46042e6458f61dd55"
+    },
+    {
+      "path": "projects/proxitouch/source/archive/r1/tests/final_extras.py",
+      "bytes": 2142,
+      "sha256": "a491b9efbc7a4083125046e9e67ce1adf8d9e3e7f4a84c44caf0dd882baa60b3"
+    },
+    {
+      "path": "projects/proxitouch/source/archive/r1/tests/final_regression.py",
+      "bytes": 2519,
+      "sha256": "6fe1e6eb515c3f69d3485231519862a99c7348505c1b9d9a5e2cf4962505608c"
+    },
+    {
+      "path": "projects/proxitouch/source/archive/r1/tests/full_playback.py",
+      "bytes": 3209,
+      "sha256": "afa58d76416673e2b1011a219127c007d3a71a2a405b5dd24c280927cc2c1c9f"
+    },
+    {
+      "path": "projects/proxitouch/source/archive/r1/tests/numerical.mjs",
+      "bytes": 5021,
+      "sha256": "baf2ea7d6f790ad905e9d46716779d19ed82fed8d25744b0fbebf6f2561c2963"
+    },
+    {
+      "path": "projects/proxitouch/source/archive/r1/tests/performance.py",
+      "bytes": 1795,
+      "sha256": "deef2c81255deb0c8a092f12c03009519dc64debcfa934472cf3d26a441398a4"
+    },
+    {
+      "path": "projects/proxitouch/source/index.html",
+      "bytes": 726,
+      "sha256": "5143cb530b6ee25d6d0cf95134ff8329d1ba0f9402bca4203f6488692348cfcd"
+    },
+    {
+      "path": "projects/proxitouch/source/legacy-tests/README.md",
+      "bytes": 356,
+      "sha256": "738e97a29621cef57b722e9cf1ebf31e4d7a1e352f60a1fd0a25fa505802c39f"
+    },
+    {
+      "path": "projects/proxitouch/source/legacy-tests/after_r3_final.sh",
+      "bytes": 224,
+      "sha256": "cac2530898d6e77f7797f752b873543c08bbdffa2b0e197777ec5c20373fe160"
+    },
+    {
+      "path": "projects/proxitouch/source/legacy-tests/final_patch_qa.py",
+      "bytes": 4994,
+      "sha256": "c9b964cceb26150ab2a401c73b744a44845c09ca5a1bb76d38c9b8e1205357d2"
+    },
+    {
+      "path": "projects/proxitouch/source/legacy-tests/final_patch_qa_tail.py",
+      "bytes": 2993,
+      "sha256": "3a56d8a99dd76406cb03d4cc32e35c7cbe724c1fb8f2554560e24d35050dbb34"
+    },
+    {
+      "path": "projects/proxitouch/source/legacy-tests/harness.py",
+      "bytes": 2805,
+      "sha256": "06b994a1bd13e0a80f86504b2a5d3a9cbb974e2a8bfcea7a93ef908663ea07a7"
+    },
+    {
+      "path": "projects/proxitouch/source/legacy-tests/r2_capture.py",
+      "bytes": 1552,
+      "sha256": "50e2883d8dcd26e68b8c25f709e9997986f42417e1cdba85962532da7eae8d97"
+    },
+    {
+      "path": "projects/proxitouch/source/legacy-tests/r2_explore.py",
+      "bytes": 1943,
+      "sha256": "7464534cdc350702d3677c130ec46bfcd71339b312ff6339e4a4c9234894a39e"
+    },
+    {
+      "path": "projects/proxitouch/source/legacy-tests/r2_extras.py",
+      "bytes": 6455,
+      "sha256": "58c86c292ccea98114ed5a8f6999ccc90c8ff336ff8c5dd0e31081bcf6fb3d11"
+    },
+    {
+      "path": "projects/proxitouch/source/legacy-tests/r2_interactions.py",
+      "bytes": 5307,
+      "sha256": "958007f49d19b872194f43c85a6e125f5dc06bfb92c6a6b77ae1344963d0d250"
+    },
+    {
+      "path": "projects/proxitouch/source/legacy-tests/r2_models.mjs",
+      "bytes": 5401,
+      "sha256": "9c4fd46de5c5e4bef267555036fcedfcfc1e5d9ce96004119d84669424637cad"
+    },
+    {
+      "path": "projects/proxitouch/source/legacy-tests/r2_performance.py",
+      "bytes": 1871,
+      "sha256": "4d4827ecc2380ef5242af8cd4793ee8d4dbc43373f128a9fdc2a0cc75e013da7"
+    },
+    {
+      "path": "projects/proxitouch/source/legacy-tests/r2_playback.py",
+      "bytes": 2018,
+      "sha256": "377932ead204b354068c591f9ef100ad68f1aa28c622bb89ea2d1bfe2988e408"
+    },
+    {
+      "path": "projects/proxitouch/source/legacy-tests/r2_preview.py",
+      "bytes": 1072,
+      "sha256": "8a50804fcee1efebdde0874958ca0a5657584b8fc393191c6ba4df65ad0c0969"
+    },
+    {
+      "path": "projects/proxitouch/source/legacy-tests/r2_transitions.py",
+      "bytes": 1656,
+      "sha256": "1f40d32afc6c12ad47ec0351c73476cb63156a492dc5af006c141b845ccd5de2"
+    },
+    {
+      "path": "projects/proxitouch/source/legacy-tests/r3_ambient_playback.py",
+      "bytes": 1881,
+      "sha256": "769f9b8956e882c652353150563c273262a7528002ec8e394377718da980f24c"
+    },
+    {
+      "path": "projects/proxitouch/source/legacy-tests/r3_camera_preview.py",
+      "bytes": 480,
+      "sha256": "cf38e76fb3fa200094f9fcbb65ae27e8cf88f45987cea10f048a514e899c038b"
+    },
+    {
+      "path": "projects/proxitouch/source/legacy-tests/r3_camera_s04.py",
+      "bytes": 481,
+      "sha256": "3878dfe5fa55910e56dd4361dc13505f6bb4b43c560c342cae51d36bca343753"
+    },
+    {
+      "path": "projects/proxitouch/source/legacy-tests/r3_capture.py",
+      "bytes": 2773,
+      "sha256": "fe0f4912cbaa13ccc255f78af295c50900c997a779df7c663998e92116594e56"
+    },
+    {
+      "path": "projects/proxitouch/source/legacy-tests/r3_extras.py",
+      "bytes": 7110,
+      "sha256": "3c4352f0af91c39a25284e15917905d2bdb87653307bf6ffb3067ea19ad2ba0c"
+    },
+    {
+      "path": "projects/proxitouch/source/legacy-tests/r3_hero_check.py",
+      "bytes": 505,
+      "sha256": "70d09109f106730b6a0985c8e16a87642198994c0d92ff90e48daa2373d234a7"
+    },
+    {
+      "path": "projects/proxitouch/source/legacy-tests/r3_interactions.py",
+      "bytes": 5855,
+      "sha256": "670b4c3082a7cb4bd32cd9d72d1723193b917140b4ba93255d97248a917ad3cb"
+    },
+    {
+      "path": "projects/proxitouch/source/legacy-tests/r3_models.mjs",
+      "bytes": 11356,
+      "sha256": "564da67237a2cecbc424878084a3041fafd9d4a375f1389d7708f3e0f868eb68"
+    },
+    {
+      "path": "projects/proxitouch/source/legacy-tests/r3_performance.py",
+      "bytes": 2073,
+      "sha256": "24fa9617a77e2b01dad6d3ae0d80784d11e61d2b88d23b0b250d2582ff447b8e"
+    },
+    {
+      "path": "projects/proxitouch/source/legacy-tests/r3_playback.py",
+      "bytes": 2018,
+      "sha256": "113bae8ef79304f63405ef5c613eb9e1b5691edc21dde75d93180ffb9b597cc6"
+    },
+    {
+      "path": "projects/proxitouch/source/legacy-tests/r3_preview.py",
+      "bytes": 1297,
+      "sha256": "1f780a20d45bfa16cf79c15fca0e1b1a2e0ac33e9d9d4aaa517a0167891b1093"
+    },
+    {
+      "path": "projects/proxitouch/source/legacy-tests/r3_regression.py",
+      "bytes": 2089,
+      "sha256": "d94f0e18fb152dc43c8582df21b40ce4e90343372ab80f83053e636c458b4f3b"
+    },
+    {
+      "path": "projects/proxitouch/source/legacy-tests/r3_sheets.py",
+      "bytes": 2234,
+      "sha256": "c6013f47c9ffc1d4baa83c8dc942a2cd30d2ab13f9b3d473b15da9f30570d231"
+    },
+    {
+      "path": "projects/proxitouch/source/legacy-tests/r3_transition_trace.py",
+      "bytes": 3037,
+      "sha256": "7cc4789dacd3816f9f02b6b065dbeeae53ebcdeeec79afabf7ca911e8c332195"
+    },
+    {
+      "path": "projects/proxitouch/source/legacy-tests/run_r2_validation.sh",
+      "bytes": 581,
+      "sha256": "f14ea8f2e83ac42aad1b44a9227da033bcba8d6b2db5eafde5cf1ed30842d259"
+    },
+    {
+      "path": "projects/proxitouch/source/legacy-tests/run_r3_captures.sh",
+      "bytes": 644,
+      "sha256": "318bb879c8efefc62c88cc8ea0ee44fce6044a060d06d8303bdf321df96f9017"
+    },
+    {
+      "path": "projects/proxitouch/source/legacy-tests/run_r3_final.sh",
+      "bytes": 1003,
+      "sha256": "7638def16eb948927f5fce8e959439f6e684f35af04f67336df249087fa0d203"
+    },
+    {
+      "path": "projects/proxitouch/source/package-lock.json",
+      "bytes": 869,
+      "sha256": "a2fbdd21640ae2c95e0fafc520e84e7c8a42b5557c01552bd1123619aeb79ed9"
+    },
+    {
+      "path": "projects/proxitouch/source/package.json",
+      "bytes": 652,
+      "sha256": "4ab7b7604393310c98fefeaa20935fbf12312a267a07d47fd2fcb90a82ef05c3"
+    },
+    {
+      "path": "projects/proxitouch/source/public/style.css",
+      "bytes": 10600,
+      "sha256": "3409b4110a314d3a3aa6b4980dbc831244c305bbf1d3daf8d0836a481019de49"
+    },
+    {
+      "path": "projects/proxitouch/source/public/vendor/katex.js",
+      "bytes": 265417,
+      "sha256": "35826b0d4b7ae160c1b76c6ba508ec698f255e314ea0e35e711c0cd291522c0d"
+    },
+    {
+      "path": "projects/proxitouch/source/requirements-physics.txt",
+      "bytes": 75,
+      "sha256": "a95b596fb8c1758ece0d410d0d3d178febdb656b6e6573affe4b55cc522c1d93"
+    },
+    {
+      "path": "projects/proxitouch/source/requirements-qa.txt",
+      "bytes": 86,
+      "sha256": "c82643154e7b67d0a08fb5dc8a623eb2d854c40cfae5e2d15341752d1255ad1b"
+    },
+    {
+      "path": "projects/proxitouch/source/scripts/build.mjs",
+      "bytes": 4424,
+      "sha256": "d7bf4e54b9704cf6ba4167f8ebb9a2632a32483cbdad4955255b8899d69ec336"
+    },
+    {
+      "path": "projects/proxitouch/source/scripts/physics/solve_field.py",
+      "bytes": 4583,
+      "sha256": "4cf886a64a368376ddfa1e597e669321bd111c9434e2543aa03e0bf3891490b0"
+    },
+    {
+      "path": "projects/proxitouch/source/scripts/physics/solve_halo.py",
+      "bytes": 4351,
+      "sha256": "f2562b005983ac426ee2a6f2f09a392f472ffe3d55619e035d4a3274c195c653"
+    },
+    {
+      "path": "projects/proxitouch/source/scripts/physics/solve_revision_fields.py",
+      "bytes": 5462,
+      "sha256": "9c71396623114d1b68b9346a4380186241e81de2f0233f8bc694ff5294206842"
+    },
+    {
+      "path": "projects/proxitouch/source/scripts/serve.mjs",
+      "bytes": 972,
+      "sha256": "1eceebe66370d25c852411fa176526f7d74b7e46ba8631641f0e51669b6886d6"
+    },
+    {
+      "path": "projects/proxitouch/source/scripts/setup-offline.mjs",
+      "bytes": 2076,
+      "sha256": "9bd9901a72addc065221301265bcc3c8c74c0d279bf30939375d8ff149c8eb1f"
+    },
+    {
+      "path": "projects/proxitouch/source/src/app/ambient.ts",
+      "bytes": 1424,
+      "sha256": "6f248fa7f56a88ba778dec73fc0fd52dccf26393e28a2f84254f0446cba9d485"
+    },
+    {
+      "path": "projects/proxitouch/source/src/app/state.ts",
+      "bytes": 1315,
+      "sha256": "f8edb8141d93c63cd651edd59240459856ac43768e5e4d9251389c9f0c5fc8c2"
+    },
+    {
+      "path": "projects/proxitouch/source/src/engine/camera.ts",
+      "bytes": 1864,
+      "sha256": "133f88b720ea922a42ffcbd3d42a90c26f0c7bfd1252e62fc7604a90c46de650"
+    },
+    {
+      "path": "projects/proxitouch/source/src/engine/geometry.ts",
+      "bytes": 9872,
+      "sha256": "4163358db30b13af83cbba99c108f812e6c15e8c6893db9d0206e099e7619749"
+    },
+    {
+      "path": "projects/proxitouch/source/src/engine/math.ts",
+      "bytes": 3688,
+      "sha256": "486cfdbeaee8d16ec54cac281b3c33513d3f0175bd5b9f076f584e548925b6e3"
+    },
+    {
+      "path": "projects/proxitouch/source/src/engine/renderer.ts",
+      "bytes": 20363,
+      "sha256": "e3ce8f1e7f9e86fa792ad88d1e7e7f1ee5de4758726eacda1b878c934c9e1093"
+    },
+    {
+      "path": "projects/proxitouch/source/src/engine/scene.ts",
+      "bytes": 3225,
+      "sha256": "01840447a414641bca6186d691c9c42fac53771ba1cde432ec485966d2a6b3d0"
+    },
+    {
+      "path": "projects/proxitouch/source/src/main.ts",
+      "bytes": 15199,
+      "sha256": "194ef31b7531d9355354aa9060c139bc0b0f291f57add5dfe1c3823af4808d4d"
+    },
+    {
+      "path": "projects/proxitouch/source/src/models/ApplicationHero.ts",
+      "bytes": 9026,
+      "sha256": "c8287a0deff184fb6c23d3b3a1a1919e9337f615438da9de96a9960b50612ce5"
+    },
+    {
+      "path": "projects/proxitouch/source/src/models/Capacitor.ts",
+      "bytes": 4545,
+      "sha256": "c12fb2bb0252d2c67d389f04f212b93213b86885102578d1e6fe98f0bb92b8d4"
+    },
+    {
+      "path": "projects/proxitouch/source/src/models/CompositeCapacitor.ts",
+      "bytes": 3412,
+      "sha256": "a913dd62c8f147d3ccddeebe521302ebdcb63094efa314e07ab08fbfc4303067"
+    },
+    {
+      "path": "projects/proxitouch/source/src/models/Device.ts",
+      "bytes": 6987,
+      "sha256": "e20c6fc6e43a06e501f54992dd664775f0ebe248e8743e4f30183ba513950251"
+    },
+    {
+      "path": "projects/proxitouch/source/src/models/Dome.ts",
+      "bytes": 8939,
+      "sha256": "e5fd96da5b5a574833350aadfa773f02d525534c864bcb5d28ed2696c80c06b5"
+    },
+    {
+      "path": "projects/proxitouch/source/src/models/FringeField.ts",
+      "bytes": 5878,
+      "sha256": "29fc9d1f6d877b7ff7286073d945e37ab7c515fc8bbd3f3f22806df2593660d6"
+    },
+    {
+      "path": "projects/proxitouch/source/src/models/IonicVolume.ts",
+      "bytes": 8174,
+      "sha256": "cb54da8191c85f9c01cbe15aa18b5ed5a1a8987905430134b9acd4a4e56b4c7f"
+    },
+    {
+      "path": "projects/proxitouch/source/src/models/LegacyDevice.ts",
+      "bytes": 6090,
+      "sha256": "10979315498e646c3a54dfe9e6ac09de623c70ca50ba350fcd1c83136900ddf4"
+    },
+    {
+      "path": "projects/proxitouch/source/src/models/SharedArray.ts",
+      "bytes": 6904,
+      "sha256": "f122f2710373195c6c8f8a79b030e7f3664d875c5465c1344bbf7dc287f00e95"
+    },
+    {
+      "path": "projects/proxitouch/source/src/physics/fieldData.ts",
+      "bytes": 497504,
+      "sha256": "5957eb60e1fd62ed1cfd8fe798ff208db14827d72741021a68348bc4828afada"
+    },
+    {
+      "path": "projects/proxitouch/source/src/physics/haloField.ts",
+      "bytes": 763,
+      "sha256": "95487edd1822d0268e73102eecf396ba99e083b46d8960fb8e2224a0d0a38f0a"
+    },
+    {
+      "path": "projects/proxitouch/source/src/physics/haloFieldData.ts",
+      "bytes": 70928,
+      "sha256": "6292b17e80ace6ab3d47c9f5dbd4ddc40833e16167a3e677c77638e01a585cb2"
+    },
+    {
+      "path": "projects/proxitouch/source/src/physics/interaction.ts",
+      "bytes": 2684,
+      "sha256": "38e010d70c17ef1d44c90d1c00018db1250be1bdd76a53005aa995545d94d18d"
+    },
+    {
+      "path": "projects/proxitouch/source/src/physics/revisionFieldData.ts",
+      "bytes": 361564,
+      "sha256": "40d4ba693253b0d936797bb8bc7411abbbc211741afeb4d2a02f6d53847daf64"
+    },
+    {
+      "path": "projects/proxitouch/source/src/scenes/copy.ts",
+      "bytes": 11956,
+      "sha256": "b9eca337c1413d9365de9000526071a14c9f27c0f95703f0c181e53fadb7d387"
+    },
+    {
+      "path": "projects/proxitouch/source/src/scenes/definitions.ts",
+      "bytes": 5477,
+      "sha256": "589fd66d6229a01bbe9484622026595848a56b1f52f3355014d1e7d875364814"
+    },
+    {
+      "path": "projects/proxitouch/source/src/ui/HUD.ts",
+      "bytes": 15828,
+      "sha256": "068e7bc98972c89e6e273509e9d22111f4c54d34ad4128b1a5bf878b8328d223"
+    },
+    {
+      "path": "projects/proxitouch/source/src/ui/Labels.ts",
+      "bytes": 5320,
+      "sha256": "ca21c6493cf7d20c9cc510f2902728fd385c67bae81c9c7a07a97fd02f1575a5"
+    },
+    {
+      "path": "projects/proxitouch/source/src/ui/Plots.ts",
+      "bytes": 3052,
+      "sha256": "5d877658650f7b74fe32fdc7572ae0783599032ef4bb039f0f38f339e89aa4f0"
+    },
+    {
+      "path": "projects/proxitouch/source/src/worlds/WorldManager.ts",
+      "bytes": 16781,
+      "sha256": "ca0dd4b76ac0f464e01271a487b6f9705e47e108484fcfda2db443bfe215618b"
+    },
+    {
+      "path": "projects/proxitouch/source/tests/README.md",
+      "bytes": 1446,
+      "sha256": "b1c9036274212105d7aa72a3f38d0e872312d910631e7b6637ae8f98352fbac6"
+    },
+    {
+      "path": "projects/proxitouch/source/tests/browser_qa.py",
+      "bytes": 249,
+      "sha256": "cf85121d8403a068f8eb2ddaaa6525e547e1eaa63a10c8acd801d8b64923a11f"
+    },
+    {
+      "path": "projects/proxitouch/source/tests/capture_previews.py",
+      "bytes": 5173,
+      "sha256": "0ee3165f8b56c9691077f1892a1195f11425f7033f179689cb3a0ee49cf4cae3"
+    },
+    {
+      "path": "projects/proxitouch/source/tests/proxi-regressions.mjs",
+      "bytes": 6982,
+      "sha256": "3c94416e55500e460cbd6d1d28051a5ebfe2ed06264e3368155ce9c3c11e7839"
+    },
+    {
+      "path": "projects/proxitouch/source/tests/source-sync.mjs",
+      "bytes": 4443,
+      "sha256": "e6dffa571376af890106689bc7397ed4bed8e5008043b3ee5906e56b5ebab0bb"
+    },
+    {
+      "path": "projects/proxitouch/source/tsconfig.json",
+      "bytes": 241,
+      "sha256": "56a55809c603a7450512222ff4430799eaa12e726d7a8aa867a56060b7bfdf82"
+    },
+    {
+      "path": "projects/proxitouch/tools/README.md",
+      "bytes": 285,
+      "sha256": "919680af6fdf795496c3a00534fbcf3896dbbbea91a553455bc5bbfdc95f746a"
+    },
+    {
+      "path": "projects/proxitouch/tools/serve.mjs",
+      "bytes": 1138,
+      "sha256": "682f3fdc300d5ca718cc15bb1d53e3ac015db36e1458067bee9f5b41b34185c6"
+    },
+    {
+      "path": "projects/proxitouch/tools/typescript-5.8.3.tgz",
+      "bytes": 4252180,
+      "sha256": "5f7547459f45a2ec42ad39027a322a28785ea1c44be4ff332d6a14523a8a570b"
+    },
+    {
+      "path": "qa/browser-qa.json",
+      "bytes": 50876,
+      "sha256": "1dfbb1e2332ef39477e4456dba90db92e19e4659e295334fcce99b380d5a184e"
+    },
+    {
+      "path": "qa/clean-build.json",
+      "bytes": 1036,
+      "sha256": "ac2304070144bbdaea80aad68a0ac95001f10acc514e738fe04dcf249304c3dc"
+    },
+    {
+      "path": "qa/preview-layout.json",
+      "bytes": 1430,
+      "sha256": "f032f982e02cf6248aa5ef04946fbc1fed6b9ce94163d442535add1f0ef2a6a3"
+    },
+    {
+      "path": "qa/privacy-audit.json",
+      "bytes": 714,
+      "sha256": "d26cf8ac7de08774d797e9c47209b1a8aa3cb186363822f9c4f1e80f03d8142c"
+    },
+    {
+      "path": "qa/scientific-smoke.json",
+      "bytes": 66603,
+      "sha256": "00baf40c16dd427af25bfcfc07ddaa36a44cbd6d21b387b781503142def07b08"
+    },
+    {
+      "path": "requirements-qa.txt",
+      "bytes": 90,
+      "sha256": "5b51f59332b180be85012c8df08abac225f3dc64a1c79d409409284a36d3e5bc"
+    },
+    {
+      "path": "scripts/browser_qa.py",
+      "bytes": 9844,
+      "sha256": "92b75dab0352062e9bdc2237d6634faeefb5dc0eadf40f5ff30d5ebd8b078914"
+    },
+    {
+      "path": "scripts/browser_support.py",
+      "bytes": 1801,
+      "sha256": "d77aebc4bc7a63833a5e21cb1e7b7320c7b145590875af99b8ec0211221dcfdc"
+    },
+    {
+      "path": "scripts/capture_previews.py",
+      "bytes": 386,
+      "sha256": "26f90476ee872702e8185ea4589637bf1c91ad8e352b1b674e1386bc486b98ab"
+    },
+    {
+      "path": "scripts/collection.mjs",
+      "bytes": 2757,
+      "sha256": "99b8486351fd6db74d22ebd7eced872659800ad02ffab2fa45a6fb2a42ce5654"
+    },
+    {
+      "path": "scripts/scientific_smoke.py",
+      "bytes": 7906,
+      "sha256": "70459222900b09dddcdfc942709e5fedd0d0974f6c75e782c686390ad1823e85"
+    },
+    {
+      "path": "scripts/serve.mjs",
+      "bytes": 1792,
+      "sha256": "050caa9fa4e9f85812dd47dfeaae7df0fe6b3d15626b257de1298929abc61100"
+    },
+    {
+      "path": "scripts/verify-site.mjs",
+      "bytes": 3227,
+      "sha256": "cf5b0705a966fac750972dc4fbee3f058260d9443c8daf340d3c19acff0b3466"
+    },
+    {
+      "path": "web/index.html",
+      "bytes": 3027,
+      "sha256": "724051899c9022cee557d1ee157248f7ee684d2b2670057ad35d4dce3c679d80"
+    },
+    {
+      "path": "web/style.css",
+      "bytes": 2539,
+      "sha256": "59031a415052b73b6f1d8d41b632c2f2de0b302495403c39bcd06f0c954beb5b"
+    }
+  ],
+  "fileCount": 368
+}

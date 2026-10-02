@@ -1,0 +1,12 @@
+{
+  "inputAlias": "final-upload.html",
+  "originalInputSha256": "674c10404c9ebbb739b50f0fc5ae15764042ff34ab2f05cc45ef41e7d0d5baa3",
+  "sanitizedReferenceSha256": "57bcbde1c450ec948f227ed2e8ae8b6d115282d0c441142cb7bb4e9e809d9b9e",
+  "basis": "The current uploaded HTML, not an earlier conversation summary.",
+  "privacyChanges": [
+    "Removed homepage presenter and supervisor block",
+    "Removed associated presentation-only author layout/visibility code",
+    "No original personal filename included"
+  ],
+  "scientificDataChanged": false
+}

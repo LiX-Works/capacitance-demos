@@ -1,0 +1,262 @@
+{
+  "referenceSha256": "7130d27380409fc5012a6614d201397b61b964d1b6c4699b8724f903f164bc33",
+  "builtSha256": "777d29996d08f9a9fc108cf2d27aae04da5b9d73da1ade069461d80e53b3b68c",
+  "moduleCount": 29,
+  "records": [
+    {
+      "name": "Historical reference bytes intact",
+      "passed": true
+    },
+    {
+      "name": "Release module identities intact",
+      "passed": true
+    },
+    {
+      "name": "Single compiled runtime script",
+      "passed": true
+    },
+    {
+      "name": "UTF-8 declaration remains within the first 1024 bytes",
+      "passed": true
+    },
+    {
+      "name": "Approved module: app/ambient.js",
+      "passed": true,
+      "details": {
+        "reason": "Unchanged from the historical upload."
+      }
+    },
+    {
+      "name": "Approved module: app/state.js",
+      "passed": true,
+      "details": {
+        "reason": "Unchanged from the historical upload."
+      }
+    },
+    {
+      "name": "Approved module: engine/camera.js",
+      "passed": true,
+      "details": {
+        "reason": "Unchanged from the historical upload."
+      }
+    },
+    {
+      "name": "Approved module: engine/geometry.js",
+      "passed": true,
+      "details": {
+        "reason": "Unchanged from the historical upload."
+      }
+    },
+    {
+      "name": "Approved module: engine/math.js",
+      "passed": true,
+      "details": {
+        "reason": "Unchanged from the historical upload."
+      }
+    },
+    {
+      "name": "Approved module: engine/renderer.js",
+      "passed": true,
+      "details": {
+        "reason": "Unchanged from the historical upload."
+      }
+    },
+    {
+      "name": "Approved module: engine/scene.js",
+      "passed": true,
+      "details": {
+        "reason": "Unchanged from the historical upload."
+      }
+    },
+    {
+      "name": "Approved module: main.js",
+      "passed": true,
+      "details": {
+        "reason": "Repair static-scene autoplay, bounded history, finite inputs, capture state and native focused keyboard controls; preserve A-B-A and ambient scenes."
+      }
+    },
+    {
+      "name": "Approved module: models/ApplicationHero.js",
+      "passed": true,
+      "details": {
+        "reason": "Unchanged from the historical upload."
+      }
+    },
+    {
+      "name": "Approved module: models/Capacitor.js",
+      "passed": true,
+      "details": {
+        "reason": "Unchanged from the historical upload."
+      }
+    },
+    {
+      "name": "Approved module: models/CompositeCapacitor.js",
+      "passed": true,
+      "details": {
+        "reason": "Unchanged from the historical upload."
+      }
+    },
+    {
+      "name": "Approved module: models/Device.js",
+      "passed": true,
+      "details": {
+        "reason": "Unchanged from the historical upload."
+      }
+    },
+    {
+      "name": "Approved module: models/Dome.js",
+      "passed": true,
+      "details": {
+        "reason": "Unchanged from the historical upload."
+      }
+    },
+    {
+      "name": "Approved module: models/FringeField.js",
+      "passed": true,
+      "details": {
+        "reason": "Unchanged from the historical upload."
+      }
+    },
+    {
+      "name": "Approved module: models/IonicVolume.js",
+      "passed": true,
+      "details": {
+        "reason": "Unchanged from the historical upload."
+      }
+    },
+    {
+      "name": "Approved module: models/LegacyDevice.js",
+      "passed": true,
+      "details": {
+        "reason": "Unchanged from the historical upload."
+      }
+    },
+    {
+      "name": "Approved module: models/SharedArray.js",
+      "passed": true,
+      "details": {
+        "reason": "Unchanged from the historical upload."
+      }
+    },
+    {
+      "name": "Approved module: physics/fieldData.js",
+      "passed": true,
+      "details": {
+        "reason": "Unchanged from the historical upload."
+      }
+    },
+    {
+      "name": "Approved module: physics/haloField.js",
+      "passed": true,
+      "details": {
+        "reason": "Unchanged from the historical upload."
+      }
+    },
+    {
+      "name": "Approved module: physics/haloFieldData.js",
+      "passed": true,
+      "details": {
+        "reason": "Unchanged from the historical upload."
+      }
+    },
+    {
+      "name": "Approved module: physics/interaction.js",
+      "passed": true,
+      "details": {
+        "reason": "Unchanged from the historical upload."
+      }
+    },
+    {
+      "name": "Approved module: physics/revisionFieldData.js",
+      "passed": true,
+      "details": {
+        "reason": "Unchanged from the historical upload."
+      }
+    },
+    {
+      "name": "Approved module: scenes/copy.js",
+      "passed": true,
+      "details": {
+        "reason": "Unchanged from the historical upload."
+      }
+    },
+    {
+      "name": "Approved module: scenes/definitions.js",
+      "passed": true,
+      "details": {
+        "reason": "Unchanged from the historical upload."
+      }
+    },
+    {
+      "name": "Approved module: ui/HUD.js",
+      "passed": true,
+      "details": {
+        "reason": "Match immediate navigation behavior and correct accessible button label."
+      }
+    },
+    {
+      "name": "Approved module: ui/Labels.js",
+      "passed": true,
+      "details": {
+        "reason": "Unchanged from the historical upload."
+      }
+    },
+    {
+      "name": "Approved module: ui/Plots.js",
+      "passed": true,
+      "details": {
+        "reason": "Unchanged from the historical upload."
+      }
+    },
+    {
+      "name": "Approved module: worlds/WorldManager.js",
+      "passed": true,
+      "details": {
+        "reason": "Unchanged from the historical upload."
+      }
+    },
+    {
+      "name": "Approved module: vendor/katex.js",
+      "passed": true,
+      "details": {
+        "reason": "Unchanged from the historical upload."
+      }
+    },
+    {
+      "name": "Styles match approved release",
+      "passed": true
+    },
+    {
+      "name": "Frozen scientific input: source/src/physics/fieldData.ts",
+      "passed": true
+    },
+    {
+      "name": "Frozen scientific input: source/src/physics/haloFieldData.ts",
+      "passed": true
+    },
+    {
+      "name": "Frozen scientific input: source/src/physics/revisionFieldData.ts",
+      "passed": true
+    },
+    {
+      "name": "Deploy entry derives from current build: index.html",
+      "passed": true
+    },
+    {
+      "name": "Deploy entry derives from current build: site/index.html",
+      "passed": true
+    },
+    {
+      "name": "Homepage personal block absent",
+      "passed": true
+    },
+    {
+      "name": "Standalone includes original and KaTeX licenses",
+      "passed": true
+    },
+    {
+      "name": "Deploy directory includes KaTeX license",
+      "passed": true
+    }
+  ]
+}

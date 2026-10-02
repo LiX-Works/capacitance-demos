@@ -1,0 +1,70 @@
+{
+  "runtimeSha256": "57bcbde1c450ec948f227ed2e8ae8b6d115282d0c441142cb7bb4e9e809d9b9e",
+  "scope": "Representative preview review, not exhaustive pixel-by-pixel certification of every animation frame.",
+  "images": [
+    {
+      "file": "01-opening.png",
+      "sha256": "30afa1a5f2521ac67da10ef0f40f02bfde6b1b4e9b35e0f672679447b5b57cb5",
+      "method": "Contact-sheet and/or individual-image inspection; both final overviews and both 2560-pixel hero captures separately opened."
+    },
+    {
+      "file": "02-tilted-plates.png",
+      "sha256": "704a1a77918ebc97fde71d815a65c30bbf0017b366832335a0fc81324eefcad1",
+      "method": "Contact-sheet and/or individual-image inspection; both final overviews and both 2560-pixel hero captures separately opened."
+    },
+    {
+      "file": "03-ideal-sector.png",
+      "sha256": "1b72793042efb27bb61aa112eb7b5ef153e419bc62e9e56c8d728743ce03cb4b",
+      "method": "Contact-sheet and/or individual-image inspection; both final overviews and both 2560-pixel hero captures separately opened."
+    },
+    {
+      "file": "04-numerical-field.png",
+      "sha256": "c7857aa14f42927e7047011d9b1843ffc55caa2aafbc7caa88e105222028badc",
+      "method": "Contact-sheet and/or individual-image inspection; both final overviews and both 2560-pixel hero captures separately opened."
+    },
+    {
+      "file": "05-angle-models.png",
+      "sha256": "ab62ae9d4715ce307461d81e84730db9f5ea092632f167c29509d1ef18959d85",
+      "method": "Contact-sheet and/or individual-image inspection; both final overviews and both 2560-pixel hero captures separately opened."
+    },
+    {
+      "file": "06-dielectric-edge.png",
+      "sha256": "8cb5312d763f320ba217b039ce7c0922ddaba1544d5a29229378d2ee107faa5a",
+      "method": "Contact-sheet and/or individual-image inspection; both final overviews and both 2560-pixel hero captures separately opened."
+    },
+    {
+      "file": "07-permittivity.png",
+      "sha256": "e446af214428932ef492ba9e639ecff7a9bf9c46a34f5dc9484338998bbe6bf8",
+      "method": "Contact-sheet and/or individual-image inspection; both final overviews and both 2560-pixel hero captures separately opened."
+    },
+    {
+      "file": "08-coplanar-result.png",
+      "sha256": "fc60652f0a0e35817a08bbf12b42892d6782d94292c6dfdb6215fdd1bc4ac786",
+      "method": "Contact-sheet and/or individual-image inspection; both final overviews and both 2560-pixel hero captures separately opened."
+    },
+    {
+      "file": "09-dielectric-geometry.png",
+      "sha256": "b2dbec23e48e9179734ab11e96a2f70adf0895aa0bc93950162c5831f74d9241",
+      "method": "Contact-sheet and/or individual-image inspection; both final overviews and both 2560-pixel hero captures separately opened."
+    },
+    {
+      "file": "10-rotated-field.png",
+      "sha256": "6d56ffc43e2eecd1bded80c4ead766022f9270835abdc8d025e8988c883c47c0",
+      "method": "Contact-sheet and/or individual-image inspection; both final overviews and both 2560-pixel hero captures separately opened."
+    },
+    {
+      "file": "11-coplanar-comparison.png",
+      "sha256": "d52b59a83b5fba64bf84b4ebf912b2b3b21fa7edeb0817c16486c5cfbc744090",
+      "method": "Contact-sheet and/or individual-image inspection; both final overviews and both 2560-pixel hero captures separately opened."
+    },
+    {
+      "file": "hero-2560.png",
+      "sha256": "91dd93a80adbd0ff4a0b5c8df31bda954dfd27a7bb246d000770602de114f34f",
+      "method": "Contact-sheet and/or individual-image inspection; both final overviews and both 2560-pixel hero captures separately opened."
+    }
+  ],
+  "overviewReviewed": true,
+  "reviewer": "Assistant visual inspection using actual local PNG images",
+  "imageOrigin": "Actual browser captures from synchronized source, not image generation or mock-ups",
+  "allPreviewImagesReviewed": true
+}

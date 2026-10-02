@@ -1,0 +1,21 @@
+{
+  "beforeSha256": "f65a3d7a00830af2e80c5d6b97e1d37cd2b2f5854b77ad99bc03a7533834dd01",
+  "afterSha256": "f65a3d7a00830af2e80c5d6b97e1d37cd2b2f5854b77ad99bc03a7533834dd01",
+  "startedWithoutNodeModules": true,
+  "commands": [
+    {
+      "command": "npm run build:offline",
+      "exitCode": 0
+    },
+    {
+      "command": "npm run check",
+      "exitCode": 0
+    },
+    {
+      "command": "npm test",
+      "exitCode": 0
+    }
+  ],
+  "byteIdentical": true,
+  "networkDependencyInstallationRequired": false
+}

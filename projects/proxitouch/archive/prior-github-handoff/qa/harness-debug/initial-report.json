@@ -1,0 +1,2228 @@
+{
+  "kind": "proxi",
+  "sourceSha256": "f65a3d7a00830af2e80c5d6b97e1d37cd2b2f5854b77ad99bc03a7533834dd01",
+  "referenceSha256": "7130d27380409fc5012a6614d201397b61b964d1b6c4699b8724f903f164bc33",
+  "checks": [
+    {
+      "name": "S00 synchronized runtime state / camera",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "S00 uploaded title / copy preserved",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "S00 uploaded 3-D pixels unchanged",
+      "passed": true,
+      "details": {
+        "reference": "d944539f999dd18069cd528d6506ed6f86ba6072e2edd988a1b3e79bf3ee67f6",
+        "rebuilt": "d944539f999dd18069cd528d6506ed6f86ba6072e2edd988a1b3e79bf3ee67f6"
+      }
+    },
+    {
+      "name": "S01 synchronized runtime state / camera",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "S01 uploaded title / copy preserved",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "S01 uploaded 3-D pixels unchanged",
+      "passed": true,
+      "details": {
+        "reference": "a942ce15a2dced71ae6d681e32054f2109fba234df8d5e90a72bc7c39d32c50c",
+        "rebuilt": "a942ce15a2dced71ae6d681e32054f2109fba234df8d5e90a72bc7c39d32c50c"
+      }
+    },
+    {
+      "name": "S02 synchronized runtime state / camera",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "S02 uploaded title / copy preserved",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "S02 uploaded 3-D pixels unchanged",
+      "passed": true,
+      "details": {
+        "reference": "edaa75955cb0131ca3fefe8203feb51c29a1a751d63c9d211bd437c732551ea2",
+        "rebuilt": "edaa75955cb0131ca3fefe8203feb51c29a1a751d63c9d211bd437c732551ea2"
+      }
+    },
+    {
+      "name": "S03 synchronized runtime state / camera",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "S03 uploaded title / copy preserved",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "S03 uploaded 3-D pixels unchanged",
+      "passed": true,
+      "details": {
+        "reference": "d3a87f15c48ace2f673024a97cc523d039e42081ce2c5b26763295b74c0f3d1c",
+        "rebuilt": "d3a87f15c48ace2f673024a97cc523d039e42081ce2c5b26763295b74c0f3d1c"
+      }
+    },
+    {
+      "name": "S04 synchronized runtime state / camera",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "S04 uploaded title / copy preserved",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "S04 uploaded 3-D pixels unchanged",
+      "passed": true,
+      "details": {
+        "reference": "8e5ce34f0a48311c679af00380cbb775112796d0a399e0071f08b141ed426858",
+        "rebuilt": "8e5ce34f0a48311c679af00380cbb775112796d0a399e0071f08b141ed426858"
+      }
+    },
+    {
+      "name": "S05 synchronized runtime state / camera",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "S05 uploaded title / copy preserved",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "S05 uploaded 3-D pixels unchanged",
+      "passed": true,
+      "details": {
+        "reference": "cc6fc2c42f1598028c917a338d98334b2e266e194d46a4bf116d0b83ec8f9c18",
+        "rebuilt": "cc6fc2c42f1598028c917a338d98334b2e266e194d46a4bf116d0b83ec8f9c18"
+      }
+    },
+    {
+      "name": "S06 synchronized runtime state / camera",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "S06 uploaded title / copy preserved",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "S06 uploaded 3-D pixels unchanged",
+      "passed": true,
+      "details": {
+        "reference": "80089877ac6d9109b74617e588028c0a4d0dca52dccb060456b2b2d69c115a27",
+        "rebuilt": "80089877ac6d9109b74617e588028c0a4d0dca52dccb060456b2b2d69c115a27"
+      }
+    },
+    {
+      "name": "S07 synchronized runtime state / camera",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "S07 uploaded title / copy preserved",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "S07 uploaded 3-D pixels unchanged",
+      "passed": true,
+      "details": {
+        "reference": "cc7c92172e52a63d2070639866ee948ba10c13715825b3860bfc89128890bd5b",
+        "rebuilt": "cc7c92172e52a63d2070639866ee948ba10c13715825b3860bfc89128890bd5b"
+      }
+    },
+    {
+      "name": "S08 synchronized runtime state / camera",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "S08 uploaded title / copy preserved",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "S08 uploaded 3-D pixels unchanged",
+      "passed": true,
+      "details": {
+        "reference": "235cad43cad1582ea3309a2f554797c874c6d463bd105f66d6431397568ee866",
+        "rebuilt": "235cad43cad1582ea3309a2f554797c874c6d463bd105f66d6431397568ee866"
+      }
+    },
+    {
+      "name": "S09 synchronized runtime state / camera",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "S09 uploaded title / copy preserved",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "S09 uploaded 3-D pixels unchanged",
+      "passed": true,
+      "details": {
+        "reference": "d598e2bfb9ca72912040d175953098f179ff31a8620be402bd5b5ec30ff78d5d",
+        "rebuilt": "d598e2bfb9ca72912040d175953098f179ff31a8620be402bd5b5ec30ff78d5d"
+      }
+    },
+    {
+      "name": "S10 synchronized runtime state / camera",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "S10 uploaded title / copy preserved",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "S10 uploaded 3-D pixels unchanged",
+      "passed": true,
+      "details": {
+        "reference": "5f30af90fa764e2591d85c583af3e8a095a10a4970696b55cfd0805f6e488b8c",
+        "rebuilt": "5f30af90fa764e2591d85c583af3e8a095a10a4970696b55cfd0805f6e488b8c"
+      }
+    },
+    {
+      "name": "S11 synchronized runtime state / camera",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "S11 uploaded title / copy preserved",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "S11 uploaded 3-D pixels unchanged",
+      "passed": true,
+      "details": {
+        "reference": "07f96105afcdc218011e0a66d52783a7cb03ff824c701e7d3977492fdd441637",
+        "rebuilt": "07f96105afcdc218011e0a66d52783a7cb03ff824c701e7d3977492fdd441637"
+      }
+    },
+    {
+      "name": "S12 synchronized runtime state / camera",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "S12 uploaded title / copy preserved",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "S12 uploaded 3-D pixels unchanged",
+      "passed": true,
+      "details": {
+        "reference": "a8e97c1ff7a12250784b47b140f6ccc485aac34157c57b3d93a13f54ce8243a2",
+        "rebuilt": "a8e97c1ff7a12250784b47b140f6ccc485aac34157c57b3d93a13f54ce8243a2"
+      }
+    },
+    {
+      "name": "S13 synchronized runtime state / camera",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "S13 uploaded title / copy preserved",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "S13 uploaded 3-D pixels unchanged",
+      "passed": true,
+      "details": {
+        "reference": "10dd7d93dfb25a0eb8b0346b4e92e155a78a845d96cc6b8d4759089abb86a5ac",
+        "rebuilt": "10dd7d93dfb25a0eb8b0346b4e92e155a78a845d96cc6b8d4759089abb86a5ac"
+      }
+    },
+    {
+      "name": "S14 synchronized runtime state / camera",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "S14 uploaded title / copy preserved",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "S14 uploaded 3-D pixels unchanged",
+      "passed": true,
+      "details": {
+        "reference": "ed3552ef525052a61acb5d31353ed3e87a199fe84c5a4d2c077a38497d041fa4",
+        "rebuilt": "ed3552ef525052a61acb5d31353ed3e87a199fe84c5a4d2c077a38497d041fa4"
+      }
+    },
+    {
+      "name": "S15 synchronized runtime state / camera",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "S15 uploaded title / copy preserved",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "S15 uploaded 3-D pixels unchanged",
+      "passed": true,
+      "details": {
+        "reference": "734eea54c8893536ce295eaa3562ef0cb968a96b37ab141bf7767cf9a2012df3",
+        "rebuilt": "734eea54c8893536ce295eaa3562ef0cb968a96b37ab141bf7767cf9a2012df3"
+      }
+    },
+    {
+      "name": "S16 synchronized runtime state / camera",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "S16 uploaded title / copy preserved",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "S16 uploaded 3-D pixels unchanged",
+      "passed": true,
+      "details": {
+        "reference": "bdfd9e81a08d2a85c0dc0f93812c1ab4153c2c095e334c4bf38ff69908f1c7f9",
+        "rebuilt": "bdfd9e81a08d2a85c0dc0f93812c1ab4153c2c095e334c4bf38ff69908f1c7f9"
+      }
+    },
+    {
+      "name": "S17 synchronized runtime state / camera",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "S17 uploaded title / copy preserved",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "S17 uploaded 3-D pixels unchanged",
+      "passed": true,
+      "details": {
+        "reference": "48822cd3c81efdc827fedfe58a70280e36024679b87d68456257188e2be57d28",
+        "rebuilt": "48822cd3c81efdc827fedfe58a70280e36024679b87d68456257188e2be57d28"
+      }
+    },
+    {
+      "name": "S18 synchronized runtime state / camera",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "S18 uploaded title / copy preserved",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "S18 uploaded 3-D pixels unchanged",
+      "passed": true,
+      "details": {
+        "reference": "c8fbfdd684c03884422e16e5b06ef055892ff5952ca1c774b3c9319c0a4c14a3",
+        "rebuilt": "c8fbfdd684c03884422e16e5b06ef055892ff5952ca1c774b3c9319c0a4c14a3"
+      }
+    },
+    {
+      "name": "S19 synchronized runtime state / camera",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "S19 uploaded title / copy preserved",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "S19 uploaded 3-D pixels unchanged",
+      "passed": true,
+      "details": {
+        "reference": "395aa3b63cab4d671f494b0944605a64a7bb9d3c0bb24c0acfddb8dab26d4f3b",
+        "rebuilt": "395aa3b63cab4d671f494b0944605a64a7bb9d3c0bb24c0acfddb8dab26d4f3b"
+      }
+    },
+    {
+      "name": "S20 synchronized runtime state / camera",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "S20 uploaded title / copy preserved",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "S20 uploaded 3-D pixels unchanged",
+      "passed": true,
+      "details": {
+        "reference": "1991834ef24c6f08e7c40520b653ebea4c1f31f2ea4026ed42e503d6150824c3",
+        "rebuilt": "1991834ef24c6f08e7c40520b653ebea4c1f31f2ea4026ed42e503d6150824c3"
+      }
+    },
+    {
+      "name": "S21 synchronized runtime state / camera",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "S21 uploaded title / copy preserved",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "S21 uploaded 3-D pixels unchanged",
+      "passed": true,
+      "details": {
+        "reference": "1fe305a806e715fc57d3f91514a7bf09e6c7bc34d225cc3923d5c727ee36f118",
+        "rebuilt": "1fe305a806e715fc57d3f91514a7bf09e6c7bc34d225cc3923d5c727ee36f118"
+      }
+    },
+    {
+      "name": "S22 synchronized runtime state / camera",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "S22 uploaded title / copy preserved",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "S22 uploaded 3-D pixels unchanged",
+      "passed": true,
+      "details": {
+        "reference": "e71460060837fc0bad91632e35ff0d301b446b3d55e35721462bc8ccb346c260",
+        "rebuilt": "e71460060837fc0bad91632e35ff0d301b446b3d55e35721462bc8ccb346c260"
+      }
+    },
+    {
+      "name": "Homepage personal information block absent",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Browser QA completed",
+      "passed": false,
+      "details": "Error(\"Page.evaluate: TypeError: Cannot read properties of undefined (reading 'id')\\n    at app.draw (eval at evaluate (:290:30), <anonymous>:1:148)\\n    at UtilityScript.evaluate (<anonymous>:297:18)\\n    at UtilityScript.<anonymous> (<anonymous>:1:44)\")"
+    }
+  ],
+  "errors": [],
+  "networkRequests": [],
+  "loadedVia": "set_content owned complete HTML on about:blank; no browser policy changes",
+  "screenshots": [
+    {
+      "file": "01-cover.png",
+      "scene": "S00",
+      "phase": 1,
+      "ambientSeconds": 0,
+      "field": null,
+      "viewport": [
+        1920,
+        1080
+      ],
+      "imageSha256": "77ff5c08bcfc49879964d45ad9eecc9149a488b312876a5f426e5ec88d13bb67",
+      "diagnostics": {
+        "backend": "native WebGL2 / TypeScript",
+        "renderer": "ANGLE (Google, Vulkan 1.3.0 (SwiftShader Device (Subzero) (0x0000C0DE)), SwiftShader driver)",
+        "webgl": "WebGL 2.0 (OpenGL ES 3.0 Chromium)",
+        "drawCalls": 9,
+        "triangles": 34794,
+        "width": 1920,
+        "height": 1080,
+        "quality": "high",
+        "glError": 0,
+        "errors": [],
+        "overflow": [],
+        "documentOverflow": false,
+        "overlayOverlapPairs": [],
+        "labelOverlapCount": 0,
+        "labelOutOfBounds": 0,
+        "mathErrors": 0,
+        "bodyDefaultVisible": true,
+        "bodyCanScroll": false,
+        "bodyScrollHeight": 185,
+        "bodyClientHeight": 185,
+        "bodyText": "接近—触碰—压力连续感知\n\n从空间场到接触界面",
+        "labels": [
+          {
+            "text": "局部压力分布",
+            "rect": {
+              "x": 0,
+              "y": 0,
+              "width": 0,
+              "height": 0,
+              "top": 0,
+              "right": 0,
+              "bottom": 0,
+              "left": 0
+            }
+          }
+        ],
+        "scene": "S00",
+        "phase": 1,
+        "mode": "presentation",
+        "world": "cover",
+        "ambient": {
+          "scene": "S00",
+          "seconds": 0,
+          "capture": true,
+          "active": false
+        },
+        "subjectBounds": [
+          825.646836534253,
+          223.64674549322748,
+          1713.2282022430538,
+          889.8223656450515
+        ],
+        "rafMedianMs": 0,
+        "cpuRenderMedianMs": 5,
+        "ready": true,
+        "sceneCount": 23,
+        "model": {
+          "depth": -1,
+          "externalGap": 4.232,
+          "membraneClosure": 0,
+          "pressure": 0,
+          "contact": false,
+          "contactRadius": 0,
+          "area": 0,
+          "areaNormalized": 0,
+          "hc": 0,
+          "cb": 0,
+          "halo": 0,
+          "core": 0,
+          "coreRelativeCapacitance": 1,
+          "haloDominance": 1,
+          "coreDominance": 0.08,
+          "stage": "far"
+        },
+        "geometry": {
+          "device": {
+            "architecture": "EH-EC-EB",
+            "shape": "segmented-square",
+            "sharedEC": true,
+            "EHsegments": 4,
+            "centralDomes": 9,
+            "directFieldPaths": 40,
+            "targetAffectedPaths": 8,
+            "activeWindow": "HC",
+            "contactArea": 7.699227580715627,
+            "membraneDeflection": 0.53,
+            "ECbounds": "central only",
+            "EBbounds": "central only; not full-pixel ground plane"
+          },
+          "array": {
+            "pixels": 16,
+            "uniqueBoundarySegments": 40,
+            "expectedFinalSegments": 40,
+            "selectedEC": -1,
+            "selectedEdges": [],
+            "selectedEdgeCount": 0,
+            "sharedEdges": 24,
+            "independentFramesVisible": false,
+            "merge": 1,
+            "junctionGap": 0.16,
+            "wholeGridShorted": false
+          },
+          "book": {
+            "hinge": [
+              0,
+              1,
+              0
+            ],
+            "angle": -3.141592653589793,
+            "directPaths": 30,
+            "targetAffectedPaths": 6,
+            "flowIndicators": 8,
+            "indicatorMeaning": "coupling-path guide; not free air charge transport",
+            "hingeOpacity": 0.012,
+            "solver": "representative 2-D finite-volume Laplace with finite-reference-coupled floating target"
+          },
+          "application": {
+            "kind": "concept-only; not a measured or closed-loop grip",
+            "gridPerJaw": [
+              10,
+              16
+            ],
+            "independentECs": 320,
+            "sharedEHsegments": 692,
+            "pixelsPerJaw": 160,
+            "contacts": [
+              18,
+              18
+            ],
+            "maxIndent": 0.11271002513977335,
+            "spread": 1.6351469155093281,
+            "firstContactSpread": 1.7478569155093282,
+            "stage": "pressure",
+            "eggRigid": true,
+            "eggIntact": true,
+            "wholeGridShorted": false
+          },
+          "interfaces": {
+            "top": 1,
+            "bottom": 1
+          }
+        }
+      }
+    },
+    {
+      "file": "02-materials.png",
+      "scene": "S05",
+      "phase": 1,
+      "ambientSeconds": 6.8,
+      "field": null,
+      "viewport": [
+        1920,
+        1080
+      ],
+      "imageSha256": "26d40baf67756b0218dc0d70c94c48da898022fcdfdfc0c8b23ae50cc12a97b2",
+      "diagnostics": {
+        "backend": "native WebGL2 / TypeScript",
+        "renderer": "ANGLE (Google, Vulkan 1.3.0 (SwiftShader Device (Subzero) (0x0000C0DE)), SwiftShader driver)",
+        "webgl": "WebGL 2.0 (OpenGL ES 3.0 Chromium)",
+        "drawCalls": 12,
+        "triangles": 29052,
+        "width": 1920,
+        "height": 1080,
+        "quality": "high",
+        "glError": 0,
+        "errors": [],
+        "overflow": [],
+        "documentOverflow": false,
+        "overlayOverlapPairs": [],
+        "labelOverlapCount": 0,
+        "labelOutOfBounds": 0,
+        "mathErrors": 0,
+        "bodyDefaultVisible": true,
+        "bodyCanScroll": false,
+        "bodyScrollHeight": 385,
+        "bodyClientHeight": 385,
+        "bodyText": "实际结构中，面积方向分区与电场方向分层可以同时存在。\n\n𝐶\ne\nq\n=\n∑\n𝑖\n(\n∑\n𝑗\n𝑑\n𝑖\n𝑗\n𝜀\n𝑖\n𝑗\n𝐴\n𝑖\n)\n−\n1\n\n每个面积分区 (i) 内：电场方向分层串联；不同面积分区之间：并联求和。\n\n适用于各区域可近似独立、边缘场影响较弱的情况。",
+        "labels": [
+          {
+            "text": "面积方向分区 i",
+            "rect": {
+              "x": 1005.640625,
+              "y": 696.3125,
+              "width": 145.546875,
+              "height": 42.0625,
+              "top": 696.3125,
+              "right": 1151.1875,
+              "bottom": 738.375,
+              "left": 1005.640625
+            }
+          },
+          {
+            "text": "电场方向分层 j",
+            "rect": {
+              "x": 1181.046875,
+              "y": 478.234375,
+              "width": 145.578125,
+              "height": 42.0625,
+              "top": 478.234375,
+              "right": 1326.625,
+              "bottom": 520.296875,
+              "left": 1181.046875
+            }
+          }
+        ],
+        "scene": "S05",
+        "phase": 1,
+        "mode": "presentation",
+        "world": "composite",
+        "ambient": {
+          "scene": "S05",
+          "seconds": 6.8,
+          "capture": true,
+          "active": true
+        },
+        "subjectBounds": [
+          805.8127837667209,
+          243.40228873957165,
+          1733.0622858215143,
+          870.0667662207461
+        ],
+        "rafMedianMs": 0,
+        "cpuRenderMedianMs": 4.099999999976717,
+        "ready": true,
+        "sceneCount": 23,
+        "model": {
+          "depth": -1,
+          "externalGap": 4.232,
+          "membraneClosure": 0,
+          "pressure": 0,
+          "contact": false,
+          "contactRadius": 0,
+          "area": 0,
+          "areaNormalized": 0,
+          "hc": 0,
+          "cb": 0,
+          "halo": 0,
+          "core": 0,
+          "coreRelativeCapacitance": 1,
+          "haloDominance": 1,
+          "coreDominance": 0.08,
+          "stage": "far"
+        },
+        "geometry": {
+          "device": {
+            "architecture": "EH-EC-EB",
+            "shape": "segmented-square",
+            "sharedEC": true,
+            "EHsegments": 4,
+            "centralDomes": 9,
+            "directFieldPaths": 40,
+            "targetAffectedPaths": 8,
+            "activeWindow": "HC",
+            "contactArea": 7.699227580715627,
+            "membraneDeflection": 0.53,
+            "ECbounds": "central only",
+            "EBbounds": "central only; not full-pixel ground plane"
+          },
+          "array": {
+            "pixels": 16,
+            "uniqueBoundarySegments": 40,
+            "expectedFinalSegments": 40,
+            "selectedEC": -1,
+            "selectedEdges": [],
+            "selectedEdgeCount": 0,
+            "sharedEdges": 24,
+            "independentFramesVisible": false,
+            "merge": 1,
+            "junctionGap": 0.16,
+            "wholeGridShorted": false
+          },
+          "book": {
+            "hinge": [
+              0,
+              1,
+              0
+            ],
+            "angle": -3.141592653589793,
+            "directPaths": 30,
+            "targetAffectedPaths": 6,
+            "flowIndicators": 8,
+            "indicatorMeaning": "coupling-path guide; not free air charge transport",
+            "hingeOpacity": 0.012,
+            "solver": "representative 2-D finite-volume Laplace with finite-reference-coupled floating target"
+          },
+          "application": {
+            "kind": "concept-only; not a measured or closed-loop grip",
+            "gridPerJaw": [
+              10,
+              16
+            ],
+            "independentECs": 320,
+            "sharedEHsegments": 692,
+            "pixelsPerJaw": 160,
+            "contacts": [
+              18,
+              18
+            ],
+            "maxIndent": 0.11271002513977335,
+            "spread": 1.6351469155093281,
+            "firstContactSpread": 1.7478569155093282,
+            "stage": "pressure",
+            "eggRigid": true,
+            "eggIntact": true,
+            "wholeGridShorted": false
+          },
+          "interfaces": {
+            "top": 1,
+            "bottom": 1
+          }
+        }
+      }
+    },
+    {
+      "file": "03-fringing-field.png",
+      "scene": "S08",
+      "phase": 0.65,
+      "ambientSeconds": 0,
+      "field": null,
+      "viewport": [
+        1920,
+        1080
+      ],
+      "imageSha256": "932da33f3fdaf1221277e68cfcb3e51c2383cbcf210278d76bfd97bd6fc8bbbd",
+      "diagnostics": {
+        "backend": "native WebGL2 / TypeScript",
+        "renderer": "ANGLE (Google, Vulkan 1.3.0 (SwiftShader Device (Subzero) (0x0000C0DE)), SwiftShader driver)",
+        "webgl": "WebGL 2.0 (OpenGL ES 3.0 Chromium)",
+        "drawCalls": 9,
+        "triangles": 34794,
+        "width": 1920,
+        "height": 1080,
+        "quality": "high",
+        "glError": 0,
+        "errors": [],
+        "overflow": [],
+        "documentOverflow": false,
+        "overlayOverlapPairs": [],
+        "labelOverlapCount": 0,
+        "labelOutOfBounds": 0,
+        "mathErrors": 0,
+        "bodyDefaultVisible": true,
+        "bodyCanScroll": false,
+        "bodyScrollHeight": 391,
+        "bodyClientHeight": 391,
+        "bodyText": "当人体等目标进入边缘电场区域时，原有电场分布会被重新改变。\n\n由此产生互电容变化：\n\nΔ\n𝐶\n𝑚\n=\n𝐶\n𝑚\n−\n𝐶\n𝑚\n0\n\n可用归一化响应表示：\n\n𝑆\np\nr\no\nx\n=\n∣\nΔ\n𝐶\n𝑚\n𝐶\n𝑚\n0\n∣",
+        "labels": [
+          {
+            "text": "Tx",
+            "rect": {
+              "x": 748.296875,
+              "y": 746.328125,
+              "width": 45.484375,
+              "height": 42.0625,
+              "top": 746.328125,
+              "right": 793.78125,
+              "bottom": 788.390625,
+              "left": 748.296875
+            }
+          },
+          {
+            "text": "Rx",
+            "rect": {
+              "x": 1110.234375,
+              "y": 805.859375,
+              "width": 46.859375,
+              "height": 42.0625,
+              "top": 805.859375,
+              "right": 1157.09375,
+              "bottom": 847.921875,
+              "left": 1110.234375
+            }
+          },
+          {
+            "text": "人体等效目标",
+            "rect": {
+              "x": 1164.859375,
+              "y": 409.453125,
+              "width": 135.65625,
+              "height": 42.0625,
+              "top": 409.453125,
+              "right": 1300.515625,
+              "bottom": 451.515625,
+              "left": 1164.859375
+            }
+          }
+        ],
+        "scene": "S08",
+        "phase": 0.65,
+        "mode": "presentation",
+        "world": "fringe",
+        "ambient": {
+          "scene": "S08",
+          "seconds": 0,
+          "capture": true,
+          "active": false
+        },
+        "subjectBounds": [
+          767.5796816704818,
+          292.84099908076433,
+          1388.967186209254,
+          820.6248939092964
+        ],
+        "rafMedianMs": 0,
+        "cpuRenderMedianMs": 4.099999999976717,
+        "ready": true,
+        "sceneCount": 23,
+        "model": {
+          "depth": -1,
+          "externalGap": 4.232,
+          "membraneClosure": 0,
+          "pressure": 0,
+          "contact": false,
+          "contactRadius": 0,
+          "area": 0,
+          "areaNormalized": 0,
+          "hc": 0,
+          "cb": 0,
+          "halo": 0,
+          "core": 0,
+          "coreRelativeCapacitance": 1,
+          "haloDominance": 1,
+          "coreDominance": 0.08,
+          "stage": "far"
+        },
+        "geometry": {
+          "device": {
+            "architecture": "EH-EC-EB",
+            "shape": "segmented-square",
+            "sharedEC": true,
+            "EHsegments": 4,
+            "centralDomes": 9,
+            "directFieldPaths": 40,
+            "targetAffectedPaths": 8,
+            "activeWindow": "HC",
+            "contactArea": 7.699227580715627,
+            "membraneDeflection": 0.53,
+            "ECbounds": "central only",
+            "EBbounds": "central only; not full-pixel ground plane"
+          },
+          "array": {
+            "pixels": 16,
+            "uniqueBoundarySegments": 40,
+            "expectedFinalSegments": 40,
+            "selectedEC": -1,
+            "selectedEdges": [],
+            "selectedEdgeCount": 0,
+            "sharedEdges": 24,
+            "independentFramesVisible": false,
+            "merge": 1,
+            "junctionGap": 0.16,
+            "wholeGridShorted": false
+          },
+          "book": {
+            "hinge": [
+              0,
+              1,
+              0
+            ],
+            "angle": -3.141592653589793,
+            "directPaths": 30,
+            "targetAffectedPaths": 6,
+            "flowIndicators": 8,
+            "indicatorMeaning": "coupling-path guide; not free air charge transport",
+            "hingeOpacity": 0.012,
+            "solver": "representative 2-D finite-volume Laplace with finite-reference-coupled floating target"
+          },
+          "application": {
+            "kind": "concept-only; not a measured or closed-loop grip",
+            "gridPerJaw": [
+              10,
+              16
+            ],
+            "independentECs": 320,
+            "sharedEHsegments": 692,
+            "pixelsPerJaw": 160,
+            "contacts": [
+              18,
+              18
+            ],
+            "maxIndent": 0.11271002513977335,
+            "spread": 1.6351469155093281,
+            "firstContactSpread": 1.7478569155093282,
+            "stage": "pressure",
+            "eggRigid": true,
+            "eggIntact": true,
+            "wholeGridShorted": false
+          },
+          "interfaces": {
+            "top": 1,
+            "bottom": 1
+          }
+        }
+      }
+    },
+    {
+      "file": "04-ionic-interface.png",
+      "scene": "S09",
+      "phase": 1,
+      "ambientSeconds": 0,
+      "field": null,
+      "viewport": [
+        1920,
+        1080
+      ],
+      "imageSha256": "e9d4ffe0dfcedf81842a4628892816e36b33dd58e2242c1155e07067804be1c4",
+      "diagnostics": {
+        "backend": "native WebGL2 / TypeScript",
+        "renderer": "ANGLE (Google, Vulkan 1.3.0 (SwiftShader Device (Subzero) (0x0000C0DE)), SwiftShader driver)",
+        "webgl": "WebGL 2.0 (OpenGL ES 3.0 Chromium)",
+        "drawCalls": 13,
+        "triangles": 92522,
+        "width": 1920,
+        "height": 1080,
+        "quality": "high",
+        "glError": 0,
+        "errors": [],
+        "overflow": [],
+        "documentOverflow": false,
+        "overlayOverlapPairs": [],
+        "labelOverlapCount": 0,
+        "labelOutOfBounds": 0,
+        "mathErrors": 0,
+        "bodyDefaultVisible": true,
+        "bodyCanScroll": false,
+        "bodyScrollHeight": 357,
+        "bodyClientHeight": 357,
+        "bodyText": "当电子导体与离子凝胶接触并施加电势时，内部可移动离子会在界面重新分布。\n\n电极表面电荷与邻近反离子形成：\n\n电双层 EDL\n\n此时，主要电容效应集中在极薄的电极—离子界面附近。",
+        "labels": [
+          {
+            "text": "上界面 EDL",
+            "rect": {
+              "x": 1385.265625,
+              "y": 306.765625,
+              "width": 119.546875,
+              "height": 42.0625,
+              "top": 306.765625,
+              "right": 1504.8125,
+              "bottom": 348.828125,
+              "left": 1385.265625
+            }
+          },
+          {
+            "text": "下界面 EDL",
+            "rect": {
+              "x": 1451.140625,
+              "y": 802.3125,
+              "width": 119.546875,
+              "height": 42.0625,
+              "top": 802.3125,
+              "right": 1570.6875,
+              "bottom": 844.375,
+              "left": 1451.140625
+            }
+          }
+        ],
+        "scene": "S09",
+        "phase": 1,
+        "mode": "presentation",
+        "world": "edl",
+        "ambient": {
+          "scene": "S09",
+          "seconds": 0,
+          "capture": true,
+          "active": false
+        },
+        "subjectBounds": [
+          805.8125371058986,
+          239.80611845560725,
+          1733.0625157489715,
+          873.6630300673693
+        ],
+        "rafMedianMs": 0,
+        "cpuRenderMedianMs": 4.099999999976717,
+        "ready": true,
+        "sceneCount": 23,
+        "model": {
+          "depth": -1,
+          "externalGap": 4.232,
+          "membraneClosure": 0,
+          "pressure": 0,
+          "contact": false,
+          "contactRadius": 0,
+          "area": 0,
+          "areaNormalized": 0,
+          "hc": 0,
+          "cb": 0,
+          "halo": 0,
+          "core": 0,
+          "coreRelativeCapacitance": 1,
+          "haloDominance": 1,
+          "coreDominance": 0.08,
+          "stage": "far"
+        },
+        "geometry": {
+          "device": {
+            "architecture": "EH-EC-EB",
+            "shape": "segmented-square",
+            "sharedEC": true,
+            "EHsegments": 4,
+            "centralDomes": 9,
+            "directFieldPaths": 40,
+            "targetAffectedPaths": 8,
+            "activeWindow": "HC",
+            "contactArea": 7.699227580715627,
+            "membraneDeflection": 0.53,
+            "ECbounds": "central only",
+            "EBbounds": "central only; not full-pixel ground plane"
+          },
+          "array": {
+            "pixels": 16,
+            "uniqueBoundarySegments": 40,
+            "expectedFinalSegments": 40,
+            "selectedEC": -1,
+            "selectedEdges": [],
+            "selectedEdgeCount": 0,
+            "sharedEdges": 24,
+            "independentFramesVisible": false,
+            "merge": 1,
+            "junctionGap": 0.16,
+            "wholeGridShorted": false
+          },
+          "book": {
+            "hinge": [
+              0,
+              1,
+              0
+            ],
+            "angle": -3.141592653589793,
+            "directPaths": 30,
+            "targetAffectedPaths": 6,
+            "flowIndicators": 8,
+            "indicatorMeaning": "coupling-path guide; not free air charge transport",
+            "hingeOpacity": 0.012,
+            "solver": "representative 2-D finite-volume Laplace with finite-reference-coupled floating target"
+          },
+          "application": {
+            "kind": "concept-only; not a measured or closed-loop grip",
+            "gridPerJaw": [
+              10,
+              16
+            ],
+            "independentECs": 320,
+            "sharedEHsegments": 692,
+            "pixelsPerJaw": 160,
+            "contacts": [
+              18,
+              18
+            ],
+            "maxIndent": 0.11271002513977335,
+            "spread": 1.6351469155093281,
+            "firstContactSpread": 1.7478569155093282,
+            "stage": "pressure",
+            "eggRigid": true,
+            "eggIntact": true,
+            "wholeGridShorted": false
+          },
+          "interfaces": {
+            "top": 0,
+            "bottom": 0
+          }
+        }
+      }
+    },
+    {
+      "file": "05-two-interfaces.png",
+      "scene": "S10",
+      "phase": 1,
+      "ambientSeconds": 0,
+      "field": null,
+      "viewport": [
+        1920,
+        1080
+      ],
+      "imageSha256": "3181a19976c375dfab7a7a07a94a5c7f9be113f66c9d05275c91c6e36130e2e6",
+      "diagnostics": {
+        "backend": "native WebGL2 / TypeScript",
+        "renderer": "ANGLE (Google, Vulkan 1.3.0 (SwiftShader Device (Subzero) (0x0000C0DE)), SwiftShader driver)",
+        "webgl": "WebGL 2.0 (OpenGL ES 3.0 Chromium)",
+        "drawCalls": 13,
+        "triangles": 92522,
+        "width": 1920,
+        "height": 1080,
+        "quality": "high",
+        "glError": 0,
+        "errors": [],
+        "overflow": [],
+        "documentOverflow": false,
+        "overlayOverlapPairs": [],
+        "labelOverlapCount": 0,
+        "labelOutOfBounds": 0,
+        "mathErrors": 0,
+        "bodyDefaultVisible": true,
+        "bodyCanScroll": true,
+        "bodyScrollHeight": 999,
+        "bodyClientHeight": 634,
+        "bodyText": "离子导体夹在上下电极之间时，\n电压降主要集中在两个\n电极—离子导体界面的 EDL 中。\n\n中间的大范围体相近似电中性，\n宏观电场被强烈屏蔽。\n\n因此，只要两侧 EDL 不发生明显重叠，\n压缩中间体相主要只是改变其厚度，\n不会像传统平行板电容那样形成：\n\n𝐶\n∝\n1\n𝑑\n\n的响应。\n\n两个界面仍可近似看作串联：\n\n1\n𝐶\n≈\n1\n𝐶\nt\no\np\n+\n1\n𝐶\nb\no\nt\nt\no\nm\n\n因此：\n\n𝐶\n∝̸\n1\n𝑑\n\n这里真正决定电容的是\n界面状态，\n而不是两块电极之间的宏观距离。",
+        "labels": [
+          {
+            "text": "上部 EDL",
+            "rect": {
+              "x": 1392.5,
+              "y": 400.234375,
+              "width": 100.9375,
+              "height": 42.0625,
+              "top": 400.234375,
+              "right": 1493.4375,
+              "bottom": 442.296875,
+              "left": 1392.5
+            }
+          },
+          {
+            "text": "下部 EDL",
+            "rect": {
+              "x": 1446.140625,
+              "y": 737.4375,
+              "width": 100.9375,
+              "height": 42.0625,
+              "top": 737.4375,
+              "right": 1547.078125,
+              "bottom": 779.5,
+              "left": 1446.140625
+            }
+          },
+          {
+            "text": "体相近似电中性\n宏观电场被屏蔽 · E ≈ 0",
+            "rect": {
+              "x": 1238.75,
+              "y": 467.875,
+              "width": 171.84375,
+              "height": 60.828125,
+              "top": 467.875,
+              "right": 1410.59375,
+              "bottom": 528.703125,
+              "left": 1238.75
+            }
+          },
+          {
+            "text": "d₂ < d₁\nΔC ≈ 0",
+            "rect": {
+              "x": 1764.96875,
+              "y": 448.953125,
+              "width": 79.796875,
+              "height": 60.828125,
+              "top": 448.953125,
+              "right": 1844.765625,
+              "bottom": 509.78125,
+              "left": 1764.96875
+            }
+          }
+        ],
+        "scene": "S10",
+        "phase": 1,
+        "mode": "presentation",
+        "world": "interfaces",
+        "ambient": {
+          "scene": "S10",
+          "seconds": 0,
+          "capture": true,
+          "active": false
+        },
+        "subjectBounds": [
+          805.8125371058986,
+          315.25552389097237,
+          1733.0625157489715,
+          798.2170428055209
+        ],
+        "rafMedianMs": 0,
+        "cpuRenderMedianMs": 4.2999999999883585,
+        "ready": true,
+        "sceneCount": 23,
+        "model": {
+          "depth": -1,
+          "externalGap": 4.232,
+          "membraneClosure": 0,
+          "pressure": 0,
+          "contact": false,
+          "contactRadius": 0,
+          "area": 0,
+          "areaNormalized": 0,
+          "hc": 0,
+          "cb": 0,
+          "halo": 0,
+          "core": 0,
+          "coreRelativeCapacitance": 1,
+          "haloDominance": 1,
+          "coreDominance": 0.08,
+          "stage": "far"
+        },
+        "geometry": {
+          "device": {
+            "architecture": "EH-EC-EB",
+            "shape": "segmented-square",
+            "sharedEC": true,
+            "EHsegments": 4,
+            "centralDomes": 9,
+            "directFieldPaths": 40,
+            "targetAffectedPaths": 8,
+            "activeWindow": "HC",
+            "contactArea": 7.699227580715627,
+            "membraneDeflection": 0.53,
+            "ECbounds": "central only",
+            "EBbounds": "central only; not full-pixel ground plane"
+          },
+          "array": {
+            "pixels": 16,
+            "uniqueBoundarySegments": 40,
+            "expectedFinalSegments": 40,
+            "selectedEC": -1,
+            "selectedEdges": [],
+            "selectedEdgeCount": 0,
+            "sharedEdges": 24,
+            "independentFramesVisible": false,
+            "merge": 1,
+            "junctionGap": 0.16,
+            "wholeGridShorted": false
+          },
+          "book": {
+            "hinge": [
+              0,
+              1,
+              0
+            ],
+            "angle": -3.141592653589793,
+            "directPaths": 30,
+            "targetAffectedPaths": 6,
+            "flowIndicators": 8,
+            "indicatorMeaning": "coupling-path guide; not free air charge transport",
+            "hingeOpacity": 0.012,
+            "solver": "representative 2-D finite-volume Laplace with finite-reference-coupled floating target"
+          },
+          "application": {
+            "kind": "concept-only; not a measured or closed-loop grip",
+            "gridPerJaw": [
+              10,
+              16
+            ],
+            "independentECs": 320,
+            "sharedEHsegments": 692,
+            "pixelsPerJaw": 160,
+            "contacts": [
+              18,
+              18
+            ],
+            "maxIndent": 0.11271002513977335,
+            "spread": 1.6351469155093281,
+            "firstContactSpread": 1.7478569155093282,
+            "stage": "pressure",
+            "eggRigid": true,
+            "eggIntact": true,
+            "wholeGridShorted": false
+          },
+          "interfaces": {
+            "top": 1,
+            "bottom": 1
+          }
+        }
+      }
+    },
+    {
+      "file": "06-contact-area.png",
+      "scene": "S11",
+      "phase": 1,
+      "ambientSeconds": 0,
+      "field": null,
+      "viewport": [
+        1920,
+        1080
+      ],
+      "imageSha256": "94c0053178023c4d8b7582afffed0448c7e93686fd7d9b883e7cec4facacf108",
+      "diagnostics": {
+        "backend": "native WebGL2 / TypeScript",
+        "renderer": "ANGLE (Google, Vulkan 1.3.0 (SwiftShader Device (Subzero) (0x0000C0DE)), SwiftShader driver)",
+        "webgl": "WebGL 2.0 (OpenGL ES 3.0 Chromium)",
+        "drawCalls": 29,
+        "triangles": 53106,
+        "width": 1920,
+        "height": 1080,
+        "quality": "high",
+        "glError": 0,
+        "errors": [],
+        "overflow": [],
+        "documentOverflow": false,
+        "overlayOverlapPairs": [],
+        "labelOverlapCount": 0,
+        "labelOutOfBounds": 0,
+        "mathErrors": 0,
+        "bodyDefaultVisible": true,
+        "bodyCanScroll": true,
+        "bodyScrollHeight": 768,
+        "bodyClientHeight": 690,
+        "bodyText": "对于上部 EDL，可近似表示为：\n\n𝐶\nE\nD\nL\n≈\n𝑐\nE\nD\nL\n𝐴\ne\nf\nf\n\n初始状态下，\n柔性电极只与微结构发生局部接触。\n\n压力增大时，\n微结构逐渐变形，\n有效接触面积随之扩大：\n\n𝑃\n↑\n⇒\n𝐴\ne\nf\nf\n↑\n⇒\n𝐶\nE\nD\nL\n↑\n\n因此，可以将：\n\n机械压力\n\n转化为：\n\n界面电容变化。\n\n黄色区域表示有效接触面积 \n𝐴\ne\nf\nf\n。",
+        "labels": [
+          {
+            "text": "柔性上电极",
+            "rect": {
+              "x": 1462.71875,
+              "y": 545.109375,
+              "width": 117.046875,
+              "height": 42.0625,
+              "top": 545.109375,
+              "right": 1579.765625,
+              "bottom": 587.171875,
+              "left": 1462.71875
+            }
+          },
+          {
+            "text": "有效接触面积 A_eff",
+            "rect": {
+              "x": 1447.53125,
+              "y": 501.671875,
+              "width": 186.484375,
+              "height": 42.0625,
+              "top": 501.671875,
+              "right": 1634.015625,
+              "bottom": 543.734375,
+              "left": 1447.53125
+            }
+          },
+          {
+            "text": "微结构",
+            "rect": {
+              "x": 861.515625,
+              "y": 592.984375,
+              "width": 79.828125,
+              "height": 42.0625,
+              "top": 592.984375,
+              "right": 941.34375,
+              "bottom": 635.046875,
+              "left": 861.515625
+            }
+          }
+        ],
+        "scene": "S11",
+        "phase": 1,
+        "mode": "presentation",
+        "world": "micro",
+        "ambient": {
+          "scene": "S11",
+          "seconds": 0,
+          "capture": true,
+          "active": false
+        },
+        "subjectBounds": [
+          805.8124410506914,
+          342.096971869878,
+          1733.0625657655755,
+          771.372085120771
+        ],
+        "rafMedianMs": 0,
+        "cpuRenderMedianMs": 4.900000000023283,
+        "ready": true,
+        "sceneCount": 23,
+        "model": {
+          "depth": 1,
+          "externalGap": 0,
+          "membraneClosure": 1,
+          "pressure": 1,
+          "contact": true,
+          "contactRadius": 0.5405186150946967,
+          "area": 7.699227580715627,
+          "areaNormalized": 1,
+          "hc": 0.935,
+          "cb": 0.998375,
+          "halo": 0.935,
+          "core": 0.998375,
+          "coreRelativeCapacitance": 5.7922,
+          "haloDominance": 0.4,
+          "coreDominance": 1,
+          "stage": "pressure"
+        },
+        "geometry": {
+          "device": {
+            "architecture": "EH-EC-EB",
+            "shape": "segmented-square",
+            "sharedEC": true,
+            "EHsegments": 4,
+            "centralDomes": 9,
+            "directFieldPaths": 40,
+            "targetAffectedPaths": 8,
+            "activeWindow": "HC",
+            "contactArea": 7.699227580715627,
+            "membraneDeflection": 0.53,
+            "ECbounds": "central only",
+            "EBbounds": "central only; not full-pixel ground plane"
+          },
+          "array": {
+            "pixels": 16,
+            "uniqueBoundarySegments": 40,
+            "expectedFinalSegments": 40,
+            "selectedEC": -1,
+            "selectedEdges": [],
+            "selectedEdgeCount": 0,
+            "sharedEdges": 24,
+            "independentFramesVisible": false,
+            "merge": 1,
+            "junctionGap": 0.16,
+            "wholeGridShorted": false
+          },
+          "book": {
+            "hinge": [
+              0,
+              1,
+              0
+            ],
+            "angle": -3.141592653589793,
+            "directPaths": 30,
+            "targetAffectedPaths": 6,
+            "flowIndicators": 8,
+            "indicatorMeaning": "coupling-path guide; not free air charge transport",
+            "hingeOpacity": 0.012,
+            "solver": "representative 2-D finite-volume Laplace with finite-reference-coupled floating target"
+          },
+          "application": {
+            "kind": "concept-only; not a measured or closed-loop grip",
+            "gridPerJaw": [
+              10,
+              16
+            ],
+            "independentECs": 320,
+            "sharedEHsegments": 692,
+            "pixelsPerJaw": 160,
+            "contacts": [
+              18,
+              18
+            ],
+            "maxIndent": 0.11271002513977335,
+            "spread": 1.6351469155093281,
+            "firstContactSpread": 1.7478569155093282,
+            "stage": "pressure",
+            "eggRigid": true,
+            "eggIntact": true,
+            "wholeGridShorted": false
+          },
+          "interfaces": {
+            "top": 1,
+            "bottom": 1
+          }
+        }
+      }
+    },
+    {
+      "file": "07-shared-electrodes.png",
+      "scene": "S14",
+      "phase": 1,
+      "ambientSeconds": 0,
+      "field": null,
+      "viewport": [
+        1920,
+        1080
+      ],
+      "imageSha256": "2e82542f44a3d0020315f0295a328aba5764e7f4345118f20fef16d91e73c4de",
+      "diagnostics": {
+        "backend": "native WebGL2 / TypeScript",
+        "renderer": "ANGLE (Google, Vulkan 1.3.0 (SwiftShader Device (Subzero) (0x0000C0DE)), SwiftShader driver)",
+        "webgl": "WebGL 2.0 (OpenGL ES 3.0 Chromium)",
+        "drawCalls": 48,
+        "triangles": 66018,
+        "width": 1920,
+        "height": 1080,
+        "quality": "high",
+        "glError": 0,
+        "errors": [],
+        "overflow": [],
+        "documentOverflow": false,
+        "overlayOverlapPairs": [],
+        "labelOverlapCount": 0,
+        "labelOutOfBounds": 0,
+        "mathErrors": 0,
+        "bodyDefaultVisible": true,
+        "bodyCanScroll": false,
+        "bodyScrollHeight": 528,
+        "bodyClientHeight": 528,
+        "bodyText": "单个像素主要由三类电极组成：\n\n外围边框 \n𝐸\n𝐻\n\n负责建立空间边缘场。\n\n中央柔性共享电极 \n𝐸\n𝐶\n\n连接接近感知与压力感知。\n\n底电极 \n𝐸\n𝐵\n\n与 \n𝐸\n𝐶\n 构成离子界面压力通道。\n\n中央区域布置可变形的离子凝胶微穹顶，并保留微小空气隙。",
+        "labels": [
+          {
+            "text": "EH",
+            "rect": {
+              "x": 1591.203125,
+              "y": 546.625,
+              "width": 49.546875,
+              "height": 42.0625,
+              "top": 546.625,
+              "right": 1640.75,
+              "bottom": 588.6875,
+              "left": 1591.203125
+            }
+          },
+          {
+            "text": "柔性 EC",
+            "rect": {
+              "x": 933.53125,
+              "y": 384.984375,
+              "width": 89.109375,
+              "height": 42.0625,
+              "top": 384.984375,
+              "right": 1022.640625,
+              "bottom": 427.046875,
+              "left": 933.53125
+            }
+          },
+          {
+            "text": "离子凝胶 / 微穹顶",
+            "rect": {
+              "x": 1384.515625,
+              "y": 566.5,
+              "width": 169.921875,
+              "height": 42.0625,
+              "top": 566.5,
+              "right": 1554.4375,
+              "bottom": 608.5625,
+              "left": 1384.515625
+            }
+          },
+          {
+            "text": "EB",
+            "rect": {
+              "x": 1354.6875,
+              "y": 697.234375,
+              "width": 48.125,
+              "height": 42.0625,
+              "top": 697.234375,
+              "right": 1402.8125,
+              "bottom": 739.296875,
+              "left": 1354.6875
+            }
+          },
+          {
+            "text": "空气隙（展开示意）",
+            "rect": {
+              "x": 1559.9375,
+              "y": 400.1875,
+              "width": 191.484375,
+              "height": 42.0625,
+              "top": 400.1875,
+              "right": 1751.421875,
+              "bottom": 442.25,
+              "left": 1559.9375
+            }
+          }
+        ],
+        "scene": "S14",
+        "phase": 1,
+        "mode": "presentation",
+        "world": "structure",
+        "ambient": {
+          "scene": "S14",
+          "seconds": 0,
+          "capture": true,
+          "active": false
+        },
+        "subjectBounds": [
+          805.8125128859583,
+          311.5501140580779,
+          1733.062501875084,
+          801.9322931980502
+        ],
+        "rafMedianMs": 0,
+        "cpuRenderMedianMs": 4.900000000023283,
+        "ready": true,
+        "sceneCount": 23,
+        "model": {
+          "depth": -1,
+          "externalGap": 4.232,
+          "membraneClosure": 0,
+          "pressure": 0,
+          "contact": false,
+          "contactRadius": 0,
+          "area": 0,
+          "areaNormalized": 0,
+          "hc": 0,
+          "cb": 0,
+          "halo": 0,
+          "core": 0,
+          "coreRelativeCapacitance": 1,
+          "haloDominance": 1,
+          "coreDominance": 0.08,
+          "stage": "far"
+        },
+        "geometry": {
+          "device": {
+            "architecture": "EH-EC-EB",
+            "shape": "segmented-square",
+            "sharedEC": true,
+            "EHsegments": 4,
+            "centralDomes": 9,
+            "directFieldPaths": 40,
+            "targetAffectedPaths": 8,
+            "activeWindow": "HC",
+            "contactArea": 0,
+            "membraneDeflection": 0,
+            "ECbounds": "central only",
+            "EBbounds": "central only; not full-pixel ground plane"
+          },
+          "array": {
+            "pixels": 16,
+            "uniqueBoundarySegments": 40,
+            "expectedFinalSegments": 40,
+            "selectedEC": -1,
+            "selectedEdges": [],
+            "selectedEdgeCount": 0,
+            "sharedEdges": 24,
+            "independentFramesVisible": false,
+            "merge": 1,
+            "junctionGap": 0.16,
+            "wholeGridShorted": false
+          },
+          "book": {
+            "hinge": [
+              0,
+              1,
+              0
+            ],
+            "angle": -3.141592653589793,
+            "directPaths": 30,
+            "targetAffectedPaths": 6,
+            "flowIndicators": 8,
+            "indicatorMeaning": "coupling-path guide; not free air charge transport",
+            "hingeOpacity": 0.012,
+            "solver": "representative 2-D finite-volume Laplace with finite-reference-coupled floating target"
+          },
+          "application": {
+            "kind": "concept-only; not a measured or closed-loop grip",
+            "gridPerJaw": [
+              10,
+              16
+            ],
+            "independentECs": 320,
+            "sharedEHsegments": 692,
+            "pixelsPerJaw": 160,
+            "contacts": [
+              18,
+              18
+            ],
+            "maxIndent": 0.11271002513977335,
+            "spread": 1.6351469155093281,
+            "firstContactSpread": 1.7478569155093282,
+            "stage": "pressure",
+            "eggRigid": true,
+            "eggIntact": true,
+            "wholeGridShorted": false
+          },
+          "interfaces": {
+            "top": 1,
+            "bottom": 1
+          }
+        }
+      }
+    },
+    {
+      "file": "08-dual-signals.png",
+      "scene": "S19",
+      "phase": 0.83,
+      "ambientSeconds": 0,
+      "field": null,
+      "viewport": [
+        1920,
+        1080
+      ],
+      "imageSha256": "2c95857ca7f16a3139ef23d20d9b8535b118188b02e49c9073ac76e5f79dad05",
+      "diagnostics": {
+        "backend": "native WebGL2 / TypeScript",
+        "renderer": "ANGLE (Google, Vulkan 1.3.0 (SwiftShader Device (Subzero) (0x0000C0DE)), SwiftShader driver)",
+        "webgl": "WebGL 2.0 (OpenGL ES 3.0 Chromium)",
+        "drawCalls": 59,
+        "triangles": 97858,
+        "width": 1920,
+        "height": 1080,
+        "quality": "high",
+        "glError": 0,
+        "errors": [],
+        "overflow": [],
+        "documentOverflow": false,
+        "overlayOverlapPairs": [],
+        "labelOverlapCount": 0,
+        "labelOutOfBounds": 0,
+        "mathErrors": 0,
+        "bodyDefaultVisible": true,
+        "bodyCanScroll": true,
+        "bodyScrollHeight": 730,
+        "bodyClientHeight": 690,
+        "bodyText": "目标从远处靠近：\n\nΔ\n𝐶\n𝐻\n𝐶\n\n首先产生响应。\n\n轻触后：\n\n𝐴\ne\nf\nf\n>\n0\n\n界面通道开始建立。\n\n继续施压：\n\n𝑃\n↑\n⇒\n𝐴\ne\nf\nf\n↑\n⇒\n𝐶\nE\nD\nL\n↑\n\n于是同一个像素完成：\n\nApproach\n→\nTouch\n→\nPressure\n\n以及：\n\n空间场\n→\n接触界面",
+        "labels": [
+          {
+            "text": "EH",
+            "rect": {
+              "x": 1266.0625,
+              "y": 622.015625,
+              "width": 49.546875,
+              "height": 42.0625,
+              "top": 622.015625,
+              "right": 1315.609375,
+              "bottom": 664.078125,
+              "left": 1266.0625
+            }
+          },
+          {
+            "text": "EC",
+            "rect": {
+              "x": 869.5625,
+              "y": 586.390625,
+              "width": 47.65625,
+              "height": 42.0625,
+              "top": 586.390625,
+              "right": 917.21875,
+              "bottom": 628.453125,
+              "left": 869.5625
+            }
+          },
+          {
+            "text": "有效接触面积",
+            "rect": {
+              "x": 1155.75,
+              "y": 547.046875,
+              "width": 135.65625,
+              "height": 42.0625,
+              "top": 547.046875,
+              "right": 1291.40625,
+              "bottom": 589.109375,
+              "left": 1155.75
+            }
+          }
+        ],
+        "scene": "S19",
+        "phase": 0.83,
+        "mode": "presentation",
+        "world": "signals",
+        "ambient": {
+          "scene": "S19",
+          "seconds": 0,
+          "capture": true,
+          "active": false
+        },
+        "subjectBounds": [
+          767.5796917534193,
+          365.91742084661195,
+          1388.9671824784982,
+          747.5512769519657
+        ],
+        "rafMedianMs": 0,
+        "cpuRenderMedianMs": 4.900000000023283,
+        "ready": true,
+        "sceneCount": 23,
+        "model": {
+          "depth": 0.5333871720116616,
+          "externalGap": 0,
+          "membraneClosure": 1,
+          "pressure": 0.5333871720116616,
+          "contact": true,
+          "contactRadius": 0.4552290639084007,
+          "area": 5.056978617718071,
+          "areaNormalized": 0.6568163578362539,
+          "hc": 0.9102503478441375,
+          "cb": 0.663152207586451,
+          "halo": 0.9102503478441375,
+          "core": 0.663152207586451,
+          "coreRelativeCapacitance": 4.183130596414965,
+          "haloDominance": 0.4002170409387842,
+          "coreDominance": 1,
+          "stage": "pressure"
+        },
+        "geometry": {
+          "device": {
+            "architecture": "EH-EC-EB",
+            "shape": "segmented-square",
+            "sharedEC": true,
+            "EHsegments": 4,
+            "centralDomes": 9,
+            "directFieldPaths": 40,
+            "targetAffectedPaths": 8,
+            "activeWindow": "HC",
+            "contactArea": 5.056978617718071,
+            "membraneDeflection": 0.41073197751663393,
+            "ECbounds": "central only",
+            "EBbounds": "central only; not full-pixel ground plane"
+          },
+          "array": {
+            "pixels": 16,
+            "uniqueBoundarySegments": 40,
+            "expectedFinalSegments": 40,
+            "selectedEC": -1,
+            "selectedEdges": [],
+            "selectedEdgeCount": 0,
+            "sharedEdges": 24,
+            "independentFramesVisible": false,
+            "merge": 1,
+            "junctionGap": 0.16,
+            "wholeGridShorted": false
+          },
+          "book": {
+            "hinge": [
+              0,
+              1,
+              0
+            ],
+            "angle": -3.141592653589793,
+            "directPaths": 30,
+            "targetAffectedPaths": 6,
+            "flowIndicators": 8,
+            "indicatorMeaning": "coupling-path guide; not free air charge transport",
+            "hingeOpacity": 0.012,
+            "solver": "representative 2-D finite-volume Laplace with finite-reference-coupled floating target"
+          },
+          "application": {
+            "kind": "concept-only; not a measured or closed-loop grip",
+            "gridPerJaw": [
+              10,
+              16
+            ],
+            "independentECs": 320,
+            "sharedEHsegments": 692,
+            "pixelsPerJaw": 160,
+            "contacts": [
+              18,
+              18
+            ],
+            "maxIndent": 0.11271002513977335,
+            "spread": 1.6351469155093281,
+            "firstContactSpread": 1.7478569155093282,
+            "stage": "pressure",
+            "eggRigid": true,
+            "eggIntact": true,
+            "wholeGridShorted": false
+          },
+          "interfaces": {
+            "top": 1,
+            "bottom": 1
+          }
+        }
+      }
+    },
+    {
+      "file": "09-addressable-array.png",
+      "scene": "S20",
+      "phase": 1,
+      "ambientSeconds": 0,
+      "field": null,
+      "viewport": [
+        1920,
+        1080
+      ],
+      "imageSha256": "db8991f290d57f73759e7a5d7bfdccb236512dd88d4e207266c744afebbd4e79",
+      "diagnostics": {
+        "backend": "native WebGL2 / TypeScript",
+        "renderer": "ANGLE (Google, Vulkan 1.3.0 (SwiftShader Device (Subzero) (0x0000C0DE)), SwiftShader driver)",
+        "webgl": "WebGL 2.0 (OpenGL ES 3.0 Chromium)",
+        "drawCalls": 11,
+        "triangles": 47650,
+        "width": 1920,
+        "height": 1080,
+        "quality": "high",
+        "glError": 0,
+        "errors": [],
+        "overflow": [],
+        "documentOverflow": false,
+        "overlayOverlapPairs": [],
+        "labelOverlapCount": 0,
+        "labelOutOfBounds": 0,
+        "mathErrors": 0,
+        "bodyDefaultVisible": true,
+        "bodyCanScroll": false,
+        "bodyScrollHeight": 492,
+        "bodyClientHeight": 492,
+        "bodyText": "方形结构可以自然铺展为二维阵列。\n\n如果每个像素都保留一整圈独立外围电极，会产生大量重复结构。\n\n因此，相邻像素可以进一步共享边界电极：\n\n单像素\n→\n共享边界\n→\n二维阵列\n\n中央 \n𝐸\n𝐶\n 保持为局部感知节点，外围边界由相邻像素共同利用。\n\n阵列可以通过扫描方式实现局部寻址。",
+        "labels": [
+          {
+            "text": "选中 EC",
+            "rect": {
+              "x": 1219.171875,
+              "y": 452.234375,
+              "width": 89.109375,
+              "height": 42.0625,
+              "top": 452.234375,
+              "right": 1308.28125,
+              "bottom": 494.296875,
+              "left": 1219.171875
+            }
+          },
+          {
+            "text": "共享边界",
+            "rect": {
+              "x": 1169.71875,
+              "y": 527.75,
+              "width": 98.4375,
+              "height": 42.0625,
+              "top": 527.75,
+              "right": 1268.15625,
+              "bottom": 569.8125,
+              "left": 1169.71875
+            }
+          }
+        ],
+        "scene": "S20",
+        "phase": 1,
+        "mode": "presentation",
+        "world": "array",
+        "ambient": {
+          "scene": "S20",
+          "seconds": 0,
+          "capture": true,
+          "active": false
+        },
+        "subjectBounds": [
+          805.8124199116264,
+          303.9543204989577,
+          1733.0624897875405,
+          809.5149398089187
+        ],
+        "rafMedianMs": 0,
+        "cpuRenderMedianMs": 4.599999999976717,
+        "ready": true,
+        "sceneCount": 23,
+        "model": {
+          "depth": -1,
+          "externalGap": 4.232,
+          "membraneClosure": 0,
+          "pressure": 0,
+          "contact": false,
+          "contactRadius": 0,
+          "area": 0,
+          "areaNormalized": 0,
+          "hc": 0,
+          "cb": 0,
+          "halo": 0,
+          "core": 0,
+          "coreRelativeCapacitance": 1,
+          "haloDominance": 1,
+          "coreDominance": 0.08,
+          "stage": "far"
+        },
+        "geometry": {
+          "device": {
+            "architecture": "EH-EC-EB",
+            "shape": "segmented-square",
+            "sharedEC": true,
+            "EHsegments": 4,
+            "centralDomes": 9,
+            "directFieldPaths": 40,
+            "targetAffectedPaths": 8,
+            "activeWindow": "HC",
+            "contactArea": 5.056978617718071,
+            "membraneDeflection": 0.41073197751663393,
+            "ECbounds": "central only",
+            "EBbounds": "central only; not full-pixel ground plane"
+          },
+          "array": {
+            "pixels": 16,
+            "uniqueBoundarySegments": 40,
+            "expectedFinalSegments": 40,
+            "selectedEC": 6,
+            "selectedEdges": [
+              6,
+              10,
+              29,
+              33
+            ],
+            "selectedEdgeCount": 4,
+            "sharedEdges": 24,
+            "independentFramesVisible": false,
+            "merge": 1,
+            "junctionGap": 0.16,
+            "wholeGridShorted": false
+          },
+          "book": {
+            "hinge": [
+              0,
+              1,
+              0
+            ],
+            "angle": -3.141592653589793,
+            "directPaths": 30,
+            "targetAffectedPaths": 6,
+            "flowIndicators": 8,
+            "indicatorMeaning": "coupling-path guide; not free air charge transport",
+            "hingeOpacity": 0.012,
+            "solver": "representative 2-D finite-volume Laplace with finite-reference-coupled floating target"
+          },
+          "application": {
+            "kind": "concept-only; not a measured or closed-loop grip",
+            "gridPerJaw": [
+              10,
+              16
+            ],
+            "independentECs": 320,
+            "sharedEHsegments": 692,
+            "pixelsPerJaw": 160,
+            "contacts": [
+              18,
+              18
+            ],
+            "maxIndent": 0.11271002513977335,
+            "spread": 1.6351469155093281,
+            "firstContactSpread": 1.7478569155093282,
+            "stage": "pressure",
+            "eggRigid": true,
+            "eggIntact": true,
+            "wholeGridShorted": false
+          },
+          "interfaces": {
+            "top": 1,
+            "bottom": 1
+          }
+        }
+      }
+    },
+    {
+      "file": "10-egg-grasp.png",
+      "scene": "S22",
+      "phase": 1,
+      "ambientSeconds": 0,
+      "field": null,
+      "viewport": [
+        1920,
+        1080
+      ],
+      "imageSha256": "bb6c111d04881d24947d672ad61e47a183650ce36110d963f2760ff6055719ac",
+      "diagnostics": {
+        "backend": "native WebGL2 / TypeScript",
+        "renderer": "ANGLE (Google, Vulkan 1.3.0 (SwiftShader Device (Subzero) (0x0000C0DE)), SwiftShader driver)",
+        "webgl": "WebGL 2.0 (OpenGL ES 3.0 Chromium)",
+        "drawCalls": 63,
+        "triangles": 117762,
+        "width": 1920,
+        "height": 1080,
+        "quality": "high",
+        "glError": 0,
+        "errors": [],
+        "overflow": [],
+        "documentOverflow": false,
+        "overlayOverlapPairs": [],
+        "labelOverlapCount": 0,
+        "labelOutOfBounds": 0,
+        "mathErrors": 0,
+        "bodyDefaultVisible": true,
+        "bodyCanScroll": false,
+        "bodyScrollHeight": 399,
+        "bodyClientHeight": 399,
+        "bodyText": "接近时提前感知目标，\n接触后识别首次接触，\n继续施压时读取局部压力。\n\nApproach → Touch → Pressure\n\n从空间，到接触，再到压力。\n\n应用概念演示；未经实验验证。",
+        "labels": [
+          {
+            "text": "选中 EC",
+            "rect": {
+              "x": 0,
+              "y": 0,
+              "width": 0,
+              "height": 0,
+              "top": 0,
+              "right": 0,
+              "bottom": 0,
+              "left": 0
+            }
+          },
+          {
+            "text": "共享边界",
+            "rect": {
+              "x": 0,
+              "y": 0,
+              "width": 0,
+              "height": 0,
+              "top": 0,
+              "right": 0,
+              "bottom": 0,
+              "left": 0
+            }
+          }
+        ],
+        "scene": "S22",
+        "phase": 1,
+        "mode": "presentation",
+        "world": "grasp",
+        "ambient": {
+          "scene": "S22",
+          "seconds": 0,
+          "capture": true,
+          "active": false
+        },
+        "subjectBounds": [
+          947.138073480604,
+          223.64682382382222,
+          1591.736968297256,
+          889.8218791663083
+        ],
+        "rafMedianMs": 0,
+        "cpuRenderMedianMs": 4.599999999976717,
+        "ready": true,
+        "sceneCount": 23,
+        "model": {
+          "depth": 0.85,
+          "externalGap": 0,
+          "membraneClosure": 1,
+          "pressure": 0.85,
+          "contact": true,
+          "contactRadius": 0.5179412453885979,
+          "area": 6.955735508506987,
+          "areaNormalized": 0.9034329009742645,
+          "hc": 0.93165875,
+          "cb": 0.9041385471999079,
+          "halo": 0.93165875,
+          "core": 0.9041385471999079,
+          "coreRelativeCapacitance": 5.339865026559558,
+          "haloDominance": 0.4,
+          "coreDominance": 1,
+          "stage": "pressure"
+        },
+        "geometry": {
+          "device": {
+            "architecture": "EH-EC-EB",
+            "shape": "segmented-square",
+            "sharedEC": true,
+            "EHsegments": 4,
+            "centralDomes": 9,
+            "directFieldPaths": 40,
+            "targetAffectedPaths": 8,
+            "activeWindow": "HC",
+            "contactArea": 5.056978617718071,
+            "membraneDeflection": 0.41073197751663393,
+            "ECbounds": "central only",
+            "EBbounds": "central only; not full-pixel ground plane"
+          },
+          "array": {
+            "pixels": 16,
+            "uniqueBoundarySegments": 40,
+            "expectedFinalSegments": 40,
+            "selectedEC": 6,
+            "selectedEdges": [
+              6,
+              10,
+              29,
+              33
+            ],
+            "selectedEdgeCount": 4,
+            "sharedEdges": 24,
+            "independentFramesVisible": false,
+            "merge": 1,
+            "junctionGap": 0.16,
+            "wholeGridShorted": false
+          },
+          "book": {
+            "hinge": [
+              0,
+              1,
+              0
+            ],
+            "angle": -3.141592653589793,
+            "directPaths": 30,
+            "targetAffectedPaths": 6,
+            "flowIndicators": 8,
+            "indicatorMeaning": "coupling-path guide; not free air charge transport",
+            "hingeOpacity": 0.012,
+            "solver": "representative 2-D finite-volume Laplace with finite-reference-coupled floating target"
+          },
+          "application": {
+            "kind": "concept-only; not a measured or closed-loop grip",
+            "gridPerJaw": [
+              10,
+              16
+            ],
+            "independentECs": 320,
+            "sharedEHsegments": 692,
+            "pixelsPerJaw": 160,
+            "contacts": [
+              18,
+              18
+            ],
+            "maxIndent": 0.11271002513977335,
+            "spread": 1.6351469155093281,
+            "firstContactSpread": 1.7478569155093282,
+            "stage": "pressure",
+            "eggRigid": true,
+            "eggIntact": true,
+            "wholeGridShorted": false
+          },
+          "interfaces": {
+            "top": 1,
+            "bottom": 1
+          }
+        }
+      }
+    }
+  ],
+  "renderer": "ANGLE (Google, Vulkan 1.3.0 (SwiftShader Device (Subzero) (0x0000C0DE)), SwiftShader driver)"
+}

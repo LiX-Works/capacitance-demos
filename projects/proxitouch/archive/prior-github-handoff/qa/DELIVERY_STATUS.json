@@ -1,0 +1,18 @@
+{
+  "project": "proxi",
+  "title": "ProxiTouch",
+  "runtimeSha256": "f65a3d7a00830af2e80c5d6b97e1d37cd2b2f5854b77ad99bc03a7533834dd01",
+  "editableSourceSynchronized": true,
+  "sceneCount": 23,
+  "browserChecksPassed": 81,
+  "cleanBuildByteIdentical": true,
+  "rawPreviewImages": 12,
+  "personalInformationRemoved": true,
+  "githubAccountModified": false,
+  "remoteGitHubWorkflowRun": false,
+  "physicalModelRecalculated": false,
+  "entry": "index.html",
+  "deployDirectory": "site",
+  "codexInstructions": "AGENTS.md and CODEX_DEPLOY.md",
+  "limitations": "Owned-document Chromium testing, no normal browser URL navigation in the managed test environment; no new hardware-performance or physical validation."
+}

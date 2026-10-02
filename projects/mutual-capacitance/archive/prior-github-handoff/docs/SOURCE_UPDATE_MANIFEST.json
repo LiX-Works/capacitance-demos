@@ -1,0 +1,167 @@
+{
+  "basis": "Original full project archive -> current uploaded final HTML",
+  "files": [
+    {
+      "path": "source/src/engine/camera.ts",
+      "status": "unchanged",
+      "sourceSha256": "133f88b720ea922a42ffcbd3d42a90c26f0c7bfd1252e62fc7604a90c46de650",
+      "oldSha256": "133f88b720ea922a42ffcbd3d42a90c26f0c7bfd1252e62fc7604a90c46de650"
+    },
+    {
+      "path": "source/src/engine/geometry.ts",
+      "status": "unchanged",
+      "sourceSha256": "4163358db30b13af83cbba99c108f812e6c15e8c6893db9d0206e099e7619749",
+      "oldSha256": "4163358db30b13af83cbba99c108f812e6c15e8c6893db9d0206e099e7619749"
+    },
+    {
+      "path": "source/src/engine/math.ts",
+      "status": "unchanged",
+      "sourceSha256": "486cfdbeaee8d16ec54cac281b3c33513d3f0175bd5b9f076f584e548925b6e3",
+      "oldSha256": "486cfdbeaee8d16ec54cac281b3c33513d3f0175bd5b9f076f584e548925b6e3"
+    },
+    {
+      "path": "source/src/engine/renderer.ts",
+      "status": "unchanged",
+      "sourceSha256": "27b81043e24815d89ec5856436b23c2bda092ec75ef90e1016d7863ff3eca68d",
+      "oldSha256": "27b81043e24815d89ec5856436b23c2bda092ec75ef90e1016d7863ff3eca68d"
+    },
+    {
+      "path": "source/src/engine/scene.ts",
+      "status": "unchanged",
+      "sourceSha256": "01840447a414641bca6186d691c9c42fac53771ba1cde432ec485966d2a6b3d0",
+      "oldSha256": "01840447a414641bca6186d691c9c42fac53771ba1cde432ec485966d2a6b3d0"
+    },
+    {
+      "path": "source/src/main.ts",
+      "status": "updated",
+      "sourceSha256": "f19377782f4bc02e31283a062ef6e9adf3cddc7878cecf446b5eff946504763d",
+      "oldSha256": "f6035c07da9d27eeee252a2473aa2df638f45b7d46e78df20ddd4639da8ce8fc"
+    },
+    {
+      "path": "source/src/models/Experiment.ts",
+      "status": "unchanged",
+      "sourceSha256": "9c0c066d72d184b8d64fb874dfb4fc2e06c68b5f8f706f317baf609e4c67d1f8",
+      "oldSha256": "9c0c066d72d184b8d64fb874dfb4fc2e06c68b5f8f706f317baf609e4c67d1f8"
+    },
+    {
+      "path": "source/src/models/Wedge.ts",
+      "status": "unchanged",
+      "sourceSha256": "17a7948620d3e05676fe7c7f36ed848dd3419ae94e338330c85ba5bd93b10d4b",
+      "oldSha256": "17a7948620d3e05676fe7c7f36ed848dd3419ae94e338330c85ba5bd93b10d4b"
+    },
+    {
+      "path": "source/src/physics/data.ts",
+      "status": "unchanged",
+      "sourceSha256": "beb618e710913018da798847ce924b6cad0bd93367fd2b24ed8cda8879ce08f9",
+      "oldSha256": "beb618e710913018da798847ce924b6cad0bd93367fd2b24ed8cda8879ce08f9"
+    },
+    {
+      "path": "source/src/physics/model.ts",
+      "status": "unchanged",
+      "sourceSha256": "4fca4bc7db074e2c622ffd207ce6a38046c8ada340c1f5ff81c2019dcc2baadc",
+      "oldSha256": "4fca4bc7db074e2c622ffd207ce6a38046c8ada340c1f5ff81c2019dcc2baadc"
+    },
+    {
+      "path": "source/src/scenes/definitions.ts",
+      "status": "unchanged",
+      "sourceSha256": "bf5e79771c2820a64b2dce5f3da470509012719747fcdb645b99fb43b79e76b8",
+      "oldSha256": "bf5e79771c2820a64b2dce5f3da470509012719747fcdb645b99fb43b79e76b8"
+    },
+    {
+      "path": "source/src/ui/Chart.ts",
+      "status": "unchanged",
+      "sourceSha256": "761c5361f739201321f02861090ec779c4ea6d38ec212aef255f337c9981d79b",
+      "oldSha256": "761c5361f739201321f02861090ec779c4ea6d38ec212aef255f337c9981d79b"
+    },
+    {
+      "path": "source/src/ui/HUD.ts",
+      "status": "updated",
+      "sourceSha256": "a6599e78371e5518a1488ffe1974fecd45bd9aec2ee222b4fe9b149bb161c906",
+      "oldSha256": "0d529a333a7154d4423aae9b0e54f65f7a48ad04ed1f07386d45ca9c1a88e572"
+    },
+    {
+      "path": "source/src/ui/Labels.ts",
+      "status": "unchanged",
+      "sourceSha256": "1ad9ac21917bb6d5126847f861c9b5eb6c1121d71bf3f423635904ad024917a3",
+      "oldSha256": "1ad9ac21917bb6d5126847f861c9b5eb6c1121d71bf3f423635904ad024917a3"
+    },
+    {
+      "path": "source/public/style.css",
+      "status": "updated",
+      "sourceSha256": "3af997399a2ac81562b9333bf68b69ee0dd3549858f3158cf87318e125b2e7e2",
+      "oldSha256": "b8362d37cb9f92d8e8b8525f4d179dcb75b26cb407d0a7e11ce3321e6147db55"
+    },
+    {
+      "path": "source/public/vendor/katex.js",
+      "status": "unchanged",
+      "sourceSha256": "35826b0d4b7ae160c1b76c6ba508ec698f255e314ea0e35e711c0cd291522c0d",
+      "oldSha256": "35826b0d4b7ae160c1b76c6ba508ec698f255e314ea0e35e711c0cd291522c0d"
+    },
+    {
+      "path": "physics/bem.py",
+      "status": "unchanged",
+      "sourceSha256": "9aa9237afce7a0d86a60ce02556293d13e0d99cdcfcb84745ba354d176aa3ad9",
+      "oldSha256": "9aa9237afce7a0d86a60ce02556293d13e0d99cdcfcb84745ba354d176aa3ad9"
+    },
+    {
+      "path": "physics/bem3d_check.py",
+      "status": "unchanged",
+      "sourceSha256": "bc8b2256c8f1c8998b01d432d3e9b60d4b763f51cb02a5550887df62a3c0a2d7",
+      "oldSha256": "bc8b2256c8f1c8998b01d432d3e9b60d4b763f51cb02a5550887df62a3c0a2d7"
+    },
+    {
+      "path": "physics/check_interpolation.py",
+      "status": "unchanged",
+      "sourceSha256": "8db90f762a297f61824956071f79e886774ce7fbe413b2b50d333b9ab247b5c4",
+      "oldSha256": "8db90f762a297f61824956071f79e886774ce7fbe413b2b50d333b9ab247b5c4"
+    },
+    {
+      "path": "physics/enrich.py",
+      "status": "unchanged",
+      "sourceSha256": "ff03ef1f84e37213577ae9304036f5ede66f140331b72a873bd9e813f6245603",
+      "oldSha256": "ff03ef1f84e37213577ae9304036f5ede66f140331b72a873bd9e813f6245603"
+    },
+    {
+      "path": "physics/fvm_check.py",
+      "status": "unchanged",
+      "sourceSha256": "729822a193c97493bb7bbb21fa0bfd5f43a8205236a70e4e31dd325f345e6792",
+      "oldSha256": "729822a193c97493bb7bbb21fa0bfd5f43a8205236a70e4e31dd325f345e6792"
+    },
+    {
+      "path": "physics/generate.py",
+      "status": "unchanged",
+      "sourceSha256": "511a05b21f326e7a24e1ab1f7e5ba1fc00a034c8dd828991f9f3e2d105801068",
+      "oldSha256": "511a05b21f326e7a24e1ab1f7e5ba1fc00a034c8dd828991f9f3e2d105801068"
+    },
+    {
+      "path": "physics/local_maps.py",
+      "status": "unchanged",
+      "sourceSha256": "99a257638c9aafdd21c172ed619025993a85e5384c755d24abc5f4f7fdae95ba",
+      "oldSha256": "99a257638c9aafdd21c172ed619025993a85e5384c755d24abc5f4f7fdae95ba"
+    },
+    {
+      "path": "physics/model.py",
+      "status": "unchanged",
+      "sourceSha256": "f549f405085b0e2f0845c9488ab84e572f934afe7ad0c0095ff6a93953fcf87b",
+      "oldSha256": "f549f405085b0e2f0845c9488ab84e572f934afe7ad0c0095ff6a93953fcf87b"
+    },
+    {
+      "path": "physics/reproduce.py",
+      "status": "unchanged",
+      "sourceSha256": "445b308eb475deb6e6ecf54f7dd7c21497e27bbb3e18823e06a4b63565872305",
+      "oldSha256": "445b308eb475deb6e6ecf54f7dd7c21497e27bbb3e18823e06a4b63565872305"
+    },
+    {
+      "path": "physics/trial_and_validate.py",
+      "status": "unchanged",
+      "sourceSha256": "9e4024de961c5cb9f937936e9e6d3c9a50d142128538c9ba8b6a41037c35c8cb",
+      "oldSha256": "9e4024de961c5cb9f937936e9e6d3c9a50d142128538c9ba8b6a41037c35c8cb"
+    },
+    {
+      "path": "data/results.json",
+      "status": "unchanged",
+      "sourceSha256": "ea514393999bf076ee4edc844ec70ef1bae7f4e8b52b60f64cc35a2e9baab2cc",
+      "oldSha256": "ea514393999bf076ee4edc844ec70ef1bae7f4e8b52b60f64cc35a2e9baab2cc"
+    }
+  ]
+}

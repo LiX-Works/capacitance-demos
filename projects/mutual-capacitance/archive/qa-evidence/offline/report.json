@@ -1,0 +1,201 @@
+{
+  "sourceSha256": "9e0b2a5316c58042cf33929f2097d45282385742bd4788745767fa21cfaee6bd",
+  "navigation": [
+    {
+      "kind": "file",
+      "url": "file:///mnt/data/Capacitance_Lab/dist/Capacitance-Lab-offline.html",
+      "loaded": false,
+      "errors": [],
+      "failure": "Page.goto: net::ERR_BLOCKED_BY_ADMINISTRATOR at file:///mnt/data/Capacitance_Lab/dist/Capacitance-Lab-offline.html\nCall log:\n  - navigating to \"file:///mnt/data/Capacitance_Lab/dist/Capacitance-Lab-offline.html\", waiting until \"load\"\n"
+    },
+    {
+      "kind": "http",
+      "url": "http://127.0.0.1:4178/",
+      "loaded": false,
+      "errors": [],
+      "failure": "Page.goto: net::ERR_BLOCKED_BY_ADMINISTRATOR at http://127.0.0.1:4178/\nCall log:\n  - navigating to \"http://127.0.0.1:4178/\", waiting until \"load\"\n"
+    }
+  ],
+  "coldOffline": {
+    "loaded": true,
+    "requests": [],
+    "errors": [],
+    "diagnostics": {
+      "backend": "native WebGL2 / TypeScript",
+      "renderer": "ANGLE (Google, Vulkan 1.3.0 (SwiftShader Device (Subzero) (0x0000C0DE)), SwiftShader driver)",
+      "webgl": "WebGL 2.0 (OpenGL ES 3.0 Chromium)",
+      "drawCalls": 7,
+      "triangles": 27134,
+      "width": 1920,
+      "height": 1080,
+      "quality": "high",
+      "glError": 0,
+      "errors": [],
+      "overflow": [],
+      "mathErrors": 0,
+      "documentOverflow": false,
+      "rects": [
+        {
+          "name": ".headline",
+          "rect": {
+            "x": 76.796875,
+            "y": 102.59375,
+            "width": 1766.40625,
+            "height": 87.65625,
+            "top": 102.59375,
+            "right": 1843.203125,
+            "bottom": 190.25,
+            "left": 76.796875
+          }
+        },
+        {
+          "name": ".copy-panel",
+          "rect": {
+            "x": 76.796875,
+            "y": 237.59375,
+            "width": 518.390625,
+            "height": 734.40625,
+            "top": 237.59375,
+            "right": 595.1875,
+            "bottom": 972,
+            "left": 76.796875
+          }
+        },
+        {
+          "name": ".numbers",
+          "rect": {
+            "x": 672,
+            "y": 194.390625,
+            "width": 1171.203125,
+            "height": 77.75,
+            "top": 194.390625,
+            "right": 1843.203125,
+            "bottom": 272.140625,
+            "left": 672
+          }
+        },
+        {
+          "name": ".model-meta",
+          "rect": {
+            "x": 672,
+            "y": 709.546875,
+            "width": 1171.203125,
+            "height": 22,
+            "top": 709.546875,
+            "right": 1843.203125,
+            "bottom": 731.546875,
+            "left": 672
+          }
+        },
+        {
+          "name": ".model-controls",
+          "rect": {
+            "x": 672,
+            "y": 749.515625,
+            "width": 1171.203125,
+            "height": 31.609375,
+            "top": 749.515625,
+            "right": 1843.203125,
+            "bottom": 781.125,
+            "left": 672
+          }
+        },
+        {
+          "name": ".chart",
+          "rect": {
+            "x": 652.796875,
+            "y": 810,
+            "width": 1200.015625,
+            "height": 194.40625,
+            "top": 810,
+            "right": 1852.8125,
+            "bottom": 1004.40625,
+            "left": 652.796875
+          }
+        },
+        {
+          "name": "footer",
+          "rect": {
+            "x": 76.796875,
+            "y": 1025.296875,
+            "width": 1766.40625,
+            "height": 28.796875,
+            "top": 1025.296875,
+            "right": 1843.203125,
+            "bottom": 1054.09375,
+            "left": 76.796875
+          }
+        }
+      ],
+      "labelOverlaps": 0,
+      "labelOutOfBounds": 0,
+      "scene": "09",
+      "phase": 1,
+      "theta": 5,
+      "materialEr": 4,
+      "geometry": {
+        "hinge_m": [
+          -0.001,
+          0.0005
+        ],
+        "rotation": 0.08726646259971647,
+        "upperNear_m": [
+          -4.738317328208351e-05,
+          0.0010852530917935311,
+          0
+        ],
+        "gapFinal_m": 0.002,
+        "width_m": 0.12,
+        "displayWidth_m": 0.028
+      },
+      "sample": {
+        "theta_deg": 5,
+        "er": 4,
+        "C_F": 1.5165571757975006e-11,
+        "Cprime_F_per_m": 1.263797646497917e-10,
+        "normalized": 0.5087902398915958,
+        "panels": 728,
+        "exact": true,
+        "interpolated": false,
+        "bracket": [
+          5,
+          5
+        ],
+        "residual": 1.8097484399959285e-08
+      },
+      "ready": true
+    }
+  },
+  "http": [
+    {
+      "path": "/",
+      "status": 200,
+      "bytes": 627
+    },
+    {
+      "path": "/app.js",
+      "status": 200,
+      "bytes": 15256027
+    },
+    {
+      "path": "/style.css",
+      "status": 200,
+      "bytes": 11314
+    },
+    {
+      "path": "/Capacitance-Lab-offline.html",
+      "status": 200,
+      "bytes": 15267926
+    },
+    {
+      "path": "/js/main.js",
+      "status": 200,
+      "bytes": 14732
+    }
+  ],
+  "fullscreen": {
+    "active": true,
+    "bodyEnd": "\n探索 E\n参数与方法\n全屏\nPART II · 部分介质与验证\n介质边缘，重新分配电场\n原理说明\n−\n数值求解满足电势连续，以及介质边界的法向电位移连续。\n\n介质内外的场不再只是一组互不影响的竖直窄条。\n\n试着切换场线、电势与场强：色图和场线都来自实际计算数据。\n\n棱边附近理想模型的局部场会很强，显示采样峰值不应被当作材料击穿预测。\n𝜙\n1\n=\n𝜙\n2\n,\n𝜀\n1\n𝐸\n𝑛\n,\n1\n=\n𝜀\n2\n𝐸\n𝑛\n,\n2\n\n场图使用 V 与 V/m；不是归一化装饰。角度节点之间的画面会明确标注插值。\n\nC₂D · 按宽度外推\n15.17 pF\nθ\n5°\nεr=4\nC′\n126.38 pF/m\nC / C₀\n0.509\n当前为独立求解节点 · 材料附近局部场窗口\n宽度中部剖切 28 mm · C 按全宽 120 mm 外推\n场线\n电势\n场强\n全宽视图\n改为空气\n纵轴对数\n|E| / V·m⁻¹\n≤32　　100　　10³　　≥3.16×10³\n09 / 12\n最终帧稳定 · → 下一页\n←\n播放 ␣\n重播 R\n下一步 →\n连播 P\n空气 · 二维数值\nεr = 4 · 二维数值\n局部近似\n当前局部近似偏差 -13.4%\n0\n10\n20\n30\n0°\n30°\n60°\n90°\n120°\n150°\n180°\nC / pF\nθ\n旋转电极\nθ = 5°\n固定电极\n介质 εr = 4\nt = 0.400 mm"
+  },
+  "noPolicyChangesMade": true
+}

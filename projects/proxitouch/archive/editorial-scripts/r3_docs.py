@@ -1,0 +1,45 @@
+"""Write release-facing R3 documentation; preserve R2 history explicitly."""
+from pathlib import Path
+import json,shutil,hashlib
+R=Path(__file__).resolve().parents[2]
+H=R/'docs/history-r2';H.mkdir(exist_ok=True)
+for name in ['README.md','CONTROLS.md','PRESENTATION_GUIDE.md','QA_REPORT.md']:
+ if not (H/name).exists():shutil.copy2(R/name,H/name)
+for name in ['ARCHITECTURE.md','CHANGELOG.md','MIGRATION_MAP.md','READ_LOG.md','READ_LOG.json','SOURCE_PROVENANCE.md','SOURCE_PROVENANCE.json','PHYSICS_NOTES.md']:
+ if not (H/name).exists():shutil.copy2(R/'docs'/name,H/name)
+readme=(H/'README.md').read_text()
+readme=readme.replace('\u7b2c\u4e8c\u8f6e\u91cd\u6784','\u7b2c\u4e09\u8f6e\u6700\u7ec8\u7cbe\u4fee',1)
+a=readme.index('\u672c\u7248\u662f');b=readme.index('\n\n## ',a)
+readme=readme[:a]+'\u5728\u5b8c\u6574 R2 \u6e90\u7801\u4e0a\u505a\u6307\u5b9a\u8303\u56f4\u7cbe\u4fee\u3002\u4fdd\u7559\u539f\u751f WebGL2 / TypeScript\u3001\u6750\u8d28\u706f\u5149\u3001\u63a2\u7d22\u548c\u79bb\u7ebf\u6784\u5efa\u7cfb\u7edf\uff1b\u4ecd\u4e3a\u5c01\u9762 + 22 \u4e2a\u77e5\u8bc6\u5355\u5143\uff08\u57fa\u7840 11\u3001\u8bbe\u8ba1 8\u3001\u9635\u5217 3\uff09\u3002S00\u2013S21 \u6807\u9898\u548c\u6b63\u6587\u4fdd\u6301 R2\uff0cS22 \u6539\u4e3a\u9ad8\u5bc6\u5ea6\u611f\u77e5\u76ae\u80a4\u5939\u9e21\u86cb\u7684\u5e94\u7528\u6982\u5ff5\u3002'+readme[b:]
+readme=readme.replace('`src/scenes/copy.ts`\u3002','`src/scenes/copy.ts`\uff1bR3 \u4ec5\u4ee5 `revision-spec/R3_COPY_OVERRIDES.json` \u8986\u76d6 S22\uff0c\u91cd\u65b0\u5bfc\u5165\u4e0d\u4f1a\u4e22\u5931\u7ed3\u5c3e\u4fee\u6539\u3002')
+readme=readme.replace('|`revision-spec/`|\u672c\u8f6e 8 \u4efd\u539f\u59cb MD|','|`revision-spec/`|R2 \u539f\u59cb MD\u3001R3 \u8303\u56f4\u8bb0\u5f55\u548c S22 \u6587\u6848\u8986\u76d6|')
+readme=readme.replace('## \u79d1\u5b66\u8fb9\u754c','## R3 \u5faa\u73af\u4e0e\u622a\u56fe\n\nS05 / S07 / S10 / S18 \u4f7f\u7528\u72ec\u7acb\u73af\u5883\u52a8\u753b\u65f6\u949f\u3002\u5faa\u73af\u4e0d\u4f1a\u963b\u585e\u7ffb\u9875\uff0c\u79bb\u5f00\u5373\u505c\u6b62\u66f4\u65b0\u3002\u81ea\u52a8\u622a\u56fe\u53ef\u4f7f\u7528 `__PT.captureMode(true)` \u4e0e `__PT.ambientTime(seconds)` \u56fa\u5b9a\u72b6\u6001\u3002\u8be6\u89c1 `docs/r3/AMBIENT_CAPTURE.md` \u548c `docs/CHANGELOG.md`\u3002\n\n## \u79d1\u5b66\u8fb9\u754c')
+readme+='\n\u5939\u6301\u52a8\u4f5c\u662f\u9884\u8bbe\u6559\u5b66\u52a8\u753b\uff1b\u9e21\u86cb\u7531\u4e0b\u65b9\u5c0f\u652f\u5ea7\u5b9a\u4f4d\uff0c\u4e0d\u6f14\u793a\u62ac\u5347\u6216\u95ed\u73af\u63a7\u5236\u3002\u672a\u9a8c\u8bc1\u5b89\u5168\u5939\u6301\u3001\u538b\u529b\u6807\u5b9a\u6216\u7834\u88c2\u529b\u5b66\u3002\n'
+(R/'README.md').write_text(readme)
+controls=(H/'CONTROLS.md').read_text()+'''\n## R3 ambient animations\n\nS05 material emphasis, S07 coupling indicators, S10 final upper-interface breathing and S18 multiplex windows use a separate active-scene clock. They never set the main animation to playing. Once the main animation ends, Next advances even while these loops are running. Entering Explore pauses the presentation clock; leaving restores the saved presentation state. Leaving the page stops that page's updates. R restarts the main animation and ambient time.\n\nCapture API: `__PT.captureMode(true); __PT.goTo('S18', 1); __PT.ambientTime(1.5); __PT.flush();` fixes the CB window. Use `__PT.captureMode(false)` for real-time playback.\n'''
+(R/'CONTROLS.md').write_text(controls)
+manifest=json.loads((R/'docs/SCENE_MANIFEST.json').read_text())
+oldguide=(H/'PRESENTATION_GUIDE.md').read_text();notes={}
+for line in oldguide.splitlines():
+ if line.startswith('|S'):
+  p=line.split('|');notes[p[1]]=p[4]
+updates={
+'S01':'70 \u4e2a\u6b63\u53f7\u4e0e 70 \u4e2a\u8d1f\u53f7\u5747\u5300\u8986\u76d6\u6781\u677f\uff1b\u4e0a\u65b9\u6b63\u53f7\u6e05\u695a\u9ad8\u4e8e\u53ef\u89c1\u8868\u9762\u3002',
+'S03':'\u4e00\u6b21\u5927\u89d2\u5ea6\u955c\u5934\u8f6c\u6362\u540e\u505c\u7a33\uff1b\u65f6\u957f\u4e3a R2 \u7684 2 \u500d\uff0c\u4e0d\u91cd\u64ad\u4e09\u79cd\u673a\u5236\u3002',
+'S04':'\u660e\u663e\u65cb\u8f6c\u81f3\u540c\u65f6\u770b\u6e05\u4e24\u7ec4\u7ed3\u6784\u7684\u659c\u89c6\u89d2\uff1b\u65f6\u957f\u4e3a R2 \u7684 2 \u500d\u3002',
+'S05':'\u6301\u7eed\u5faa\u73af\uff1a\u9ed8\u8ba4\u2192\u9752\u84ddi\u533a\u2192\u7425\u73c0j\u5c42\u2192\u6062\u590d\u3002\u4e0d\u5360\u7528\u4e3b\u52a8\u753b\uff0c\u53ef\u76f4\u63a5\u7ffb\u9875\u3002',
+'S06':'\u4fdd\u7559\u56fa\u5b9a\u8fb9\u5355\u5411\u5f00\u4e66\u8fd0\u52a8\uff1b\u4e0d\u663e\u793a\u673a\u68b0\u8f74\u548c\u8f74\u6807\u6ce8\u3002',
+'S07':'16 \u4e2a\u9519\u76f8\u6307\u793a\u70b9\u6cbf\u4f4e\u3001\u4e2d\u3001\u9ad8\u8fb9\u7f18\u573a\u6301\u7eed\u79fb\u52a8\uff1b\u4e0d\u4ee3\u8868\u81ea\u7531\u7535\u8377\u7a7f\u8d8a\u7a7a\u6c14\u3002',
+'S10':'\u53cc\u754c\u9762\u2192\u5f3a\u8c03\u4e0a\u754c\u9762\u2192\u5f3a\u8c03\u4e0b\u754c\u9762\u2192\u4e0a\u90e8\u4e3b\u5bfc\uff1b\u4e4b\u540e\u4ec5\u4e0a\u754c\u9762\u8f7b\u5fae\u547c\u5438\u3002',
+'S13':'\u4ece\u9996\u5e27\u76f4\u63a5\u7ee7\u627f S12 \u7684\u65b9\u5f62\u5668\u4ef6\uff1b\u4ec5\u5f3a\u8c03\u5171\u4eab EC\u3002\u4e3b\u6f14\u793a\u65e0\u65e7\u5706\u5f62\u6a21\u578b\u3002',
+'S18':'HC / CB \u4e24\u7a97\u53e3\u6301\u7eed\u5e73\u6ed1\u4ea4\u66ff\uff1b\u5355\u7a97\u6807\u79f0 1 \u79d2\uff0c\u4e3a R2 \u7684 2.5 \u500d\uff1b\u4e0d\u963b\u585e Next\u3002',
+'S20':'1\u21924\u2192\u505c\u7559\u2192\u5185\u90e8\u91cd\u590d\u8fb9\u878d\u5408\u2192\u7a33\u5b9a\u219216\uff1b\u878d\u5408\u65f6\u5916\u56f4\u4e0d\u52a8\u3002',
+'S22':'\u53cc\u4fa7 10\u00d716 \u611f\u77e5\u76ae\u80a4\uff1a\u84dd\u8272\u63a5\u8fd1\u54cd\u5e94\u2192\u5c11\u91cf\u9996\u89e6\u91d1\u8272\u50cf\u7d20\u2192\u5c40\u90e8\u538b\u529b\u533a\u6269\u5927\u2192\u5939\u722a\u505c\u6b62\u3002\u5e94\u7528\u6982\u5ff5\uff0c\u975e\u5b9e\u9a8c\u9a8c\u8bc1\u3002'}
+notes.update(updates)
+guide='# ProxiTouch R3 \u6f14\u793a\u5bfc\u822a\n\n\u4fdd\u7559 R2 \u7684\u7ae0\u8282\u3002\u6b63\u6587\u4ee5\u754c\u9762\u4e3a\u51c6\uff1b\u6b64\u5904\u4ec5\u7ed9\u51fa\u64cd\u4f5c\u4e0e\u89c2\u5bdf\u63d0\u793a\u3002\n\n\u52a8\u753b\u4e2d\u7b2c\u4e00\u6b21\u6309 \u2192 \u7acb\u5373\u5b8c\u6210\u5f53\u524d\u4e3b\u52a8\u753b\uff0c\u518d\u6309\u4e00\u6b21\u7ffb\u9875\u3002\u73af\u5883\u5faa\u73af\u4e0d\u5360\u7528\u4e3b\u52a8\u753b\u72b6\u6001\u3002R \u91cd\u64ad\uff0cT \u6298\u53e0\u6b63\u6587\uff0cE \u63a2\u7d22\uff0cEsc \u8fd4\u56de\u3002\n\n|\u9875|\u77e5\u8bc6\u5355\u5143|\u4e3b\u52a8\u753b\u65f6\u957f\uff08\u79d2\uff09|\u89c2\u5bdf\u91cd\u70b9|\n|---|---|---:|---|\n'
+for s in manifest:guide+=f"|{s['id']}|{s['title']}|{s['duration']:g}|{notes.get(s['id'],'')}|\n"
+guide+='\n## \u8fb9\u754c\n\nS22 \u4e3a\u9884\u8bbe\u5939\u6301\u8f68\u8ff9\u548c\u89e3\u91ca\u6027\u54cd\u5e94\u5206\u5e03\u3002\u9e21\u86cb\u7531\u5c0f\u652f\u5ea7\u5b9a\u4f4d\uff1b\u6ca1\u6709\u81ea\u52a8\u95ed\u73af\u63a7\u5236\u3001\u62ac\u5347\u3001\u529b\u6807\u5b9a\u6216\u9632\u7834\u88c2\u9a8c\u8bc1\u3002\u73b0\u573a\u4f7f\u7528\u524d\u9700\u5728\u6f14\u793a\u7535\u8111\u786e\u8ba4\u5b9e\u4f53 GPU \u5e27\u7387\u548c\u6d4f\u89c8\u5668\u6587\u4ef6\u5165\u53e3\u3002\n'
+(R/'PRESENTATION_GUIDE.md').write_text(guide)
+(R/'package.json').write_text(json.dumps({'name':'proxitouch-r3-delivery','private':True,'type':'module'},indent=2)+'\n')
+(R/'docs/r3/AMBIENT_CAPTURE.md').write_text('''# R3 independent ambient timing\n\nThe ambient clock samples performance.now() only while S05, S07, S10 or S18 is active in presentation. It does not derive from main phase or keyframe elapsed time. A page switch resets the active clock; leaving the page stops its updates. Explore pauses presentation ambient time.\n\n|Scene|Main animation|Ambient behavior|\n|---|---|---|\n|S05|none|7.2 s neutral / cyan region i / amber layer j / restore cycle|\n|S07|existing 0.8 s emphasis|16 offset low/mid/high coupling-path indicators, continuous|\n|S10|4 s dual / top / bottom / top explanation|upper interface +/-0.035 slow 5.8 s breath only after main end; bottom fixed|\n|S18|none|2 s HC/CB cycle, 1 s nominal per window, including 0.24 s transition|\n\nThe S18 display cycle is a pedagogical slow motion, not a claimed readout frequency. R2 nominal 0.4 s per window becomes 1 s, exactly 2.5 times as long. Main Next semantics are unchanged. Main end and ambient cycles are distinct.\n\n## Stable capture\n\n```js\n__PT.captureMode(true);\n__PT.goTo('S05', 1);\n__PT.ambientTime(5.2); // seconds, fixes amber j emphasis\n__PT.flush();\n```\n\n`__PT.ambientTime(0)` and `1.5` select HC and CB on S18. `__PT.captureMode(false)` restores the live clock. The API changes no scene phase. The screenshot test records both phase and ambientSeconds and the exact HTML SHA-256. Time-frozen repeated captures are checked for byte equality.\n\n```sh\npython tests/r3_ambient_playback.py\npython tests/r3_capture.py ambient\nPT_WIDTH=2560 python tests/r3_capture.py ambient\n```\n\nThe full-cycle test observes real rendered frames for at least 9/16/7/5 seconds respectively. It does not accelerate the clock.\n''')
+print('R3 README, controls, guide and ambient documentation written.')

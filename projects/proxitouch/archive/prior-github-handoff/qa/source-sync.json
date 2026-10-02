@@ -1,0 +1,259 @@
+{
+  "referenceSha256": "7130d27380409fc5012a6614d201397b61b964d1b6c4699b8724f903f164bc33",
+  "builtSha256": "f65a3d7a00830af2e80c5d6b97e1d37cd2b2f5854b77ad99bc03a7533834dd01",
+  "moduleCount": 29,
+  "records": [
+    {
+      "name": "All original bundled module identities retained",
+      "passed": true
+    },
+    {
+      "name": "Uploaded runtime module matches: app/ambient.js",
+      "passed": true,
+      "details": {
+        "referenceNormalizedSha256": "2f80566c6911893deb6b57bf16d41b83f4f43a01a3eff3cc7bccf1a5f68b1f0f",
+        "rebuiltNormalizedSha256": "2f80566c6911893deb6b57bf16d41b83f4f43a01a3eff3cc7bccf1a5f68b1f0f"
+      }
+    },
+    {
+      "name": "Uploaded runtime module matches: app/state.js",
+      "passed": true,
+      "details": {
+        "referenceNormalizedSha256": "6deecd722e099c8882eb2b4298226e9ebca0af109474e78adc73761feffb3743",
+        "rebuiltNormalizedSha256": "6deecd722e099c8882eb2b4298226e9ebca0af109474e78adc73761feffb3743"
+      }
+    },
+    {
+      "name": "Uploaded runtime module matches: engine/camera.js",
+      "passed": true,
+      "details": {
+        "referenceNormalizedSha256": "7c36f7310d99d4a11f26e0a478cc755c94117e099b10d5fb9cdbe7aa60b382dc",
+        "rebuiltNormalizedSha256": "7c36f7310d99d4a11f26e0a478cc755c94117e099b10d5fb9cdbe7aa60b382dc"
+      }
+    },
+    {
+      "name": "Uploaded runtime module matches: engine/geometry.js",
+      "passed": true,
+      "details": {
+        "referenceNormalizedSha256": "11b6169bc94f94ac3ce1879961e75a8c727926467bdefe4412c36f5c78874103",
+        "rebuiltNormalizedSha256": "11b6169bc94f94ac3ce1879961e75a8c727926467bdefe4412c36f5c78874103"
+      }
+    },
+    {
+      "name": "Uploaded runtime module matches: engine/math.js",
+      "passed": true,
+      "details": {
+        "referenceNormalizedSha256": "170d7fdaa54f80f7eca569ae94cbb49b0c3f4d2352a849488b6b7d75d31cc946",
+        "rebuiltNormalizedSha256": "170d7fdaa54f80f7eca569ae94cbb49b0c3f4d2352a849488b6b7d75d31cc946"
+      }
+    },
+    {
+      "name": "Uploaded runtime module matches: engine/renderer.js",
+      "passed": true,
+      "details": {
+        "referenceNormalizedSha256": "6a34717c27883c94dd79e5f279fcca7bd8072c94b06de3f61c70c2d37f43d6bb",
+        "rebuiltNormalizedSha256": "6a34717c27883c94dd79e5f279fcca7bd8072c94b06de3f61c70c2d37f43d6bb"
+      }
+    },
+    {
+      "name": "Uploaded runtime module matches: engine/scene.js",
+      "passed": true,
+      "details": {
+        "referenceNormalizedSha256": "28a6ef434339077b4fe646009d0fc08055f124ee2e37afc737de285da3e26604",
+        "rebuiltNormalizedSha256": "28a6ef434339077b4fe646009d0fc08055f124ee2e37afc737de285da3e26604"
+      }
+    },
+    {
+      "name": "Final loop patch integrated into typed main rather than appended generated script",
+      "passed": true
+    },
+    {
+      "name": "Uploaded runtime module matches: models/ApplicationHero.js",
+      "passed": true,
+      "details": {
+        "referenceNormalizedSha256": "491bdb1dec379c716b6cf28165030cda3d71d1414648d5899102ff4027221f09",
+        "rebuiltNormalizedSha256": "491bdb1dec379c716b6cf28165030cda3d71d1414648d5899102ff4027221f09"
+      }
+    },
+    {
+      "name": "Uploaded runtime module matches: models/Capacitor.js",
+      "passed": true,
+      "details": {
+        "referenceNormalizedSha256": "526e2f967ad38701899aef3b52510f1d431306b8af590066f43082b41d861321",
+        "rebuiltNormalizedSha256": "526e2f967ad38701899aef3b52510f1d431306b8af590066f43082b41d861321"
+      }
+    },
+    {
+      "name": "Uploaded runtime module matches: models/CompositeCapacitor.js",
+      "passed": true,
+      "details": {
+        "referenceNormalizedSha256": "663ede1fad438c1e7b147f0f4d39ea4ded0dbd64db131d75c6a9f07db974729d",
+        "rebuiltNormalizedSha256": "663ede1fad438c1e7b147f0f4d39ea4ded0dbd64db131d75c6a9f07db974729d"
+      }
+    },
+    {
+      "name": "Uploaded runtime module matches: models/Device.js",
+      "passed": true,
+      "details": {
+        "referenceNormalizedSha256": "7e80e4f95259c966d297623c69aa713899596f71666975176c933156413047c0",
+        "rebuiltNormalizedSha256": "7e80e4f95259c966d297623c69aa713899596f71666975176c933156413047c0"
+      }
+    },
+    {
+      "name": "Uploaded runtime module matches: models/Dome.js",
+      "passed": true,
+      "details": {
+        "referenceNormalizedSha256": "f931ba295085e7d04bbeca66781a48208eac073bc786bcfc0cd98beeb805ab98",
+        "rebuiltNormalizedSha256": "f931ba295085e7d04bbeca66781a48208eac073bc786bcfc0cd98beeb805ab98"
+      }
+    },
+    {
+      "name": "Uploaded runtime module matches: models/FringeField.js",
+      "passed": true,
+      "details": {
+        "referenceNormalizedSha256": "f82b009f7c3333ce57237aac6ab14a9ee807b505251a7aafdea0944cc77db330",
+        "rebuiltNormalizedSha256": "f82b009f7c3333ce57237aac6ab14a9ee807b505251a7aafdea0944cc77db330"
+      }
+    },
+    {
+      "name": "Uploaded runtime module matches: models/IonicVolume.js",
+      "passed": true,
+      "details": {
+        "referenceNormalizedSha256": "072e3ec22a3382cb18a938e5e4e8b5efce02744414e8f6ce3a5fe79288028db5",
+        "rebuiltNormalizedSha256": "072e3ec22a3382cb18a938e5e4e8b5efce02744414e8f6ce3a5fe79288028db5"
+      }
+    },
+    {
+      "name": "Uploaded runtime module matches: models/LegacyDevice.js",
+      "passed": true,
+      "details": {
+        "referenceNormalizedSha256": "49355246191f890eac302d2ae282c3935afe572fc824437798702ab96e9d0f05",
+        "rebuiltNormalizedSha256": "49355246191f890eac302d2ae282c3935afe572fc824437798702ab96e9d0f05"
+      }
+    },
+    {
+      "name": "Uploaded runtime module matches: models/SharedArray.js",
+      "passed": true,
+      "details": {
+        "referenceNormalizedSha256": "24066e4f418599b7dffeca22b810cca60462892c2acd64c35d33c5d80f692c08",
+        "rebuiltNormalizedSha256": "24066e4f418599b7dffeca22b810cca60462892c2acd64c35d33c5d80f692c08"
+      }
+    },
+    {
+      "name": "Uploaded runtime module matches: physics/fieldData.js",
+      "passed": true,
+      "details": {
+        "referenceNormalizedSha256": "393d577d93a380c42404d9ae4cdbfc907acc4311bd23b14ef1a1b94efd6df884",
+        "rebuiltNormalizedSha256": "393d577d93a380c42404d9ae4cdbfc907acc4311bd23b14ef1a1b94efd6df884"
+      }
+    },
+    {
+      "name": "Uploaded runtime module matches: physics/haloField.js",
+      "passed": true,
+      "details": {
+        "referenceNormalizedSha256": "dd9d0e01a2110f42de051d0edd0ad4b580812922edb91216a64049742a35150e",
+        "rebuiltNormalizedSha256": "dd9d0e01a2110f42de051d0edd0ad4b580812922edb91216a64049742a35150e"
+      }
+    },
+    {
+      "name": "Uploaded runtime module matches: physics/haloFieldData.js",
+      "passed": true,
+      "details": {
+        "referenceNormalizedSha256": "0d479917019b3c22327380abb5269204aef5cbf8510630ef4cbee9b2373aabc2",
+        "rebuiltNormalizedSha256": "0d479917019b3c22327380abb5269204aef5cbf8510630ef4cbee9b2373aabc2"
+      }
+    },
+    {
+      "name": "Uploaded runtime module matches: physics/interaction.js",
+      "passed": true,
+      "details": {
+        "referenceNormalizedSha256": "b64d6b748bf0361230fbaf1757c3eb2ef95bd472a2acfc9bb4f6bc45302ac794",
+        "rebuiltNormalizedSha256": "b64d6b748bf0361230fbaf1757c3eb2ef95bd472a2acfc9bb4f6bc45302ac794"
+      }
+    },
+    {
+      "name": "Uploaded runtime module matches: physics/revisionFieldData.js",
+      "passed": true,
+      "details": {
+        "referenceNormalizedSha256": "5acfec2357cb0894f8fffc811ce3685869a282ab55625e7a8f050d66281e9263",
+        "rebuiltNormalizedSha256": "5acfec2357cb0894f8fffc811ce3685869a282ab55625e7a8f050d66281e9263"
+      }
+    },
+    {
+      "name": "Uploaded runtime module matches: scenes/copy.js",
+      "passed": true,
+      "details": {
+        "referenceNormalizedSha256": "af9b5d54568be22fc49559f92558d02c5729da985350ef09c230c8ca16655064",
+        "rebuiltNormalizedSha256": "af9b5d54568be22fc49559f92558d02c5729da985350ef09c230c8ca16655064"
+      }
+    },
+    {
+      "name": "Uploaded runtime module matches: scenes/definitions.js",
+      "passed": true,
+      "details": {
+        "referenceNormalizedSha256": "cff55635d0cfe205051665a8be909c7b91545282f01b24480bfefbd9ba18dcbc",
+        "rebuiltNormalizedSha256": "cff55635d0cfe205051665a8be909c7b91545282f01b24480bfefbd9ba18dcbc"
+      }
+    },
+    {
+      "name": "Uploaded runtime module matches: ui/HUD.js",
+      "passed": true,
+      "details": {
+        "referenceNormalizedSha256": "761b19bc6065c9e54023a67c7cc200c05a06489832f937dbf014aa9384df15cf",
+        "rebuiltNormalizedSha256": "761b19bc6065c9e54023a67c7cc200c05a06489832f937dbf014aa9384df15cf"
+      }
+    },
+    {
+      "name": "Uploaded runtime module matches: ui/Labels.js",
+      "passed": true,
+      "details": {
+        "referenceNormalizedSha256": "6cf194fedb2552ca7e94f2383f7938e6163610bc6524fb2499f70a294edd673f",
+        "rebuiltNormalizedSha256": "6cf194fedb2552ca7e94f2383f7938e6163610bc6524fb2499f70a294edd673f"
+      }
+    },
+    {
+      "name": "Uploaded runtime module matches: ui/Plots.js",
+      "passed": true,
+      "details": {
+        "referenceNormalizedSha256": "cea4eecf03d099120db4ea05c644dc0161bfeceaaba4da544e16884cdc556bf1",
+        "rebuiltNormalizedSha256": "cea4eecf03d099120db4ea05c644dc0161bfeceaaba4da544e16884cdc556bf1"
+      }
+    },
+    {
+      "name": "Uploaded runtime module matches: worlds/WorldManager.js",
+      "passed": true,
+      "details": {
+        "referenceNormalizedSha256": "4894f31f75e43db98fe54463bd9bc9f1aa0e262e93107e859083529f9bd2bc3d",
+        "rebuiltNormalizedSha256": "4894f31f75e43db98fe54463bd9bc9f1aa0e262e93107e859083529f9bd2bc3d"
+      }
+    },
+    {
+      "name": "Uploaded runtime module matches: vendor/katex.js",
+      "passed": true,
+      "details": {
+        "referenceNormalizedSha256": "cf0dad858071356ce2d8ca59b02f32b8c44a936649758399e3184cd6b0950d46",
+        "rebuiltNormalizedSha256": "cf0dad858071356ce2d8ca59b02f32b8c44a936649758399e3184cd6b0950d46"
+      }
+    },
+    {
+      "name": "All non-personal styles preserved",
+      "passed": true
+    },
+    {
+      "name": "Deploy entry is the newly built standalone: index.html",
+      "passed": true
+    },
+    {
+      "name": "Deploy entry is the newly built standalone: site/index.html",
+      "passed": true
+    },
+    {
+      "name": "Reference has no homepage personal block",
+      "passed": true
+    },
+    {
+      "name": "Rebuilt app has no homepage personal block",
+      "passed": true
+    }
+  ]
+}

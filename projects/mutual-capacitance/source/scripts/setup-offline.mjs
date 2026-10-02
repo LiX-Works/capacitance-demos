@@ -1,0 +1,8 @@
+/** Extract the included locally repackaged TypeScript package using Node only. */
+import fs from 'node:fs';import path from 'node:path';import {gunzipSync} from 'node:zlib';
+const root=path.resolve(import.meta.dirname,'..'),dest=path.join(root,'node_modules/typescript');
+if(fs.existsSync(path.join(dest,'lib/typescript.js'))){console.log('Local TypeScript is ready.');process.exit(0)}
+const archive=path.resolve(root,'../tools/typescript-5.8.3.tgz');if(!fs.existsSync(archive))throw Error('Missing '+archive);
+const tar=gunzipSync(fs.readFileSync(archive)),text=(h,a,b)=>h.subarray(a,b).toString('utf8').replace(/\0.*$/s,'');let files=0;
+for(let offset=0;offset+512<=tar.length;){const h=tar.subarray(offset,offset+512);if(h.every(x=>x===0))break;const prefix=text(h,345,500),name=(prefix?prefix+'/':'')+text(h,0,100),type=text(h,156,157)||'0',size=parseInt(text(h,124,136).trim(),8)||0;if(!Number.isSafeInteger(size)||size<0||size>64000000)throw Error('Invalid archive entry');if((type==='0'||type==='5')&&name.startsWith('package/')){const rel=name.slice(8);if(rel.split('/').includes('..')||path.isAbsolute(rel))throw Error('Unsafe path');const file=path.resolve(dest,rel);if(file!==dest&&!file.startsWith(dest+path.sep))throw Error('Unsafe destination');if(type==='5')fs.mkdirSync(file,{recursive:true});else{fs.mkdirSync(path.dirname(file),{recursive:true});fs.writeFileSync(file,tar.subarray(offset+512,offset+512+size));files++;}}offset+=512+Math.ceil(size/512)*512;}
+if(!fs.existsSync(path.join(dest,'lib/typescript.js')))throw Error('Extraction failed');console.log('Bootstrapped TypeScript 5.8.3 offline: '+files+' files.');

@@ -1,0 +1,11 @@
+* text=auto eol=lf
+*.png binary
+*.tgz binary
+# Keep the exact bytes of frozen data and historical snapshots.
+reference/** -text
+archive/** -text
+source/archive/** -text
+source/src/physics/*Data.ts -text
+source/src/physics/data.ts -text
+data/** -text
+parameters.json -text

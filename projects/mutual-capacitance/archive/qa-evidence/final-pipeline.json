@@ -1,0 +1,27 @@
+{
+  "sourceSha256": "9e0b2a5316c58042cf33929f2097d45282385742bd4788745767fa21cfaee6bd",
+  "steps": [
+    {
+      "name": "interactions",
+      "returncode": 0,
+      "seconds": 20.42765188217163
+    },
+    {
+      "name": "final-captures",
+      "returncode": 0,
+      "seconds": 27.423073053359985
+    },
+    {
+      "name": "transitions",
+      "returncode": 0,
+      "seconds": 75.14061403274536
+    },
+    {
+      "name": "playback",
+      "returncode": 0,
+      "seconds": 71.19268798828125
+    }
+  ],
+  "active": "complete",
+  "passed": true
+}

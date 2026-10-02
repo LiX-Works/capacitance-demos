@@ -1,0 +1,20 @@
+{
+  "name": "mutual-capacitance-pages",
+  "private": true,
+  "type": "module",
+  "version": "1.2.1-synced",
+  "scripts": {
+    "setup:offline": "npm --prefix source run setup:offline",
+    "build:offline": "npm run setup:offline && npm run build",
+    "build": "npm --prefix source run build",
+    "check": "npm --prefix source run check",
+    "test": "npm --prefix source test",
+    "qa": "npm --prefix source run qa",
+    "preview": "node tools/serve.mjs",
+    "previews": "python source/tests/capture_previews.py && npm run build"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">=22"
+  }
+}

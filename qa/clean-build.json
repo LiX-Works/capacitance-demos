@@ -1,0 +1,24 @@
+{
+  "method": "Independent copy without node_modules, project dist/site/entry artifacts or browser caches; pure offline compiler bootstrap, build, type-check and regression commands passed.",
+  "passed": true,
+  "checks": [
+    {
+      "file": "projects/proxitouch/index.html",
+      "deliveredSha256": "777d29996d08f9a9fc108cf2d27aae04da5b9d73da1ade069461d80e53b3b68c",
+      "freshSha256": "777d29996d08f9a9fc108cf2d27aae04da5b9d73da1ade069461d80e53b3b68c",
+      "passed": true
+    },
+    {
+      "file": "projects/mutual-capacitance/index.html",
+      "deliveredSha256": "c9e67fa0080b752f0613c608b2d00e2048db8dd798ba00d11b8e981166b8cd28",
+      "freshSha256": "c9e67fa0080b752f0613c608b2d00e2048db8dd798ba00d11b8e981166b8cd28",
+      "passed": true
+    },
+    {
+      "file": "site/index.html",
+      "deliveredSha256": "b98ce1a60add315a0a765d25ea9e628608a7c99a79ac9d141c131e6cf339e0a9",
+      "freshSha256": "b98ce1a60add315a0a765d25ea9e628608a7c99a79ac9d141c131e6cf339e0a9",
+      "passed": true
+    }
+  ]
+}

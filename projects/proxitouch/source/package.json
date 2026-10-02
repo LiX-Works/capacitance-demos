@@ -1,0 +1,22 @@
+{
+  "name": "proxitouch-scientific-instrument",
+  "version": "4.0.0-synced",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "setup:offline": "node scripts/setup-offline.mjs",
+    "build": "node scripts/build.mjs",
+    "check": "node node_modules/typescript/lib/tsc.js --noEmit",
+    "preview": "node scripts/serve.mjs",
+    "dev": "node scripts/build.mjs && node scripts/serve.mjs",
+    "test": "node tests/source-sync.mjs && node tests/proxi-regressions.mjs",
+    "qa": "python tests/browser_qa.py"
+  },
+  "devDependencies": {
+    "typescript": "5.8.3"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">=22"
+  }
+}

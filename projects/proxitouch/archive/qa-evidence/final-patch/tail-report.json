@@ -1,0 +1,468 @@
+{
+  "sourceSha256": "a704291af040893042e99562b83351d33d03a7269c1a1d515df2623c62168a7c",
+  "checks": [
+    {
+      "name": "2560 S11 touch layout clean",
+      "passed": true,
+      "detail": {
+        "backend": "native WebGL2 / TypeScript",
+        "renderer": "ANGLE (Google, Vulkan 1.3.0 (SwiftShader Device (Subzero) (0x0000C0DE)), SwiftShader driver)",
+        "webgl": "WebGL 2.0 (OpenGL ES 3.0 Chromium)",
+        "drawCalls": 29,
+        "triangles": 53106,
+        "width": 2560,
+        "height": 1440,
+        "quality": "high",
+        "glError": 0,
+        "errors": [],
+        "overflow": [],
+        "documentOverflow": false,
+        "overlayOverlapPairs": [],
+        "labelOverlapCount": 0,
+        "labelOutOfBounds": 0,
+        "mathErrors": 0,
+        "bodyDefaultVisible": true,
+        "bodyCanScroll": true,
+        "bodyScrollHeight": 961,
+        "bodyClientHeight": 939,
+        "bodyText": "对于上部 EDL，可近似表示为：\n\n𝐶\nE\nD\nL\n≈\n𝑐\nE\nD\nL\n𝐴\ne\nf\nf\n\n初始状态下，\n柔性电极只与微结构发生局部接触。\n\n压力增大时，\n微结构逐渐变形，\n有效接触面积随之扩大：\n\n𝑃\n↑\n⇒\n𝐴\ne\nf\nf\n↑\n⇒\n𝐶\nE\nD\nL\n↑\n\n因此，可以将：\n\n机械压力\n\n转化为：\n\n界面电容变化。\n\n黄色区域表示有效接触面积 \n𝐴\ne\nf\nf\n。",
+        "labels": [
+          {
+            "text": "柔性上电极",
+            "rect": {
+              "x": 1923.703125,
+              "y": 698.796875,
+              "width": 134.015625,
+              "height": 46.796875,
+              "top": 698.796875,
+              "right": 2057.71875,
+              "bottom": 745.59375,
+              "left": 1923.703125
+            }
+          },
+          {
+            "text": "有效接触面积 A_eff",
+            "rect": {
+              "x": 1832.265625,
+              "y": 627.59375,
+              "width": 216.09375,
+              "height": 46.796875,
+              "top": 627.59375,
+              "right": 2048.359375,
+              "bottom": 674.390625,
+              "left": 1832.265625
+            }
+          },
+          {
+            "text": "微结构",
+            "rect": {
+              "x": 1143.859375,
+              "y": 787.609375,
+              "width": 90.015625,
+              "height": 46.796875,
+              "top": 787.609375,
+              "right": 1233.875,
+              "bottom": 834.40625,
+              "left": 1143.859375
+            }
+          }
+        ],
+        "scene": "S11",
+        "phase": 0.45,
+        "mode": "presentation",
+        "world": "micro",
+        "ambient": {
+          "scene": "S11",
+          "seconds": 0,
+          "capture": true,
+          "active": false
+        },
+        "subjectBounds": [
+          1074.4156289428256,
+          442.0110889528745,
+          2310.740555258081,
+          1042.6301345710901
+        ],
+        "rafMedianMs": 0,
+        "cpuRenderMedianMs": 105.79999999981374,
+        "ready": true,
+        "sceneCount": 23,
+        "model": {
+          "depth": 0.1313046647230321,
+          "externalGap": 0,
+          "membraneClosure": 1,
+          "pressure": 0.1313046647230321,
+          "contact": true,
+          "contactRadius": 0.29903549576421146,
+          "area": 1.3916286055964464,
+          "areaNormalized": 0.18074911944180996,
+          "hc": 0.8825957315896967,
+          "cb": 0.19829528474550714,
+          "halo": 0.8825957315896967,
+          "core": 0.19829528474550714,
+          "coreRelativeCapacitance": 1.9518173667784342,
+          "haloDominance": 0.8559085575858304,
+          "coreDominance": 0.3830405502223337,
+          "stage": "pressure"
+        },
+        "geometry": {
+          "device": {
+            "architecture": "EH-EC-EB",
+            "shape": "segmented-square",
+            "sharedEC": true,
+            "EHsegments": 4,
+            "centralDomes": 9,
+            "directFieldPaths": 40,
+            "targetAffectedPaths": 8,
+            "activeWindow": "HC",
+            "contactArea": 0,
+            "membraneDeflection": 0,
+            "ECbounds": "central only",
+            "EBbounds": "central only; not full-pixel ground plane"
+          },
+          "array": {
+            "pixels": 1,
+            "uniqueBoundarySegments": 4,
+            "expectedFinalSegments": 40,
+            "selectedEC": 0,
+            "selectedEdges": [],
+            "selectedEdgeCount": 0,
+            "sharedEdges": 0,
+            "independentFramesVisible": true,
+            "merge": 0,
+            "junctionGap": 0.16,
+            "wholeGridShorted": false
+          },
+          "book": {
+            "hinge": [
+              0,
+              1,
+              0
+            ],
+            "angle": -3.141592653589793,
+            "directPaths": 30,
+            "targetAffectedPaths": 6,
+            "flowIndicators": 8,
+            "indicatorMeaning": "coupling-path guide; not free air charge transport",
+            "hingeOpacity": 0.012,
+            "solver": "representative 2-D finite-volume Laplace with finite-reference-coupled floating target"
+          },
+          "application": {
+            "kind": "concept-only; not a measured or closed-loop grip",
+            "gridPerJaw": [
+              10,
+              16
+            ],
+            "independentECs": 320,
+            "sharedEHsegments": 692,
+            "pixelsPerJaw": 160,
+            "contacts": [
+              0,
+              0
+            ],
+            "maxIndent": 0,
+            "spread": 2.7078569155093284,
+            "firstContactSpread": 1.7478569155093282,
+            "stage": "approach",
+            "eggRigid": true,
+            "eggIntact": true,
+            "wholeGridShorted": false
+          },
+          "interfaces": {
+            "top": 0,
+            "bottom": 0
+          }
+        }
+      }
+    },
+    {
+      "name": "2560 S11 pressure layout clean",
+      "passed": true,
+      "detail": {
+        "backend": "native WebGL2 / TypeScript",
+        "renderer": "ANGLE (Google, Vulkan 1.3.0 (SwiftShader Device (Subzero) (0x0000C0DE)), SwiftShader driver)",
+        "webgl": "WebGL 2.0 (OpenGL ES 3.0 Chromium)",
+        "drawCalls": 29,
+        "triangles": 53106,
+        "width": 2560,
+        "height": 1440,
+        "quality": "high",
+        "glError": 0,
+        "errors": [],
+        "overflow": [],
+        "documentOverflow": false,
+        "overlayOverlapPairs": [],
+        "labelOverlapCount": 0,
+        "labelOutOfBounds": 0,
+        "mathErrors": 0,
+        "bodyDefaultVisible": true,
+        "bodyCanScroll": true,
+        "bodyScrollHeight": 961,
+        "bodyClientHeight": 939,
+        "bodyText": "对于上部 EDL，可近似表示为：\n\n𝐶\nE\nD\nL\n≈\n𝑐\nE\nD\nL\n𝐴\ne\nf\nf\n\n初始状态下，\n柔性电极只与微结构发生局部接触。\n\n压力增大时，\n微结构逐渐变形，\n有效接触面积随之扩大：\n\n𝑃\n↑\n⇒\n𝐴\ne\nf\nf\n↑\n⇒\n𝐶\nE\nD\nL\n↑\n\n因此，可以将：\n\n机械压力\n\n转化为：\n\n界面电容变化。\n\n黄色区域表示有效接触面积 \n𝐴\ne\nf\nf\n。",
+        "labels": [
+          {
+            "text": "柔性上电极",
+            "rect": {
+              "x": 1950.28125,
+              "y": 726.828125,
+              "width": 134.015625,
+              "height": 46.796875,
+              "top": 726.828125,
+              "right": 2084.296875,
+              "bottom": 773.625,
+              "left": 1950.28125
+            }
+          },
+          {
+            "text": "有效接触面积 A_eff",
+            "rect": {
+              "x": 1930.03125,
+              "y": 821.5625,
+              "width": 216.09375,
+              "height": 46.796875,
+              "top": 821.5625,
+              "right": 2146.125,
+              "bottom": 868.359375,
+              "left": 1930.03125
+            }
+          },
+          {
+            "text": "微结构",
+            "rect": {
+              "x": 1148.6875,
+              "y": 790.65625,
+              "width": 90.015625,
+              "height": 46.796875,
+              "top": 790.65625,
+              "right": 1238.703125,
+              "bottom": 837.453125,
+              "left": 1148.6875
+            }
+          }
+        ],
+        "scene": "S11",
+        "phase": 1,
+        "mode": "presentation",
+        "world": "micro",
+        "ambient": {
+          "scene": "S11",
+          "seconds": 0,
+          "capture": true,
+          "active": false
+        },
+        "subjectBounds": [
+          1074.415575963906,
+          456.1371827827277,
+          2310.740710302002,
+          1028.5038502463829
+        ],
+        "rafMedianMs": 0,
+        "cpuRenderMedianMs": 4.900000000372529,
+        "ready": true,
+        "sceneCount": 23,
+        "model": {
+          "depth": 1,
+          "externalGap": 0,
+          "membraneClosure": 1,
+          "pressure": 1,
+          "contact": true,
+          "contactRadius": 0.5405186150946967,
+          "area": 7.699227580715627,
+          "areaNormalized": 1,
+          "hc": 0.935,
+          "cb": 0.998375,
+          "halo": 0.935,
+          "core": 0.998375,
+          "coreRelativeCapacitance": 5.7922,
+          "haloDominance": 0.4,
+          "coreDominance": 1,
+          "stage": "pressure"
+        },
+        "geometry": {
+          "device": {
+            "architecture": "EH-EC-EB",
+            "shape": "segmented-square",
+            "sharedEC": true,
+            "EHsegments": 4,
+            "centralDomes": 9,
+            "directFieldPaths": 40,
+            "targetAffectedPaths": 8,
+            "activeWindow": "HC",
+            "contactArea": 0,
+            "membraneDeflection": 0,
+            "ECbounds": "central only",
+            "EBbounds": "central only; not full-pixel ground plane"
+          },
+          "array": {
+            "pixels": 1,
+            "uniqueBoundarySegments": 4,
+            "expectedFinalSegments": 40,
+            "selectedEC": 0,
+            "selectedEdges": [],
+            "selectedEdgeCount": 0,
+            "sharedEdges": 0,
+            "independentFramesVisible": true,
+            "merge": 0,
+            "junctionGap": 0.16,
+            "wholeGridShorted": false
+          },
+          "book": {
+            "hinge": [
+              0,
+              1,
+              0
+            ],
+            "angle": -3.141592653589793,
+            "directPaths": 30,
+            "targetAffectedPaths": 6,
+            "flowIndicators": 8,
+            "indicatorMeaning": "coupling-path guide; not free air charge transport",
+            "hingeOpacity": 0.012,
+            "solver": "representative 2-D finite-volume Laplace with finite-reference-coupled floating target"
+          },
+          "application": {
+            "kind": "concept-only; not a measured or closed-loop grip",
+            "gridPerJaw": [
+              10,
+              16
+            ],
+            "independentECs": 320,
+            "sharedEHsegments": 692,
+            "pixelsPerJaw": 160,
+            "contacts": [
+              0,
+              0
+            ],
+            "maxIndent": 0,
+            "spread": 2.7078569155093284,
+            "firstContactSpread": 1.7478569155093282,
+            "stage": "approach",
+            "eggRigid": true,
+            "eggIntact": true,
+            "wholeGridShorted": false
+          },
+          "interfaces": {
+            "top": 0,
+            "bottom": 0
+          }
+        }
+      }
+    },
+    {
+      "name": "2560 S10 copy/labels final",
+      "passed": true,
+      "detail": {
+        "labels": "上部 EDL 下部 EDL 体相近似电中性\n宏观电场被屏蔽 · E ≈ 0 d₂ < d₁\nΔC ≈ 0"
+      }
+    },
+    {
+      "name": "2560 S11 copy/labels final",
+      "passed": true,
+      "detail": {
+        "labels": "柔性上电极 有效接触面积 A_eff 微结构"
+      }
+    },
+    {
+      "name": "S05 ambient advances without changing main phase",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "S05 ambient does not block Next",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "S10 starts as finite main animation",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "S10 first Next finishes animation",
+      "passed": true,
+      "detail": {
+        "scene": "S10",
+        "index": 10,
+        "phase": 1,
+        "model": {
+          "scene": "S10",
+          "phase": 1,
+          "gap": 1.7,
+          "overlap": 1,
+          "dielectric": 0,
+          "partition": 0,
+          "field": 1,
+          "charges": 1,
+          "morph": 0,
+          "approach": 0,
+          "bias": 1,
+          "interfaces": 2,
+          "scale": 0,
+          "depth": -1,
+          "pressure": 0,
+          "explosion": 0,
+          "arrayCount": 1,
+          "haloEmphasis": 1,
+          "coreEmphasis": 1,
+          "guardEmphasis": 0,
+          "time": 5.2,
+          "ambientTime": 0,
+          "merge": 1,
+          "scan": 0,
+          "mux": 0,
+          "highlight": 2,
+          "curvature": 0,
+          "interaction": {
+            "depth": -1,
+            "externalGap": 4.232,
+            "membraneClosure": 0,
+            "pressure": 0,
+            "contact": false,
+            "contactRadius": 0,
+            "area": 0,
+            "areaNormalized": 0,
+            "hc": 0,
+            "cb": 0,
+            "halo": 0,
+            "core": 0,
+            "coreRelativeCapacitance": 1,
+            "haloDominance": 1,
+            "coreDominance": 0.08,
+            "stage": "far"
+          }
+        },
+        "camera": {
+          "position": [
+            6.511069550609823,
+            3.5203193669495985,
+            10.399624976668463
+          ],
+          "target": [
+            0.0561374671112325,
+            0.6514606631724484,
+            0.0896640099693297
+          ],
+          "fov": 34,
+          "offset": -0.3279129185087326
+        },
+        "mode": "presentation",
+        "view": "device",
+        "notes": true,
+        "quality": "safe",
+        "playing": false
+      }
+    },
+    {
+      "name": "S10 second Next advances",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "S10 is not ambient",
+      "passed": true,
+      "detail": null
+    }
+  ],
+  "browserErrors": []
+}

@@ -1,0 +1,70 @@
+{
+  "runtimeSha256": "f65a3d7a00830af2e80c5d6b97e1d37cd2b2f5854b77ad99bc03a7533834dd01",
+  "scope": "Representative preview review, not exhaustive pixel-by-pixel certification of every animation frame.",
+  "images": [
+    {
+      "file": "01-cover.png",
+      "sha256": "77ff5c08bcfc49879964d45ad9eecc9149a488b312876a5f426e5ec88d13bb67",
+      "method": "Contact-sheet and/or individual-image inspection; both final overviews and both 2560-pixel hero captures separately opened."
+    },
+    {
+      "file": "02-materials.png",
+      "sha256": "26d40baf67756b0218dc0d70c94c48da898022fcdfdfc0c8b23ae50cc12a97b2",
+      "method": "Contact-sheet and/or individual-image inspection; both final overviews and both 2560-pixel hero captures separately opened."
+    },
+    {
+      "file": "03-fringing-field.png",
+      "sha256": "932da33f3fdaf1221277e68cfcb3e51c2383cbcf210278d76bfd97bd6fc8bbbd",
+      "method": "Contact-sheet and/or individual-image inspection; both final overviews and both 2560-pixel hero captures separately opened."
+    },
+    {
+      "file": "04-ionic-interface.png",
+      "sha256": "e9d4ffe0dfcedf81842a4628892816e36b33dd58e2242c1155e07067804be1c4",
+      "method": "Contact-sheet and/or individual-image inspection; both final overviews and both 2560-pixel hero captures separately opened."
+    },
+    {
+      "file": "05-two-interfaces.png",
+      "sha256": "3181a19976c375dfab7a7a07a94a5c7f9be113f66c9d05275c91c6e36130e2e6",
+      "method": "Contact-sheet and/or individual-image inspection; both final overviews and both 2560-pixel hero captures separately opened."
+    },
+    {
+      "file": "06-contact-area.png",
+      "sha256": "94c0053178023c4d8b7582afffed0448c7e93686fd7d9b883e7cec4facacf108",
+      "method": "Contact-sheet and/or individual-image inspection; both final overviews and both 2560-pixel hero captures separately opened."
+    },
+    {
+      "file": "07-shared-electrodes.png",
+      "sha256": "2e82542f44a3d0020315f0295a328aba5764e7f4345118f20fef16d91e73c4de",
+      "method": "Contact-sheet and/or individual-image inspection; both final overviews and both 2560-pixel hero captures separately opened."
+    },
+    {
+      "file": "08-dual-signals.png",
+      "sha256": "2c95857ca7f16a3139ef23d20d9b8535b118188b02e49c9073ac76e5f79dad05",
+      "method": "Contact-sheet and/or individual-image inspection; both final overviews and both 2560-pixel hero captures separately opened."
+    },
+    {
+      "file": "09-addressable-array.png",
+      "sha256": "db8991f290d57f73759e7a5d7bfdccb236512dd88d4e207266c744afebbd4e79",
+      "method": "Contact-sheet and/or individual-image inspection; both final overviews and both 2560-pixel hero captures separately opened."
+    },
+    {
+      "file": "10-egg-grasp.png",
+      "sha256": "bb6c111d04881d24947d672ad61e47a183650ce36110d963f2760ff6055719ac",
+      "method": "Contact-sheet and/or individual-image inspection; both final overviews and both 2560-pixel hero captures separately opened."
+    },
+    {
+      "file": "11-shared-pixel-hero.png",
+      "sha256": "57af136b93451000bf38c4a0ff105ff04e04f5d69c8c91872d688e91d074ba08",
+      "method": "Contact-sheet and/or individual-image inspection; both final overviews and both 2560-pixel hero captures separately opened."
+    },
+    {
+      "file": "hero-2560.png",
+      "sha256": "77087f881dc770eb71b22f63459ed5db5480d532cbfcea213ad1a17c0496c560",
+      "method": "Contact-sheet and/or individual-image inspection; both final overviews and both 2560-pixel hero captures separately opened."
+    }
+  ],
+  "overviewReviewed": true,
+  "reviewer": "Assistant visual inspection using actual local PNG images",
+  "imageOrigin": "Actual browser captures from synchronized source, not image generation or mock-ups",
+  "allPreviewImagesReviewed": true
+}

@@ -1,0 +1,13 @@
+**/node_modules/
+**/__pycache__/
+*.pyc
+.venv/
+.env
+.env.*
+.DS_Store
+site/
+projects/*/site/
+projects/*/dist/
+projects/*/index.html
+qa/browser-artifacts/
+*.zip

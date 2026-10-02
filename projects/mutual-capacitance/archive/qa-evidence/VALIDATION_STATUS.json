@@ -1,0 +1,59 @@
+{
+  "runtimeSha256": "9e0b2a5316c58042cf33929f2097d45282385742bd4788745767fa21cfaee6bd",
+  "parameterSha256": "0b23ce74c9b690fd5c79d335ed52ef88341d4925891863338356a1401cbbac52",
+  "implemented": {
+    "scenes": 12,
+    "parts": [
+      6,
+      6
+    ],
+    "realWebGL2": true,
+    "offlineSingleFile": true,
+    "thetaShared": true,
+    "SIParametersShared": true,
+    "main2DSolves": 88,
+    "angularNodes": 44,
+    "epsilonScanPoints": 7,
+    "additionalMidpointChecks": 86,
+    "finiteWidth3DAirAngles": [
+      0,
+      90,
+      180
+    ]
+  },
+  "tested": {
+    "fullUnacceleratedPlayback": true,
+    "elapsedSeconds": 66.24019432067871,
+    "interactionChecks": 35,
+    "frontendModelChecks": 15,
+    "numericalCheckGroups": 10,
+    "rawScreenshots": 158,
+    "mainCaptureResolutions": [
+      "1920x1080",
+      "2560x1440"
+    ],
+    "coldOfflineNoNetworkRequests": true,
+    "cleanBuildByteIdentical": true
+  },
+  "entryPoints": [
+    {
+      "kind": "file",
+      "loaded": false,
+      "failure": "Page.goto: net::ERR_BLOCKED_BY_ADMINISTRATOR at file:///mnt/data/Capacitance_Lab/dist/Capacitance-Lab-offline.html\nCall log:\n  - navigating to \"file:///mnt/data/Capacitance_Lab/dist/Capacitance-Lab-offline.html\", waiting until \"load\"\n"
+    },
+    {
+      "kind": "http",
+      "loaded": false,
+      "failure": "Page.goto: net::ERR_BLOCKED_BY_ADMINISTRATOR at http://127.0.0.1:4178/\nCall log:\n  - navigating to \"http://127.0.0.1:4178/\", waiting until \"load\"\n"
+    }
+  ],
+  "unverified": [
+    "Physical GPU and classroom projector",
+    "Non-Chromium engines and user OS installation",
+    "Physical measurement/material certification",
+    "Full-angle finite-width 3D and dielectric 3D error",
+    "A rigorous total numerical uncertainty bound"
+  ],
+  "wholeProjectPhysicallyValidated": false,
+  "classroomFrameRateValidated": false
+}

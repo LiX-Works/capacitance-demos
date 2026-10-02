@@ -1,0 +1,155 @@
+{
+  "referenceSha256": "57bcbde1c450ec948f227ed2e8ae8b6d115282d0c441142cb7bb4e9e809d9b9e",
+  "builtSha256": "57bcbde1c450ec948f227ed2e8ae8b6d115282d0c441142cb7bb4e9e809d9b9e",
+  "moduleCount": 15,
+  "records": [
+    {
+      "name": "All original bundled module identities retained",
+      "passed": true
+    },
+    {
+      "name": "Uploaded runtime module matches: engine/camera.js",
+      "passed": true,
+      "details": {
+        "referenceNormalizedSha256": "7c36f7310d99d4a11f26e0a478cc755c94117e099b10d5fb9cdbe7aa60b382dc",
+        "rebuiltNormalizedSha256": "7c36f7310d99d4a11f26e0a478cc755c94117e099b10d5fb9cdbe7aa60b382dc"
+      }
+    },
+    {
+      "name": "Uploaded runtime module matches: engine/geometry.js",
+      "passed": true,
+      "details": {
+        "referenceNormalizedSha256": "11b6169bc94f94ac3ce1879961e75a8c727926467bdefe4412c36f5c78874103",
+        "rebuiltNormalizedSha256": "11b6169bc94f94ac3ce1879961e75a8c727926467bdefe4412c36f5c78874103"
+      }
+    },
+    {
+      "name": "Uploaded runtime module matches: engine/math.js",
+      "passed": true,
+      "details": {
+        "referenceNormalizedSha256": "170d7fdaa54f80f7eca569ae94cbb49b0c3f4d2352a849488b6b7d75d31cc946",
+        "rebuiltNormalizedSha256": "170d7fdaa54f80f7eca569ae94cbb49b0c3f4d2352a849488b6b7d75d31cc946"
+      }
+    },
+    {
+      "name": "Uploaded runtime module matches: engine/renderer.js",
+      "passed": true,
+      "details": {
+        "referenceNormalizedSha256": "7404b936fa96c6cb00f46d966bd823db0353e89ef9f4f6f8753d62be37f2cd6e",
+        "rebuiltNormalizedSha256": "7404b936fa96c6cb00f46d966bd823db0353e89ef9f4f6f8753d62be37f2cd6e"
+      }
+    },
+    {
+      "name": "Uploaded runtime module matches: engine/scene.js",
+      "passed": true,
+      "details": {
+        "referenceNormalizedSha256": "28a6ef434339077b4fe646009d0fc08055f124ee2e37afc737de285da3e26604",
+        "rebuiltNormalizedSha256": "28a6ef434339077b4fe646009d0fc08055f124ee2e37afc737de285da3e26604"
+      }
+    },
+    {
+      "name": "Uploaded runtime module matches: main.js",
+      "passed": true,
+      "details": {
+        "referenceNormalizedSha256": "890c77c4ca8fe60a0c116ca0eb6e966fd97714c57474d8c4f6d537ca3bcfdf52",
+        "rebuiltNormalizedSha256": "890c77c4ca8fe60a0c116ca0eb6e966fd97714c57474d8c4f6d537ca3bcfdf52"
+      }
+    },
+    {
+      "name": "Uploaded runtime module matches: models/Experiment.js",
+      "passed": true,
+      "details": {
+        "referenceNormalizedSha256": "d29c500f104f9ae82a3e21884e8091f00a7cde2bf1c50ec59466fd53c7c1f9cc",
+        "rebuiltNormalizedSha256": "d29c500f104f9ae82a3e21884e8091f00a7cde2bf1c50ec59466fd53c7c1f9cc"
+      }
+    },
+    {
+      "name": "Uploaded runtime module matches: models/Wedge.js",
+      "passed": true,
+      "details": {
+        "referenceNormalizedSha256": "8f0e5410dab1f292993f3b79f360efe395472859c6399e456604ee88882fea7a",
+        "rebuiltNormalizedSha256": "8f0e5410dab1f292993f3b79f360efe395472859c6399e456604ee88882fea7a"
+      }
+    },
+    {
+      "name": "Uploaded runtime module matches: physics/data.js",
+      "passed": true,
+      "details": {
+        "referenceNormalizedSha256": "9827faaf46e5be377adbe9253c8e75d57f27253a45de2b36b9862e39bd71504b",
+        "rebuiltNormalizedSha256": "9827faaf46e5be377adbe9253c8e75d57f27253a45de2b36b9862e39bd71504b"
+      }
+    },
+    {
+      "name": "Uploaded runtime module matches: physics/model.js",
+      "passed": true,
+      "details": {
+        "referenceNormalizedSha256": "e93916e35b39d137385eca89819016de8c34369051b2a13780b8e28666e4ff42",
+        "rebuiltNormalizedSha256": "e93916e35b39d137385eca89819016de8c34369051b2a13780b8e28666e4ff42"
+      }
+    },
+    {
+      "name": "Uploaded runtime module matches: scenes/definitions.js",
+      "passed": true,
+      "details": {
+        "referenceNormalizedSha256": "e6628660560f16a343d3ed39f91213e32d8a02bd6d23f54811e61315a34294e3",
+        "rebuiltNormalizedSha256": "e6628660560f16a343d3ed39f91213e32d8a02bd6d23f54811e61315a34294e3"
+      }
+    },
+    {
+      "name": "Uploaded runtime module matches: ui/Chart.js",
+      "passed": true,
+      "details": {
+        "referenceNormalizedSha256": "2b7f353db67e983b0cd92de916742a41bb3d341b063e5f103176ab97111f44b8",
+        "rebuiltNormalizedSha256": "2b7f353db67e983b0cd92de916742a41bb3d341b063e5f103176ab97111f44b8"
+      }
+    },
+    {
+      "name": "Uploaded runtime module matches: ui/HUD.js",
+      "passed": true,
+      "details": {
+        "referenceNormalizedSha256": "113f73c24469ad662bf670bfb6619a2a0e47bd775c9ff4ca8788994759d381bd",
+        "rebuiltNormalizedSha256": "113f73c24469ad662bf670bfb6619a2a0e47bd775c9ff4ca8788994759d381bd"
+      }
+    },
+    {
+      "name": "Uploaded runtime module matches: ui/Labels.js",
+      "passed": true,
+      "details": {
+        "referenceNormalizedSha256": "fb21ad79d02a1bd89d839a86b9938dd86e15553a17e8b9fbe87b6dcc5b060b02",
+        "rebuiltNormalizedSha256": "fb21ad79d02a1bd89d839a86b9938dd86e15553a17e8b9fbe87b6dcc5b060b02"
+      }
+    },
+    {
+      "name": "Uploaded runtime module matches: vendor/katex.js",
+      "passed": true,
+      "details": {
+        "referenceNormalizedSha256": "cf0dad858071356ce2d8ca59b02f32b8c44a936649758399e3184cd6b0950d46",
+        "rebuiltNormalizedSha256": "cf0dad858071356ce2d8ca59b02f32b8c44a936649758399e3184cd6b0950d46"
+      }
+    },
+    {
+      "name": "All non-personal styles preserved",
+      "passed": true
+    },
+    {
+      "name": "Deploy entry is the newly built standalone: index.html",
+      "passed": true
+    },
+    {
+      "name": "Deploy entry is the newly built standalone: site/index.html",
+      "passed": true
+    },
+    {
+      "name": "Reference has no homepage personal block",
+      "passed": true
+    },
+    {
+      "name": "Rebuilt app has no homepage personal block",
+      "passed": true
+    },
+    {
+      "name": "Original raw numerical data equals embedded scientific data",
+      "passed": true
+    }
+  ]
+}

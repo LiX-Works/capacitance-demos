@@ -1,0 +1,110 @@
+[
+  {
+    "D_mm": 0.5,
+    "ideal_pF": 42.500101530239995,
+    "values": [
+      {
+        "theta": 0,
+        "air_pF": 44.91197870414722,
+        "dielectric_pF": 57.72500077907842,
+        "model_relative_gain": 0.2852918629868346
+      },
+      {
+        "theta": 10,
+        "air_pF": 13.05556276149845,
+        "dielectric_pF": 13.626236319053378,
+        "model_relative_gain": 0.04371114198446313
+      },
+      {
+        "theta": 30,
+        "air_pF": 6.708471660363873,
+        "dielectric_pF": 6.802392930649902,
+        "model_relative_gain": 0.01400039756312177
+      },
+      {
+        "theta": 90,
+        "air_pF": 3.627544813294754,
+        "dielectric_pF": 3.640627891577354,
+        "model_relative_gain": 0.0036065931521096495
+      },
+      {
+        "theta": 180,
+        "air_pF": 3.073478985485953,
+        "dielectric_pF": 3.0777187638068777,
+        "model_relative_gain": 0.001379472038346874
+      }
+    ]
+  },
+  {
+    "D_mm": 1.0,
+    "ideal_pF": 21.250050765119997,
+    "values": [
+      {
+        "theta": 0,
+        "air_pF": 23.369919937998105,
+        "dielectric_pF": 29.806826423179167,
+        "model_relative_gain": 0.2754355386008418
+      },
+      {
+        "theta": 10,
+        "air_pF": 10.236121324597649,
+        "dielectric_pF": 10.985434805317183,
+        "model_relative_gain": 0.0732028721581206
+      },
+      {
+        "theta": 30,
+        "air_pF": 5.904247365281399,
+        "dielectric_pF": 6.062399407303838,
+        "model_relative_gain": 0.026786147706550523
+      },
+      {
+        "theta": 90,
+        "air_pF": 3.465280337464286,
+        "dielectric_pF": 3.491115918473563,
+        "model_relative_gain": 0.007455552940395682
+      },
+      {
+        "theta": 180,
+        "air_pF": 3.073478985485952,
+        "dielectric_pF": 3.082526959301941,
+        "model_relative_gain": 0.0029438866700297606
+      }
+    ]
+  },
+  {
+    "D_mm": 2.0,
+    "ideal_pF": 10.625025382559999,
+    "values": [
+      {
+        "theta": 0,
+        "air_pF": 12.484711534191618,
+        "dielectric_pF": 15.734362908676959,
+        "model_relative_gain": 0.26029046530915734
+      },
+      {
+        "theta": 10,
+        "air_pF": 7.522113981044359,
+        "dielectric_pF": 8.333905204108746,
+        "model_relative_gain": 0.10792062246199552
+      },
+      {
+        "theta": 30,
+        "air_pF": 4.937025095885267,
+        "dielectric_pF": 5.170625367427956,
+        "model_relative_gain": 0.04731599840101697
+      },
+      {
+        "theta": 90,
+        "air_pF": 3.21486067673697,
+        "dielectric_pF": 3.263205715698318,
+        "model_relative_gain": 0.015037988834532667
+      },
+      {
+        "theta": 180,
+        "air_pF": 3.073478985485952,
+        "dielectric_pF": 3.0925627063315986,
+        "model_relative_gain": 0.0062091593714375115
+      }
+    ]
+  }
+]

@@ -1,0 +1,157 @@
+{
+  "revision": "2026-10-02 collection bug fixes",
+  "referenceSha256": "7130d27380409fc5012a6614d201397b61b964d1b6c4699b8724f903f164bc33",
+  "cssSha256": "3409b4110a314d3a3aa6b4980dbc831244c305bbf1d3daf8d0836a481019de49",
+  "modules": {
+    "app/ambient.js": {
+      "referenceNormalizedSha256": "2f80566c6911893deb6b57bf16d41b83f4f43a01a3eff3cc7bccf1a5f68b1f0f",
+      "approvedNormalizedSha256": "2f80566c6911893deb6b57bf16d41b83f4f43a01a3eff3cc7bccf1a5f68b1f0f",
+      "reason": "Unchanged from the historical upload."
+    },
+    "app/state.js": {
+      "referenceNormalizedSha256": "6deecd722e099c8882eb2b4298226e9ebca0af109474e78adc73761feffb3743",
+      "approvedNormalizedSha256": "6deecd722e099c8882eb2b4298226e9ebca0af109474e78adc73761feffb3743",
+      "reason": "Unchanged from the historical upload."
+    },
+    "engine/camera.js": {
+      "referenceNormalizedSha256": "7c36f7310d99d4a11f26e0a478cc755c94117e099b10d5fb9cdbe7aa60b382dc",
+      "approvedNormalizedSha256": "7c36f7310d99d4a11f26e0a478cc755c94117e099b10d5fb9cdbe7aa60b382dc",
+      "reason": "Unchanged from the historical upload."
+    },
+    "engine/geometry.js": {
+      "referenceNormalizedSha256": "11b6169bc94f94ac3ce1879961e75a8c727926467bdefe4412c36f5c78874103",
+      "approvedNormalizedSha256": "11b6169bc94f94ac3ce1879961e75a8c727926467bdefe4412c36f5c78874103",
+      "reason": "Unchanged from the historical upload."
+    },
+    "engine/math.js": {
+      "referenceNormalizedSha256": "170d7fdaa54f80f7eca569ae94cbb49b0c3f4d2352a849488b6b7d75d31cc946",
+      "approvedNormalizedSha256": "170d7fdaa54f80f7eca569ae94cbb49b0c3f4d2352a849488b6b7d75d31cc946",
+      "reason": "Unchanged from the historical upload."
+    },
+    "engine/renderer.js": {
+      "referenceNormalizedSha256": "6a34717c27883c94dd79e5f279fcca7bd8072c94b06de3f61c70c2d37f43d6bb",
+      "approvedNormalizedSha256": "6a34717c27883c94dd79e5f279fcca7bd8072c94b06de3f61c70c2d37f43d6bb",
+      "reason": "Unchanged from the historical upload."
+    },
+    "engine/scene.js": {
+      "referenceNormalizedSha256": "28a6ef434339077b4fe646009d0fc08055f124ee2e37afc737de285da3e26604",
+      "approvedNormalizedSha256": "28a6ef434339077b4fe646009d0fc08055f124ee2e37afc737de285da3e26604",
+      "reason": "Unchanged from the historical upload."
+    },
+    "main.js": {
+      "referenceNormalizedSha256": "e78188235231de86858e83c045bf996228003bb56b1ff53c08a593052c62c967",
+      "approvedNormalizedSha256": "12832206d11b0825820e32c51f2ac763fdcf2b92c70b65db84ba5837c04e32f4",
+      "reason": "Repair static-scene autoplay, bounded history, finite inputs, capture state and native focused keyboard controls; preserve A-B-A and ambient scenes."
+    },
+    "models/ApplicationHero.js": {
+      "referenceNormalizedSha256": "491bdb1dec379c716b6cf28165030cda3d71d1414648d5899102ff4027221f09",
+      "approvedNormalizedSha256": "491bdb1dec379c716b6cf28165030cda3d71d1414648d5899102ff4027221f09",
+      "reason": "Unchanged from the historical upload."
+    },
+    "models/Capacitor.js": {
+      "referenceNormalizedSha256": "526e2f967ad38701899aef3b52510f1d431306b8af590066f43082b41d861321",
+      "approvedNormalizedSha256": "526e2f967ad38701899aef3b52510f1d431306b8af590066f43082b41d861321",
+      "reason": "Unchanged from the historical upload."
+    },
+    "models/CompositeCapacitor.js": {
+      "referenceNormalizedSha256": "663ede1fad438c1e7b147f0f4d39ea4ded0dbd64db131d75c6a9f07db974729d",
+      "approvedNormalizedSha256": "663ede1fad438c1e7b147f0f4d39ea4ded0dbd64db131d75c6a9f07db974729d",
+      "reason": "Unchanged from the historical upload."
+    },
+    "models/Device.js": {
+      "referenceNormalizedSha256": "7e80e4f95259c966d297623c69aa713899596f71666975176c933156413047c0",
+      "approvedNormalizedSha256": "7e80e4f95259c966d297623c69aa713899596f71666975176c933156413047c0",
+      "reason": "Unchanged from the historical upload."
+    },
+    "models/Dome.js": {
+      "referenceNormalizedSha256": "f931ba295085e7d04bbeca66781a48208eac073bc786bcfc0cd98beeb805ab98",
+      "approvedNormalizedSha256": "f931ba295085e7d04bbeca66781a48208eac073bc786bcfc0cd98beeb805ab98",
+      "reason": "Unchanged from the historical upload."
+    },
+    "models/FringeField.js": {
+      "referenceNormalizedSha256": "f82b009f7c3333ce57237aac6ab14a9ee807b505251a7aafdea0944cc77db330",
+      "approvedNormalizedSha256": "f82b009f7c3333ce57237aac6ab14a9ee807b505251a7aafdea0944cc77db330",
+      "reason": "Unchanged from the historical upload."
+    },
+    "models/IonicVolume.js": {
+      "referenceNormalizedSha256": "072e3ec22a3382cb18a938e5e4e8b5efce02744414e8f6ce3a5fe79288028db5",
+      "approvedNormalizedSha256": "072e3ec22a3382cb18a938e5e4e8b5efce02744414e8f6ce3a5fe79288028db5",
+      "reason": "Unchanged from the historical upload."
+    },
+    "models/LegacyDevice.js": {
+      "referenceNormalizedSha256": "49355246191f890eac302d2ae282c3935afe572fc824437798702ab96e9d0f05",
+      "approvedNormalizedSha256": "49355246191f890eac302d2ae282c3935afe572fc824437798702ab96e9d0f05",
+      "reason": "Unchanged from the historical upload."
+    },
+    "models/SharedArray.js": {
+      "referenceNormalizedSha256": "24066e4f418599b7dffeca22b810cca60462892c2acd64c35d33c5d80f692c08",
+      "approvedNormalizedSha256": "24066e4f418599b7dffeca22b810cca60462892c2acd64c35d33c5d80f692c08",
+      "reason": "Unchanged from the historical upload."
+    },
+    "physics/fieldData.js": {
+      "referenceNormalizedSha256": "393d577d93a380c42404d9ae4cdbfc907acc4311bd23b14ef1a1b94efd6df884",
+      "approvedNormalizedSha256": "393d577d93a380c42404d9ae4cdbfc907acc4311bd23b14ef1a1b94efd6df884",
+      "reason": "Unchanged from the historical upload."
+    },
+    "physics/haloField.js": {
+      "referenceNormalizedSha256": "dd9d0e01a2110f42de051d0edd0ad4b580812922edb91216a64049742a35150e",
+      "approvedNormalizedSha256": "dd9d0e01a2110f42de051d0edd0ad4b580812922edb91216a64049742a35150e",
+      "reason": "Unchanged from the historical upload."
+    },
+    "physics/haloFieldData.js": {
+      "referenceNormalizedSha256": "0d479917019b3c22327380abb5269204aef5cbf8510630ef4cbee9b2373aabc2",
+      "approvedNormalizedSha256": "0d479917019b3c22327380abb5269204aef5cbf8510630ef4cbee9b2373aabc2",
+      "reason": "Unchanged from the historical upload."
+    },
+    "physics/interaction.js": {
+      "referenceNormalizedSha256": "b64d6b748bf0361230fbaf1757c3eb2ef95bd472a2acfc9bb4f6bc45302ac794",
+      "approvedNormalizedSha256": "b64d6b748bf0361230fbaf1757c3eb2ef95bd472a2acfc9bb4f6bc45302ac794",
+      "reason": "Unchanged from the historical upload."
+    },
+    "physics/revisionFieldData.js": {
+      "referenceNormalizedSha256": "5acfec2357cb0894f8fffc811ce3685869a282ab55625e7a8f050d66281e9263",
+      "approvedNormalizedSha256": "5acfec2357cb0894f8fffc811ce3685869a282ab55625e7a8f050d66281e9263",
+      "reason": "Unchanged from the historical upload."
+    },
+    "scenes/copy.js": {
+      "referenceNormalizedSha256": "af9b5d54568be22fc49559f92558d02c5729da985350ef09c230c8ca16655064",
+      "approvedNormalizedSha256": "af9b5d54568be22fc49559f92558d02c5729da985350ef09c230c8ca16655064",
+      "reason": "Unchanged from the historical upload."
+    },
+    "scenes/definitions.js": {
+      "referenceNormalizedSha256": "cff55635d0cfe205051665a8be909c7b91545282f01b24480bfefbd9ba18dcbc",
+      "approvedNormalizedSha256": "cff55635d0cfe205051665a8be909c7b91545282f01b24480bfefbd9ba18dcbc",
+      "reason": "Unchanged from the historical upload."
+    },
+    "ui/HUD.js": {
+      "referenceNormalizedSha256": "761b19bc6065c9e54023a67c7cc200c05a06489832f937dbf014aa9384df15cf",
+      "approvedNormalizedSha256": "4219f94bddd3a9709904b4c80c9918706da01fc608062782650da8cea21707fb",
+      "reason": "Match immediate navigation behavior and correct accessible button label."
+    },
+    "ui/Labels.js": {
+      "referenceNormalizedSha256": "6cf194fedb2552ca7e94f2383f7938e6163610bc6524fb2499f70a294edd673f",
+      "approvedNormalizedSha256": "6cf194fedb2552ca7e94f2383f7938e6163610bc6524fb2499f70a294edd673f",
+      "reason": "Unchanged from the historical upload."
+    },
+    "ui/Plots.js": {
+      "referenceNormalizedSha256": "cea4eecf03d099120db4ea05c644dc0161bfeceaaba4da544e16884cdc556bf1",
+      "approvedNormalizedSha256": "cea4eecf03d099120db4ea05c644dc0161bfeceaaba4da544e16884cdc556bf1",
+      "reason": "Unchanged from the historical upload."
+    },
+    "worlds/WorldManager.js": {
+      "referenceNormalizedSha256": "4894f31f75e43db98fe54463bd9bc9f1aa0e262e93107e859083529f9bd2bc3d",
+      "approvedNormalizedSha256": "4894f31f75e43db98fe54463bd9bc9f1aa0e262e93107e859083529f9bd2bc3d",
+      "reason": "Unchanged from the historical upload."
+    },
+    "vendor/katex.js": {
+      "referenceNormalizedSha256": "cf0dad858071356ce2d8ca59b02f32b8c44a936649758399e3184cd6b0950d46",
+      "approvedNormalizedSha256": "cf0dad858071356ce2d8ca59b02f32b8c44a936649758399e3184cd6b0950d46",
+      "reason": "Unchanged from the historical upload."
+    }
+  },
+  "scientificFiles": {
+    "source/src/physics/fieldData.ts": "5957eb60e1fd62ed1cfd8fe798ff208db14827d72741021a68348bc4828afada",
+    "source/src/physics/haloFieldData.ts": "6292b17e80ace6ab3d47c9f5dbd4ddc40833e16167a3e677c77638e01a585cb2",
+    "source/src/physics/revisionFieldData.ts": "40d4ba693253b0d936797bb8bc7411abbbc211741afeb4d2a02f6d53847daf64"
+  }
+}

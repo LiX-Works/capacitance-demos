@@ -1,0 +1,11 @@
+* text=auto eol=lf
+*.png binary
+*.jpg binary
+*.tgz binary
+# Scientific inputs and historical snapshots are pinned by exact byte hashes.
+projects/*/reference/** -text
+projects/*/archive/** -text
+projects/*/source/src/physics/*Data.ts -text
+projects/*/source/src/physics/data.ts -text
+projects/*/data/** -text
+projects/*/parameters.json -text

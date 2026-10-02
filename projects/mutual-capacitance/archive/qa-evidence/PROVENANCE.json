@@ -1,0 +1,21 @@
+{
+  "inputArchives": [
+    {
+      "name": "ProxiTouch_R3_FINAL_PATCH_DELIVERY.zip",
+      "bytes": 19981484,
+      "sha256": "27b249abaec146180aaa0079c0d7d80db2cdb484f23eef9fe307138000d169f0"
+    },
+    {
+      "name": "Tilted_Capacitor_HTML_Prompt_Pack_v2.zip",
+      "bytes": 10849,
+      "sha256": "85eedef1bf4d80406cf08c74f4534f85b23d732d1032c34254b165f4a10c8cc0"
+    }
+  ],
+  "node": "v22.16.0",
+  "chromium": "Chromium 144.0.7559.96 built on Debian GNU/Linux 13 (trixie)",
+  "parameterSha256": "0b23ce74c9b690fd5c79d335ed52ef88341d4925891863338356a1401cbbac52",
+  "runtimeSha256": "9e0b2a5316c58042cf33929f2097d45282385742bd4788745767fa21cfaee6bd",
+  "dataSha256": "ea514393999bf076ee4edc844ec70ef1bae7f4e8b52b60f64cc35a2e9baab2cc",
+  "browserBackend": "ANGLE SwiftShader software; no hardware-GPU claim",
+  "timestampUtc": "2026-09-21T11:17:23.667254+00:00"
+}
